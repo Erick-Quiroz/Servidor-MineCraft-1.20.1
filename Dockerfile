@@ -8,7 +8,7 @@ WORKDIR /minecraft
 COPY . .
 
 # Expose Minecraft server port
-EXPOSE 9090
+EXPOSE 25565
 
 # Run the server via Java directly
 ENTRYPOINT ["java", "-Xms8G", "-Xmx8G", "-jar", "INICIADOR.jar", "run"]
