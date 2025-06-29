@@ -3,6 +3,7 @@ FROM openjdk:17-jdk-slim
 
 # Create workspace
 WORKDIR /minecraft
+VOLUME ["/minecraft/world"]
 
 # Copy all files
 COPY . .
