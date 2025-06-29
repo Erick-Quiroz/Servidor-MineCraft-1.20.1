@@ -10,5 +10,6 @@ COPY . .
 # Expose Minecraft server port
 EXPOSE 25565
 
-# Run the server via Java directly
-ENTRYPOINT ["java", "-Xms8G", "-Xmx8G", "-jar", "INICIADOR.jar", "run"]
+# Hacer ejecutable el script y usarlo como punto de entrada para mostrar los logs del servidor
+RUN chmod +x run.sh
+ENTRYPOINT ["sh", "run.sh"]
