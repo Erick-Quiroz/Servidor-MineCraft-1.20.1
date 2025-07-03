@@ -14,4 +14,4 @@ EXPOSE 25565
 
 # Hacer ejecutable el script de inicio (bash) y usarlo como punto de entrada
 RUN chmod +x run.sh
-ENTRYPOINT ["bash", "run.sh" , "nogui" ]
+ENTRYPOINT ["bash", "run.sh" , "nogui" ,"run"]
