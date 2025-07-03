@@ -12,6 +12,6 @@ COPY . .
 # Expose Minecraft server port
 EXPOSE 25565
 
-# Hacer ejecutable el script y usarlo como punto de entrada para mostrar los logs del servidor
+# Hacer ejecutable el script de inicio (bash) y usarlo como punto de entrada
 RUN chmod +x run.sh
-ENTRYPOINT ["sh", "run.sh" ,"nogui","run" ]
+ENTRYPOINT ["bash", "run.sh" , "nogui" ]
