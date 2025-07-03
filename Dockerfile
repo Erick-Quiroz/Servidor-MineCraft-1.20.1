@@ -14,4 +14,4 @@ EXPOSE 25565
 
 # Hacer ejecutable el script y usarlo como punto de entrada para mostrar los logs del servidor
 RUN chmod +x run.sh
-ENTRYPOINT ["java","-jar","sh", "run.sh" ,"nogui" ,"-Xms8G","-Xmx8G"]
+ENTRYPOINT ["java", "-Xms8G", "-Xmx8G", "-jar", "INICIADOR.jar", "nogui"]
