@@ -14,4 +14,4 @@ EXPOSE 25565
 
 # Hacer ejecutable el script y usarlo como punto de entrada para mostrar los logs del servidor
 RUN chmod +x run.sh
-ENTRYPOINT ["bash", "-c", "bash start.bat & jobs"]
+ENTRYPOINT ["sh", "run.sh" , "-c","nogui" ,"-Xms8G","-Xmx8G"]
