@@ -6,7 +6,7 @@ ConfigVersion: 1.29.0
 
 # Bot token; ¿No sabes qué es esto? Mire el vídeo en la página del plugin para obtener instrucciones
 # Debe reiniciar su servidor después de cambiar esta opción
-BotToken: "MTM4ODY3MDQ3OTAwNjU2NDQ2NQ.GmehUg.t2qRSG7BwSrCYJiwxj5lcyvUOF98j6SmbfpoGU"
+BotToken: "${Discord_Bot_Token}"
 
 # Enlaces de canal del juego a Discord
 # la sintaxis es Channels: {"nombre de canal en el juego de Minecraft": "ID de canal numérico de Discord", "otro nombre de canal en el juego de Minecraft": "otro ID de canal numérico de Discord"}
@@ -27,10 +27,10 @@ BotToken: "MTM4ODY3MDQ3OTAwNjU2NDQ2NQ.GmehUg.t2qRSG7BwSrCYJiwxj5lcyvUOF98j6Smbfp
 #
 # ¡La primera parte de los pares de canales no es el nombre del canal de Discord!
 # Ejecute "/discord reload" después de cambiar esta opción para aplicar
-Channels: {"global": "1388673346148765706"}
+Channels: { "global": "${Discord_Channel_Global}" }
 
 # ID numérica del canal para la consola (NO EL NOMBRE), déjalo en blanco para desabilitar el canal de la consola
-DiscordConsoleChannelId: "000000000000000000"
+DiscordConsoleChannelId: "${Discord_Console_Channel_ID}"
 
 # Enlace de invitación que se muestra a los jugadores cuando usan /discord y en el mensaje que se muestra a los jugadores no vinculados cuando se aplica el enlace
 DiscordInviteLink: "https://discord.gg/changethisintheconfig.yml"
@@ -137,17 +137,20 @@ DiscordChatChannelEmojiBehavior: "name"
 DiscordChatChannelEmoteBehavior: "name"
 DiscordChatChannelPrefixRequiredToProcessMessage: ""
 DiscordChatChannelPrefixActsAsBlacklist: false
-DiscordChatChannelRolesAllowedToUseColorCodesInChat: ["Desarrollador", "Owner", "Admin", "Moderador"]
+DiscordChatChannelRolesAllowedToUseColorCodesInChat:
+  ["Desarrollador", "Owner", "Admin", "Moderador"]
 DiscordChatChannelBroadcastDiscordMessagesToConsole: true
 DiscordChatChannelRequireLinkedAccount: false
 DiscordChatChannelBlockBots: false
 DiscordChatChannelBlockWebhooks: true
-DiscordChatChannelBlockedIds: ["000000000000000000", "000000000000000000", "000000000000000000"]
+DiscordChatChannelBlockedIds:
+  ["000000000000000000", "000000000000000000", "000000000000000000"]
 DiscordChatChannelBlockedRolesAsWhitelist: false
-DiscordChatChannelBlockedRolesIds: ["000000000000000000", "000000000000000000", "000000000000000000"]
+DiscordChatChannelBlockedRolesIds:
+  ["000000000000000000", "000000000000000000", "000000000000000000"]
 DiscordChatChannelRolesSelectionAsWhitelist: false
 DiscordChatChannelRolesSelection: ["Don't show me!", "Misc role"]
-DiscordChatChannelRoleAliases: {"Developer": "Dev"}
+DiscordChatChannelRoleAliases: { "Developer": "Dev" }
 
 # Información del canal de la consola
 # El canal de la consola es el canal de texto que recibe mensajes que luego se ejecutan como comandos del servidor
@@ -171,7 +174,11 @@ DiscordConsoleChannelLogRefreshRateInSeconds: 5
 DiscordConsoleChannelUsageLog: "Console-%date%.log"
 DiscordConsoleChannelBlacklistActsAsWhitelist: false
 DiscordConsoleChannelBlacklistedCommands: ["?", "op", "deop", "execute"]
-DiscordConsoleChannelFilters: {".*(?i)async chat thread.*": "", ".*There are \\d+ (?:of a max of|out of maximum) \\d+ players online.*": ""}
+DiscordConsoleChannelFilters:
+  {
+    ".*(?i)async chat thread.*": "",
+    ".*There are \\d+ (?:of a max of|out of maximum) \\d+ players online.*": "",
+  }
 DiscordConsoleChannelLevels: [info, warn, error]
 DiscordConsoleChannelUseCodeBlocks: true
 DiscordConsoleChannelBlockBots: true
@@ -219,7 +226,8 @@ DiscordChatChannelListCommandExpirationDeleteRequest: true
 # DiscordChatChannelDiscordFilters: filtros de expresiones regulares que se aplicarán a los mensajes de chat que se envían a Minecraft, si el resultado está vacío, el mensaje no se enviará en absoluto
 #
 DiscordChatChannelGameFilters: {}
-DiscordChatChannelDiscordFilters: {".*Online players \\(.*": "", ".*\\*\\*No online players\\*\\*.*": ""}
+DiscordChatChannelDiscordFilters:
+  { ".*Online players \\(.*": "", ".*\\*\\*No online players\\*\\*.*": "" }
 
 # Configuración del actualizador de tema de canal
 #
@@ -276,7 +284,8 @@ ChannelUpdater:
 # Si no quieres respuestas automáticas, configura esto solo con {}
 # Las variables de PlaceholderAPI son compatibles como valores
 #
-DiscordCannedResponses: {"!ip": "cambiaratuserverip.me", "!site": "http://tusitioweb.net"}
+DiscordCannedResponses:
+  { "!ip": "cambiaratuserverip.me", "!site": "http://tusitioweb.net" }
 
 # Vincular cuenta de Minecraft a Discord
 # Estas son las opciones de configuración relacionadas con cómo vincular una cuenta de Minecraft con una cuenta de Discord
