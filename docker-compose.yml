@@ -13,6 +13,10 @@ services:
     restart: unless-stopped
     volumes:
       - world-data:/minecraft/world
+    environment:
+      - DISCORD_BOT_TOKEN=${DISCORD_BOT_TOKEN} # Reemplaza con tu token de bot de Discord
+      - DISCORD_CHANNEL_GLOBAL=${DISCORD_CHANNEL_GLOBAL} # Reemplaza con tu ID
+      - DISCORD_CHANNEL_LOG=${DISCORD_CHANNEL_LOG} # Reemplaza con tu ID
 # Volumen para persistir la carpeta world
 volumes:
   world-data:

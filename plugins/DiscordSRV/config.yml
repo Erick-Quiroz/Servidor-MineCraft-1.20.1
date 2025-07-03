@@ -8,6 +8,7 @@ ConfigVersion: 1.29.0
 # Debe reiniciar su servidor después de cambiar esta opción
 BotToken: "${Discord_Bot_Token}"
 
+
 # Enlaces de canal del juego a Discord
 # la sintaxis es Channels: {"nombre de canal en el juego de Minecraft": "ID de canal numérico de Discord", "otro nombre de canal en el juego de Minecraft": "otro ID de canal numérico de Discord"}
 #
@@ -27,7 +28,7 @@ BotToken: "${Discord_Bot_Token}"
 #
 # ¡La primera parte de los pares de canales no es el nombre del canal de Discord!
 # Ejecute "/discord reload" después de cambiar esta opción para aplicar
-Channels: { "global": "${Discord_Channel_Global}" }
+Channels: { "global": "${DISCORD_CHANNEL_GLOBAL}" }
 
 # ID numérica del canal para la consola (NO EL NOMBRE), déjalo en blanco para desabilitar el canal de la consola
 DiscordConsoleChannelId: "${Discord_Console_Channel_ID}"
