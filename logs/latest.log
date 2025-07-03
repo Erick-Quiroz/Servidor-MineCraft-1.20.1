@@ -1,4 +1,4 @@
-[02jul2025 22:50:01.255] [main/INFO] [Arclight/]: 
+[03jul2025 15:16:44.441] [main/INFO] [Arclight/]: 
 
        ___           ___     __   /\
       /   | ________/ (_)__ / /  / /
@@ -10,203 +10,303 @@
     运行版本 顿顽 / arclight-1.20.1-1.0.6-4e94eb76
     构建日期 2025-01-21 16:18:32
 
-[02jul2025 22:50:01.321] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, arclightserver, --fml.forgeVersion, 47.3.22, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui, run]
-[02jul2025 22:50:01.324] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.7 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
-[02jul2025 22:50:02.035] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is arclightserver
-[02jul2025 22:50:02.087] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/Erick%20Quiroz/Documents/MineCraft/1.20.1/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2399!/ Service=ModLauncher Env=SERVER
-[02jul2025 22:50:02.558] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Erick Quiroz\Documents\MineCraft\1.20.1\libraries\net\minecraftforge\fmlcore\1.20.1-47.3.22\fmlcore-1.20.1-47.3.22.jar is missing mods.toml file
-[02jul2025 22:50:02.562] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Erick Quiroz\Documents\MineCraft\1.20.1\libraries\net\minecraftforge\javafmllanguage\1.20.1-47.3.22\javafmllanguage-1.20.1-47.3.22.jar is missing mods.toml file
-[02jul2025 22:50:02.566] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Erick Quiroz\Documents\MineCraft\1.20.1\libraries\net\minecraftforge\lowcodelanguage\1.20.1-47.3.22\lowcodelanguage-1.20.1-47.3.22.jar is missing mods.toml file
-[02jul2025 22:50:02.570] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Erick Quiroz\Documents\MineCraft\1.20.1\libraries\net\minecraftforge\mclanguage\1.20.1-47.3.22\mclanguage-1.20.1-47.3.22.jar is missing mods.toml file
-[02jul2025 22:50:02.766] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 8 dependencies adding them to mods collection
-[02jul2025 22:50:04.598] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[02jul2025 22:50:04.715] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [io.izzel.arclight.common.mod.ArclightConnector]
-[02jul2025 22:50:04.740] [main/INFO] [Arclight/]: 核心 Mixin 配置已加载
-[02jul2025 22:50:04.742] [main/INFO] [Arclight/]: 服务端优化 Mixin 配置已加载
-[02jul2025 22:50:04.748] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'arclightserver' with arguments [nogui, run]
-[02jul2025 22:50:04.757] [main/WARN] [mixin/]: Reference map 'graveyard-FORGE-forge-refmap.json' for graveyard-forge.mixins.json could not be read. If this is a development environment you can ignore this message
-[02jul2025 22:50:04.849] [main/WARN] [mixin/]: Reference map 'mixins.call_of_yucutan.refmap.json' for mixins.call_of_yucutan.json could not be read. If this is a development environment you can ignore this message
-[02jul2025 22:50:04.856] [main/WARN] [mixin/]: Reference map 'guardribbits.refmap.json' for guardribbits.mixins.json could not be read. If this is a development environment you can ignore this message
-[02jul2025 22:50:04.857] [main/WARN] [mixin/]: Reference map 'guardribbits.refmap.json' for guardribbits_forge.mixins.json could not be read. If this is a development environment you can ignore this message
-[02jul2025 22:50:04.871] [main/WARN] [mixin/]: Reference map 'mes-forge-refmap.json' for mes-forge.mixins.json could not be read. If this is a development environment you can ignore this message
-[02jul2025 22:50:04.874] [main/WARN] [mixin/]: Reference map 'coroutil.refmap.json' for coroutil.mixins.json could not be read. If this is a development environment you can ignore this message
-[02jul2025 22:50:04.877] [main/WARN] [mixin/]: Reference map 'mvs-forge-refmap.json' for mvs-forge.mixins.json could not be read. If this is a development environment you can ignore this message
-[02jul2025 22:50:04.898] [main/WARN] [mixin/]: Reference map 'mns-forge-refmap.json' for mns-forge.mixins.json could not be read. If this is a development environment you can ignore this message
-[02jul2025 22:50:06.677] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[02jul2025 22:50:11.284] [main/WARN] [mixin/]: @Final field f_31427_:[I in mixins.epicfight.json:MixinWitherBoss should be final
-[02jul2025 22:50:11.284] [main/WARN] [mixin/]: @Final field f_31428_:[I in mixins.epicfight.json:MixinWitherBoss should be final
-[02jul2025 22:50:13.822] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.LivingEntity from class yesman.epicfight.world.capabilities.entitypatch.LivingEntityPatch
-[02jul2025 22:50:13.822] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.LivingEntity from class yesman.epicfight.world.capabilities.entitypatch.LivingEntityPatch
-[02jul2025 22:50:13.822] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.LivingEntity from class yesman.epicfight.world.capabilities.entitypatch.LivingEntityPatch
-[02jul2025 22:50:13.823] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.LivingEntity from class yesman.epicfight.world.capabilities.entitypatch.LivingEntityPatch
-[02jul2025 22:50:13.876] [main/WARN] [mixin/]: @Inject(@At("INVOKE_ASSIGN")) Shift.BY=2 on refurbished_furniture.common.mixins.json:LevelChunkMixin::handler$zdj000$refurbishedFurniture$AfterRemoveBlockEntity exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
-[02jul2025 22:50:15.534] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialize mod Library Ferret
-[02jul2025 22:50:15.553] [modloading-worker-0/INFO] [coroutil/]: forge loader environment detected
-[02jul2025 22:50:15.617] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.22, for MC 1.20.1 with MCP 20230612.114412
-[02jul2025 22:50:15.617] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.22 Initialized
-[02jul2025 22:50:15.618] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialized mod Library Ferret
-[02jul2025 22:50:15.750] [modloading-worker-0/INFO] [guardribbits/]: Initializing the Ribbit Guardians!
-[02jul2025 22:50:15.958] [modloading-worker-0/INFO] [dev.enemeez.simplefarming.common.SimpleFarming/]: Simple Farming setup complete!
-[02jul2025 22:50:16.024] [modloading-worker-0/INFO] [epicfight/]: Loaded mod compat: GeckolibCompat
-[02jul2025 22:50:16.287] [modloading-worker-0/INFO] [Arclight/]: Arclight Mod 已加载
-[02jul2025 22:50:16.331] [modloading-worker-0/INFO] [Arclight/]: Arclight 事件系统已注册
-[02jul2025 22:50:16.357] [modloading-worker-0/INFO] [recruits/]: Registering POI for ResourceKey[minecraft:block / recruits:recruit_block]
-[02jul2025 22:50:16.358] [modloading-worker-0/INFO] [recruits/]: Registering POI for ResourceKey[minecraft:block / recruits:recruit_shield_block]
-[02jul2025 22:50:16.358] [modloading-worker-0/INFO] [recruits/]: Registering POI for ResourceKey[minecraft:block / recruits:bowman_block]
-[02jul2025 22:50:16.358] [modloading-worker-0/INFO] [recruits/]: Registering POI for ResourceKey[minecraft:block / recruits:crossbowman_block]
-[02jul2025 22:50:16.358] [modloading-worker-0/INFO] [recruits/]: Registering POI for ResourceKey[minecraft:block / recruits:horseman_block]
-[02jul2025 22:50:16.358] [modloading-worker-0/INFO] [recruits/]: Registering POI for ResourceKey[minecraft:block / recruits:nomad_block]
-[02jul2025 22:50:16.361] [modloading-worker-0/INFO] [recruits/]: Registering profession for recruit with POI net.minecraftforge.registries.RegistryObject@810c44e9
-[02jul2025 22:50:16.362] [modloading-worker-0/INFO] [recruits/]: Registering profession for shieldman with POI net.minecraftforge.registries.RegistryObject@73a49efc
-[02jul2025 22:50:16.362] [modloading-worker-0/INFO] [recruits/]: Registering profession for bowman with POI net.minecraftforge.registries.RegistryObject@ee1298fb
-[02jul2025 22:50:16.362] [modloading-worker-0/INFO] [recruits/]: Registering profession for crossbowman with POI net.minecraftforge.registries.RegistryObject@278013b
-[02jul2025 22:50:16.362] [modloading-worker-0/INFO] [recruits/]: Registering profession for horseman with POI net.minecraftforge.registries.RegistryObject@2cde3e08
-[02jul2025 22:50:16.362] [modloading-worker-0/INFO] [recruits/]: Registering profession for nomad with POI net.minecraftforge.registries.RegistryObject@46c5f19a
-[02jul2025 22:50:16.560] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
-[02jul2025 22:50:16.564] [modloading-worker-0/INFO] [graveyard/]: Registered JSON trade offer adapter.
-[02jul2025 22:50:17.275] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.test.KotlinForForge/]: Kotlin For Forge Enabled!
-[02jul2025 22:50:17.276] [modloading-worker-0/INFO] [STDOUT/]: Service loaders found: [io.ejekta.kambrik.bridge.KambrikSharedApiForge@5869108f]
-[02jul2025 22:50:19.501] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class yesman.epicfight.world.capabilities.entitypatch.player.PlayerPatch
-[02jul2025 22:50:19.573] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
-[02jul2025 22:50:19.573] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
-[02jul2025 22:50:19.573] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
-[02jul2025 22:50:19.573] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
-[02jul2025 22:50:19.573] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
-[02jul2025 22:50:19.573] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
-[02jul2025 22:50:19.573] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
-[02jul2025 22:50:19.573] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
-[02jul2025 22:50:19.573] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
-[02jul2025 22:50:19.651] [modloading-worker-0/INFO] [com.github.nyuppo.MoreMobVariants/]: Giving mobs a fresh coat of paint...
-[02jul2025 22:50:19.675] [Immersive Engineering Contributors Thread/INFO] [immersiveengineering/]: Attempting to download special revolvers from GitHub
-[02jul2025 22:50:19.886] [main/INFO] [journeymap/]: Initializing Packet Registries
-[02jul2025 22:50:19.917] [main/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
-[02jul2025 22:50:19.917] [main/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
-[02jul2025 22:50:19.917] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
-[02jul2025 22:50:19.917] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
-[02jul2025 22:50:19.917] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
-[02jul2025 22:50:19.917] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
-[02jul2025 22:50:19.917] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
-[02jul2025 22:50:19.952] [main/INFO] [ribbits/]: Registering Ribbit umbrella types...
-[02jul2025 22:50:19.952] [main/INFO] [ribbits/]: Registering Ribbit professions...
-[02jul2025 22:50:19.953] [main/INFO] [ribbits/]: Registering Ribbit instruments...
-[02jul2025 22:50:19.954] [main/INFO] [ribbits/]: Registering Ribbit data serializers...
-[02jul2025 22:50:19.988] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Starting version check at https://updates.blamejared.com/get?n=clumps&gv=1.20.1
-[02jul2025 22:50:20.164] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key refurbished_furniture:lock_yaw for refurbished_furniture:seat
-[02jul2025 22:50:21.400] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Found status: BETA Current: 12.0.0.4 Target: 12.0.0.4
-[02jul2025 22:50:21.400] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
-[02jul2025 22:50:22.039] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: UP_TO_DATE Current: 5.10.3 Target: null
-[02jul2025 22:50:22.039] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[02jul2025 22:50:22.582] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.22 Target: 47.4.0
-[02jul2025 22:50:22.582] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [immersiveengineering] Starting version check at https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.20.1/changelog.json
-[02jul2025 22:50:22.799] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [immersiveengineering] Found status: AHEAD Current: 1.20.1-10.2.0-183 Target: null
-[02jul2025 22:50:22.800] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [recruits] Starting version check at https://raw.githubusercontent.com/talhanation/recruits/main/update.json
-[02jul2025 22:50:22.872] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
-com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Expected name at line 5 column 4 path $..1.20.1-recommended
-	at com.google.gson.Gson.fromJson(Gson.java:1229) ~[gson-2.10.jar%23106!/:?] {}
-	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%23106!/:?] {}
-	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.10.jar%23106!/:?] {}
-	at com.google.gson.Gson.fromJson(Gson.java:969) ~[gson-2.10.jar%23106!/:?] {}
-	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:186) ~[fmlcore-1.20.1-47.3.22.jar%23248!/:?] {}
-	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?] {re:mixin}
-	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:117) ~[fmlcore-1.20.1-47.3.22.jar%23248!/:?] {}
-Caused by: com.google.gson.stream.MalformedJsonException: Expected name at line 5 column 4 path $..1.20.1-recommended
-	at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1657) ~[gson-2.10.jar%23106!/:?] {}
-	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:514) ~[gson-2.10.jar%23106!/:?] {}
-	at com.google.gson.stream.JsonReader.hasNext(JsonReader.java:422) ~[gson-2.10.jar%23106!/:?] {}
-	at com.google.gson.internal.bind.ObjectTypeAdapter.read(ObjectTypeAdapter.java:122) ~[gson-2.10.jar%23106!/:?] {}
-	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%23106!/:?] {}
-	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:186) ~[gson-2.10.jar%23106!/:?] {}
-	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%23106!/:?] {}
-	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%23106!/:?] {}
-	... 6 more
-[02jul2025 22:50:23.093] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[02jul2025 22:50:25.003] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Erick%20Quiroz/Documents/MineCraft/1.20.1/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23247!/assets/.mcassetsroot' uses unexpected schema
-[02jul2025 22:50:25.003] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Erick%20Quiroz/Documents/MineCraft/1.20.1/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23247!/data/.mcassetsroot' uses unexpected schema
-[02jul2025 22:50:25.811] [main/INFO] [bettervillage/]: StructureSet modified for minecraft:village : Now using custom village configuration (can be disabled in the better villages config: boolean.villages.enabled_custom_config).
-[02jul2025 22:50:27.370] [main/INFO] [bountiful/]: Adding serverside commands..
-[02jul2025 22:50:27.600] [Worker-Main-3/INFO] [epicfight/]: Register animations from epicfight
-[02jul2025 22:50:29.718] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 40 recipes
-[02jul2025 22:50:29.747] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spawn:adventure/interact_with_angler_fish: Invalid criterion trigger: spawn:interact_with_angler_fish
-[02jul2025 22:50:29.770] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spawn:husbandry/open_hamster_inventory: Invalid criterion trigger: spawn:open_hamster_inventory
-[02jul2025 22:50:29.802] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spawn:husbandry/went_through_ghostly_mucus: Invalid criterion trigger: spawn:went_through_ghostly_mucus
-[02jul2025 22:50:29.813] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spawn:husbandry/got_stuck_in_mucus: Invalid criterion trigger: spawn:got_stuck_in_mucus
-[02jul2025 22:50:29.838] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spawn:husbandry/hatch_ant: Invalid criterion trigger: spawn:hatch_ant
-[02jul2025 22:50:29.876] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3093 advancements
-[02jul2025 22:50:29.929] [main/ERROR] [bettervillage/]: Bountiful compatibility is not enabled for Better Village and Bountiful is present in your mod list.
-     - Please install the datapack for better compatibility between Better Villages and Bountiful.
-     - You can find the datapack URL in the `compatibility` section of the Better Villages description.
-     - URL=https://www.curseforge.com/minecraft/mc-mods/better-village-forge
-[02jul2025 22:50:29.929] [main/ERROR] [bettervillage/]: Immersive Engineering compatibility is not enabled for Better Village and Immersive Engineering is present in your mod list.
-     - Please install the datapack for better compatibility between Better Villages and Immersive Engineering.
-     - You can find the datapack URL in the `compatibility` section of the Better Villages description.
-     - URL=https://www.curseforge.com/minecraft/mc-mods/better-village-forge
-[02jul2025 22:50:29.929] [main/INFO] [com.github.nyuppo.MoreMobVariants/]: Reloading config...
-[02jul2025 22:50:30.084] [main/INFO] [bountiful/]: Trying to load unloaded files from: config\bountiful\bounty_pools
-[02jul2025 22:50:30.087] [main/INFO] [bountiful/]: Trying to load unloaded files from: config\bountiful\bounty_decrees
-[02jul2025 22:50:32.179] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[02jul2025 22:50:32.179] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[02jul2025 22:50:32.179] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[02jul2025 22:50:32.179] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[02jul2025 22:50:32.297] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[02jul2025 22:50:32.320] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
-[02jul2025 22:50:32.491] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[02jul2025 22:50:32.491] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[02jul2025 22:50:32.491] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[02jul2025 22:50:32.491] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[02jul2025 22:50:32.772] [Server thread/INFO] [Minecraft/]: This server is running Arclight version arclight-1.20.1-1.0.6-4e94eb76 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT)
-[02jul2025 22:50:33.682] [Server thread/INFO] [Arclight/]: 正在向 Bukkit 注册 ...
-[02jul2025 22:50:33.818] [Server thread/INFO] [Arclight/]: 注册了 2644 个材料，其中 1734 个方块 910 个物品
-[02jul2025 22:50:33.820] [Server thread/INFO] [Arclight/]: 注册了 17 个新的药水效果
-[02jul2025 22:50:33.829] [Server thread/INFO] [Arclight/]: 注册了 42 个新的附魔
-[02jul2025 22:50:34.017] [Server thread/INFO] [Arclight/]: 注册了 231 个新的生物类型
-[02jul2025 22:50:34.019] [Server thread/INFO] [Arclight/]: 注册了 14 个新的村民职业
-[02jul2025 22:50:34.023] [Server thread/INFO] [Arclight/]: 注册了 170 个新的生物群系
-[02jul2025 22:50:34.063] [Server thread/INFO] [STDOUT/]: Server Ping Player Sample Count: 12
-[02jul2025 22:50:34.063] [Server thread/INFO] [Minecraft/]: Using 4 threads for Netty based IO
-[02jul2025 22:50:34.063] [Server thread/INFO] [Minecraft/]: Debug logging is enabled
-[02jul2025 22:50:34.232] [Server thread/INFO] [Arclight/]: 正在加载混淆数据 ...
-[02jul2025 22:50:34.607] [Server thread/INFO] [Arclight/]: 正在加载 Plugin Patcher ...
-[02jul2025 22:50:35.079] [Server thread/INFO] [DiscordSRV/]: Loading DiscordSRV v1.29.0
-[02jul2025 22:50:35.079] [Server thread/INFO] [sleep-most/]: Loading sleep-most v5.6.0
-[02jul2025 22:50:35.085] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
-[02jul2025 22:50:35.355] [Server thread/INFO] [Framework/]: Loading server configs...
-[02jul2025 22:50:35.722] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
-[02jul2025 22:50:35.724] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
-[02jul2025 22:50:35.724] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[02jul2025 22:50:35.755] [Server thread/INFO] [Arclight/]: 注册了 1 个新的世界类型
-[02jul2025 22:50:36.144] [Server thread/INFO] [Minecraft/]: -------- World Settings For [world] --------
-[02jul2025 22:50:36.145] [Server thread/INFO] [Minecraft/]: View Distance: 10
-[02jul2025 22:50:36.145] [Server thread/INFO] [Minecraft/]: Item Despawn Rate: 6000
-[02jul2025 22:50:36.145] [Server thread/INFO] [Minecraft/]: Item Merge Radius: 2.5
-[02jul2025 22:50:36.145] [Server thread/INFO] [Minecraft/]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[02jul2025 22:50:36.145] [Server thread/INFO] [Minecraft/]: Experience Merge Radius: 3.0
-[02jul2025 22:50:36.145] [Server thread/INFO] [Minecraft/]: Nerfing mobs spawned from spawners: false
-[02jul2025 22:50:36.146] [Server thread/INFO] [Minecraft/]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[02jul2025 22:50:36.146] [Server thread/INFO] [Minecraft/]: Cactus Growth Modifier: 100%
-[02jul2025 22:50:36.146] [Server thread/INFO] [Minecraft/]: Cane Growth Modifier: 100%
-[02jul2025 22:50:36.146] [Server thread/INFO] [Minecraft/]: Melon Growth Modifier: 100%
-[02jul2025 22:50:36.146] [Server thread/INFO] [Minecraft/]: Mushroom Growth Modifier: 100%
-[02jul2025 22:50:36.146] [Server thread/INFO] [Minecraft/]: Pumpkin Growth Modifier: 100%
-[02jul2025 22:50:36.146] [Server thread/INFO] [Minecraft/]: Sapling Growth Modifier: 100%
-[02jul2025 22:50:36.146] [Server thread/INFO] [Minecraft/]: Beetroot Growth Modifier: 100%
-[02jul2025 22:50:36.146] [Server thread/INFO] [Minecraft/]: Carrot Growth Modifier: 100%
-[02jul2025 22:50:36.146] [Server thread/INFO] [Minecraft/]: Potato Growth Modifier: 100%
-[02jul2025 22:50:36.146] [Server thread/INFO] [Minecraft/]: Wheat Growth Modifier: 100%
-[02jul2025 22:50:36.146] [Server thread/INFO] [Minecraft/]: NetherWart Growth Modifier: 100%
-[02jul2025 22:50:36.146] [Server thread/INFO] [Minecraft/]: Vine Growth Modifier: 100%
-[02jul2025 22:50:36.146] [Server thread/INFO] [Minecraft/]: Cocoa Growth Modifier: 100%
-[02jul2025 22:50:36.146] [Server thread/INFO] [Minecraft/]: Bamboo Growth Modifier: 100%
-[02jul2025 22:50:36.146] [Server thread/INFO] [Minecraft/]: SweetBerry Growth Modifier: 100%
-[02jul2025 22:50:36.146] [Server thread/INFO] [Minecraft/]: Kelp Growth Modifier: 100%
-[02jul2025 22:50:36.146] [Server thread/INFO] [Minecraft/]: TwistingVines Growth Modifier: 100%
-[02jul2025 22:50:36.146] [Server thread/INFO] [Minecraft/]: WeepingVines Growth Modifier: 100%
-[02jul2025 22:50:36.146] [Server thread/INFO] [Minecraft/]: CaveVines Growth Modifier: 100%
-[02jul2025 22:50:36.146] [Server thread/INFO] [Minecraft/]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[02jul2025 22:50:36.146] [Server thread/INFO] [Minecraft/]: Mob Spawn Range: 6
-[02jul2025 22:50:36.146] [Server thread/INFO] [Minecraft/]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[02jul2025 22:50:36.146] [Server thread/INFO] [Minecraft/]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
-[02jul2025 22:50:36.146] [Server thread/INFO] [Minecraft/]: Max TNT Explosions: 100
-[02jul2025 22:50:36.146] [Server thread/INFO] [Minecraft/]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[02jul2025 22:50:36.147] [Server thread/INFO] [Minecraft/]: Simulation Distance: 10
-[02jul2025 22:50:36.147] [Server thread/INFO] [Minecraft/]: Zombie Aggressive Towards Villager: true
-[02jul2025 22:50:36.147] [Server thread/INFO] [Minecraft/]: Allow Zombie Pigmen to spawn from portal blocks: true
+[03jul2025 15:16:44.491] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, arclightserver, --fml.forgeVersion, 47.3.22, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui, run]
+[03jul2025 15:16:44.492] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.7 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[03jul2025 15:16:45.014] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is arclightserver
+[03jul2025 15:16:45.091] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/Erick%20Quiroz/Documents/MineCraft/1.20.1/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2399!/ Service=ModLauncher Env=SERVER
+[03jul2025 15:16:45.581] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Erick Quiroz\Documents\MineCraft\1.20.1\libraries\net\minecraftforge\fmlcore\1.20.1-47.3.22\fmlcore-1.20.1-47.3.22.jar is missing mods.toml file
+[03jul2025 15:16:45.586] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Erick Quiroz\Documents\MineCraft\1.20.1\libraries\net\minecraftforge\javafmllanguage\1.20.1-47.3.22\javafmllanguage-1.20.1-47.3.22.jar is missing mods.toml file
+[03jul2025 15:16:45.590] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Erick Quiroz\Documents\MineCraft\1.20.1\libraries\net\minecraftforge\lowcodelanguage\1.20.1-47.3.22\lowcodelanguage-1.20.1-47.3.22.jar is missing mods.toml file
+[03jul2025 15:16:45.594] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Erick Quiroz\Documents\MineCraft\1.20.1\libraries\net\minecraftforge\mclanguage\1.20.1-47.3.22\mclanguage-1.20.1-47.3.22.jar is missing mods.toml file
+[03jul2025 15:16:45.736] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 6 dependencies adding them to mods collection
+[03jul2025 15:16:48.011] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[03jul2025 15:16:48.184] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [io.izzel.arclight.common.mod.ArclightConnector]
+[03jul2025 15:16:48.249] [main/INFO] [Arclight/]: 核心 Mixin 配置已加载
+[03jul2025 15:16:48.252] [main/INFO] [Arclight/]: 服务端优化 Mixin 配置已加载
+[03jul2025 15:16:48.259] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'arclightserver' with arguments [nogui, run]
+[03jul2025 15:16:48.287] [main/WARN] [mixin/]: Reference map 'graveyard-FORGE-forge-refmap.json' for graveyard-forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[03jul2025 15:16:48.294] [main/WARN] [mixin/]: Reference map 'mes-forge-refmap.json' for mes-forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[03jul2025 15:16:48.308] [main/WARN] [mixin/]: Reference map 'mixins.call_of_yucutan.refmap.json' for mixins.call_of_yucutan.json could not be read. If this is a development environment you can ignore this message
+[03jul2025 15:16:48.310] [main/WARN] [mixin/]: Reference map 'coroutil.refmap.json' for coroutil.mixins.json could not be read. If this is a development environment you can ignore this message
+[03jul2025 15:16:48.315] [main/WARN] [mixin/]: Reference map 'mvs-forge-refmap.json' for mvs-forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[03jul2025 15:16:48.324] [main/WARN] [mixin/]: Reference map 'mns-forge-refmap.json' for mns-forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[03jul2025 15:16:55.944] [main/WARN] [mixin/]: @Final field f_31427_:[I in mixins.epicfight.json:MixinWitherBoss should be final
+[03jul2025 15:16:55.944] [main/WARN] [mixin/]: @Final field f_31428_:[I in mixins.epicfight.json:MixinWitherBoss should be final
+[03jul2025 15:16:58.660] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.LivingEntity from class yesman.epicfight.world.capabilities.entitypatch.LivingEntityPatch
+[03jul2025 15:16:58.660] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.LivingEntity from class yesman.epicfight.world.capabilities.entitypatch.LivingEntityPatch
+[03jul2025 15:16:58.660] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.LivingEntity from class yesman.epicfight.world.capabilities.entitypatch.LivingEntityPatch
+[03jul2025 15:16:58.661] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.LivingEntity from class yesman.epicfight.world.capabilities.entitypatch.LivingEntityPatch
+[03jul2025 15:16:58.739] [main/WARN] [mixin/]: @Inject(@At("INVOKE_ASSIGN")) Shift.BY=2 on refurbished_furniture.common.mixins.json:LevelChunkMixin::handler$zch000$refurbishedFurniture$AfterRemoveBlockEntity exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[03jul2025 15:17:00.459] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialize mod Library Ferret
+[03jul2025 15:17:00.520] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialized mod Library Ferret
+[03jul2025 15:17:00.623] [modloading-worker-0/INFO] [coroutil/]: forge loader environment detected
+[03jul2025 15:17:00.646] [modloading-worker-0/INFO] [dev.enemeez.simplefarming.common.SimpleFarming/]: Simple Farming setup complete!
+[03jul2025 15:17:00.695] [modloading-worker-0/INFO] [Arclight/]: Arclight Mod 已加载
+[03jul2025 15:17:00.763] [modloading-worker-0/INFO] [Arclight/]: Arclight 事件系统已注册
+[03jul2025 15:17:00.868] [modloading-worker-0/INFO] [epicfight/]: Loaded mod compat: GeckolibCompat
+[03jul2025 15:17:00.968] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.22, for MC 1.20.1 with MCP 20230612.114412
+[03jul2025 15:17:00.968] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.22 Initialized
+[03jul2025 15:17:01.273] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[03jul2025 15:17:01.376] [modloading-worker-0/INFO] [graveyard/]: Registered JSON trade offer adapter.
+[03jul2025 15:17:01.917] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.test.KotlinForForge/]: Kotlin For Forge Enabled!
+[03jul2025 15:17:01.919] [modloading-worker-0/INFO] [STDOUT/]: Service loaders found: [io.ejekta.kambrik.bridge.KambrikSharedApiForge@22d3db8c]
+[03jul2025 15:17:04.137] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class yesman.epicfight.world.capabilities.entitypatch.player.PlayerPatch
+[03jul2025 15:17:04.230] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[03jul2025 15:17:04.230] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[03jul2025 15:17:04.231] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[03jul2025 15:17:04.231] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[03jul2025 15:17:04.232] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[03jul2025 15:17:04.232] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[03jul2025 15:17:04.233] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[03jul2025 15:17:04.233] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[03jul2025 15:17:04.233] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[03jul2025 15:17:04.299] [modloading-worker-0/INFO] [com.github.nyuppo.MoreMobVariants/]: Giving mobs a fresh coat of paint...
+[03jul2025 15:17:04.325] [Immersive Engineering Contributors Thread/INFO] [immersiveengineering/]: Attempting to download special revolvers from GitHub
+[03jul2025 15:17:04.439] [main/INFO] [journeymap/]: Initializing Packet Registries
+[03jul2025 15:17:04.555] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [immersiveengineering] Starting version check at https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.20.1/changelog.json
+[03jul2025 15:17:04.643] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key refurbished_furniture:lock_yaw for refurbished_furniture:seat
+[03jul2025 15:17:05.011] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [immersiveengineering] Found status: AHEAD Current: 1.20.1-10.2.0-183 Target: null
+[03jul2025 15:17:05.012] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Starting version check at https://updates.blamejared.com/get?n=clumps&gv=1.20.1
+[03jul2025 15:17:05.846] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Found status: BETA Current: 12.0.0.4 Target: 12.0.0.4
+[03jul2025 15:17:05.846] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
+[03jul2025 15:17:06.585] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: UP_TO_DATE Current: 5.10.3 Target: null
+[03jul2025 15:17:06.585] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[03jul2025 15:17:06.825] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.22 Target: 47.4.0
+[03jul2025 15:17:07.764] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[03jul2025 15:17:09.595] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Erick%20Quiroz/Documents/MineCraft/1.20.1/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23225!/assets/.mcassetsroot' uses unexpected schema
+[03jul2025 15:17:09.595] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Erick%20Quiroz/Documents/MineCraft/1.20.1/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23225!/data/.mcassetsroot' uses unexpected schema
+[03jul2025 15:17:11.445] [main/INFO] [bountiful/]: Adding serverside commands..
+[03jul2025 15:17:11.656] [Worker-Main-7/INFO] [epicfight/]: Register animations from epicfight
+[03jul2025 15:17:12.785] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 40 recipes
+[03jul2025 15:17:12.918] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2732 advancements
+[03jul2025 15:17:12.968] [main/INFO] [com.github.nyuppo.MoreMobVariants/]: Reloading config...
+[03jul2025 15:17:13.109] [main/INFO] [bountiful/]: Trying to load unloaded files from: config\bountiful\bounty_pools
+[03jul2025 15:17:13.111] [main/INFO] [bountiful/]: Trying to load unloaded files from: config\bountiful\bounty_decrees
+[03jul2025 15:17:15.049] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[03jul2025 15:17:15.049] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[03jul2025 15:17:15.050] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[03jul2025 15:17:15.050] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[03jul2025 15:17:15.172] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[03jul2025 15:17:15.194] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
+[03jul2025 15:17:15.321] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[03jul2025 15:17:15.321] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[03jul2025 15:17:15.321] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[03jul2025 15:17:15.321] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[03jul2025 15:17:15.645] [Server thread/INFO] [Minecraft/]: This server is running Arclight version arclight-1.20.1-1.0.6-4e94eb76 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT)
+[03jul2025 15:17:16.596] [Server thread/INFO] [Arclight/]: 正在向 Bukkit 注册 ...
+[03jul2025 15:17:16.729] [Server thread/INFO] [Arclight/]: 注册了 2100 个材料，其中 1257 个方块 843 个物品
+[03jul2025 15:17:16.732] [Server thread/INFO] [Arclight/]: 注册了 17 个新的药水效果
+[03jul2025 15:17:16.740] [Server thread/INFO] [Arclight/]: 注册了 42 个新的附魔
+[03jul2025 15:17:16.907] [Server thread/INFO] [Arclight/]: 注册了 210 个新的生物类型
+[03jul2025 15:17:16.908] [Server thread/INFO] [Arclight/]: 注册了 8 个新的村民职业
+[03jul2025 15:17:16.909] [Server thread/INFO] [Arclight/]: 注册了 0 个新的生物群系
+[03jul2025 15:17:16.934] [Server thread/INFO] [Minecraft/]: Debug logging is enabled
+[03jul2025 15:17:16.938] [Server thread/INFO] [STDOUT/]: Server Ping Player Sample Count: 12
+[03jul2025 15:17:16.939] [Server thread/INFO] [Minecraft/]: Using 4 threads for Netty based IO
+[03jul2025 15:17:17.065] [Server thread/INFO] [Arclight/]: 正在加载混淆数据 ...
+[03jul2025 15:17:17.441] [Server thread/INFO] [Arclight/]: 正在加载 Plugin Patcher ...
+[03jul2025 15:17:17.923] [Server thread/INFO] [DiscordSRV/]: Loading DiscordSRV v1.29.0
+[03jul2025 15:17:17.924] [Server thread/INFO] [sleep-most/]: Loading sleep-most v5.6.0
+[03jul2025 15:17:17.929] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[03jul2025 15:17:18.040] [Server thread/INFO] [Framework/]: Loading server configs...
+[03jul2025 15:17:18.051] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[03jul2025 15:17:18.087] [Server thread/INFO] [Arclight/]: 注册了 1 个新的世界类型
+[03jul2025 15:17:18.492] [Server thread/INFO] [Minecraft/]: -------- World Settings For [world] --------
+[03jul2025 15:17:18.493] [Server thread/INFO] [Minecraft/]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[03jul2025 15:17:18.493] [Server thread/INFO] [Minecraft/]: Experience Merge Radius: 3.0
+[03jul2025 15:17:18.493] [Server thread/INFO] [Minecraft/]: Item Merge Radius: 2.5
+[03jul2025 15:17:18.493] [Server thread/INFO] [Minecraft/]: Nerfing mobs spawned from spawners: false
+[03jul2025 15:17:18.493] [Server thread/INFO] [Minecraft/]: Item Despawn Rate: 6000
+[03jul2025 15:17:18.493] [Server thread/INFO] [Minecraft/]: View Distance: 10
+[03jul2025 15:17:18.493] [Server thread/INFO] [Minecraft/]: Simulation Distance: 10
+[03jul2025 15:17:18.493] [Server thread/INFO] [Minecraft/]: Zombie Aggressive Towards Villager: true
+[03jul2025 15:17:18.493] [Server thread/INFO] [Minecraft/]: Allow Zombie Pigmen to spawn from portal blocks: true
+[03jul2025 15:17:18.494] [Server thread/INFO] [Minecraft/]: Cactus Growth Modifier: 100%
+[03jul2025 15:17:18.494] [Server thread/INFO] [Minecraft/]: Cane Growth Modifier: 100%
+[03jul2025 15:17:18.494] [Server thread/INFO] [Minecraft/]: Melon Growth Modifier: 100%
+[03jul2025 15:17:18.494] [Server thread/INFO] [Minecraft/]: Mushroom Growth Modifier: 100%
+[03jul2025 15:17:18.494] [Server thread/INFO] [Minecraft/]: Pumpkin Growth Modifier: 100%
+[03jul2025 15:17:18.494] [Server thread/INFO] [Minecraft/]: Sapling Growth Modifier: 100%
+[03jul2025 15:17:18.494] [Server thread/INFO] [Minecraft/]: Beetroot Growth Modifier: 100%
+[03jul2025 15:17:18.545] [Server thread/INFO] [Minecraft/]: Carrot Growth Modifier: 100%
+[03jul2025 15:17:18.545] [Server thread/INFO] [Minecraft/]: Potato Growth Modifier: 100%
+[03jul2025 15:17:18.545] [Server thread/INFO] [Minecraft/]: Wheat Growth Modifier: 100%
+[03jul2025 15:17:18.545] [Server thread/INFO] [Minecraft/]: NetherWart Growth Modifier: 100%
+[03jul2025 15:17:18.545] [Server thread/INFO] [Minecraft/]: Vine Growth Modifier: 100%
+[03jul2025 15:17:18.545] [Server thread/INFO] [Minecraft/]: Cocoa Growth Modifier: 100%
+[03jul2025 15:17:18.545] [Server thread/INFO] [Minecraft/]: Bamboo Growth Modifier: 100%
+[03jul2025 15:17:18.545] [Server thread/INFO] [Minecraft/]: SweetBerry Growth Modifier: 100%
+[03jul2025 15:17:18.545] [Server thread/INFO] [Minecraft/]: Kelp Growth Modifier: 100%
+[03jul2025 15:17:18.545] [Server thread/INFO] [Minecraft/]: TwistingVines Growth Modifier: 100%
+[03jul2025 15:17:18.545] [Server thread/INFO] [Minecraft/]: WeepingVines Growth Modifier: 100%
+[03jul2025 15:17:18.545] [Server thread/INFO] [Minecraft/]: CaveVines Growth Modifier: 100%
+[03jul2025 15:17:18.546] [Server thread/INFO] [Minecraft/]: Mob Spawn Range: 6
+[03jul2025 15:17:18.546] [Server thread/INFO] [Minecraft/]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[03jul2025 15:17:18.546] [Server thread/INFO] [Minecraft/]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[03jul2025 15:17:18.547] [Server thread/INFO] [Minecraft/]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[03jul2025 15:17:18.547] [Server thread/INFO] [Minecraft/]: Max TNT Explosions: 100
+[03jul2025 15:17:18.547] [Server thread/INFO] [Minecraft/]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[03jul2025 15:17:18.547] [Server thread/INFO] [Minecraft/]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[03jul2025 15:17:22.211] [Server thread/INFO] [Minecraft/]: -------- World Settings For [world/DIM-1] --------
+[03jul2025 15:17:22.211] [Server thread/INFO] [Minecraft/]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[03jul2025 15:17:22.211] [Server thread/INFO] [Minecraft/]: Experience Merge Radius: 3.0
+[03jul2025 15:17:22.211] [Server thread/INFO] [Minecraft/]: Item Merge Radius: 2.5
+[03jul2025 15:17:22.211] [Server thread/INFO] [Minecraft/]: Nerfing mobs spawned from spawners: false
+[03jul2025 15:17:22.211] [Server thread/INFO] [Minecraft/]: Item Despawn Rate: 6000
+[03jul2025 15:17:22.211] [Server thread/INFO] [Minecraft/]: View Distance: 10
+[03jul2025 15:17:22.211] [Server thread/INFO] [Minecraft/]: Simulation Distance: 10
+[03jul2025 15:17:22.211] [Server thread/INFO] [Minecraft/]: Zombie Aggressive Towards Villager: true
+[03jul2025 15:17:22.211] [Server thread/INFO] [Minecraft/]: Allow Zombie Pigmen to spawn from portal blocks: true
+[03jul2025 15:17:22.211] [Server thread/INFO] [Minecraft/]: Cactus Growth Modifier: 100%
+[03jul2025 15:17:22.211] [Server thread/INFO] [Minecraft/]: Cane Growth Modifier: 100%
+[03jul2025 15:17:22.211] [Server thread/INFO] [Minecraft/]: Melon Growth Modifier: 100%
+[03jul2025 15:17:22.211] [Server thread/INFO] [Minecraft/]: Mushroom Growth Modifier: 100%
+[03jul2025 15:17:22.211] [Server thread/INFO] [Minecraft/]: Pumpkin Growth Modifier: 100%
+[03jul2025 15:17:22.211] [Server thread/INFO] [Minecraft/]: Sapling Growth Modifier: 100%
+[03jul2025 15:17:22.211] [Server thread/INFO] [Minecraft/]: Beetroot Growth Modifier: 100%
+[03jul2025 15:17:22.211] [Server thread/INFO] [Minecraft/]: Carrot Growth Modifier: 100%
+[03jul2025 15:17:22.211] [Server thread/INFO] [Minecraft/]: Potato Growth Modifier: 100%
+[03jul2025 15:17:22.211] [Server thread/INFO] [Minecraft/]: Wheat Growth Modifier: 100%
+[03jul2025 15:17:22.211] [Server thread/INFO] [Minecraft/]: NetherWart Growth Modifier: 100%
+[03jul2025 15:17:22.211] [Server thread/INFO] [Minecraft/]: Vine Growth Modifier: 100%
+[03jul2025 15:17:22.211] [Server thread/INFO] [Minecraft/]: Cocoa Growth Modifier: 100%
+[03jul2025 15:17:22.211] [Server thread/INFO] [Minecraft/]: Bamboo Growth Modifier: 100%
+[03jul2025 15:17:22.211] [Server thread/INFO] [Minecraft/]: SweetBerry Growth Modifier: 100%
+[03jul2025 15:17:22.211] [Server thread/INFO] [Minecraft/]: Kelp Growth Modifier: 100%
+[03jul2025 15:17:22.211] [Server thread/INFO] [Minecraft/]: TwistingVines Growth Modifier: 100%
+[03jul2025 15:17:22.211] [Server thread/INFO] [Minecraft/]: WeepingVines Growth Modifier: 100%
+[03jul2025 15:17:22.211] [Server thread/INFO] [Minecraft/]: CaveVines Growth Modifier: 100%
+[03jul2025 15:17:22.211] [Server thread/INFO] [Minecraft/]: Mob Spawn Range: 6
+[03jul2025 15:17:22.211] [Server thread/INFO] [Minecraft/]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[03jul2025 15:17:22.211] [Server thread/INFO] [Minecraft/]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[03jul2025 15:17:22.211] [Server thread/INFO] [Minecraft/]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[03jul2025 15:17:22.211] [Server thread/INFO] [Minecraft/]: Max TNT Explosions: 100
+[03jul2025 15:17:22.211] [Server thread/INFO] [Minecraft/]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[03jul2025 15:17:22.211] [Server thread/INFO] [Minecraft/]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[03jul2025 15:17:22.261] [Server thread/INFO] [Minecraft/]: -------- World Settings For [world/DIM1] --------
+[03jul2025 15:17:22.261] [Server thread/INFO] [Minecraft/]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[03jul2025 15:17:22.261] [Server thread/INFO] [Minecraft/]: Experience Merge Radius: 3.0
+[03jul2025 15:17:22.261] [Server thread/INFO] [Minecraft/]: Item Merge Radius: 2.5
+[03jul2025 15:17:22.261] [Server thread/INFO] [Minecraft/]: Nerfing mobs spawned from spawners: false
+[03jul2025 15:17:22.261] [Server thread/INFO] [Minecraft/]: Item Despawn Rate: 6000
+[03jul2025 15:17:22.261] [Server thread/INFO] [Minecraft/]: View Distance: 10
+[03jul2025 15:17:22.261] [Server thread/INFO] [Minecraft/]: Simulation Distance: 10
+[03jul2025 15:17:22.261] [Server thread/INFO] [Minecraft/]: Zombie Aggressive Towards Villager: true
+[03jul2025 15:17:22.261] [Server thread/INFO] [Minecraft/]: Allow Zombie Pigmen to spawn from portal blocks: true
+[03jul2025 15:17:22.261] [Server thread/INFO] [Minecraft/]: Cactus Growth Modifier: 100%
+[03jul2025 15:17:22.261] [Server thread/INFO] [Minecraft/]: Cane Growth Modifier: 100%
+[03jul2025 15:17:22.261] [Server thread/INFO] [Minecraft/]: Melon Growth Modifier: 100%
+[03jul2025 15:17:22.261] [Server thread/INFO] [Minecraft/]: Mushroom Growth Modifier: 100%
+[03jul2025 15:17:22.261] [Server thread/INFO] [Minecraft/]: Pumpkin Growth Modifier: 100%
+[03jul2025 15:17:22.261] [Server thread/INFO] [Minecraft/]: Sapling Growth Modifier: 100%
+[03jul2025 15:17:22.261] [Server thread/INFO] [Minecraft/]: Beetroot Growth Modifier: 100%
+[03jul2025 15:17:22.261] [Server thread/INFO] [Minecraft/]: Carrot Growth Modifier: 100%
+[03jul2025 15:17:22.261] [Server thread/INFO] [Minecraft/]: Potato Growth Modifier: 100%
+[03jul2025 15:17:22.261] [Server thread/INFO] [Minecraft/]: Wheat Growth Modifier: 100%
+[03jul2025 15:17:22.261] [Server thread/INFO] [Minecraft/]: NetherWart Growth Modifier: 100%
+[03jul2025 15:17:22.261] [Server thread/INFO] [Minecraft/]: Vine Growth Modifier: 100%
+[03jul2025 15:17:22.261] [Server thread/INFO] [Minecraft/]: Cocoa Growth Modifier: 100%
+[03jul2025 15:17:22.261] [Server thread/INFO] [Minecraft/]: Bamboo Growth Modifier: 100%
+[03jul2025 15:17:22.261] [Server thread/INFO] [Minecraft/]: SweetBerry Growth Modifier: 100%
+[03jul2025 15:17:22.261] [Server thread/INFO] [Minecraft/]: Kelp Growth Modifier: 100%
+[03jul2025 15:17:22.261] [Server thread/INFO] [Minecraft/]: TwistingVines Growth Modifier: 100%
+[03jul2025 15:17:22.261] [Server thread/INFO] [Minecraft/]: WeepingVines Growth Modifier: 100%
+[03jul2025 15:17:22.261] [Server thread/INFO] [Minecraft/]: CaveVines Growth Modifier: 100%
+[03jul2025 15:17:22.261] [Server thread/INFO] [Minecraft/]: Mob Spawn Range: 6
+[03jul2025 15:17:22.261] [Server thread/INFO] [Minecraft/]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[03jul2025 15:17:22.261] [Server thread/INFO] [Minecraft/]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[03jul2025 15:17:22.261] [Server thread/INFO] [Minecraft/]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[03jul2025 15:17:22.261] [Server thread/INFO] [Minecraft/]: Max TNT Explosions: 100
+[03jul2025 15:17:22.261] [Server thread/INFO] [Minecraft/]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[03jul2025 15:17:22.261] [Server thread/INFO] [Minecraft/]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[03jul2025 15:17:22.313] [Server thread/INFO] [Minecraft/]: -------- World Settings For [world/graveyard/past] --------
+[03jul2025 15:17:22.313] [Server thread/INFO] [Minecraft/]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[03jul2025 15:17:22.313] [Server thread/INFO] [Minecraft/]: Experience Merge Radius: 3.0
+[03jul2025 15:17:22.313] [Server thread/INFO] [Minecraft/]: Item Merge Radius: 2.5
+[03jul2025 15:17:22.313] [Server thread/INFO] [Minecraft/]: Nerfing mobs spawned from spawners: false
+[03jul2025 15:17:22.313] [Server thread/INFO] [Minecraft/]: Item Despawn Rate: 6000
+[03jul2025 15:17:22.313] [Server thread/INFO] [Minecraft/]: View Distance: 10
+[03jul2025 15:17:22.313] [Server thread/INFO] [Minecraft/]: Simulation Distance: 10
+[03jul2025 15:17:22.313] [Server thread/INFO] [Minecraft/]: Zombie Aggressive Towards Villager: true
+[03jul2025 15:17:22.313] [Server thread/INFO] [Minecraft/]: Allow Zombie Pigmen to spawn from portal blocks: true
+[03jul2025 15:17:22.313] [Server thread/INFO] [Minecraft/]: Cactus Growth Modifier: 100%
+[03jul2025 15:17:22.313] [Server thread/INFO] [Minecraft/]: Cane Growth Modifier: 100%
+[03jul2025 15:17:22.313] [Server thread/INFO] [Minecraft/]: Melon Growth Modifier: 100%
+[03jul2025 15:17:22.313] [Server thread/INFO] [Minecraft/]: Mushroom Growth Modifier: 100%
+[03jul2025 15:17:22.313] [Server thread/INFO] [Minecraft/]: Pumpkin Growth Modifier: 100%
+[03jul2025 15:17:22.313] [Server thread/INFO] [Minecraft/]: Sapling Growth Modifier: 100%
+[03jul2025 15:17:22.313] [Server thread/INFO] [Minecraft/]: Beetroot Growth Modifier: 100%
+[03jul2025 15:17:22.313] [Server thread/INFO] [Minecraft/]: Carrot Growth Modifier: 100%
+[03jul2025 15:17:22.313] [Server thread/INFO] [Minecraft/]: Potato Growth Modifier: 100%
+[03jul2025 15:17:22.313] [Server thread/INFO] [Minecraft/]: Wheat Growth Modifier: 100%
+[03jul2025 15:17:22.313] [Server thread/INFO] [Minecraft/]: NetherWart Growth Modifier: 100%
+[03jul2025 15:17:22.313] [Server thread/INFO] [Minecraft/]: Vine Growth Modifier: 100%
+[03jul2025 15:17:22.313] [Server thread/INFO] [Minecraft/]: Cocoa Growth Modifier: 100%
+[03jul2025 15:17:22.313] [Server thread/INFO] [Minecraft/]: Bamboo Growth Modifier: 100%
+[03jul2025 15:17:22.313] [Server thread/INFO] [Minecraft/]: SweetBerry Growth Modifier: 100%
+[03jul2025 15:17:22.313] [Server thread/INFO] [Minecraft/]: Kelp Growth Modifier: 100%
+[03jul2025 15:17:22.313] [Server thread/INFO] [Minecraft/]: TwistingVines Growth Modifier: 100%
+[03jul2025 15:17:22.313] [Server thread/INFO] [Minecraft/]: WeepingVines Growth Modifier: 100%
+[03jul2025 15:17:22.313] [Server thread/INFO] [Minecraft/]: CaveVines Growth Modifier: 100%
+[03jul2025 15:17:22.321] [Server thread/INFO] [Minecraft/]: Mob Spawn Range: 6
+[03jul2025 15:17:22.321] [Server thread/INFO] [Minecraft/]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[03jul2025 15:17:22.321] [Server thread/INFO] [Minecraft/]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[03jul2025 15:17:22.322] [Server thread/INFO] [Minecraft/]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[03jul2025 15:17:22.323] [Server thread/INFO] [Minecraft/]: Max TNT Explosions: 100
+[03jul2025 15:17:22.323] [Server thread/INFO] [Minecraft/]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[03jul2025 15:17:22.323] [Server thread/INFO] [Minecraft/]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[03jul2025 15:17:22.357] [Server thread/INFO] [DiscordSRV/]: Enabling DiscordSRV v1.29.0
+[03jul2025 15:17:22.376] [Server thread/INFO] [sleep-most/]: Enabling sleep-most v5.6.0
+[03jul2025 15:17:22.794] [Server thread/INFO] [Minecraft/]: Server permissions file permissions.yml is empty, ignoring it
+[03jul2025 15:17:22.810] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[03jul2025 15:17:22.879] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03jul2025 15:17:23.068] [DiscordSRV - Initialization/ERROR] [DiscordSRV/]: An invalid length bot token (20) has been set in the config; a valid bot token is required to connect to Discord.
+[03jul2025 15:17:23.311] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03jul2025 15:17:24.257] [Worker-Main-11/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03jul2025 15:17:24.313] [Worker-Main-7/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 81%
+[03jul2025 15:17:24.859] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
+[03jul2025 15:17:25.353] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
+[03jul2025 15:17:25.622] [pool-6-thread-1/INFO] [DiscordSRV/]: DiscordSRV is up-to-date. (9d4734818ab27069d76f264a4cda74a699806770)
+[03jul2025 15:17:25.899] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
+[03jul2025 15:17:26.431] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
+[03jul2025 15:17:26.819] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
+[03jul2025 15:17:27.384] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
+[03jul2025 15:17:27.819] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
+[03jul2025 15:17:29.498] [Worker-Main-7/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
+[03jul2025 15:17:29.498] [Worker-Main-7/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
+[03jul2025 15:17:29.498] [Worker-Main-7/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
+[03jul2025 15:17:29.975] [Worker-Main-10/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
+[03jul2025 15:17:30.612] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
+[03jul2025 15:17:31.152] [Worker-Main-10/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
+[03jul2025 15:17:31.313] [Worker-Main-7/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
+[03jul2025 15:17:31.831] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
+[03jul2025 15:17:32.320] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
+[03jul2025 15:17:32.828] [Worker-Main-7/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
+[03jul2025 15:17:33.312] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
+[03jul2025 15:17:33.934] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
+[03jul2025 15:17:35.114] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
+[03jul2025 15:17:35.114] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
+[03jul2025 15:17:35.476] [Worker-Main-7/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
+[03jul2025 15:17:35.818] [Worker-Main-11/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
+[03jul2025 15:17:36.310] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 85%
+[03jul2025 15:17:36.811] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 87%
+[03jul2025 15:17:37.314] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 90%
+[03jul2025 15:17:37.818] [Worker-Main-11/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 94%
+[03jul2025 15:17:38.312] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 99%
+[03jul2025 15:17:38.314] [Server thread/INFO] [Minecraft/]: <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<==============
+[03jul2025 15:17:38.314] [Server thread/INFO] [Minecraft/]: <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<==============
+[03jul2025 15:17:38.315] [Server thread/INFO] [Minecraft/]: <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<==============
+[03jul2025 15:17:38.315] [Server thread/INFO] [Minecraft/]: <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<==============
+[03jul2025 15:17:38.315] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 15504 ms
+[03jul2025 15:17:38.315] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (20.389s)! For help, type "help"
+[03jul2025 15:17:38.363] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[03jul2025 15:17:38.364] [Server thread/INFO] [Arclight/]: Forwarding forge permission[forge:default_handler] to bukkit
+[03jul2025 15:17:38.414] [Server thread/INFO] [bountiful/]: Registering Bounty Board Jigsaw Piece for Village Type: plains
+[03jul2025 15:17:38.416] [Server thread/INFO] [bountiful/]: Registering Bounty Board Jigsaw Piece for Village Type: savanna
+[03jul2025 15:17:38.416] [Server thread/INFO] [bountiful/]: Registering Bounty Board Jigsaw Piece for Village Type: snowy
+[03jul2025 15:17:38.416] [Server thread/INFO] [bountiful/]: Registering Bounty Board Jigsaw Piece for Village Type: taiga
+[03jul2025 15:17:38.416] [Server thread/INFO] [bountiful/]: Registering Bounty Board Jigsaw Piece for Village Type: desert
+[03jul2025 15:17:38.470] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 radiator, missing knowledge for {1 water_bucket=0.25}
+[03jul2025 15:17:38.470] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 baseball_bat_with_nails, missing knowledge for {1 baseball_bat=1.0}
+[03jul2025 15:17:38.470] [Server thread/INFO] [immersiveengineering/]: Finished recipe profiler for Arc Recycling, took 49 milliseconds
+[03jul2025 15:17:38.500] [Server thread/INFO] [DiscordSRV/]: Disabling DiscordSRV v1.29.0
