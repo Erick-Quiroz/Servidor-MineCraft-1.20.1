@@ -1,0 +1,338 @@
+[03jul2025 21:04:28.859] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.22, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[03jul2025 21:04:28.867] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.7 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[03jul2025 21:04:29.022] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Configuration file C:\Users\Erick Quiroz\Documents\MineCraft\1.20.1\config\fml.toml is not correct. Correcting
+[03jul2025 21:04:29.025] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowSkipGLVersions] was corrected from null to []
+[03jul2025 21:04:29.025] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowLogHelpMessage] was corrected from null to true
+[03jul2025 21:04:29.026] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowSquir] was corrected from null to false
+[03jul2025 21:04:29.026] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowShowCPU] was corrected from null to false
+[03jul2025 21:04:29.362] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[03jul2025 21:04:29.433] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/Erick%20Quiroz/Documents/MineCraft/1.20.1/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[03jul2025 21:04:29.866] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Erick Quiroz\Documents\MineCraft\1.20.1\libraries\net\minecraftforge\fmlcore\1.20.1-47.3.22\fmlcore-1.20.1-47.3.22.jar is missing mods.toml file
+[03jul2025 21:04:29.870] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Erick Quiroz\Documents\MineCraft\1.20.1\libraries\net\minecraftforge\javafmllanguage\1.20.1-47.3.22\javafmllanguage-1.20.1-47.3.22.jar is missing mods.toml file
+[03jul2025 21:04:29.874] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Erick Quiroz\Documents\MineCraft\1.20.1\libraries\net\minecraftforge\lowcodelanguage\1.20.1-47.3.22\lowcodelanguage-1.20.1-47.3.22.jar is missing mods.toml file
+[03jul2025 21:04:29.879] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Erick Quiroz\Documents\MineCraft\1.20.1\libraries\net\minecraftforge\mclanguage\1.20.1-47.3.22\mclanguage-1.20.1-47.3.22.jar is missing mods.toml file
+[03jul2025 21:04:30.153] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 6 dependencies adding them to mods collection
+[03jul2025 21:04:31.873] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[03jul2025 21:04:31.917] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[03jul2025 21:04:32.068] [main/WARN] [mixin/]: Reference map 'graveyard-FORGE-forge-refmap.json' for graveyard-forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[03jul2025 21:04:32.093] [main/WARN] [mixin/]: Reference map 'mes-forge-refmap.json' for mes-forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[03jul2025 21:04:32.100] [main/WARN] [mixin/]: Reference map 'mixins.call_of_yucutan.refmap.json' for mixins.call_of_yucutan.json could not be read. If this is a development environment you can ignore this message
+[03jul2025 21:04:32.102] [main/WARN] [mixin/]: Reference map 'coroutil.refmap.json' for coroutil.mixins.json could not be read. If this is a development environment you can ignore this message
+[03jul2025 21:04:32.104] [main/WARN] [mixin/]: Reference map 'mvs-forge-refmap.json' for mvs-forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[03jul2025 21:04:32.112] [main/WARN] [mixin/]: Reference map 'mns-forge-refmap.json' for mns-forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[03jul2025 21:04:39.890] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Welcome! C:\Users\Erick Quiroz\Documents\MineCraft\1.20.1\config/libraryferret_1.properties created and initialized with default value
+[03jul2025 21:04:39.891] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialize mod Library Ferret
+[03jul2025 21:04:39.947] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialized mod Library Ferret
+[03jul2025 21:04:39.988] [modloading-worker-0/INFO] [coroutil/]: forge loader environment detected
+[03jul2025 21:04:40.023] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Users\Erick Quiroz\Documents\MineCraft\1.20.1\config\simplefarming.toml is not correct. Correcting
+[03jul2025 21:04:40.026] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values was corrected from null to its default, SimpleCommentedConfig:{}. 
+[03jul2025 21:04:40.027] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.berry (default = 2) was corrected from null to its default, 2. 
+[03jul2025 21:04:40.027] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.fruit (default = 4) was corrected from null to its default, 4. 
+[03jul2025 21:04:40.027] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.gourd_slice (default = 2) was corrected from null to its default, 2. 
+[03jul2025 21:04:40.027] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.cassava (default = 3) was corrected from null to its default, 3. 
+[03jul2025 21:04:40.027] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.corn (default = 6) was corrected from null to its default, 6. 
+[03jul2025 21:04:40.028] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.cucumber (default = 3) was corrected from null to its default, 3. 
+[03jul2025 21:04:40.028] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.eggplant (default = 3) was corrected from null to its default, 3. 
+[03jul2025 21:04:40.028] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.ginger (default = 2) was corrected from null to its default, 2. 
+[03jul2025 21:04:40.028] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.onion (default = 3) was corrected from null to its default, 3. 
+[03jul2025 21:04:40.029] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.peanut (default = 1) was corrected from null to its default, 1. 
+[03jul2025 21:04:40.029] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.pepper (default = 2) was corrected from null to its default, 2. 
+[03jul2025 21:04:40.029] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.pea_pod (default = 2) was corrected from null to its default, 2. 
+[03jul2025 21:04:40.030] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.radish (default = 1) was corrected from null to its default, 1. 
+[03jul2025 21:04:40.030] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.soybean (default = 2) was corrected from null to its default, 2. 
+[03jul2025 21:04:40.030] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.sorghum (default = 4) was corrected from null to its default, 4. 
+[03jul2025 21:04:40.030] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.salad_greens (default = 2) was corrected from null to its default, 2. 
+[03jul2025 21:04:40.030] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.tomato (default = 3) was corrected from null to its default, 3. 
+[03jul2025 21:04:40.031] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.turnip (default = 2) was corrected from null to its default, 2. 
+[03jul2025 21:04:40.031] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.sweet_potato (default = 2) was corrected from null to its default, 2. 
+[03jul2025 21:04:40.031] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.seeds (default = 1) was corrected from null to its default, 1. 
+[03jul2025 21:04:40.031] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.zucchini (default = 3) was corrected from null to its default, 3. 
+[03jul2025 21:04:40.031] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.broccoli (default = 3) was corrected from null to its default, 3. 
+[03jul2025 21:04:40.032] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.olives (default = 2) was corrected from null to its default, 2. 
+[03jul2025 21:04:40.032] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.golden_habanero (default = 2) was corrected from null to its default, 2. 
+[03jul2025 21:04:40.032] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.berry_pie (default = 4) was corrected from null to its default, 4. 
+[03jul2025 21:04:40.032] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.fruit_pie (default = 6) was corrected from null to its default, 6. 
+[03jul2025 21:04:40.032] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.baked_sweet_potato (default = 6) was corrected from null to its default, 6. 
+[03jul2025 21:04:40.032] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.banana_bread (default = 7) was corrected from null to its default, 7. 
+[03jul2025 21:04:40.032] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.blt (default = 14) was corrected from null to its default, 14. 
+[03jul2025 21:04:40.032] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.caesar_salad (default = 11) was corrected from null to its default, 11. 
+[03jul2025 21:04:40.032] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.cassava_cake (default = 5) was corrected from null to its default, 5. 
+[03jul2025 21:04:40.033] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.cheese_slice (default = 3) was corrected from null to its default, 3. 
+[03jul2025 21:04:40.033] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.cheese_burger (default = 21) was corrected from null to its default, 21. 
+[03jul2025 21:04:40.033] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.chicken_parmesan (default = 15) was corrected from null to its default, 15. 
+[03jul2025 21:04:40.033] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.chili (default = 13) was corrected from null to its default, 13. 
+[03jul2025 21:04:40.033] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.chocolate (default = 3) was corrected from null to its default, 3. 
+[03jul2025 21:04:40.033] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.cooked_bacon (default = 4) was corrected from null to its default, 4. 
+[03jul2025 21:04:40.034] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.cooked_chicken_wings (default = 3) was corrected from null to its default, 3. 
+[03jul2025 21:04:40.034] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.cooked_egg (default = 5) was corrected from null to its default, 5. 
+[03jul2025 21:04:40.034] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.cooked_sausage (default = 4) was corrected from null to its default, 4. 
+[03jul2025 21:04:40.034] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.corn_salad (default = 9) was corrected from null to its default, 9. 
+[03jul2025 21:04:40.034] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.corn_bread (default = 7) was corrected from null to its default, 7. 
+[03jul2025 21:04:40.035] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.cucumber_soup (default = 6) was corrected from null to its default, 6. 
+[03jul2025 21:04:40.035] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.egg_sandwich (default = 14) was corrected from null to its default, 14. 
+[03jul2025 21:04:40.035] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.eggplant_parmesan (default = 16) was corrected from null to its default, 16. 
+[03jul2025 21:04:40.035] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.fish_fillet (default = 8) was corrected from null to its default, 8. 
+[03jul2025 21:04:40.035] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.fish_sandwich (default = 15) was corrected from null to its default, 15. 
+[03jul2025 21:04:40.035] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.fried_calamari (default = 5) was corrected from null to its default, 5. 
+[03jul2025 21:04:40.036] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.fruit_salad (default = 8) was corrected from null to its default, 8. 
+[03jul2025 21:04:40.036] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.hamburger (default = 18) was corrected from null to its default, 18. 
+[03jul2025 21:04:40.036] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.hotdog (default = 9) was corrected from null to its default, 9. 
+[03jul2025 21:04:40.036] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.jaffa_cake (default = 8) was corrected from null to its default, 8. 
+[03jul2025 21:04:40.036] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.lasagna (default = 24) was corrected from null to its default, 24. 
+[03jul2025 21:04:40.036] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.mac_and_cheese (default = 10) was corrected from null to its default, 10. 
+[03jul2025 21:04:40.037] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.oatmeal (default = 3) was corrected from null to its default, 3. 
+[03jul2025 21:04:40.037] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.onion_soup (default = 6) was corrected from null to its default, 6. 
+[03jul2025 21:04:40.037] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.pancakes (default = 4) was corrected from null to its default, 4. 
+[03jul2025 21:04:40.037] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.pasta (default = 10) was corrected from null to its default, 10. 
+[03jul2025 21:04:40.038] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.pickle (default = 5) was corrected from null to its default, 5. 
+[03jul2025 21:04:40.038] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.pickled_beetroot (default = 3) was corrected from null to its default, 3. 
+[03jul2025 21:04:40.038] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.pizza (default = 10) was corrected from null to its default, 10. 
+[03jul2025 21:04:40.038] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.popcorn (default = 1) was corrected from null to its default, 1. 
+[03jul2025 21:04:40.038] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.pulled_pork_sandwich (default = 18) was corrected from null to its default, 18. 
+[03jul2025 21:04:40.039] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.radish_soup (default = 6) was corrected from null to its default, 6. 
+[03jul2025 21:04:40.039] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.raw_bacon (default = 2) was corrected from null to its default, 2. 
+[03jul2025 21:04:40.039] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.raw_calamari (default = 2) was corrected from null to its default, 2. 
+[03jul2025 21:04:40.039] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.raw_chicken_wings (default = 1) was corrected from null to its default, 1. 
+[03jul2025 21:04:40.039] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.raw_sausage (default = 2) was corrected from null to its default, 2. 
+[03jul2025 21:04:40.040] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.rice_bowl (default = 3) was corrected from null to its default, 3. 
+[03jul2025 21:04:40.040] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.salad (default = 12) was corrected from null to its default, 12. 
+[03jul2025 21:04:40.040] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.sandwich (default = 16) was corrected from null to its default, 16. 
+[03jul2025 21:04:40.040] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.spaghetti (default = 10) was corrected from null to its default, 10. 
+[03jul2025 21:04:40.040] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.spinach_mushroom_quiche (default = 10) was corrected from null to its default, 10. 
+[03jul2025 21:04:40.041] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.squash_casserole (default = 9) was corrected from null to its default, 9. 
+[03jul2025 21:04:40.041] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.sushi (default = 8) was corrected from null to its default, 8. 
+[03jul2025 21:04:40.041] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.tofu (default = 6) was corrected from null to its default, 6. 
+[03jul2025 21:04:40.041] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.tomato_soup (default = 6) was corrected from null to its default, 6. 
+[03jul2025 21:04:40.041] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.vegetable_medley (default = 6) was corrected from null to its default, 6. 
+[03jul2025 21:04:40.041] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.veggie_burger (default = 16) was corrected from null to its default, 16. 
+[03jul2025 21:04:40.042] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.tofu_scramble (default = 12) was corrected from null to its default, 12. 
+[03jul2025 21:04:40.042] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.raisins (default = 8) was corrected from null to its default, 8. 
+[03jul2025 21:04:40.042] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.chicken_noodle_soup (default = 13) was corrected from null to its default, 13. 
+[03jul2025 21:04:40.042] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.quinoa_salad (default = 5) was corrected from null to its default, 5. 
+[03jul2025 21:04:40.042] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.squash_soup (default = 12) was corrected from null to its default, 12. 
+[03jul2025 21:04:40.042] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.spinach_quinoa_quiche (default = 10) was corrected from null to its default, 10. 
+[03jul2025 21:04:40.043] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.beef_curry (default = 18) was corrected from null to its default, 18. 
+[03jul2025 21:04:40.043] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.chicken_curry (default = 16) was corrected from null to its default, 16. 
+[03jul2025 21:04:40.043] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.mutton_curry (default = 16) was corrected from null to its default, 16. 
+[03jul2025 21:04:40.043] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.pork_curry (default = 18) was corrected from null to its default, 18. 
+[03jul2025 21:04:40.043] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.vegetable_curry (default = 12) was corrected from null to its default, 12. 
+[03jul2025 21:04:40.043] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.peanut_butter_pie (default = 3) was corrected from null to its default, 3. 
+[03jul2025 21:04:40.043] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.sorghum_bread (default = 7) was corrected from null to its default, 7. 
+[03jul2025 21:04:40.043] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.sorghum_porridge (default = 8) was corrected from null to its default, 8. 
+[03jul2025 21:04:40.045] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.italian_beef (default = 18) was corrected from null to its default, 18. 
+[03jul2025 21:04:40.045] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.peanut_butter_cookie (default = 4) was corrected from null to its default, 2. 
+[03jul2025 21:04:40.045] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.pbj (default = 8) was corrected from null to its default, 8. 
+[03jul2025 21:04:40.045] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.trail_mix (default = 12) was corrected from null to its default, 12. 
+[03jul2025 21:04:40.045] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.carrot_soup (default = 6) was corrected from null to its default, 6. 
+[03jul2025 21:04:40.046] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.pumpkin_soup (default = 6) was corrected from null to its default, 6. 
+[03jul2025 21:04:40.046] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.pea_soup (default = 4) was corrected from null to its default, 4. 
+[03jul2025 21:04:40.046] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.fried_rice (default = 9) was corrected from null to its default, 9. 
+[03jul2025 21:04:40.046] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.sweet_potato_quinoa_cakes (default = 6) was corrected from null to its default, 6. 
+[03jul2025 21:04:40.046] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.sausage_barley (default = 10) was corrected from null to its default, 10. 
+[03jul2025 21:04:40.047] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.mushroom_barley (default = 4) was corrected from null to its default, 4. 
+[03jul2025 21:04:40.047] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.beef_and_broccoli (default = 14) was corrected from null to its default, 14. 
+[03jul2025 21:04:40.047] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.broccoli_cheese_soup (default = 6) was corrected from null to its default, 6. 
+[03jul2025 21:04:40.047] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.stuffed_corn_zucchini (default = 14) was corrected from null to its default, 14. 
+[03jul2025 21:04:40.047] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.zucchini_bread (default = 6) was corrected from null to its default, 6. 
+[03jul2025 21:04:40.048] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.olive_tomato_salad (default = 5) was corrected from null to its default, 5. 
+[03jul2025 21:04:40.048] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.candy (default = 5) was corrected from null to its default, 5. 
+[03jul2025 21:04:40.048] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.borscht (default = 6) was corrected from null to its default, 6. 
+[03jul2025 21:04:40.048] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.squid_ink_pasta (default = 12) was corrected from null to its default, 12. 
+[03jul2025 21:04:40.048] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.fish_and_chips (default = 9) was corrected from null to its default, 9. 
+[03jul2025 21:04:40.049] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.marshmallow (default = 3) was corrected from null to its default, 3. 
+[03jul2025 21:04:40.049] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.pad_thai (default = 18) was corrected from null to its default, 18. 
+[03jul2025 21:04:40.049] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.potato_knish (default = 8) was corrected from null to its default, 8. 
+[03jul2025 21:04:40.049] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.chicory_gratin (default = 9) was corrected from null to its default, 9. 
+[03jul2025 21:04:40.049] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.turnip_beetroot_gratin (default = 10) was corrected from null to its default, 10. 
+[03jul2025 21:04:40.050] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.ice_cream_sundae (default = 7) was corrected from null to its default, 7. 
+[03jul2025 21:04:40.050] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Hunger values.candy_cane (default = 4) was corrected from null to its default, 4. 
+[03jul2025 21:04:40.124] [modloading-worker-0/INFO] [dev.enemeez.simplefarming.common.SimpleFarming/]: Simple Farming setup complete!
+[03jul2025 21:04:40.175] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.22, for MC 1.20.1 with MCP 20230612.114412
+[03jul2025 21:04:40.175] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.22 Initialized
+[03jul2025 21:04:40.401] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[03jul2025 21:04:40.617] [modloading-worker-0/INFO] [graveyard/]: Registered JSON trade offer adapter.
+[03jul2025 21:04:40.996] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.test.KotlinForForge/]: Kotlin For Forge Enabled!
+[03jul2025 21:04:42.082] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Users\Erick Quiroz\Documents\MineCraft\1.20.1\config\CoroUtil\General.toml is not correct. Correcting
+[03jul2025 21:04:42.083] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general was corrected from null to its default, SimpleCommentedConfig:{}. 
+[03jul2025 21:04:42.083] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.useLoggingLog was corrected from null to its default, true. 
+[03jul2025 21:04:42.085] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.useLoggingDebug was corrected from null to its default, false. 
+[03jul2025 21:04:42.085] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.useLoggingError was corrected from null to its default, true. 
+[03jul2025 21:04:42.088] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Users\Erick Quiroz\Documents\MineCraft\1.20.1\config\watut-common.toml is not correct. Correcting
+[03jul2025 21:04:42.089] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general was corrected from null to its default, SimpleCommentedConfig:{}. 
+[03jul2025 21:04:42.090] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.announceIdleStatesInChat was corrected from null to its default, false. 
+[03jul2025 21:04:42.090] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.ticksToMarkPlayerIdle was corrected from null to its default, 6000. 
+[03jul2025 21:04:42.092] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Users\Erick Quiroz\Documents\MineCraft\1.20.1\config\watut-server.toml is not correct. Correcting
+[03jul2025 21:04:42.093] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general was corrected from null to its default, SimpleCommentedConfig:{}. 
+[03jul2025 21:04:42.093] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.dummySetting was corrected from null to its default, true. 
+[03jul2025 21:04:42.093] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.dynamicGuiUseOldSimpleGUIVisual was corrected from null to its default, false. 
+[03jul2025 21:04:42.094] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.dynamicGuiTickSendRateOfGUIUpdates was corrected from null to its default, 10. 
+[03jul2025 21:04:42.094] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.dynamicGuiDontSendConstantGUIUpdates was corrected from null to its default, false. 
+[03jul2025 21:04:42.094] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.dynamicGuiBlurLevel was corrected from null to its default, 1. 
+[03jul2025 21:04:42.094] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.dynamicGuiSizeRadiusInPixelsToShow was corrected from null to its default, 112.0. 
+[03jul2025 21:04:42.094] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.dynamicGuiShowClientsEntireScreen was corrected from null to its default, false. 
+[03jul2025 21:04:42.095] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.dynamicGuiDisableBackgroundRendering was corrected from null to its default, true. 
+[03jul2025 21:04:42.095] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.showItemsBeingTransferredBetweenPlayerAndContainer was corrected from null to its default, true. 
+[03jul2025 21:04:42.095] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.distanceRequiredToShowGUIInfo was corrected from null to its default, 10. 
+[03jul2025 21:04:42.095] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.showIdleStatesInPlayerList was corrected from null to its default, true. 
+[03jul2025 21:04:42.095] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.showIdleStatesInPlayerAboveHead was corrected from null to its default, true. 
+[03jul2025 21:04:42.095] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.showPlayerAnimations was corrected from null to its default, true. 
+[03jul2025 21:04:42.096] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.showPlayerAnimation_Typing was corrected from null to its default, true. 
+[03jul2025 21:04:42.096] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.showPlayerAnimation_Idle was corrected from null to its default, true. 
+[03jul2025 21:04:42.096] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.showPlayerAnimation_Gui was corrected from null to its default, true. 
+[03jul2025 21:04:42.096] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.showPlayerActiveNonChatGui was corrected from null to its default, true. 
+[03jul2025 21:04:42.096] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.showPlayerActiveChatGui was corrected from null to its default, true. 
+[03jul2025 21:04:42.096] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.screenTypingVisible was corrected from null to its default, true. 
+[03jul2025 21:04:42.097] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.playScreenOpenSounds was corrected from null to its default, true. 
+[03jul2025 21:04:42.097] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.playMouseClickSounds was corrected from null to its default, true. 
+[03jul2025 21:04:42.101] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Users\Erick Quiroz\Documents\MineCraft\1.20.1\config\watut-client.toml is not correct. Correcting
+[03jul2025 21:04:42.101] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general was corrected from null to its default, SimpleCommentedConfig:{}. 
+[03jul2025 21:04:42.102] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.dummySetting was corrected from null to its default, true. 
+[03jul2025 21:04:42.102] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.sendMouseInfo was corrected from null to its default, true. 
+[03jul2025 21:04:42.102] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.sendTypingSpeed was corrected from null to its default, true. 
+[03jul2025 21:04:42.102] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.sendActiveGui was corrected from null to its default, true. 
+[03jul2025 21:04:42.102] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.sendIdleState was corrected from null to its default, true. 
+[03jul2025 21:04:42.102] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.showIdleStatesInPlayerList was corrected from null to its default, true. 
+[03jul2025 21:04:42.102] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.showIdleStatesInPlayerAboveHead was corrected from null to its default, true. 
+[03jul2025 21:04:42.103] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.showPlayerAnimations was corrected from null to its default, true. 
+[03jul2025 21:04:42.103] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.showPlayerAnimation_Typing was corrected from null to its default, true. 
+[03jul2025 21:04:42.103] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.showPlayerAnimation_Idle was corrected from null to its default, true. 
+[03jul2025 21:04:42.103] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.showPlayerAnimation_Gui was corrected from null to its default, true. 
+[03jul2025 21:04:42.103] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.showPlayerActiveNonChatGui was corrected from null to its default, true. 
+[03jul2025 21:04:42.103] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.showPlayerActiveChatGui was corrected from null to its default, true. 
+[03jul2025 21:04:42.103] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.showPlayerActiveGuiIfNotExactMatch was corrected from null to its default, true. 
+[03jul2025 21:04:42.103] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.screenTypingVisible was corrected from null to its default, true. 
+[03jul2025 21:04:42.103] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.screenTypingRelativePosition_X was corrected from null to its default, 0. 
+[03jul2025 21:04:42.105] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.screenTypingRelativePosition_Y was corrected from null to its default, 0. 
+[03jul2025 21:04:42.105] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.screenTypingCharacterLimit was corrected from null to its default, 50. 
+[03jul2025 21:04:42.105] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.screenTypingMultiplePlayersText was corrected from null to its default, Several people are typing. 
+[03jul2025 21:04:42.105] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.screenTypingText was corrected from null to its default,  is typing. 
+[03jul2025 21:04:42.105] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.playScreenOpenSounds was corrected from null to its default, true. 
+[03jul2025 21:04:42.105] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.playMouseClickSounds was corrected from null to its default, true. 
+[03jul2025 21:04:42.106] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.particleSizeScale was corrected from null to its default, 1.0. 
+[03jul2025 21:04:42.106] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.tickReceiveAndRenderRateOfGUIUpdates was corrected from null to its default, 10. 
+[03jul2025 21:04:42.106] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.dontSendDetailedGUIInfo was corrected from null to its default, false. 
+[03jul2025 21:04:42.106] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.dontSendItemInfo was corrected from null to its default, false. 
+[03jul2025 21:04:42.109] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Users\Erick Quiroz\Documents\MineCraft\1.20.1\config\spelunkers_charm.toml is not correct. Correcting
+[03jul2025 21:04:42.110] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Tremors was corrected from null to its default, SimpleCommentedConfig:{}. 
+[03jul2025 21:04:42.110] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Tremors.Tremors was corrected from null to its default, true. 
+[03jul2025 21:04:42.110] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Tremors.Tremor Base Intensity was corrected from null to its default, 1.0. 
+[03jul2025 21:04:42.111] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Tremors.Tremor Base Length was corrected from null to its default, 200.0. 
+[03jul2025 21:04:42.111] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Tremors.Rumble Interval was corrected from null to its default, 1200.0. 
+[03jul2025 21:04:42.111] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Tremors.Tremor Volume was corrected from null to its default, 1.0. 
+[03jul2025 21:04:42.111] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key World Generation was corrected from null to its default, SimpleCommentedConfig:{}. 
+[03jul2025 21:04:42.112] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key World Generation.Geysers was corrected from null to its default, true. 
+[03jul2025 21:04:42.112] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key World Generation.Rocks was corrected from null to its default, true. 
+[03jul2025 21:04:42.113] [modloading-worker-0/INFO] [com.github.nyuppo.MoreMobVariants/]: Giving mobs a fresh coat of paint...
+[03jul2025 21:04:42.140] [main/INFO] [journeymap/]: Initializing Packet Registries
+[03jul2025 21:04:42.444] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Starting version check at https://updates.blamejared.com/get?n=clumps&gv=1.20.1
+[03jul2025 21:04:43.610] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Found status: BETA Current: 12.0.0.4 Target: 12.0.0.4
+[03jul2025 21:04:43.611] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
+[03jul2025 21:04:44.791] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[03jul2025 21:04:44.879] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Erick%20Quiroz/Documents/MineCraft/1.20.1/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23155!/assets/.mcassetsroot' uses unexpected schema
+[03jul2025 21:04:44.880] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Erick%20Quiroz/Documents/MineCraft/1.20.1/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23155!/data/.mcassetsroot' uses unexpected schema
+[03jul2025 21:04:44.956] [main/INFO] [net.minecraft.server.MinecraftServer/]: Found new data pack tectonic/tectonic, loading it automatically
+[03jul2025 21:04:45.049] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: UP_TO_DATE Current: 5.10.3 Target: null
+[03jul2025 21:04:45.050] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[03jul2025 21:04:45.468] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.22 Target: 47.4.0
+[03jul2025 21:04:46.678] [main/INFO] [bountiful/]: Adding serverside commands..
+[03jul2025 21:04:47.364] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 11 recipes
+[03jul2025 21:04:47.469] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1405 advancements
+[03jul2025 21:04:47.472] [main/INFO] [com.github.nyuppo.MoreMobVariants/]: Reloading config...
+[03jul2025 21:04:47.601] [main/INFO] [bountiful/]: Trying to load unloaded files from: config\bountiful\bounty_pools
+[03jul2025 21:04:47.605] [main/INFO] [bountiful/]: Trying to load unloaded files from: config\bountiful\bounty_decrees
+[03jul2025 21:04:50.562] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[03jul2025 21:04:50.563] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[03jul2025 21:04:50.563] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[03jul2025 21:04:50.563] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[03jul2025 21:04:50.673] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[03jul2025 21:04:50.706] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
+[03jul2025 21:04:50.902] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[03jul2025 21:04:50.902] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[03jul2025 21:04:50.902] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[03jul2025 21:04:50.902] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[03jul2025 21:04:50.924] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file .\world\serverconfig\journeymap-server.toml is not correct. Correcting
+[03jul2025 21:04:50.925] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key admins was corrected from null to its default, SimpleCommentedConfig:{}. 
+[03jul2025 21:04:50.925] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key admins.opAccess was corrected from null to its default, true. 
+[03jul2025 21:04:50.926] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key admins.serverAdmins was corrected from null to its default, [mysticdrew, 79f597fe-2877-4ecb-acdf-8c58cc1854ca]. 
+[03jul2025 21:04:50.927] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[03jul2025 21:04:50.930] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file .\world\serverconfig\forge-server.toml is not correct. Correcting
+[03jul2025 21:04:50.931] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
+[03jul2025 21:04:50.931] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringBlockEntities was corrected from null to its default, false. 
+[03jul2025 21:04:50.931] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringEntities was corrected from null to its default, false. 
+[03jul2025 21:04:50.932] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fullBoundingBoxLadders was corrected from null to its default, false. 
+[03jul2025 21:04:50.932] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBaseSummonChance was corrected from null to its default, 0.1. 
+[03jul2025 21:04:50.932] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBabyChance was corrected from null to its default, 0.05. 
+[03jul2025 21:04:50.932] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.permissionHandler was corrected from null to its default, forge:default_handler. 
+[03jul2025 21:04:50.932] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advertiseDedicatedServerToLan was corrected from null to its default, true. 
+[03jul2025 21:04:50.933] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.useItemWithDurationZero was corrected from null to its default, false. 
+[03jul2025 21:04:51.002] [Server thread/INFO] [Framework/]: Loading server configs...
+[03jul2025 21:04:51.031] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[03jul2025 21:04:58.247] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[03jul2025 21:04:58.938] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03jul2025 21:04:58.939] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03jul2025 21:04:59.265] [Worker-Main-11/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03jul2025 21:04:59.757] [Worker-Main-10/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03jul2025 21:05:00.255] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03jul2025 21:05:00.753] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
+[03jul2025 21:05:01.250] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 3%
+[03jul2025 21:05:01.758] [Worker-Main-10/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
+[03jul2025 21:05:02.255] [Worker-Main-7/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 5%
+[03jul2025 21:05:02.752] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 7%
+[03jul2025 21:05:03.250] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 9%
+[03jul2025 21:05:03.755] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 10%
+[03jul2025 21:05:04.255] [Worker-Main-10/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 12%
+[03jul2025 21:05:04.749] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 14%
+[03jul2025 21:05:05.252] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 17%
+[03jul2025 21:05:05.754] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 19%
+[03jul2025 21:05:06.273] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 22%
+[03jul2025 21:05:06.751] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 24%
+[03jul2025 21:05:07.279] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 27%
+[03jul2025 21:05:07.750] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 30%
+[03jul2025 21:05:08.251] [Worker-Main-11/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 32%
+[03jul2025 21:05:08.757] [Worker-Main-10/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 35%
+[03jul2025 21:05:09.250] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 38%
+[03jul2025 21:05:09.769] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 42%
+[03jul2025 21:05:10.249] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 46%
+[03jul2025 21:05:10.749] [Worker-Main-7/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 48%
+[03jul2025 21:05:11.251] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 52%
+[03jul2025 21:05:11.788] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 55%
+[03jul2025 21:05:12.249] [Worker-Main-9/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 58%
+[03jul2025 21:05:12.755] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 59%
+[03jul2025 21:05:13.249] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 64%
+[03jul2025 21:05:13.749] [Worker-Main-11/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 68%
+[03jul2025 21:05:14.290] [Worker-Main-10/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 70%
+[03jul2025 21:05:14.749] [Worker-Main-10/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 72%
+[03jul2025 21:05:15.251] [Worker-Main-7/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 77%
+[03jul2025 21:05:15.755] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 81%
+[03jul2025 21:05:16.253] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 84%
+[03jul2025 21:05:16.756] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 88%
+[03jul2025 21:05:17.252] [Worker-Main-10/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 90%
+[03jul2025 21:05:17.771] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 93%
+[03jul2025 21:05:18.259] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 98%
+[03jul2025 21:05:18.445] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 20198 ms
+[03jul2025 21:05:18.445] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (27.523s)! For help, type "help"
+[03jul2025 21:05:18.470] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[03jul2025 21:05:18.528] [Server thread/INFO] [bountiful/]: Registering Bounty Board Jigsaw Piece for Village Type: plains
+[03jul2025 21:05:18.531] [Server thread/INFO] [bountiful/]: Registering Bounty Board Jigsaw Piece for Village Type: savanna
+[03jul2025 21:05:18.531] [Server thread/INFO] [bountiful/]: Registering Bounty Board Jigsaw Piece for Village Type: snowy
+[03jul2025 21:05:18.531] [Server thread/INFO] [bountiful/]: Registering Bounty Board Jigsaw Piece for Village Type: taiga
+[03jul2025 21:05:18.532] [Server thread/INFO] [bountiful/]: Registering Bounty Board Jigsaw Piece for Village Type: desert
+[03jul2025 21:05:26.431] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Papu[/127.0.0.1:56081] logged in with entity id 163 at (-41.5, 84.0, -136.5)
+[03jul2025 21:05:26.555] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Papu joined the game
+[03jul2025 21:05:39.783] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Papu: Set own game mode to Creative Mode]
+[03jul2025 21:05:46.752] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Papu has made the advancement [I need more bullets]
+[03jul2025 21:09:04.050] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Papu has made the advancement [Taming the Beast]
+[03jul2025 21:10:35.508] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Papu lost connection: Disconnected
+[03jul2025 21:10:35.513] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Papu left the game
+[03jul2025 21:10:44.129] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Papu[/127.0.0.1:56130] logged in with entity id 1825 at (-67.62480801524761, 98.48746728601296, -216.2240718344451)
+[03jul2025 21:10:44.277] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Papu joined the game
+[03jul2025 21:12:17.350] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Papu has made the advancement [Because I got High]
+[03jul2025 21:13:43.310] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Papu has made the advancement [Infectious]
+[03jul2025 21:41:24.235] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Papu lost connection: Disconnected
+[03jul2025 21:41:24.270] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Papu left the game
+[03jul2025 21:50:54.472] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Papu[/127.0.0.1:57248] logged in with entity id 6562 at (-42.91460060991297, 76.0, -184.25850311177783)
+[03jul2025 21:50:54.647] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Papu joined the game
+[03jul2025 21:51:10.452] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Papu has made the advancement [Tower Defender]
+[03jul2025 21:52:08.508] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Papu has made the advancement [Acquire Hardware]
+[03jul2025 21:57:18.761] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Papu lost connection: Disconnected
+[03jul2025 21:57:18.762] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Papu left the game

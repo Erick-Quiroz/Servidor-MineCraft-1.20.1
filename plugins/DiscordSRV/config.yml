@@ -6,8 +6,7 @@ ConfigVersion: 1.29.0
 
 # Bot token; ¿No sabes qué es esto? Mire el vídeo en la página del plugin para obtener instrucciones
 # Debe reiniciar su servidor después de cambiar esta opción
-BotToken: "${Discord_Bot_Token}"
-
+BotToken: "${DISCORD_BOT_TOKEN}"
 
 # Enlaces de canal del juego a Discord
 # la sintaxis es Channels: {"nombre de canal en el juego de Minecraft": "ID de canal numérico de Discord", "otro nombre de canal en el juego de Minecraft": "otro ID de canal numérico de Discord"}
