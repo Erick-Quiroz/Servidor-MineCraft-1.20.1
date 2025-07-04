@@ -1,9 +1,10 @@
-FROM openjdk:17-jdk
+FROM openjdk:17-jdk-alpine
 
-# instalar OpenSSH y crear directorio
-RUN apt-get update && \
-    apt-get install -y openssh-server && \
-    mkdir /var/run/sshd
+# instalar OpenSSH y generar llaves y crear directorio
+RUN apk update && \
+    apk add --no-cache openssh && \
+    ssh-keygen -A && \
+    mkdir -p /var/run/sshd
 
 WORKDIR /minecraft
 VOLUME ["/minecraft/world"]
