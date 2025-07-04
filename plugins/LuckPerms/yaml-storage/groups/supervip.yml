@@ -1,0 +1,8 @@
+name: supervip
+permissions:
+- essentials.kits.supervip
+parents:
+- vip
+prefixes:
+- '§l§4§k¦¦§aSuper§cVIP§l§4§k¦¦§b':
+    priority: 3
