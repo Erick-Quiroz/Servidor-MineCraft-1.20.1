@@ -13,5 +13,5 @@ COPY . .
 EXPOSE 25565
 
 # Hacer ejecutable el script de inicio (bash) y usarlo como punto de entrada
-
-CMD ["java", "-jar", "INICIADOR.jar" , "nogui" ,"run"]
+RUN chmod +x run.sh
+ENTRYPOINT ["bash", "run.sh" , "nogui" ,"run"]
