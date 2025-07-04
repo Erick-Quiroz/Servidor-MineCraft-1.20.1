@@ -10,6 +10,8 @@ services:
     tty: true # habilita pseudo-TTY para logs
     volumes:
       - world-data:/minecraft/world
+      - discordsrv-config:/minecraft/plugins/DiscordSRV
 
 volumes:
   world-data:
+  discordsrv-config:
