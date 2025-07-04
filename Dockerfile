@@ -17,7 +17,7 @@ RUN echo 'root:TuPasswordSeguro' | chpasswd \
     && chmod +x run.sh
 
 # exponer puerto SSH y el de Minecraft
-EXPOSE 22 25565
+EXPOSE 33 25565
 
 # arrancar sshd en segundo plano y luego tu script
 CMD service ssh start && ./run.sh
