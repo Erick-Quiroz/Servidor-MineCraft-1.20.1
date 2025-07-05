@@ -1,0 +1,20 @@
+[2025/07/04 19:32:09]: §9          __             _       
+[2025/07/04 19:32:09]: §9  _ __   / /  ___   __ _(_)_ __  
+[2025/07/04 19:32:09]: §9 | '_ \ / /  / _ \ / _` | | '_ \ 
+[2025/07/04 19:32:09]: §9 | | | / /__| (_) | (_| | | | | |
+[2025/07/04 19:32:09]: §9 |_| |_\____/\___/ \__, |_|_| |_|
+[2025/07/04 19:32:09]: §9                  |___/            
+[2025/07/04 19:32:09]: §9 By: www.nickuc.com - V 10.4.23 DEVELOPMENT
+[2025/07/04 19:32:09]: §9 
+[2025/07/04 19:32:13]: §3[nLogin] [DEBUG] All settings were loaded in 247 ms.
+[2025/07/04 19:32:13]: §3[nLogin] [DEBUG] Loading the messages_en.yml message file...
+[2025/07/04 19:32:13]: §3[nLogin] [DEBUG] All plugin messages were loaded in 85 ms (languageByClient=false).
+[2025/07/04 19:32:13]: §3[nLogin] [DEBUG] All proxy settings were loaded in 45 ms.
+[2025/07/04 19:32:13]: §3[nLogin] [DEBUG] Loading database...
+[2025/07/04 19:32:14]: §3[nLogin] [DEBUG] Starting logger filter...
+[2025/07/04 19:34:43]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'Papu', `unique_id` = e76def4f855b353da34c36af013968c7,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$.mORzKGMhqzZ7/lLOwOgP.jyGEmYELeB5m2qcT4samSnSyo/EdD7a', `last_ip` = '127.0.0.1', `creation_date` = 2025-07-04 14:15:16.591, `last_seen` = 2025-07-04 19:34:43.677, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_ip, last_seen, settings] columns)
+[2025/07/04 19:34:44]: [nLogin] The user Papu has successfully logged in.
+[2025/07/04 19:50:38]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'Papu', `unique_id` = e76def4f855b353da34c36af013968c7,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$.mORzKGMhqzZ7/lLOwOgP.jyGEmYELeB5m2qcT4samSnSyo/EdD7a', `last_ip` = '127.0.0.1', `creation_date` = 2025-07-04 14:15:16.591, `last_seen` = 2025-07-04 19:50:38.077, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_seen, settings] columns)
+[2025/07/04 19:51:03]: §3[nLogin] [DEBUG] The Papu (127.0.0.1) player entered an incorrect password
+[2025/07/04 19:51:18]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'Papu', `unique_id` = e76def4f855b353da34c36af013968c7,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$.mORzKGMhqzZ7/lLOwOgP.jyGEmYELeB5m2qcT4samSnSyo/EdD7a', `last_ip` = '127.0.0.1', `creation_date` = 2025-07-04 14:15:16.591, `last_seen` = 2025-07-04 19:51:18.113, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_ip, last_seen, settings] columns)
+[2025/07/04 19:51:18]: [nLogin] The user Papu has successfully logged in.

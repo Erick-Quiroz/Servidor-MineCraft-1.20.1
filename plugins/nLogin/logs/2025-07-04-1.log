@@ -1,0 +1,46 @@
+[2025/07/04 14:10:35]: §9          __             _       
+[2025/07/04 14:10:35]: §9  _ __   / /  ___   __ _(_)_ __  
+[2025/07/04 14:10:35]: §9 | '_ \ / /  / _ \ / _` | | '_ \ 
+[2025/07/04 14:10:35]: §9 | | | / /__| (_) | (_| | | | | |
+[2025/07/04 14:10:35]: §9 |_| |_\____/\___/ \__, |_|_| |_|
+[2025/07/04 14:10:35]: §9                  |___/            
+[2025/07/04 14:10:35]: §9 By: www.nickuc.com - V 10.4.23 DEVELOPMENT
+[2025/07/04 14:10:35]: §9 
+[2025/07/04 14:10:38]: §3[nLogin] [DEBUG] The config.yml file was created successfully.
+[2025/07/04 14:10:40]: §3[nLogin] [DEBUG] All settings were loaded in 1955 ms.
+[2025/07/04 14:10:40]: §3[nLogin] [DEBUG] Loading the messages_es.yml message file...
+[2025/07/04 14:10:40]: §3[nLogin] [DEBUG] All plugin messages were loaded in 101 ms (languageByClient=false).
+[2025/07/04 14:10:40]: §3[nLogin] [DEBUG] All proxy settings were loaded in 57 ms.
+[2025/07/04 14:10:40]: §3[nLogin] [DEBUG] Loading database...
+[2025/07/04 14:10:41]: [nLogin] Generating RSA keypair... (this may take a while)
+[2025/07/04 14:10:43]: [nLogin] The RSA key pair was successfully generated. Took 2.09s
+[2025/07/04 14:10:44]: §3[nLogin] [DEBUG] Starting logger filter...
+[2025/07/04 14:12:02]: 
+[2025/07/04 14:12:02]:  §bThank you so much for choosing nLogin! §4<3
+[2025/07/04 14:12:02]: 
+[2025/07/04 14:12:02]:  §4For your safety, please read the message below:
+[2025/07/04 14:12:02]:   §cNever download nLogin from unknown sources.
+[2025/07/04 14:12:02]:   §cA modified version may contain malicious software.
+[2025/07/04 14:12:02]: 
+[2025/07/04 14:12:02]:  §3Trusted sources:
+[2025/07/04 14:12:02]:   §bwww.nickuc.com
+[2025/07/04 14:12:02]:   §bwww.github.com/nickuc
+[2025/07/04 14:12:02]:   §bOpeNLogin installer (from Spigot or GitHub)
+[2025/07/04 14:12:02]: 
+[2025/07/04 14:12:02]:  §3Official support channels:
+[2025/07/04 14:12:02]:   §bDiscord group: §fwww.nickuc.com/discord
+[2025/07/04 14:12:02]:   §bDocumentation: §fdocs.nickuc.com/nlogin/
+[2025/07/04 14:12:02]:   §bEmail: §fsupport@nickuc.com
+[2025/07/04 14:12:02]:   §bYouTube: §fyoutube.com/nickuc
+[2025/07/04 14:12:02]: 
+[2025/07/04 14:12:02]:  §eTo remove this warning, log in with "nlogin.admin" permission on the server
+[2025/07/04 14:12:02]:  §eand click the "Setup plugin" button to configure your plugin.
+[2025/07/04 14:12:02]: 
+[2025/07/04 14:15:16]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "INSERT INTO `nlogin` (`last_name`, `unique_id`, `mojang_id`, `bedrock_id`, `password`, `last_ip`, `creation_date`, `last_seen`, `email`, `discord`, `settings`) VALUES ('Papu', e76def4f855b353da34c36af013968c7, null, null, '$2a$10$.mORzKGMhqzZ7/lLOwOgP.jyGEmYELeB5m2qcT4samSnSyo/EdD7a', '127.0.0.1', '2025-07-04 14:15:16.591', '2025-07-04 14:15:16.591', null, null, '{"settings":[{"value":true,"key":"force-invalid-session"}],"version":0}')" (applied to all columns)
+[2025/07/04 14:15:16]: §3[nLogin] [DEBUG] Loading the messages_en.yml message file...
+[2025/07/04 14:15:16]: [nLogin] The user Papu has successfully registered.
+[2025/07/04 14:15:26]: §3[nLogin] [DEBUG] All settings were loaded in 16 ms.
+[2025/07/04 14:15:26]: §3[nLogin] [DEBUG] Loading the messages_en.yml message file...
+[2025/07/04 14:15:26]: §3[nLogin] [DEBUG] The file config.yml was migrated to en language.
+[2025/07/04 14:15:26]: §3[nLogin] [DEBUG] All plugin messages were loaded in 15 ms (languageByClient=false).
+[2025/07/04 14:15:26]: §3[nLogin] [DEBUG] All proxy settings were loaded in 0 ms.
