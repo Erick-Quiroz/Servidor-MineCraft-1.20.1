@@ -9,7 +9,7 @@ MoneyDropsOnGround:
   # Type of Item to drop. Can be set to a custom head from websites like https://minecraft-heads.com/custom-heads by copying the VALUE from the website. Example: 'CustomHead:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzUxMTM3ZTExNDQzYThmYmIwNWZjZDNjY2MxYWY5YmQyMzAzOTE4ZjM1NDQ4MTg1ZTNlZDk2ZWYxODRkYSJ9fX0='
   Item: EMERALD
   # Name above dropped item. RGB Support for 1.16+ e.g. #62d180 instead of &a will give you a green
-  ItemName: "&a$%amount%"
+  ItemName: '&a$%amount%'
   # Whether the dropped item should glow or not
   Enchanted: true
   # CustomModelData can be set to customize textures. Only works with 1.14+ I don't know much about it, so I won't be able to help you but here is a little guide: https://www.planetminecraft.com/forums/communities/texturing/new-1-14-custom-item-models-tuto-578834/
@@ -30,7 +30,7 @@ MoneyDropsFromBabyMobs: false
 DisabledWorlds:
   - world1
   - world2
-
+  
 # How many times a player can get a mob to drop money per minute. Set to 0 if you want it to be unlimited.
 MaxDropsPerMinute: 5
 
@@ -50,6 +50,7 @@ DivideMoneyBetweenDrops: true
 
 # If a player is in creative, do mobs still drop money when they kill them?
 CreativeModeDropsMoney: true
+
 
 ###################################################### Pick Up Options ######################################################
 
@@ -89,19 +90,20 @@ HopperGivesMoneyTo: KILLER
 # Whether hoppers should pick up money for offline players (Hopper won't pick up money if the player is offline and this option is set to false)
 HopperGivesMoneyToOfflinePlayer: true
 
+
 ###################################################### Messages ######################################################
 
 # Where the message is shown when a player picks up money.
 # Usable Placeholders: %amount% , %balance% and %balance_0dp%
 ShowMessageInChat:
   Enabled: false
-  Message: "&a¡Recogiste $%amount%!"
+  Message: '&a¡Recogiste $%amount%!'
 ShowMessageInActionBar:
   Enabled: true
-  Message: "&a¡Recogiste $%amount%! Ahora tienes: $%balance%!"
+  Message: '&a¡Recogiste $%amount%! Ahora tienes: $%balance%!'
 ShowMessageAsFloatingText:
   Enabled: true
-  Message: "&a+$%amount%!"
+  Message: '&a+$%amount%!'
   # Starting height of the floating text message in blocks
   Height: 2.4
   # Whether the message moves upwards or stays still
@@ -110,23 +112,23 @@ ShowMessageAsFloatingText:
   Duration: 1
 
 # Messages sent when using /MfmMute
-MuteToggleOnMessage: "&c¡Ya no se mostrarán mensajes al recoger dinero de los mobs!"
-MuteToggleOffMessage: "&a¡Ahora se mostrarán mensajes al recoger dinero de los mobs!"
+MuteToggleOnMessage: '&c¡Ya no se mostrarán mensajes al recoger dinero de los mobs!'
+MuteToggleOffMessage: '&a¡Ahora se mostrarán mensajes al recoger dinero de los mobs!'
 
 # Message sent when using /MfmClear
-ClearMoneyDropsMessage: "&9¡%amount% gotas de dinero fueron eliminadas exitosamente del suelo!"
+ClearMoneyDropsMessage: '&9¡%amount% gotas de dinero fueron eliminadas exitosamente del suelo!'
 
 # Message sent when using /MfmReload
-ReloadMessage: "&9¡Money From Mobs se ha recargado!"
+ReloadMessage: '&9¡Money From Mobs se ha recargado!'
 
 # Message sent to player when they kill a mob, and they have already reached the max drops per minute. Set to '' to stop the message from being sent.
-MaxDropsReachedMessage: "&9Has alcanzado el número máximo de drops de dinero por minuto. ¡Espera un momento antes de ganar más!"
+MaxDropsReachedMessage: '&9Has alcanzado el número máximo de drops de dinero por minuto. ¡Espera un momento antes de ganar más!'
 
 # Messages sent when using /MfmEvent
-EventStart: "&a¡Un evento de multiplicador de dinero ha comenzado! Los mobs soltarán &f{multiplier}% &amás dinero durante {hours} horas, {minutes} minutos y {seconds} segundos."
-EventFinish: "&c¡El evento de multiplicador de dinero ha finalizado! Ahora los mobs soltarán su cantidad normal."
-EventAlreadyRunningMessage: "&cYa hay un evento de multiplicador de dinero en curso."
-NoEventRunningMessage: "&cNo hay ningún evento de multiplicador de dinero para detener."
+EventStart: '&a¡Un evento de multiplicador de dinero ha comenzado! Los mobs soltarán &f{multiplier}% &amás dinero durante {hours} horas, {minutes} minutos y {seconds} segundos.'
+EventFinish: '&c¡El evento de multiplicador de dinero ha finalizado! Ahora los mobs soltarán su cantidad normal.'
+EventAlreadyRunningMessage: '&cYa hay un evento de multiplicador de dinero en curso.'
+NoEventRunningMessage: '&cNo hay ningún evento de multiplicador de dinero para detener.'
 # Setting to true means the event start and finish messages are sent as a title instead of in the chat
 SendEventMessageAsTitle: true
 
@@ -148,8 +150,8 @@ PLAYER:
   TakeMoneyFromKilledPlayer: true
   # MoneyDrops: setting to false killer doesn't earn money and the money doesn't drop on the ground, so it cannot be re-picked up
   MoneyDrops: true
-  Message: "&cYou dropped $%amount% on death. You now have: $%balance%."
-
+  Message: '&cYou dropped $%amount% on death. You now have: $%balance%.'
+  
 ########## ANIMALS ##########
 # Min = Lowest amount of money to be dropped.
 # Max = Highest amount of money to be dropped.
@@ -412,7 +414,8 @@ SNIFFER:
   DropChance: 10
   NumberOfDrops: 1
   OnlyOnKill: true
-
+  
+  
 ########## HOSTILE OVERWORLD MOBS ##########
 ZOMBIE:
   Enabled: true
