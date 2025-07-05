@@ -1,0 +1,18 @@
+.env
+
+# Ignore logs and crash reports
+logs/
+crash-reports/
+*.log
+
+# Ignore world data (region files, level.dat, etc.)
+world*/
+*/world*/
+*/world_*/
+
+# Ignore all cache folders
+cache/
+plugins/**/cache/
+# Excluir la caché de clases de Arclight
+.arclight/class_cache/
+

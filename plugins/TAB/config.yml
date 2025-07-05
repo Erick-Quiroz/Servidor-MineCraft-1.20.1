@@ -7,7 +7,7 @@ header-footer:
     - ""
     - "&r&7&l>> %animation:Bienvenido%&3 &l%player%&7&l! &7&l<<"
     - ""
-    - "&6Dinero: %money%"
+    - "&6Dinero: %vault_eco_balance%"
     - ""
     - "&7Jugadores Online: &f%online%"
     # - "&6Online staff: &e%staffonline%"
@@ -175,7 +175,7 @@ placeholders:
   date-format: "dd.MM.yyyy"
   time-format: "[HH:mm:ss / h:mm a]"
   time-offset: 0
-  register-tab-expansion: false
+  register-tab-expansion: true
 
 # https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Placeholder-output-replacements
 placeholder-output-replacements:

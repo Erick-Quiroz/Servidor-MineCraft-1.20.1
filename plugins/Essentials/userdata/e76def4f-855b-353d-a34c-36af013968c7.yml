@@ -16,15 +16,15 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1751673063249
-  login: 1751673070490
-money: '0'
+  logout: 1751677489483
+  login: 1751677243148
+money: '17.30'
 last-account-name: Papu
 logoutlocation:
   world: e14ebfdc-fd89-4298-80ff-63190322c7fc
   world-name: world
-  x: 191.18298970686809
-  y: 83.0
-  z: -11.917265364266623
-  yaw: 156.14697265625
-  pitch: 11.85050106048584
+  x: 187.63893158678889
+  y: 68.0
+  z: 45.94230769947239
+  yaw: 157.49813842773438
+  pitch: 23.550413131713867
