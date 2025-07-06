@@ -36,17 +36,17 @@ GuildsMultiplier: 1%
 # An automatic multiplier event that runs every X minutes
 # Server Restart is required to disable/edit Repeating Multiplier Events
 RepeatingMultiplierEvent:
-  Enabled: false
+  Enabled: true
   # Percentage increase of money dropped whilst event is active
   Multiplier: 100%
   # Duration of the multiplier Event in minutes
-  Duration: 5
+  Duration: 5W
   # How often the multiplier event repeats in minutes. Starting from the beginning of the last multiplier event
   RepeatDelay: 60
   # The initial delay for the multiplier event to start when starting your server or using /mfmreload in minutes
   InitialDelay: 0
   # Messages sent when the multiplier event starts/stops
-  EventStartMessage: '&aA Money Multiplier Event has started! Mobs will drop &f100% &amore money for 5 minutes'
-  EventEndMessage: '&cThe Money Multiplier Event has ended! All mobs will now drop their normal amount!'
+  EventStartMessage: '&a¡Un Evento de Multiplicador de Dinero ha comenzado! Los mobs soltarán &f100% &amás dinero durante 5 minutos'
+  EventEndMessage: '&c¡El Evento de Multiplicador de Dinero ha terminado! ¡Todos los mobs ahora soltarán su cantidad normal!'
 
 

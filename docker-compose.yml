@@ -9,9 +9,9 @@ services:
     stdin_open: true # habilita entrada STDIN
     tty: true # habilita pseudo-TTY para logs
     volumes:
-      - world-data:/minecraft/world
+      - viviendas-data:/minecraft/viviendas
       - discordsrv-config:/minecraft/plugins/DiscordSRV
 
 volumes:
-  world-data:
+  viviendas-data:
   discordsrv-config:

@@ -94,6 +94,51 @@ sleep:
     skip-night-sound: ui.toast.challenge_complete
     skip-storm-sound: entity.wither.spawn
     reset-time-since-rest: true
+  viviendas:
+    enabled: true
+    calculation-method: percentage
+    percentage-required: 0.5
+    players-required: 5
+    mob-no-target: true
+    use-exempt: true
+    use-afk: false
+    prevent-sleep: false
+    prevent-phantom: false
+    nightcycle-animation: false
+    storm-sleep: false
+    skip-delay: 0
+    heal: false
+    feed: false
+    phantom-reset-audience: all
+    exempt-creative: false
+    non-sleeping-title: false
+    skip-msg-audience: all
+    use-sound-storm-skipped: false
+    skip-storm-sound: entity.wither.spawn
+    use-sound-night-skipped: false
+    non-sleeping-sound: false
+    insomnia-milk: false
+    allow-sleep-cmd: true
+    longer-night-duration: 0
+    insomnia-chance: 0.0
+    gsit-sleep-cmd: false
+    exempt-below-y: -1
+    dynamic-animation-speed: false
+    gsit-hook: false
+    gsit-sleep: true
+    reset-time-since-rest: true
+    use-bossbar: false
+    use-title-storm-skipped: false
+    clock-animation: true
+    skip-storm: true
+    non-sleeping-clock-animation: false
+    disable-daylight-cycle-gamerule: true
+    allow-kick: false
+    use-title-night-skipped: false
+    skip-night-sound: ui.toast.challenge_complete
+    exempt-spectator: false
+    force-nightcycle-animation: true
+    exempt-flying: false
 
 # specify the time which the world will be set after reset
 time-after-reset: 0

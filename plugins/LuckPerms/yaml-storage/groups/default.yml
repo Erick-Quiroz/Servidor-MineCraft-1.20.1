@@ -1,1 +1,12 @@
 name: default
+permissions:
+  - deluxemenus.mv
+  - multiverse.access.*
+  - multiverse.portal.access.*
+  - multiverse.portal.use.*
+  - multiverse.core.*
+  - multiverse.teleport.self.*
+parents:
+  -
+prefixes:
+  - "":

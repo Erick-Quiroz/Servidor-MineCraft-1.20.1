@@ -21,7 +21,7 @@ MoneyDropsOnGround:
 # Slimes/MagmaCubes that have split will not be classed as a natural mob or a spawner mob.
 MoneyDropsFromNaturalMobs: true
 MoneyDropsFromSpawnerMobs: false
-MoneyDropsFromSpawnEggMobs: true
+MoneyDropsFromSpawnEggMobs: false
 MoneyDropsFromSplitSlimes: false
 MoneyDropsFromBabyMobs: false
 
