@@ -179,10 +179,10 @@ ui:
 # Join configuration.
 join:
   # Sets whether the chat should be cleaned upon joining the server.
-  clean-chat-on-join: true
+  clean-chat-on-join: false
 
   # Sets whether the join message will be removed.
-  remove-join-message: true
+  remove-join-message: false
 
 #   _____     _                       _
 #  /__   \___| | ___ _ __   ___  _ __| |_
@@ -576,8 +576,8 @@ security:
 
       # Defines the list of IPs that ignore the limitation.
       ips:
-        - '127.0.0.1'
-        - 'localhost'
+        - "127.0.0.1"
+        - "localhost"
 
   # Sets the time for a player to authenticate (in seconds).
   time-to-login: 45
@@ -587,7 +587,7 @@ security:
   disable-high-risk-commands: true
 
   # Set the regex for nickname validation.
-  nickname-regex: '([a-zA-Z0-9_]{3,16})'
+  nickname-regex: "([a-zA-Z0-9_]{3,16})"
 
   # Sets whether the plugin should ignore the "This player is already online" check if the IP is the same as the one registered.
   # - This feature is useful if the player loses connection with the server and tries to log in again.
