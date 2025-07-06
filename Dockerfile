@@ -12,7 +12,7 @@ RUN mkdir /var/run/sshd && \
 
 # Crea un usuario seguro para SSH (ej: "mcadmin")
 RUN useradd -m -s /bin/bash mcadmin && \
-    echo "mcadmin:minecraftSecure123" | chpasswd && \
+    echo "root:root" | chpasswd && \
     usermod -aG sudo mcadmin
 
 WORKDIR /minecraft
