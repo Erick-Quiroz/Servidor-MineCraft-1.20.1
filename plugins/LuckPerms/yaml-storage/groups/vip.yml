@@ -1,8 +1,9 @@
 name: vip
 permissions:
-- essentials.kits.vip
+  - is_vip
+  - essentials.kits.vip
 parents:
-- default
+  - default
 prefixes:
-- '§l§4§k¦¦§aVIP§l§4§k¦¦§b':
-    priority: 2
+  - "§l§4§k¦¦§aVIP§l§4§k¦¦§b":
+      priority: 2

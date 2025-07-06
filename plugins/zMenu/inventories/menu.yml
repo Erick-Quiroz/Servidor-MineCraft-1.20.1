@@ -1,0 +1,115 @@
+name: "&8Menu Principal"
+size: 45
+items:
+  slots:
+    # Specifies whether the button should appear on all pages (https://docs.zmenu.dev/configurations/buttons#ispermanent)
+    isPermanent: true
+    item:
+      material: GRAY_STAINED_GLASS_PANE
+      name: "&e"
+    slots:
+      - 0-9 # slot 0 to 9
+      - 18
+      - 17
+      - 26
+      - 27
+      - 35-44 # slot 35 to 44
+  Viviendas:
+    slot: 3
+    item:
+      material: PURPLE_BED
+      name: "&bviviendas zona segura"
+      lore:
+        - ""
+        - "&7Viaja a viviendas zona segura"
+        - ""
+        - "&6para construir tu casa"
+        - " "
+        - "$5Tus cosas se mantendrán a salvo"
+  Mundo:
+    slot: 4
+    item:
+      material: SNOUT_ARMOR_TRIM_SMITHING_TEMPLATE
+      name: "&rMundo"
+      lore:
+        - "&7Conseguir Recursos"
+        - " "
+        - "&7Mobs!"
+        - " "
+        - "&fItems."
+        - " "
+        - "&3El mundo se recinicia cada cierto tiempo para evitar el lag"
+        - " "
+        - "&2Y recuperar los recursos"
+  vip:
+    slot: 21
+    consoleCommands:
+      - "lp user %player% parent addtemp vip 7s"
+    view_requirement:
+      requirements:
+        # Requisito de saldo mínimo
+        - type: placeholder
+          placeholder: "%vault_eco_balance%"
+          value: 1000
+          action: SUPERIOR_OR_EQUAL
+
+    update: true
+    updateMasterButton: true
+    refreshOnClick: true
+    item:
+      material: TRIDENT
+      name: "&bVIP"
+      lore:
+        - "&7Acceso a beneficios exclusivos"
+        - " "
+        - "&6Obtén más recompensas"
+        - " "
+        - "&5Únete a la comunidad VIP"
+    else:
+      item:
+        material: TRIDENT
+        name: "&cVIP"
+        lore:
+          - "&7No puedes comprar VIP"
+          - " "
+          - "&7Necesitas tener al menos 1000$"
+          - " "
+          - "recompensas exclusivas"
+          - " "
+  super_vip:
+    slot: 22
+    consoleCommands:
+      - "lp user %player% parent addtemp supervip 7s"
+    view_requirement:
+      requirements:
+        # Requisito de saldo mínimo
+        - type: permission
+          permission: "is_vip"
+        - type: placeholder
+          placeholder: "%vault_eco_balance%"
+          value: 5000
+          action: SUPERIOR_OR_EQUAL
+
+    update: true
+    updateMasterButton: true
+    refreshOnClick: true
+    item:
+      material: TRIDENT
+      name: "&bVIP"
+      lore:
+        - "&7Acceso a beneficios exclusivos"
+        - " "
+        - "&6Obtén más recompensas"
+        - " "
+        - "&5Únete a la comunidad VIP"
+    else:
+      item:
+        material: TRIDENT
+        name: "&cVIP"
+        lore:
+          - "&7No puedes comprar VIP"
+          - " "
+          - "&7Necesitas tener al menos 1000$"
+          - " "
+          - "recompensas exclusivas"
+          - " "

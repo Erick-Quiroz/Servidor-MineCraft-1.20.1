@@ -1,8 +1,9 @@
 name: supervip
 permissions:
-- essentials.kits.supervip
+  - 
+  - essentials.kits.supervip
 parents:
-- vip
+  - vip
 prefixes:
-- '§l§4§k¦¦§aSuper§cVIP§l§4§k¦¦§b':
-    priority: 3
+  - "§l§4§k¦¦§aSuper§cVIP§l§4§k¦¦§b":
+      priority: 3
