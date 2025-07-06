@@ -1,19 +1,19 @@
 services:
   minecraft-server:
-    build:
-      context: .
-      dockerfile: Dockerfile
+    build: .
     container_name: minecraft-server
     ports:
-      - "0.0.0.0:25565:25565/tcp"
-    stdin_open: true # habilita entrada STDIN
-    tty: true # habilita pseudo-TTY para logs
+      - "25565:25565/tcp" # Minecraft
+      - "3333:22/tcp" # SSH (3333 en host → 22 en contenedor)
     volumes:
       - creativo-data:/minecraft/creativo
       - world-data:/minecraft/world
       - discordsrv-config:/minecraft/plugins/DiscordSRV
       - login-config:/minecraft/plugins/nLogin
       - luckperms:/minecraft/plugins/LuckPerms
+    environment:
+      - TZ=America/Lima # Ajusta tu zona horaria
+    restart: unless-stopped
 
 volumes:
   creativo-data:
