@@ -11,7 +11,9 @@ services:
     volumes:
       - viviendas-data:/minecraft/viviendas
       - discordsrv-config:/minecraft/plugins/DiscordSRV
+      - login-config:/minecraft/plugins/nLogin
 
 volumes:
   viviendas-data:
   discordsrv-config:
+  login-config:
