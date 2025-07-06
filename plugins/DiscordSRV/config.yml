@@ -6,7 +6,7 @@ ConfigVersion: 1.29.0
 
 # Bot token; ¿No sabes qué es esto? Mire el vídeo en la página del plugin para obtener instrucciones
 # Debe reiniciar su servidor después de cambiar esta opción
-BotToken: ${DISCORD_BOT_TOKEN}
+BotToken: ""
 
 # Enlaces de canal del juego a Discord
 # la sintaxis es Channels: {"nombre de canal en el juego de Minecraft": "ID de canal numérico de Discord", "otro nombre de canal en el juego de Minecraft": "otro ID de canal numérico de Discord"}
@@ -27,10 +27,10 @@ BotToken: ${DISCORD_BOT_TOKEN}
 #
 # ¡La primera parte de los pares de canales no es el nombre del canal de Discord!
 # Ejecute "/discord reload" después de cambiar esta opción para aplicar
-Channels: { "global": ${DISCORD_CHANNEL_GLOBAL} }
+Channels: { "global": "" }
 
 # ID numérica del canal para la consola (NO EL NOMBRE), déjalo en blanco para desabilitar el canal de la consola
-DiscordConsoleChannelId: ${Discord_Console_Channel_ID}
+DiscordConsoleChannelId: ""
 
 # Enlace de invitación que se muestra a los jugadores cuando usan /discord y en el mensaje que se muestra a los jugadores no vinculados cuando se aplica el enlace
 DiscordInviteLink: "https://discord.gg/changethisintheconfig.yml"
