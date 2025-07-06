@@ -6,6 +6,7 @@ permissions:
   - multiverse.portal.use.*
   - multiverse.core.*
   - multiverse.teleport.self.*
+  - zmenu.menu
 parents:
   -
 prefixes:

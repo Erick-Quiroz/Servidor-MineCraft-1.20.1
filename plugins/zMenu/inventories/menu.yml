@@ -13,36 +13,70 @@ items:
       - 17
       - 26
       - 27
-      - 35-44 # slot 35 to 44
-  Viviendas:
-    slot: 3
+  Creativo:
+    slot: 12
+    view_requirement:
+      requirements:
+        # Requisito de saldo mínimo
+        - type: permission
+          permission: "is_vip"
+          value: 1000
+          action: SUPERIOR_OR_EQUAL
+
+    update: true
+    updateMasterButton: true
+    refreshOnClick: true
     item:
       material: PURPLE_BED
-      name: "&bviviendas zona segura"
+      name: "&d&l✦ Creativo ✦"
       lore:
-        - ""
-        - "&7Viaja a viviendas zona segura"
-        - ""
-        - "&6para construir tu casa"
-        - " "
-        - "$5Tus cosas se mantendrán a salvo"
+        - "&r"
+        - "&a¡Construye sin límites!"
+        - "&r"
+        - "&b&lZona segura &7para tus creaciones"
+        - "&r"
+        - "&e&l✧ &fRecursos infinitos"
+        - "&e&l✧ &fVuela y experimenta"
+        - "&r"
+        - "&6&l¡Deja volar tu imaginación!"
+        - "&r"
+        - "&7Tus cosas &2siempre estarán a salvo"
+    else:
+      messages:
+        - "&c&l¡Debes ser VIP para acceder a Creativo!"
+      item:
+        material: PURPLE_BED
+        name: "&d&4✦ Creativo ✦"
+        lore:
+          - "&7No puedes entrar a Creativo"
+          - "&r"
+          - "&7Debes ser VIP"
+          - "&r"
+          - "&a¡Construye sin límites!"
+          - "&r"
+          - "&b&lZona segura &7para tus creaciones"
+          - "&r"
+          - "&e&l✧ &fRecursos infinitos"
+          - "&e&l✧ &fVuela y experimenta"
+          - "&r"
+          - "&6&l¡Deja volar tu imaginación!"
+          - "&r"
+          - "&7Tus cosas &2siempre estarán a salvo"
+          - " "
+
   Mundo:
-    slot: 4
+    slot: 14
     item:
       material: SNOUT_ARMOR_TRIM_SMITHING_TEMPLATE
-      name: "&rMundo"
+      name: "&b&l🌍 Mundo"
       lore:
-        - "&7Conseguir Recursos"
-        - " "
-        - "&7Mobs!"
-        - " "
-        - "&fItems."
-        - " "
-        - "&3El mundo se recinicia cada cierto tiempo para evitar el lag"
-        - " "
-        - "&2Y recuperar los recursos"
+        - "&8➤ &7Consigue &aRecursos"
+        - "&8➤ &c¡Mobs peligrosos!"
+        - "&8➤ &fItems &ey tesoros ocultos"
+        - "&r"
+        - "&a¡Explora y sobrevive!"
   vip:
-    slot: 21
+    slot: 31
     consoleCommands:
       - "lp user %player% parent addtemp vip 7s"
     view_requirement:
@@ -58,7 +92,7 @@ items:
     refreshOnClick: true
     item:
       material: TRIDENT
-      name: "&bVIP"
+      name: "&VIP 1semana"
       lore:
         - "&7Acceso a beneficios exclusivos"
         - " "
@@ -68,7 +102,7 @@ items:
     else:
       item:
         material: TRIDENT
-        name: "&cVIP"
+        name: "&cVIP 1semana"
         lore:
           - "&7No puedes comprar VIP"
           - " "
@@ -77,7 +111,7 @@ items:
           - "recompensas exclusivas"
           - " "
   super_vip:
-    slot: 22
+    slot: 32
     consoleCommands:
       - "lp user %player% parent addtemp supervip 7s"
     view_requirement:
@@ -105,7 +139,7 @@ items:
     else:
       item:
         material: TRIDENT
-        name: "&cVIP"
+        name: "&cSUPERVIP 1Mes"
         lore:
           - "&7No puedes comprar VIP"
           - " "

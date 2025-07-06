@@ -36,8 +36,8 @@
 
 commands:
   menu:
-    command: menus
-    permission: "zmenu.use"
+    command: menu
+    permission: "zmenu.menu"
     aliases:
       - zmenu
     inventory: menu
