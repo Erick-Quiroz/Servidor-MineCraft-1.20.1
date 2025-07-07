@@ -10,7 +10,7 @@ services:
       - world-data:/minecraft/world
       - discordsrv-config:/minecraft/plugins/DiscordSRV
       - login-config:/minecraft/plugins/nLogin
-      - luckperms:/minecraft/plugins/LuckPerms
+      - luckperms:/minecraft/plugins/LuckPerms/yaml-storage/users
     environment:
       - TZ=America/Lima # Ajusta tu zona horaria
     restart: unless-stopped

@@ -1,4 +1,4 @@
-[07jul2025 11:46:48.863] [main/INFO] [Arclight/]: 
+[07jul2025 19:30:37.536] [main/INFO] [Arclight/]: 
 
        ___           ___     __   /\
       /   | ________/ (_)__ / /  / /
@@ -10,765 +10,589 @@
     运行版本 顿顽 / arclight-1.20.1-1.0.6-4e94eb76
     构建日期 2025-01-21 16:18:32
 
-[07jul2025 11:46:48.922] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, arclightserver, --fml.forgeVersion, 47.3.22, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui, run]
-[07jul2025 11:46:48.924] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.7 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
-[07jul2025 11:46:49.575] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is arclightserver
-[07jul2025 11:46:49.638] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/Erick%20Quiroz/Documents/MineCraft/Servidor-MineCraft-1.20.1/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2399!/ Service=ModLauncher Env=SERVER
-[07jul2025 11:46:50.078] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Erick Quiroz\Documents\MineCraft\Servidor-MineCraft-1.20.1\libraries\net\minecraftforge\fmlcore\1.20.1-47.3.22\fmlcore-1.20.1-47.3.22.jar is missing mods.toml file
-[07jul2025 11:46:50.081] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Erick Quiroz\Documents\MineCraft\Servidor-MineCraft-1.20.1\libraries\net\minecraftforge\javafmllanguage\1.20.1-47.3.22\javafmllanguage-1.20.1-47.3.22.jar is missing mods.toml file
-[07jul2025 11:46:50.084] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Erick Quiroz\Documents\MineCraft\Servidor-MineCraft-1.20.1\libraries\net\minecraftforge\lowcodelanguage\1.20.1-47.3.22\lowcodelanguage-1.20.1-47.3.22.jar is missing mods.toml file
-[07jul2025 11:46:50.089] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Erick Quiroz\Documents\MineCraft\Servidor-MineCraft-1.20.1\libraries\net\minecraftforge\mclanguage\1.20.1-47.3.22\mclanguage-1.20.1-47.3.22.jar is missing mods.toml file
-[07jul2025 11:46:50.288] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 7 dependencies adding them to mods collection
-[07jul2025 11:46:51.978] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[07jul2025 11:46:51.979] [main/ERROR] [mixin/]: Mixin config entity_model_features.mixins.json does not specify "minVersion" property
-[07jul2025 11:46:52.184] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [io.izzel.arclight.common.mod.ArclightConnector]
-[07jul2025 11:46:52.212] [main/INFO] [Arclight/]: 核心 Mixin 配置已加载
-[07jul2025 11:46:52.212] [main/INFO] [Arclight/]: 服务端优化 Mixin 配置已加载
-[07jul2025 11:46:52.220] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'arclightserver' with arguments [nogui, run]
-[07jul2025 11:46:52.235] [main/WARN] [mixin/]: Reference map 'graveyard-FORGE-forge-refmap.json' for graveyard-forge.mixins.json could not be read. If this is a development environment you can ignore this message
-[07jul2025 11:46:52.240] [main/WARN] [mixin/]: Reference map 'mes-forge-refmap.json' for mes-forge.mixins.json could not be read. If this is a development environment you can ignore this message
-[07jul2025 11:46:52.245] [main/WARN] [mixin/]: Reference map 'mixins.call_of_yucutan.refmap.json' for mixins.call_of_yucutan.json could not be read. If this is a development environment you can ignore this message
-[07jul2025 11:46:52.247] [main/WARN] [mixin/]: Reference map 'coroutil.refmap.json' for coroutil.mixins.json could not be read. If this is a development environment you can ignore this message
-[07jul2025 11:46:52.248] [main/WARN] [mixin/]: Reference map 'mvs-forge-refmap.json' for mvs-forge.mixins.json could not be read. If this is a development environment you can ignore this message
-[07jul2025 11:46:52.255] [main/WARN] [mixin/]: Reference map 'mns-forge-refmap.json' for mns-forge.mixins.json could not be read. If this is a development environment you can ignore this message
-[07jul2025 11:47:01.622] [main/WARN] [mixin/]: @Inject(@At("INVOKE_ASSIGN")) Shift.BY=2 on refurbished_furniture.common.mixins.json:LevelChunkMixin::handler$zcb000$refurbishedFurniture$AfterRemoveBlockEntity exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
-[07jul2025 11:47:03.325] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialize mod Library Ferret
-[07jul2025 11:47:03.386] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialized mod Library Ferret
-[07jul2025 11:47:03.488] [modloading-worker-0/INFO] [coroutil/]: forge loader environment detected
-[07jul2025 11:47:03.521] [modloading-worker-0/INFO] [dev.enemeez.simplefarming.common.SimpleFarming/]: Simple Farming setup complete!
-[07jul2025 11:47:03.540] [modloading-worker-0/INFO] [Arclight/]: Arclight Mod 已加载
-[07jul2025 11:47:03.691] [modloading-worker-0/INFO] [Arclight/]: Arclight 事件系统已注册
-[07jul2025 11:47:03.760] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.22, for MC 1.20.1 with MCP 20230612.114412
-[07jul2025 11:47:03.760] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.22 Initialized
-[07jul2025 11:47:03.889] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
-[07jul2025 11:47:04.148] [modloading-worker-0/INFO] [graveyard/]: Registered JSON trade offer adapter.
-[07jul2025 11:47:04.770] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.test.KotlinForForge/]: Kotlin For Forge Enabled!
-[07jul2025 11:47:04.776] [modloading-worker-0/INFO] [STDOUT/]: Service loaders found: [io.ejekta.kambrik.bridge.KambrikSharedApiForge@7bffb6da]
-[07jul2025 11:47:06.336] [modloading-worker-0/INFO] [com.github.nyuppo.MoreMobVariants/]: Giving mobs a fresh coat of paint...
-[07jul2025 11:47:06.358] [main/INFO] [journeymap/]: Initializing Packet Registries
-[07jul2025 11:47:06.401] [main/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
-[07jul2025 11:47:06.401] [main/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
-[07jul2025 11:47:06.401] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
-[07jul2025 11:47:06.401] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
-[07jul2025 11:47:06.401] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
-[07jul2025 11:47:06.401] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
-[07jul2025 11:47:06.401] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
-[07jul2025 11:47:06.579] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key refurbished_furniture:lock_yaw for refurbished_furniture:seat
-[07jul2025 11:47:06.685] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Starting version check at https://updates.blamejared.com/get?n=clumps&gv=1.20.1
-[07jul2025 11:47:07.795] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Found status: BETA Current: 12.0.0.4 Target: 12.0.0.4
-[07jul2025 11:47:07.795] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
-[07jul2025 11:47:08.671] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: UP_TO_DATE Current: 5.10.3 Target: null
-[07jul2025 11:47:08.671] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[07jul2025 11:47:08.913] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.22 Target: 47.4.0
-[07jul2025 11:47:09.533] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[07jul2025 11:47:11.606] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Erick%20Quiroz/Documents/MineCraft/Servidor-MineCraft-1.20.1/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23231!/assets/.mcassetsroot' uses unexpected schema
-[07jul2025 11:47:11.606] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Erick%20Quiroz/Documents/MineCraft/Servidor-MineCraft-1.20.1/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23231!/data/.mcassetsroot' uses unexpected schema
-[07jul2025 11:47:13.632] [main/INFO] [bountiful/]: Adding serverside commands..
-[07jul2025 11:47:14.413] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 20 recipes
-[07jul2025 11:47:14.523] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2417 advancements
-[07jul2025 11:47:14.526] [main/INFO] [com.github.nyuppo.MoreMobVariants/]: Reloading config...
-[07jul2025 11:47:14.665] [main/INFO] [bountiful/]: Trying to load unloaded files from: config\bountiful\bounty_pools
-[07jul2025 11:47:14.667] [main/INFO] [bountiful/]: Trying to load unloaded files from: config\bountiful\bounty_decrees
-[07jul2025 11:47:16.503] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[07jul2025 11:47:16.503] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[07jul2025 11:47:16.503] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[07jul2025 11:47:16.503] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[07jul2025 11:47:16.625] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[07jul2025 11:47:16.648] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
-[07jul2025 11:47:16.820] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[07jul2025 11:47:16.821] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[07jul2025 11:47:16.821] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[07jul2025 11:47:16.821] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[07jul2025 11:47:17.084] [Server thread/INFO] [Minecraft/]: This server is running Arclight version arclight-1.20.1-1.0.6-4e94eb76 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT)
-[07jul2025 11:47:17.977] [Server thread/INFO] [Arclight/]: 正在向 Bukkit 注册 ...
-[07jul2025 11:47:18.103] [Server thread/INFO] [Arclight/]: 注册了 2025 个材料，其中 1390 个方块 635 个物品
-[07jul2025 11:47:18.105] [Server thread/INFO] [Arclight/]: 注册了 9 个新的药水效果
-[07jul2025 11:47:18.115] [Server thread/INFO] [Arclight/]: 注册了 42 个新的附魔
-[07jul2025 11:47:18.263] [Server thread/INFO] [Arclight/]: 注册了 189 个新的生物类型
-[07jul2025 11:47:18.264] [Server thread/INFO] [Arclight/]: 注册了 3 个新的村民职业
-[07jul2025 11:47:18.265] [Server thread/INFO] [Arclight/]: 注册了 70 个新的生物群系
-[07jul2025 11:47:18.289] [Server thread/INFO] [Minecraft/]: Debug logging is enabled
-[07jul2025 11:47:18.290] [Server thread/INFO] [STDOUT/]: Server Ping Player Sample Count: 12
-[07jul2025 11:47:18.290] [Server thread/INFO] [Minecraft/]: Using 4 threads for Netty based IO
-[07jul2025 11:47:18.458] [Server thread/INFO] [Arclight/]: 正在加载混淆数据 ...
-[07jul2025 11:47:18.852] [Server thread/INFO] [Arclight/]: 正在加载 Plugin Patcher ...
-[07jul2025 11:47:20.542] [Server thread/INFO] [Minecraft/]: [AdvancedServerList] Loading 6 libraries... please wait
-[07jul2025 11:47:20.703] [Server thread/INFO] [Minecraft/]: [AdvancedServerList] Loaded library C:\Users\Erick Quiroz\Documents\MineCraft\Servidor-MineCraft-1.20.1\libraries\org\spongepowered\configurate-yaml\4.1.2\configurate-yaml-4.1.2.jar
-[07jul2025 11:47:20.704] [Server thread/INFO] [Minecraft/]: [AdvancedServerList] Loaded library C:\Users\Erick Quiroz\Documents\MineCraft\Servidor-MineCraft-1.20.1\libraries\org\spongepowered\configurate-core\4.1.2\configurate-core-4.1.2.jar
-[07jul2025 11:47:20.704] [Server thread/INFO] [Minecraft/]: [AdvancedServerList] Loaded library C:\Users\Erick Quiroz\Documents\MineCraft\Servidor-MineCraft-1.20.1\libraries\io\leangen\geantyref\geantyref\1.3.11\geantyref-1.3.11.jar
-[07jul2025 11:47:20.704] [Server thread/INFO] [Minecraft/]: [AdvancedServerList] Loaded library C:\Users\Erick Quiroz\Documents\MineCraft\Servidor-MineCraft-1.20.1\libraries\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar
-[07jul2025 11:47:20.704] [Server thread/INFO] [Minecraft/]: [AdvancedServerList] Loaded library C:\Users\Erick Quiroz\Documents\MineCraft\Servidor-MineCraft-1.20.1\libraries\com\google\errorprone\error_prone_annotations\2.6.0\error_prone_annotations-2.6.0.jar
-[07jul2025 11:47:20.704] [Server thread/INFO] [Minecraft/]: [AdvancedServerList] Loaded library C:\Users\Erick Quiroz\Documents\MineCraft\Servidor-MineCraft-1.20.1\libraries\org\yaml\snakeyaml\1.28\snakeyaml-1.28.jar
-[07jul2025 11:47:20.704] [Server thread/INFO] [Minecraft/]: [AdvancedServerList] Loaded library C:\Users\Erick Quiroz\Documents\MineCraft\Servidor-MineCraft-1.20.1\libraries\net\kyori\adventure-api\4.12.0\adventure-api-4.12.0.jar
-[07jul2025 11:47:20.704] [Server thread/INFO] [Minecraft/]: [AdvancedServerList] Loaded library C:\Users\Erick Quiroz\Documents\MineCraft\Servidor-MineCraft-1.20.1\libraries\net\kyori\adventure-key\4.12.0\adventure-key-4.12.0.jar
-[07jul2025 11:47:20.704] [Server thread/INFO] [Minecraft/]: [AdvancedServerList] Loaded library C:\Users\Erick Quiroz\Documents\MineCraft\Servidor-MineCraft-1.20.1\libraries\net\kyori\examination-api\1.3.0\examination-api-1.3.0.jar
-[07jul2025 11:47:20.704] [Server thread/INFO] [Minecraft/]: [AdvancedServerList] Loaded library C:\Users\Erick Quiroz\Documents\MineCraft\Servidor-MineCraft-1.20.1\libraries\net\kyori\examination-string\1.3.0\examination-string-1.3.0.jar
-[07jul2025 11:47:20.704] [Server thread/INFO] [Minecraft/]: [AdvancedServerList] Loaded library C:\Users\Erick Quiroz\Documents\MineCraft\Servidor-MineCraft-1.20.1\libraries\org\jetbrains\annotations\23.0.0\annotations-23.0.0.jar
-[07jul2025 11:47:20.704] [Server thread/INFO] [Minecraft/]: [AdvancedServerList] Loaded library C:\Users\Erick Quiroz\Documents\MineCraft\Servidor-MineCraft-1.20.1\libraries\net\kyori\adventure-text-minimessage\4.12.0\adventure-text-minimessage-4.12.0.jar
-[07jul2025 11:47:20.704] [Server thread/INFO] [Minecraft/]: [AdvancedServerList] Loaded library C:\Users\Erick Quiroz\Documents\MineCraft\Servidor-MineCraft-1.20.1\libraries\net\kyori\adventure-text-serializer-legacy\4.12.0\adventure-text-serializer-legacy-4.12.0.jar
-[07jul2025 11:47:20.704] [Server thread/INFO] [Minecraft/]: [AdvancedServerList] Loaded library C:\Users\Erick Quiroz\Documents\MineCraft\Servidor-MineCraft-1.20.1\libraries\net\kyori\adventure-platform-bukkit\4.2.0\adventure-platform-bukkit-4.2.0.jar
-[07jul2025 11:47:20.704] [Server thread/INFO] [Minecraft/]: [AdvancedServerList] Loaded library C:\Users\Erick Quiroz\Documents\MineCraft\Servidor-MineCraft-1.20.1\libraries\net\kyori\adventure-platform-api\4.2.0\adventure-platform-api-4.2.0.jar
-[07jul2025 11:47:20.704] [Server thread/INFO] [Minecraft/]: [AdvancedServerList] Loaded library C:\Users\Erick Quiroz\Documents\MineCraft\Servidor-MineCraft-1.20.1\libraries\net\kyori\adventure-text-serializer-bungeecord\4.2.0\adventure-text-serializer-bungeecord-4.2.0.jar
-[07jul2025 11:47:20.704] [Server thread/INFO] [Minecraft/]: [AdvancedServerList] Loaded library C:\Users\Erick Quiroz\Documents\MineCraft\Servidor-MineCraft-1.20.1\libraries\net\kyori\adventure-nbt\4.12.0\adventure-nbt-4.12.0.jar
-[07jul2025 11:47:20.704] [Server thread/INFO] [Minecraft/]: [AdvancedServerList] Loaded library C:\Users\Erick Quiroz\Documents\MineCraft\Servidor-MineCraft-1.20.1\libraries\net\kyori\adventure-text-serializer-gson\4.12.0\adventure-text-serializer-gson-4.12.0.jar
-[07jul2025 11:47:20.704] [Server thread/INFO] [Minecraft/]: [AdvancedServerList] Loaded library C:\Users\Erick Quiroz\Documents\MineCraft\Servidor-MineCraft-1.20.1\libraries\net\kyori\adventure-text-serializer-gson-legacy-impl\4.12.0\adventure-text-serializer-gson-legacy-impl-4.12.0.jar
-[07jul2025 11:47:20.704] [Server thread/INFO] [Minecraft/]: [AdvancedServerList] Loaded library C:\Users\Erick Quiroz\Documents\MineCraft\Servidor-MineCraft-1.20.1\libraries\net\kyori\adventure-platform-facet\4.2.0\adventure-platform-facet-4.2.0.jar
-[07jul2025 11:47:20.705] [Server thread/INFO] [Minecraft/]: [AdvancedServerList] Loaded library C:\Users\Erick Quiroz\Documents\MineCraft\Servidor-MineCraft-1.20.1\libraries\net\kyori\adventure-platform-viaversion\4.2.0\adventure-platform-viaversion-4.2.0.jar
-[07jul2025 11:47:20.705] [Server thread/INFO] [Minecraft/]: [AdvancedServerList] Loaded library C:\Users\Erick Quiroz\Documents\MineCraft\Servidor-MineCraft-1.20.1\libraries\com\squareup\okhttp3\okhttp\4.10.0\okhttp-4.10.0.jar
-[07jul2025 11:47:20.705] [Server thread/INFO] [Minecraft/]: [AdvancedServerList] Loaded library C:\Users\Erick Quiroz\Documents\MineCraft\Servidor-MineCraft-1.20.1\libraries\com\squareup\okio\okio-jvm\3.0.0\okio-jvm-3.0.0.jar
-[07jul2025 11:47:20.705] [Server thread/INFO] [Minecraft/]: [AdvancedServerList] Loaded library C:\Users\Erick Quiroz\Documents\MineCraft\Servidor-MineCraft-1.20.1\libraries\org\jetbrains\kotlin\kotlin-stdlib-jdk8\1.5.31\kotlin-stdlib-jdk8-1.5.31.jar
-[07jul2025 11:47:20.705] [Server thread/INFO] [Minecraft/]: [AdvancedServerList] Loaded library C:\Users\Erick Quiroz\Documents\MineCraft\Servidor-MineCraft-1.20.1\libraries\org\jetbrains\kotlin\kotlin-stdlib-jdk7\1.5.31\kotlin-stdlib-jdk7-1.5.31.jar
-[07jul2025 11:47:20.705] [Server thread/INFO] [Minecraft/]: [AdvancedServerList] Loaded library C:\Users\Erick Quiroz\Documents\MineCraft\Servidor-MineCraft-1.20.1\libraries\org\jetbrains\kotlin\kotlin-stdlib-common\1.5.31\kotlin-stdlib-common-1.5.31.jar
-[07jul2025 11:47:20.705] [Server thread/INFO] [Minecraft/]: [AdvancedServerList] Loaded library C:\Users\Erick Quiroz\Documents\MineCraft\Servidor-MineCraft-1.20.1\libraries\org\jetbrains\kotlin\kotlin-stdlib\1.6.20\kotlin-stdlib-1.6.20.jar
-[07jul2025 11:47:22.388] [Server thread/INFO] [LuckPerms/]: Loading LuckPerms v5.5.9
-[07jul2025 11:47:22.659] [Server thread/INFO] [LuckPerms/]: Loading configuration...
-[07jul2025 11:47:22.769] [Server thread/INFO] [nAntiBot/]: Loading nAntiBot v6.1.32
-[07jul2025 11:47:23.586] [Server thread/INFO] [PlaceholderAPI/]: Loading PlaceholderAPI v2.11.6
-[07jul2025 11:47:23.587] [Server thread/INFO] [CMILib/]: Loading CMILib v1.5.5.1
-[07jul2025 11:47:23.587] [Server thread/INFO] [Vault/]: Loading Vault v1.7.3-b131
-[07jul2025 11:47:23.592] [Server thread/INFO] [Minecraft/]: [CoreLogging] Loading Multiverse-Core v5.1.0
-[07jul2025 11:47:23.597] [Server thread/INFO] [ProtocolLib/]: Loading ProtocolLib v5.3.0
-[07jul2025 11:47:23.945] [Server thread/INFO] [AdvancedServerList/]: Loading AdvancedServerList v3.5.1
-[07jul2025 11:47:23.945] [Server thread/INFO] [zMenu/]: Loading zMenu v1.0.3.4
-[07jul2025 11:47:23.945] [Server thread/INFO] [nLogin/]: Loading nLogin v10.4.22
-[07jul2025 11:47:24.567] [Server thread/INFO] [Essentials/]: Loading Essentials v2.21.1
-[07jul2025 11:47:24.575] [Server thread/INFO] [Multiverse-Inventories/]: Loading Multiverse-Inventories v5.1.0
-[07jul2025 11:47:24.579] [Server thread/INFO] [sleep-most/]: Loading sleep-most v5.6.0
-[07jul2025 11:47:24.579] [Server thread/INFO] [AnnouncerPlus/]: Loading AnnouncerPlus v1.4.2
-[07jul2025 11:47:24.579] [Server thread/INFO] [EssentialsChat/]: Loading EssentialsChat v2.21.2-dev+21-8d44d1a
-[07jul2025 11:47:24.579] [Server thread/INFO] [MoneyFromMobs/]: Loading MoneyFromMobs v4.71
-[07jul2025 11:47:24.579] [Server thread/INFO] [TAB/]: Loading TAB v5.2.4
-[07jul2025 11:47:24.579] [Server thread/INFO] [DiscordSRV/]: Loading DiscordSRV v1.29.0
-[07jul2025 11:47:24.580] [Server thread/INFO] [LuckPerms/]: Enabling LuckPerms v5.5.9
-[07jul2025 11:47:25.301] [Server thread/INFO] [Console/]:         __    
-[07jul2025 11:47:25.301] [Server thread/INFO] [Console/]:   |    |__)   LuckPerms v5.5.9
-[07jul2025 11:47:25.301] [Server thread/INFO] [Console/]:   |___ |      Running on Bukkit - Arclight
-[07jul2025 11:47:25.301] [Server thread/INFO] [Console/]: 
-[07jul2025 11:47:25.517] [Server thread/INFO] [LuckPerms/]: Loading storage provider... [YAML]
-[07jul2025 11:47:25.863] [Server thread/INFO] [LuckPerms/]: Loading internal permission managers...
-[07jul2025 11:47:26.075] [Server thread/INFO] [LuckPerms/]: Performing initial data load...
-[07jul2025 11:47:26.253] [luckperms-worker-5/WARN] [LuckPerms/]: Loaded class javax.annotation.Nonnull from DiscordSRV v1.29.0 which is not a depend or softdepend of this plugin.
-[07jul2025 11:47:26.493] [Server thread/INFO] [LuckPerms/]: Successfully enabled. (took 1912ms)
-[07jul2025 11:47:26.494] [Server thread/INFO] [nAntiBot/]: Enabling nAntiBot v6.1.32
-[07jul2025 11:47:27.112] [Server thread/INFO] [nAntiBot/]: Successful plugin core start (took 0.60s)
-[07jul2025 11:47:27.121] [Server thread/INFO] [Console/]:           _         _   _   ___       _   
-[07jul2025 11:47:27.121] [Server thread/INFO] [Console/]:   _ __   /_\  _ __ | |_(_) / __\ ___ | |_ 
-[07jul2025 11:47:27.121] [Server thread/INFO] [Console/]:  | '_ \ //_\\| '_ \| __| |/__\/// _ \| __|
-[07jul2025 11:47:27.122] [Server thread/INFO] [Console/]:  | | | /  _  \ | | | |_| / \/  \ (_) | |_ 
-[07jul2025 11:47:27.122] [Server thread/INFO] [Console/]:  |_| |_\_/ \_/_| |_|\__|_\_____/\___/ \__|
-[07jul2025 11:47:27.122] [Server thread/INFO] [Console/]:                                          
-[07jul2025 11:47:27.122] [Server thread/INFO] [Console/]:  By: www.nickuc.com - V 6.1.32
-[07jul2025 11:47:27.122] [Server thread/INFO] [Console/]: 
-[07jul2025 11:47:28.908] [Server thread/INFO] [Vault/]: Enabling Vault v1.7.3-b131
-[07jul2025 11:47:28.927] [Server thread/WARN] [Vault/]: Loaded class com.earth2me.essentials.api.Economy from Essentials v2.21.1 which is not a depend or softdepend of this plugin.
-[07jul2025 11:47:28.929] [Server thread/INFO] [Vault/]: [Economy] Essentials Economy found: Waiting
-[07jul2025 11:47:28.963] [Server thread/INFO] [Vault/]: [Permission] SuperPermissions loaded as backup permission system.
-[07jul2025 11:47:28.989] [Server thread/INFO] [Vault/]: Enabled Version 1.7.3-b131
-[07jul2025 11:47:28.999] [Server thread/INFO] [LuckPerms/]: Registered Vault permission & chat hook.
-[07jul2025 11:47:29.000] [Server thread/INFO] [ProtocolLib/]: Enabling ProtocolLib v5.3.0
-[07jul2025 11:47:29.032] [Server thread/INFO] [nLogin/]: Enabling nLogin v10.4.22
-[07jul2025 11:47:29.457] [Server thread/INFO] [nLogin/]: Successful plugin core start (took 0.42s)
-[07jul2025 11:47:29.879] [Server thread/INFO] [Console/]:           __             _       
-[07jul2025 11:47:29.882] [Server thread/INFO] [Console/]:   _ __   / /  ___   __ _(_)_ __  
-[07jul2025 11:47:29.883] [Server thread/INFO] [Console/]:  | '_ \ / /  / _ \ / _` | | '_ \ 
-[07jul2025 11:47:29.883] [Server thread/INFO] [Console/]:  | | | / /__| (_) | (_| | | | | |
-[07jul2025 11:47:29.884] [Server thread/INFO] [Console/]:  |_| |_\____/\___/ \__, |_|_| |_|
-[07jul2025 11:47:29.884] [Server thread/INFO] [Console/]:                   |___/            
-[07jul2025 11:47:29.885] [Server thread/INFO] [Console/]:  By: www.nickuc.com - V 10.4.23 DEVELOPMENT
-[07jul2025 11:47:29.886] [Server thread/INFO] [Console/]:  
-[07jul2025 11:47:34.480] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
-[07jul2025 11:47:34.632] [Server thread/INFO] [Framework/]: Loading server configs...
-[07jul2025 11:47:34.662] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
-[07jul2025 11:47:35.064] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
-[07jul2025 11:47:35.065] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[07jul2025 11:47:35.094] [Server thread/INFO] [Arclight/]: 注册了 1 个新的世界类型
-[07jul2025 11:47:35.584] [Server thread/INFO] [Minecraft/]: -------- World Settings For [world] --------
-[07jul2025 11:47:35.584] [Server thread/INFO] [Minecraft/]: Nerfing mobs spawned from spawners: false
-[07jul2025 11:47:35.585] [Server thread/INFO] [Minecraft/]: Item Despawn Rate: 6000
-[07jul2025 11:47:35.585] [Server thread/INFO] [Minecraft/]: View Distance: 10
-[07jul2025 11:47:35.585] [Server thread/INFO] [Minecraft/]: Allow Zombie Pigmen to spawn from portal blocks: true
-[07jul2025 11:47:35.585] [Server thread/INFO] [Minecraft/]: Zombie Aggressive Towards Villager: true
-[07jul2025 11:47:35.585] [Server thread/INFO] [Minecraft/]: Simulation Distance: 10
-[07jul2025 11:47:35.587] [Server thread/INFO] [Minecraft/]: Mob Spawn Range: 6
-[07jul2025 11:47:35.587] [Server thread/INFO] [Minecraft/]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[07jul2025 11:47:35.587] [Server thread/INFO] [Minecraft/]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[07jul2025 11:47:35.587] [Server thread/INFO] [Minecraft/]: Cactus Growth Modifier: 100%
-[07jul2025 11:47:35.587] [Server thread/INFO] [Minecraft/]: Cane Growth Modifier: 100%
-[07jul2025 11:47:35.587] [Server thread/INFO] [Minecraft/]: Melon Growth Modifier: 100%
-[07jul2025 11:47:35.587] [Server thread/INFO] [Minecraft/]: Mushroom Growth Modifier: 100%
-[07jul2025 11:47:35.588] [Server thread/INFO] [Minecraft/]: Pumpkin Growth Modifier: 100%
-[07jul2025 11:47:35.588] [Server thread/INFO] [Minecraft/]: Sapling Growth Modifier: 100%
-[07jul2025 11:47:35.588] [Server thread/INFO] [Minecraft/]: Beetroot Growth Modifier: 100%
-[07jul2025 11:47:35.588] [Server thread/INFO] [Minecraft/]: Carrot Growth Modifier: 100%
-[07jul2025 11:47:35.588] [Server thread/INFO] [Minecraft/]: Potato Growth Modifier: 100%
-[07jul2025 11:47:35.588] [Server thread/INFO] [Minecraft/]: Wheat Growth Modifier: 100%
-[07jul2025 11:47:35.588] [Server thread/INFO] [Minecraft/]: NetherWart Growth Modifier: 100%
-[07jul2025 11:47:35.588] [Server thread/INFO] [Minecraft/]: Vine Growth Modifier: 100%
-[07jul2025 11:47:35.588] [Server thread/INFO] [Minecraft/]: Cocoa Growth Modifier: 100%
-[07jul2025 11:47:35.588] [Server thread/INFO] [Minecraft/]: Bamboo Growth Modifier: 100%
-[07jul2025 11:47:35.588] [Server thread/INFO] [Minecraft/]: SweetBerry Growth Modifier: 100%
-[07jul2025 11:47:35.588] [Server thread/INFO] [Minecraft/]: Kelp Growth Modifier: 100%
-[07jul2025 11:47:35.588] [Server thread/INFO] [Minecraft/]: TwistingVines Growth Modifier: 100%
-[07jul2025 11:47:35.588] [Server thread/INFO] [Minecraft/]: WeepingVines Growth Modifier: 100%
-[07jul2025 11:47:35.588] [Server thread/INFO] [Minecraft/]: CaveVines Growth Modifier: 100%
-[07jul2025 11:47:35.589] [Server thread/INFO] [Minecraft/]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[07jul2025 11:47:35.590] [Server thread/INFO] [Minecraft/]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[07jul2025 11:47:35.590] [Server thread/INFO] [Minecraft/]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
-[07jul2025 11:47:35.590] [Server thread/INFO] [Minecraft/]: Max TNT Explosions: 100
-[07jul2025 11:47:35.590] [Server thread/INFO] [Minecraft/]: Experience Merge Radius: 3.0
-[07jul2025 11:47:35.590] [Server thread/INFO] [Minecraft/]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[07jul2025 11:47:35.590] [Server thread/INFO] [Minecraft/]: Item Merge Radius: 2.5
-[07jul2025 11:47:37.818] [Server thread/INFO] [Minecraft/]: -------- World Settings For [world/DIM1] --------
-[07jul2025 11:47:37.818] [Server thread/INFO] [Minecraft/]: Nerfing mobs spawned from spawners: false
-[07jul2025 11:47:37.818] [Server thread/INFO] [Minecraft/]: Item Despawn Rate: 6000
-[07jul2025 11:47:37.818] [Server thread/INFO] [Minecraft/]: View Distance: 10
-[07jul2025 11:47:37.818] [Server thread/INFO] [Minecraft/]: Allow Zombie Pigmen to spawn from portal blocks: true
-[07jul2025 11:47:37.818] [Server thread/INFO] [Minecraft/]: Zombie Aggressive Towards Villager: true
-[07jul2025 11:47:37.818] [Server thread/INFO] [Minecraft/]: Simulation Distance: 10
-[07jul2025 11:47:37.818] [Server thread/INFO] [Minecraft/]: Mob Spawn Range: 6
-[07jul2025 11:47:37.818] [Server thread/INFO] [Minecraft/]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[07jul2025 11:47:37.818] [Server thread/INFO] [Minecraft/]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[07jul2025 11:47:37.818] [Server thread/INFO] [Minecraft/]: Cactus Growth Modifier: 100%
-[07jul2025 11:47:37.818] [Server thread/INFO] [Minecraft/]: Cane Growth Modifier: 100%
-[07jul2025 11:47:37.818] [Server thread/INFO] [Minecraft/]: Melon Growth Modifier: 100%
-[07jul2025 11:47:37.818] [Server thread/INFO] [Minecraft/]: Mushroom Growth Modifier: 100%
-[07jul2025 11:47:37.818] [Server thread/INFO] [Minecraft/]: Pumpkin Growth Modifier: 100%
-[07jul2025 11:47:37.818] [Server thread/INFO] [Minecraft/]: Sapling Growth Modifier: 100%
-[07jul2025 11:47:37.818] [Server thread/INFO] [Minecraft/]: Beetroot Growth Modifier: 100%
-[07jul2025 11:47:37.818] [Server thread/INFO] [Minecraft/]: Carrot Growth Modifier: 100%
-[07jul2025 11:47:37.818] [Server thread/INFO] [Minecraft/]: Potato Growth Modifier: 100%
-[07jul2025 11:47:37.818] [Server thread/INFO] [Minecraft/]: Wheat Growth Modifier: 100%
-[07jul2025 11:47:37.818] [Server thread/INFO] [Minecraft/]: NetherWart Growth Modifier: 100%
-[07jul2025 11:47:37.818] [Server thread/INFO] [Minecraft/]: Vine Growth Modifier: 100%
-[07jul2025 11:47:37.818] [Server thread/INFO] [Minecraft/]: Cocoa Growth Modifier: 100%
-[07jul2025 11:47:37.818] [Server thread/INFO] [Minecraft/]: Bamboo Growth Modifier: 100%
-[07jul2025 11:47:37.818] [Server thread/INFO] [Minecraft/]: SweetBerry Growth Modifier: 100%
-[07jul2025 11:47:37.818] [Server thread/INFO] [Minecraft/]: Kelp Growth Modifier: 100%
-[07jul2025 11:47:37.818] [Server thread/INFO] [Minecraft/]: TwistingVines Growth Modifier: 100%
-[07jul2025 11:47:37.818] [Server thread/INFO] [Minecraft/]: WeepingVines Growth Modifier: 100%
-[07jul2025 11:47:37.818] [Server thread/INFO] [Minecraft/]: CaveVines Growth Modifier: 100%
-[07jul2025 11:47:37.818] [Server thread/INFO] [Minecraft/]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[07jul2025 11:47:37.819] [Server thread/INFO] [Minecraft/]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[07jul2025 11:47:37.819] [Server thread/INFO] [Minecraft/]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
-[07jul2025 11:47:37.819] [Server thread/INFO] [Minecraft/]: Max TNT Explosions: 100
-[07jul2025 11:47:37.819] [Server thread/INFO] [Minecraft/]: Experience Merge Radius: 3.0
-[07jul2025 11:47:37.819] [Server thread/INFO] [Minecraft/]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[07jul2025 11:47:37.819] [Server thread/INFO] [Minecraft/]: Item Merge Radius: 2.5
-[07jul2025 11:47:37.883] [Server thread/INFO] [Minecraft/]: -------- World Settings For [world/graveyard/past] --------
-[07jul2025 11:47:37.883] [Server thread/INFO] [Minecraft/]: Nerfing mobs spawned from spawners: false
-[07jul2025 11:47:37.883] [Server thread/INFO] [Minecraft/]: Item Despawn Rate: 6000
-[07jul2025 11:47:37.883] [Server thread/INFO] [Minecraft/]: View Distance: 10
-[07jul2025 11:47:37.883] [Server thread/INFO] [Minecraft/]: Allow Zombie Pigmen to spawn from portal blocks: true
-[07jul2025 11:47:37.883] [Server thread/INFO] [Minecraft/]: Zombie Aggressive Towards Villager: true
-[07jul2025 11:47:37.884] [Server thread/INFO] [Minecraft/]: Simulation Distance: 10
-[07jul2025 11:47:37.884] [Server thread/INFO] [Minecraft/]: Mob Spawn Range: 6
-[07jul2025 11:47:37.884] [Server thread/INFO] [Minecraft/]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[07jul2025 11:47:37.884] [Server thread/INFO] [Minecraft/]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[07jul2025 11:47:37.884] [Server thread/INFO] [Minecraft/]: Cactus Growth Modifier: 100%
-[07jul2025 11:47:37.884] [Server thread/INFO] [Minecraft/]: Cane Growth Modifier: 100%
-[07jul2025 11:47:37.884] [Server thread/INFO] [Minecraft/]: Melon Growth Modifier: 100%
-[07jul2025 11:47:37.884] [Server thread/INFO] [Minecraft/]: Mushroom Growth Modifier: 100%
-[07jul2025 11:47:37.884] [Server thread/INFO] [Minecraft/]: Pumpkin Growth Modifier: 100%
-[07jul2025 11:47:37.884] [Server thread/INFO] [Minecraft/]: Sapling Growth Modifier: 100%
-[07jul2025 11:47:37.884] [Server thread/INFO] [Minecraft/]: Beetroot Growth Modifier: 100%
-[07jul2025 11:47:37.884] [Server thread/INFO] [Minecraft/]: Carrot Growth Modifier: 100%
-[07jul2025 11:47:37.884] [Server thread/INFO] [Minecraft/]: Potato Growth Modifier: 100%
-[07jul2025 11:47:37.884] [Server thread/INFO] [Minecraft/]: Wheat Growth Modifier: 100%
-[07jul2025 11:47:37.884] [Server thread/INFO] [Minecraft/]: NetherWart Growth Modifier: 100%
-[07jul2025 11:47:37.884] [Server thread/INFO] [Minecraft/]: Vine Growth Modifier: 100%
-[07jul2025 11:47:37.884] [Server thread/INFO] [Minecraft/]: Cocoa Growth Modifier: 100%
-[07jul2025 11:47:37.884] [Server thread/INFO] [Minecraft/]: Bamboo Growth Modifier: 100%
-[07jul2025 11:47:37.884] [Server thread/INFO] [Minecraft/]: SweetBerry Growth Modifier: 100%
-[07jul2025 11:47:37.884] [Server thread/INFO] [Minecraft/]: Kelp Growth Modifier: 100%
-[07jul2025 11:47:37.884] [Server thread/INFO] [Minecraft/]: TwistingVines Growth Modifier: 100%
-[07jul2025 11:47:37.884] [Server thread/INFO] [Minecraft/]: WeepingVines Growth Modifier: 100%
-[07jul2025 11:47:37.884] [Server thread/INFO] [Minecraft/]: CaveVines Growth Modifier: 100%
-[07jul2025 11:47:37.884] [Server thread/INFO] [Minecraft/]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[07jul2025 11:47:37.884] [Server thread/INFO] [Minecraft/]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[07jul2025 11:47:37.885] [Server thread/INFO] [Minecraft/]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
-[07jul2025 11:47:37.885] [Server thread/INFO] [Minecraft/]: Max TNT Explosions: 100
-[07jul2025 11:47:37.885] [Server thread/INFO] [Minecraft/]: Experience Merge Radius: 3.0
-[07jul2025 11:47:37.885] [Server thread/INFO] [Minecraft/]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[07jul2025 11:47:37.885] [Server thread/INFO] [Minecraft/]: Item Merge Radius: 2.5
-[07jul2025 11:47:38.730] [Server thread/INFO] [Minecraft/]: -------- World Settings For [world/DIM-1] --------
-[07jul2025 11:47:38.730] [Server thread/INFO] [Minecraft/]: Nerfing mobs spawned from spawners: false
-[07jul2025 11:47:38.730] [Server thread/INFO] [Minecraft/]: Item Despawn Rate: 6000
-[07jul2025 11:47:38.730] [Server thread/INFO] [Minecraft/]: View Distance: 10
-[07jul2025 11:47:38.730] [Server thread/INFO] [Minecraft/]: Allow Zombie Pigmen to spawn from portal blocks: true
-[07jul2025 11:47:38.730] [Server thread/INFO] [Minecraft/]: Zombie Aggressive Towards Villager: true
-[07jul2025 11:47:38.730] [Server thread/INFO] [Minecraft/]: Simulation Distance: 10
-[07jul2025 11:47:38.730] [Server thread/INFO] [Minecraft/]: Mob Spawn Range: 6
-[07jul2025 11:47:38.730] [Server thread/INFO] [Minecraft/]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[07jul2025 11:47:38.730] [Server thread/INFO] [Minecraft/]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[07jul2025 11:47:38.730] [Server thread/INFO] [Minecraft/]: Cactus Growth Modifier: 100%
-[07jul2025 11:47:38.730] [Server thread/INFO] [Minecraft/]: Cane Growth Modifier: 100%
-[07jul2025 11:47:38.730] [Server thread/INFO] [Minecraft/]: Melon Growth Modifier: 100%
-[07jul2025 11:47:38.730] [Server thread/INFO] [Minecraft/]: Mushroom Growth Modifier: 100%
-[07jul2025 11:47:38.730] [Server thread/INFO] [Minecraft/]: Pumpkin Growth Modifier: 100%
-[07jul2025 11:47:38.730] [Server thread/INFO] [Minecraft/]: Sapling Growth Modifier: 100%
-[07jul2025 11:47:38.730] [Server thread/INFO] [Minecraft/]: Beetroot Growth Modifier: 100%
-[07jul2025 11:47:38.730] [Server thread/INFO] [Minecraft/]: Carrot Growth Modifier: 100%
-[07jul2025 11:47:38.730] [Server thread/INFO] [Minecraft/]: Potato Growth Modifier: 100%
-[07jul2025 11:47:38.730] [Server thread/INFO] [Minecraft/]: Wheat Growth Modifier: 100%
-[07jul2025 11:47:38.730] [Server thread/INFO] [Minecraft/]: NetherWart Growth Modifier: 100%
-[07jul2025 11:47:38.730] [Server thread/INFO] [Minecraft/]: Vine Growth Modifier: 100%
-[07jul2025 11:47:38.730] [Server thread/INFO] [Minecraft/]: Cocoa Growth Modifier: 100%
-[07jul2025 11:47:38.730] [Server thread/INFO] [Minecraft/]: Bamboo Growth Modifier: 100%
-[07jul2025 11:47:38.730] [Server thread/INFO] [Minecraft/]: SweetBerry Growth Modifier: 100%
-[07jul2025 11:47:38.730] [Server thread/INFO] [Minecraft/]: Kelp Growth Modifier: 100%
-[07jul2025 11:47:38.730] [Server thread/INFO] [Minecraft/]: TwistingVines Growth Modifier: 100%
-[07jul2025 11:47:38.730] [Server thread/INFO] [Minecraft/]: WeepingVines Growth Modifier: 100%
-[07jul2025 11:47:38.730] [Server thread/INFO] [Minecraft/]: CaveVines Growth Modifier: 100%
-[07jul2025 11:47:38.730] [Server thread/INFO] [Minecraft/]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[07jul2025 11:47:38.731] [Server thread/INFO] [Minecraft/]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[07jul2025 11:47:38.731] [Server thread/INFO] [Minecraft/]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
-[07jul2025 11:47:38.731] [Server thread/INFO] [Minecraft/]: Max TNT Explosions: 100
-[07jul2025 11:47:38.731] [Server thread/INFO] [Minecraft/]: Experience Merge Radius: 3.0
-[07jul2025 11:47:38.731] [Server thread/INFO] [Minecraft/]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[07jul2025 11:47:38.731] [Server thread/INFO] [Minecraft/]: Item Merge Radius: 2.5
-[07jul2025 11:47:38.737] [Server thread/INFO] [PlaceholderAPI/]: Enabling PlaceholderAPI v2.11.6
-[07jul2025 11:47:38.937] [Server thread/INFO] [PlaceholderAPI/]: Fetching available expansion information...
-[07jul2025 11:47:38.939] [Server thread/INFO] [CMILib/]: Enabling CMILib v1.5.5.1
-[07jul2025 11:47:39.724] [Server thread/INFO] [Console/]: Server version: v1_20_R1 - 1.20.1 - arclight  arclight-1.20.1-1.0.6-4e94eb76 (MC: 1.20.1)
-[07jul2025 11:47:40.340] [Server thread/INFO] [PlaceholderAPI/]: Successfully registered internal expansion: cmil [1.5.5.1]
-[07jul2025 11:47:40.340] [Server thread/INFO] [Console/]: PlaceholderAPI hooked.
-[07jul2025 11:47:40.414] [Server thread/INFO] [Console/]: Updated (EN) language file. Took 41ms
-[07jul2025 11:47:40.415] [Server thread/INFO] [Minecraft/]: [Multiverse-Core] Enabling Multiverse-Core v5.1.0
-[07jul2025 11:47:40.924] [Server thread/ERROR] [Minecraft/]: [Multiverse-Core] Failed to import world world/graveyard/past: Failure{reason=WORLD_FOLDER_INVALID}
-[07jul2025 11:47:41.138] [Server thread/INFO] [Minecraft/]: -------- World Settings For [creativo] --------
-[07jul2025 11:47:41.138] [Server thread/INFO] [Minecraft/]: Nerfing mobs spawned from spawners: false
-[07jul2025 11:47:41.138] [Server thread/INFO] [Minecraft/]: Item Despawn Rate: 6000
-[07jul2025 11:47:41.138] [Server thread/INFO] [Minecraft/]: View Distance: 10
-[07jul2025 11:47:41.138] [Server thread/INFO] [Minecraft/]: Allow Zombie Pigmen to spawn from portal blocks: true
-[07jul2025 11:47:41.138] [Server thread/INFO] [Minecraft/]: Zombie Aggressive Towards Villager: true
-[07jul2025 11:47:41.138] [Server thread/INFO] [Minecraft/]: Simulation Distance: 10
-[07jul2025 11:47:41.138] [Server thread/INFO] [Minecraft/]: Mob Spawn Range: 6
-[07jul2025 11:47:41.138] [Server thread/INFO] [Minecraft/]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[07jul2025 11:47:41.138] [Server thread/INFO] [Minecraft/]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[07jul2025 11:47:41.138] [Server thread/INFO] [Minecraft/]: Cactus Growth Modifier: 100%
-[07jul2025 11:47:41.138] [Server thread/INFO] [Minecraft/]: Cane Growth Modifier: 100%
-[07jul2025 11:47:41.138] [Server thread/INFO] [Minecraft/]: Melon Growth Modifier: 100%
-[07jul2025 11:47:41.138] [Server thread/INFO] [Minecraft/]: Mushroom Growth Modifier: 100%
-[07jul2025 11:47:41.138] [Server thread/INFO] [Minecraft/]: Pumpkin Growth Modifier: 100%
-[07jul2025 11:47:41.138] [Server thread/INFO] [Minecraft/]: Sapling Growth Modifier: 100%
-[07jul2025 11:47:41.138] [Server thread/INFO] [Minecraft/]: Beetroot Growth Modifier: 100%
-[07jul2025 11:47:41.138] [Server thread/INFO] [Minecraft/]: Carrot Growth Modifier: 100%
-[07jul2025 11:47:41.138] [Server thread/INFO] [Minecraft/]: Potato Growth Modifier: 100%
-[07jul2025 11:47:41.138] [Server thread/INFO] [Minecraft/]: Wheat Growth Modifier: 100%
-[07jul2025 11:47:41.138] [Server thread/INFO] [Minecraft/]: NetherWart Growth Modifier: 100%
-[07jul2025 11:47:41.138] [Server thread/INFO] [Minecraft/]: Vine Growth Modifier: 100%
-[07jul2025 11:47:41.138] [Server thread/INFO] [Minecraft/]: Cocoa Growth Modifier: 100%
-[07jul2025 11:47:41.138] [Server thread/INFO] [Minecraft/]: Bamboo Growth Modifier: 100%
-[07jul2025 11:47:41.138] [Server thread/INFO] [Minecraft/]: SweetBerry Growth Modifier: 100%
-[07jul2025 11:47:41.138] [Server thread/INFO] [Minecraft/]: Kelp Growth Modifier: 100%
-[07jul2025 11:47:41.138] [Server thread/INFO] [Minecraft/]: TwistingVines Growth Modifier: 100%
-[07jul2025 11:47:41.138] [Server thread/INFO] [Minecraft/]: WeepingVines Growth Modifier: 100%
-[07jul2025 11:47:41.138] [Server thread/INFO] [Minecraft/]: CaveVines Growth Modifier: 100%
-[07jul2025 11:47:41.138] [Server thread/INFO] [Minecraft/]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[07jul2025 11:47:41.138] [Server thread/INFO] [Minecraft/]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[07jul2025 11:47:41.138] [Server thread/INFO] [Minecraft/]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
-[07jul2025 11:47:41.138] [Server thread/INFO] [Minecraft/]: Max TNT Explosions: 100
-[07jul2025 11:47:41.138] [Server thread/INFO] [Minecraft/]: Experience Merge Radius: 3.0
-[07jul2025 11:47:41.138] [Server thread/INFO] [Minecraft/]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[07jul2025 11:47:41.138] [Server thread/INFO] [Minecraft/]: Item Merge Radius: 2.5
-[07jul2025 11:47:41.141] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:creativo
-[07jul2025 11:47:49.083] [Worker-Main-11/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[07jul2025 11:47:49.083] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[07jul2025 11:47:49.083] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[07jul2025 11:47:49.083] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[07jul2025 11:47:49.084] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[07jul2025 11:47:49.084] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[07jul2025 11:47:49.084] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[07jul2025 11:47:49.084] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[07jul2025 11:47:49.084] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[07jul2025 11:47:49.085] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[07jul2025 11:47:49.085] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[07jul2025 11:47:49.086] [Worker-Main-11/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[07jul2025 11:47:49.087] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[07jul2025 11:47:49.087] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[07jul2025 11:47:49.087] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[07jul2025 11:47:49.088] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[07jul2025 11:47:49.268] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[07jul2025 11:47:49.945] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 17%
-[07jul2025 11:47:50.142] [Worker-Main-7/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 44%
-[07jul2025 11:47:50.643] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 90%
-[07jul2025 11:47:50.693] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 9552 ms
-[07jul2025 11:47:51.269] [Server thread/INFO] [PlaceholderAPI/]: Successfully registered internal expansion: multiverse-core [5.1.0]
-[07jul2025 11:47:51.271] [Server thread/INFO] [Minecraft/]: [Multiverse-Core] API service loaded!
-[07jul2025 11:47:51.281] [Server thread/INFO] [Minecraft/]: [Multiverse-Core] [32mVersion 5.1.0 (API v5.1) Enabled - By dumptruckman, Rigby, fernferret, lithium3141, main--, benwoo1110 and Zax71[39m
-[07jul2025 11:47:51.281] [Server thread/INFO] [Minecraft/]: [Multiverse-Core] [32mLoving Multiverse-Core? Please consider supporting the project with a small donation: https://github.com/sponsors/Multiverse[39m
-[07jul2025 11:47:51.283] [Server thread/INFO] [AdvancedServerList/]: Enabling AdvancedServerList v3.5.1
-[07jul2025 11:47:51.362] [Server thread/INFO] [AdvancedServerList/]:            _____ _
-[07jul2025 11:47:51.362] [Server thread/INFO] [AdvancedServerList/]:     /\    / ____| |
-[07jul2025 11:47:51.362] [Server thread/INFO] [AdvancedServerList/]:    /  \  | (___ | |
-[07jul2025 11:47:51.362] [Server thread/INFO] [AdvancedServerList/]:   / /\ \  \___ \| |
-[07jul2025 11:47:51.363] [Server thread/INFO] [AdvancedServerList/]:  / ____ \ ____) | |____
-[07jul2025 11:47:51.363] [Server thread/INFO] [AdvancedServerList/]: /_/    \_\_____/|______|
-[07jul2025 11:47:51.363] [Server thread/INFO] [AdvancedServerList/]: 
-[07jul2025 11:47:51.364] [Server thread/INFO] [AdvancedServerList/]: Starting AdvancedServerList v3.5.1...
-[07jul2025 11:47:51.364] [Server thread/INFO] [AdvancedServerList/]: Platform: Arclight arclight-1.20.1-1.0.6-4e94eb76 (MC: 1.20.1)
-[07jul2025 11:47:51.364] [Server thread/INFO] [AdvancedServerList/]: Loading config.yml...
-[07jul2025 11:47:51.602] [Server thread/INFO] [AdvancedServerList/]: Successfully loaded config.yml!
-[07jul2025 11:47:51.603] [Server thread/INFO] [AdvancedServerList/]: Loading profiles...
-[07jul2025 11:47:51.629] [Server thread/INFO] [AdvancedServerList/]: Loaded default.yml
-[07jul2025 11:47:51.629] [Server thread/INFO] [AdvancedServerList/]: Successfully loaded 1 profiles!
-[07jul2025 11:47:51.629] [Server thread/INFO] [AdvancedServerList/]: Loading Commands...
-[07jul2025 11:47:51.896] [Server thread/INFO] [AdvancedServerList/]: Commands loaded!
-[07jul2025 11:47:51.897] [Server thread/INFO] [AdvancedServerList/]: Loading events...
-[07jul2025 11:47:51.898] [Server thread/INFO] [AdvancedServerList/]: Events loaded!
-[07jul2025 11:47:51.898] [Server thread/INFO] [AdvancedServerList/]: Loading playercache.json...
-[07jul2025 11:47:51.899] [Server thread/INFO] [AdvancedServerList/]: Loaded 1 players into cache!
-[07jul2025 11:47:51.899] [Server thread/INFO] [AdvancedServerList/]: Loading bStats metrics. Disable it in the global config under /plugins/bstats/
-[07jul2025 11:47:51.905] [Server thread/INFO] [AdvancedServerList/]: Metrics loaded!
-[07jul2025 11:47:51.905] [Server thread/INFO] [AdvancedServerList/]: AdvancedServerList is ready!
-[07jul2025 11:47:52.038] [AdvancedServerList-UpdateThread/INFO] [AdvancedServerList/]: Checking for a new update...
-[07jul2025 11:47:52.038] [Server thread/INFO] [zMenu/]: Enabling zMenu v1.0.3.4
-[07jul2025 11:47:52.045] [Server thread/INFO] [Console/]: [zMenu v1.0.3.4] === ENABLE START ===
-[07jul2025 11:47:52.046] [Server thread/INFO] [Console/]: [zMenu v1.0.3.4] Plugin Version V1.0.3.4
-[07jul2025 11:47:52.057] [Server thread/INFO] [PlaceholderAPI/]: Successfully registered internal expansion: zmenu [1.0.3.4]
-[07jul2025 11:47:52.251] [Server thread/INFO] [Console/]: [zMenu v1.0.3.4] plugins\zMenu\patterns\pattern_example.yml loaded successfully !
-[07jul2025 11:47:52.272] [Server thread/INFO] [Console/]: [zMenu v1.0.3.4] plugins\zMenu\inventories\advanced_inventory.yml loaded successfully !
-[07jul2025 11:47:52.409] [Server thread/INFO] [Console/]: [zMenu v1.0.3.4] plugins\zMenu\inventories\basic_inventory.yml loaded successfully !
-[07jul2025 11:47:52.412] [Server thread/INFO] [Console/]: [zMenu v1.0.3.4] plugins\zMenu\inventories\example_punish.yml loaded successfully !
-[07jul2025 11:47:52.419] [Server thread/INFO] [Console/]: [zMenu v1.0.3.4] plugins\zMenu\inventories\menu.yml loaded successfully !
-[07jul2025 11:47:52.422] [Server thread/INFO] [Console/]: [zMenu v1.0.3.4] plugins\zMenu\inventories\pro_inventory.yml loaded successfully !
-[07jul2025 11:47:52.424] [Server thread/INFO] [Console/]: [zMenu v1.0.3.4] plugins\zMenu\inventories\vip.yml loaded successfully !
-[07jul2025 11:47:52.432] [Server thread/INFO] [Console/]: [zMenu v1.0.3.4] plugins\zMenu\website\inventories.yml loaded successfully !
-[07jul2025 11:47:52.439] [Server thread/INFO] [Console/]: [zMenu v1.0.3.4] Command /menu successfully register.
-[07jul2025 11:47:52.439] [Server thread/INFO] [Console/]: [zMenu v1.0.3.4] Command /vip successfully register.
-[07jul2025 11:47:52.439] [Server thread/INFO] [Console/]: [zMenu v1.0.3.4] Command /basic_command successfully register.
-[07jul2025 11:47:52.439] [Server thread/INFO] [Console/]: [zMenu v1.0.3.4] Command /advanced_command successfully register.
-[07jul2025 11:47:52.440] [Server thread/INFO] [Console/]: [zMenu v1.0.3.4] Command /pro_command successfully register.
-[07jul2025 11:47:52.440] [Server thread/INFO] [Console/]: [zMenu v1.0.3.4] Command /openbook successfully register.
-[07jul2025 11:47:52.446] [Server thread/INFO] [Console/]: [zMenu v1.0.3.4] Command /punish successfully register.
-[07jul2025 11:47:52.469] [Server thread/INFO] [Console/]: [zMenu v1.0.3.4] 
-[07jul2025 11:47:52.469] [Server thread/INFO] [Console/]: [zMenu v1.0.3.4] You can support zMenu by upgrading your account here: https://minecraft-inventory-builder.com/account-upgrade
-[07jul2025 11:47:52.469] [Server thread/INFO] [Console/]: [zMenu v1.0.3.4] zMenu’s site includes an inventory editor (under development), a marketplace (already available) is a forum (under development)
-[07jul2025 11:47:52.469] [Server thread/INFO] [Console/]: [zMenu v1.0.3.4] 
-[07jul2025 11:47:52.474] [Server thread/INFO] [Console/]: [zMenu v1.0.3.4] Use ClassicMeta
-[07jul2025 11:47:52.475] [Server thread/INFO] [Console/]: [zMenu v1.0.3.4] Loading 8 commands
-[07jul2025 11:47:52.475] [Server thread/INFO] [Console/]: [zMenu v1.0.3.4] === ENABLE DONE (430ms) ===
-[07jul2025 11:47:52.477] [Server thread/INFO] [Essentials/]: Enabling Essentials v2.21.1
-[07jul2025 11:47:52.762] [ForkJoinPool.commonPool-worker-4/INFO] [AdvancedServerList/]: No new update found. You're running the latest version!
-[07jul2025 11:47:52.959] [Server thread/ERROR] [Essentials/]: Estás ejecutando un servidor que no es compatible con los plugins de Bukkit. ¡No se deben utilizar con mods de Forge/Fabric! Para Forge: es recomendable usar ForgeEssentials o SpongeForge + Nucleus.
-[07jul2025 11:47:52.979] [Server thread/INFO] [Essentials/]: Estado de clase determinante: net.minecraftforge.common.MinecraftForge
-[07jul2025 11:47:52.979] [Server thread/WARN] [Essentials/]: La version no coincide! Por favor actualiza EssentialsChat a la misma version.
-[07jul2025 11:47:53.069] [Server thread/INFO] [Essentials/]: Attempting to convert old kits in config.yml to new kits.yml
-[07jul2025 11:47:53.069] [Server thread/INFO] [Essentials/]: No kits found to migrate.
-[07jul2025 11:47:53.143] [Server thread/INFO] [Essentials/]: Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
-[07jul2025 11:47:53.144] [Server thread/INFO] [Essentials/]: Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
-[07jul2025 11:47:53.151] [Server thread/INFO] [Essentials/]: Selected Bukkit Material Tag Provider as the provider for MaterialTagProvider
-[07jul2025 11:47:53.153] [Server thread/INFO] [Essentials/]: No provider found for BiomeKeyProvider, but it is nullable
-[07jul2025 11:47:53.154] [Server thread/INFO] [Essentials/]: Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
-[07jul2025 11:47:53.154] [Server thread/INFO] [Essentials/]: No provider found for SerializationProvider, but it is nullable
-[07jul2025 11:47:53.154] [Server thread/INFO] [Essentials/]: Selected Legacy InventoryView Abstract Class ABI Provider as the provider for InventoryViewProvider
-[07jul2025 11:47:53.155] [Server thread/INFO] [Essentials/]: Selected Legacy Damage Event Provider as the provider for DamageEventProvider
-[07jul2025 11:47:53.157] [Server thread/INFO] [Essentials/]: Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
-[07jul2025 11:47:53.160] [Server thread/INFO] [Essentials/]: Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
-[07jul2025 11:47:53.161] [Server thread/INFO] [Essentials/]: No provider found for ContainerProvider, but it is nullable
-[07jul2025 11:47:53.161] [Server thread/INFO] [Essentials/]: Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
-[07jul2025 11:47:53.163] [Server thread/INFO] [Essentials/]: No provider found for TickCountProvider, but it is nullable
-[07jul2025 11:47:53.164] [Server thread/INFO] [Essentials/]: Selected Reflection Sync Commands Provider as the provider for SyncCommandsProvider
-[07jul2025 11:47:53.164] [Server thread/INFO] [Essentials/]: Selected Reflection Known Commands Provider as the provider for KnownCommandsProvider
-[07jul2025 11:47:53.165] [Server thread/INFO] [Essentials/]: Selected 1.9-1.20.4 Potion Meta Provider as the provider for PotionMetaProvider
-[07jul2025 11:47:53.165] [Server thread/INFO] [Essentials/]: Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
-[07jul2025 11:47:53.165] [Server thread/INFO] [Essentials/]: Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
-[07jul2025 11:47:53.166] [Server thread/INFO] [Essentials/]: Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
-[07jul2025 11:47:53.166] [Server thread/INFO] [Essentials/]: Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
-[07jul2025 11:47:53.167] [Server thread/INFO] [Essentials/]: Selected Reflection Server State Provider as the provider for ServerStateProvider
-[07jul2025 11:47:53.169] [Server thread/INFO] [Essentials/]: Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
-[07jul2025 11:47:53.367] [Server thread/INFO] [Essentials/]: Loaded 43517 items from items.json.
-[07jul2025 11:47:53.370] [Server thread/INFO] [Essentials/]: Using locale es_BO
-[07jul2025 11:47:53.440] [Server thread/INFO] [Essentials/]: ServerListPingEvent: Spigot iterator API
-[07jul2025 11:47:53.665] [Server thread/INFO] [Essentials/]: Starting Metrics. Opt-out using the global bStats config.
-[07jul2025 11:47:53.668] [Server thread/INFO] [Vault/]: [Economy] Essentials Economy hooked.
-[07jul2025 11:47:53.683] [Server thread/INFO] [Essentials/]: Using Vault based permissions (LuckPerms)
-[07jul2025 11:47:53.684] [Server thread/INFO] [Multiverse-Inventories/]: Enabling Multiverse-Inventories v5.1.0
-[07jul2025 11:47:53.705] [Server thread/WARN] [Minecraft/]: [Multiverse-Core] Loaded class org.mvplugins.multiverse.inventories.config.InventoriesConfig from Multiverse-Inventories v5.1.0 which is not a depend or softdepend of this plugin.
-[07jul2025 11:47:53.763] [Server thread/INFO] [Minecraft/]: [Multiverse-Inventories] The following worlds for group 'world' are not loaded: worlds, world_nether, world_the_end
-[07jul2025 11:47:54.100] [Server thread/INFO] [PlaceholderAPI/]: Successfully registered internal expansion: multiverse-inventories [5.1.0]
-[07jul2025 11:47:54.106] [Server thread/INFO] [Minecraft/]: [Multiverse-Inventories] Loading player names map...
-[07jul2025 11:47:54.152] [Server thread/INFO] [Minecraft/]: [Multiverse-Inventories] Version 5.1.0 (API v5.1) Enabled - By dumptruckman and benwoo1110
-[07jul2025 11:47:54.154] [Server thread/INFO] [sleep-most/]: Enabling sleep-most v5.6.0
-[07jul2025 11:47:54.256] [Server thread/INFO] [Minecraft/]: [sleep-most] Hooked to PlaceholderAPI
-[07jul2025 11:47:54.257] [Server thread/INFO] [Minecraft/]: [sleep-most] Hooked to Essentials
-[07jul2025 11:47:54.258] [Server thread/INFO] [PlaceholderAPI/]: Successfully registered internal expansion: sleepmost [5.6.0]
-[07jul2025 11:47:54.262] [Server thread/INFO] [AnnouncerPlus/]: Enabling AnnouncerPlus v1.4.2
-[07jul2025 11:47:54.407] [Server thread/WARN] [AnnouncerPlus/]: ====================================================
-[07jul2025 11:47:54.407] [Server thread/WARN] [AnnouncerPlus/]:  AnnouncerPlus works better if you use Paper 
-[07jul2025 11:47:54.407] [Server thread/WARN] [AnnouncerPlus/]:  as your server software. 
-[07jul2025 11:47:54.407] [Server thread/WARN] [AnnouncerPlus/]:   
-[07jul2025 11:47:54.407] [Server thread/WARN] [AnnouncerPlus/]:  Paper offers significant performance improvements,
-[07jul2025 11:47:54.407] [Server thread/WARN] [AnnouncerPlus/]:  bug fixes, security enhancements and optional
-[07jul2025 11:47:54.407] [Server thread/WARN] [AnnouncerPlus/]:  features for server owners to enhance their server.
-[07jul2025 11:47:54.407] [Server thread/WARN] [AnnouncerPlus/]:   
-[07jul2025 11:47:54.407] [Server thread/WARN] [AnnouncerPlus/]:  Paper includes Timings v2, which is significantly
-[07jul2025 11:47:54.407] [Server thread/WARN] [AnnouncerPlus/]:  better at diagnosing lag problems over v1.
-[07jul2025 11:47:54.407] [Server thread/WARN] [AnnouncerPlus/]:   
-[07jul2025 11:47:54.407] [Server thread/WARN] [AnnouncerPlus/]:  All of your plugins should still work, and the
-[07jul2025 11:47:54.408] [Server thread/WARN] [AnnouncerPlus/]:  Paper community will gladly help you fix any issues.
-[07jul2025 11:47:54.408] [Server thread/WARN] [AnnouncerPlus/]:   
-[07jul2025 11:47:54.408] [Server thread/WARN] [AnnouncerPlus/]:  Join the Paper Community @ https://papermc.io
-[07jul2025 11:47:54.408] [Server thread/WARN] [AnnouncerPlus/]: ====================================================
-[07jul2025 11:47:54.532] [Server thread/INFO] [AnnouncerPlus/]: Toast/Advancement style messages require Paper in order to function on this version, consider using Paper if you want to take advantage of this feature!
-[07jul2025 11:47:55.259] [Server thread/INFO] [EssentialsChat/]: Enabling EssentialsChat v2.21.2-dev+21-8d44d1a
-[07jul2025 11:47:55.261] [Server thread/WARN] [EssentialsChat/]: La version no coincide! Por favor actualiza todos los jars de Essentials a la misma version.
-[07jul2025 11:47:55.271] [Server thread/INFO] [EssentialsChat/]: Starting Metrics. Opt-out using the global bStats config.
-[07jul2025 11:47:55.271] [Server thread/INFO] [MoneyFromMobs/]: Enabling MoneyFromMobs v4.71
-[07jul2025 11:47:55.418] [Server thread/INFO] [MoneyFromMobs/]: Update Available for MoneyFromMobs: https://www.spigotmc.org/resources/money-from-mobs-1-9-1-16-4.79137/
-[07jul2025 11:47:55.420] [Server thread/INFO] [TAB/]: Enabling TAB v5.2.4
-[07jul2025 11:47:55.647] [Server thread/INFO] [PlaceholderAPI/]: Successfully registered internal expansion: tab [5.2.4]
-[07jul2025 11:47:55.715] [Server thread/INFO] [Console/]: [TAB] §xEnabled in 213ms
-[07jul2025 11:47:55.725] [Server thread/INFO] [DiscordSRV/]: Enabling DiscordSRV v1.29.0
-[07jul2025 11:47:55.756] [Server thread/INFO] [Minecraft/]: Server permissions file permissions.yml is empty, ignoring it
-[07jul2025 11:47:55.818] [Server thread/INFO] [PlaceholderAPI/]: Placeholder expansion registration initializing...
-[07jul2025 11:47:55.849] [Server thread/INFO] [PlaceholderAPI/]: Successfully registered internal expansion: asl [3.5.1]
-[07jul2025 11:47:55.849] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[07jul2025 11:47:55.913] [ForkJoinPool.commonPool-worker-8/WARN] [PlaceholderAPI/]: Loaded class net.ess3.api.IEssentials from Essentials v2.21.1 which is not a depend or softdepend of this plugin.
-[07jul2025 11:47:55.950] [DiscordSRV - Initialization/ERROR] [DiscordSRV/]: No bot token has been set in the config; a bot token is required to connect to Discord.
-[07jul2025 11:47:56.896] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 100%
-[07jul2025 11:47:56.896] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 100%
-[07jul2025 11:47:56.897] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 100%
-[07jul2025 11:47:56.898] [Server thread/INFO] [Minecraft/]: <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<==============
-[07jul2025 11:47:56.899] [Server thread/INFO] [Minecraft/]: <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<==============
-[07jul2025 11:47:56.899] [Server thread/INFO] [Minecraft/]: <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<==============
-[07jul2025 11:47:56.899] [Server thread/INFO] [Minecraft/]: <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<==============
-[07jul2025 11:47:56.899] [Server thread/INFO] [Minecraft/]: <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<==============
-[07jul2025 11:47:56.899] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 1050 ms
-[07jul2025 11:47:56.899] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (22.423s)! For help, type "help"
-[07jul2025 11:47:56.949] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[07jul2025 11:47:56.950] [Server thread/INFO] [Arclight/]: Forwarding forge permission[forge:default_handler] to bukkit
-[07jul2025 11:47:56.986] [Server thread/INFO] [bountiful/]: Registering Bounty Board Jigsaw Piece for Village Type: plains
-[07jul2025 11:47:56.989] [Server thread/INFO] [bountiful/]: Registering Bounty Board Jigsaw Piece for Village Type: savanna
-[07jul2025 11:47:56.989] [Server thread/INFO] [bountiful/]: Registering Bounty Board Jigsaw Piece for Village Type: snowy
-[07jul2025 11:47:56.989] [Server thread/INFO] [bountiful/]: Registering Bounty Board Jigsaw Piece for Village Type: taiga
-[07jul2025 11:47:56.989] [Server thread/INFO] [bountiful/]: Registering Bounty Board Jigsaw Piece for Village Type: desert
-[07jul2025 11:47:57.019] [Craft Scheduler Thread - 2/INFO] [nAntiBot/]: Connecting to the remote server antibot.nickuc.com...
-[07jul2025 11:47:57.052] [Server thread/INFO] [Essentials/]: Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
-[07jul2025 11:47:57.079] [Server thread/INFO] [Console/]: ¡Un Evento de Multiplicador de Dinero ha comenzado! Los mobs soltarán 100% más dinero durante 5 minutos
-[07jul2025 11:47:57.081] [Server thread/INFO] [PlaceholderAPI/]: Successfully registered external expansion: essentials [1.5.2]
-[07jul2025 11:47:57.082] [Server thread/INFO] [PlaceholderAPI/]: Successfully registered external expansion: player [2.0.8]
-[07jul2025 11:47:57.083] [Server thread/INFO] [PlaceholderAPI/]: Successfully registered external expansion: playerlist [3.0.8]
-[07jul2025 11:47:57.088] [Server thread/WARN] [PlaceholderAPI/]: Cannot load expansion playerstats due to a missing plugin: PlayerStats
-[07jul2025 11:47:57.088] [Server thread/WARN] [PlaceholderAPI/]: Cannot load expansion playertime due to a missing plugin: PlayerTime
-[07jul2025 11:47:57.089] [Server thread/WARN] [PlaceholderAPI/]: Loaded class net.milkbowl.vault.economy.Economy from Vault v1.7.3-b131 which is not a depend or softdepend of this plugin.
-[07jul2025 11:47:57.090] [Server thread/INFO] [PlaceholderAPI/]: Successfully registered external expansion: vault [1.8.3]
-[07jul2025 11:47:57.091] [Server thread/INFO] [Console/]: 4 placeholder hook(s) registered!
-[07jul2025 11:47:57.091] [Server thread/INFO] [DiscordSRV/]: Disabling DiscordSRV v1.29.0
-[07jul2025 11:47:57.091] [Craft Scheduler Thread - 6/INFO] [Essentials/]: Obteniendo información de versión...
-[07jul2025 11:47:57.215] [Server thread/INFO] [Minecraft/]: [Multiverse-Inventories] First run!
-[07jul2025 11:47:57.218] [Server thread/INFO] [Console/]: Checking for conflicts in groups...
-[07jul2025 11:47:57.218] [Server thread/INFO] [Console/]: No group conflicts found!
-[07jul2025 11:47:57.219] [Craft Scheduler Thread - 0/INFO] [Vault/]: Checking for Updates ... 
-[07jul2025 11:47:57.505] [Craft Scheduler Thread - 0/INFO] [Vault/]: No new version available
-[07jul2025 11:47:57.921] [Craft Scheduler Thread - 2/INFO] [Console/]: [zMenu v1.0.3.4] New update available. Your version: 1.0.3.4, latest version: 1.1.0.0
-[07jul2025 11:47:57.921] [Craft Scheduler Thread - 2/INFO] [Console/]: [zMenu v1.0.3.4] Download plugin here: https://groupez.dev/resources/253
-[07jul2025 11:47:59.758] [pool-9-thread-12/INFO] [nAntiBot/]: [Captcha] Captchas generated successfully. (RAM usage ≃ 8 MB [static only], total = 500, protocol count = 46, threads = 12, took 31.52s)
-[07jul2025 11:48:26.749] [User Authenticator #1/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Papu is e76def4f-855b-353d-a34c-36af013968c7
-[07jul2025 11:48:30.740] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Papu[/127.0.0.1:61009] logged in with entity id 136 at (235.30000001192093, 225.0, -359.63129212078104)
-[07jul2025 11:49:14.693] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Papu lost connection: You took too long to login.
-[07jul2025 11:49:14.811] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
-[07jul2025 11:49:24.510] [luckperms-command-executor/INFO] [Console/]: [LP] Running LuckPerms v5.5.9.
-[07jul2025 11:49:24.516] [luckperms-command-executor/INFO] [Console/]: > /lp user <user>
-[07jul2025 11:49:24.516] [luckperms-command-executor/INFO] [Console/]: > /lp group <group>
-[07jul2025 11:49:24.516] [luckperms-command-executor/INFO] [Console/]: > /lp track <track>
-[07jul2025 11:49:24.516] [luckperms-command-executor/INFO] [Console/]: > /lp log
-[07jul2025 11:49:24.516] [luckperms-command-executor/INFO] [Console/]: > /lp sync
-[07jul2025 11:49:24.516] [luckperms-command-executor/INFO] [Console/]: > /lp info
-[07jul2025 11:49:24.516] [luckperms-command-executor/INFO] [Console/]: > /lp editor [type]
-[07jul2025 11:49:24.517] [luckperms-command-executor/INFO] [Console/]: > /lp verbose <on|record|off|upload> [filter]
-[07jul2025 11:49:24.517] [luckperms-command-executor/INFO] [Console/]: > /lp tree [scope] [player]
-[07jul2025 11:49:24.517] [luckperms-command-executor/INFO] [Console/]: > /lp search <permission>
-[07jul2025 11:49:24.517] [luckperms-command-executor/INFO] [Console/]: > /lp networksync
-[07jul2025 11:49:24.517] [luckperms-command-executor/INFO] [Console/]: > /lp import <file>
-[07jul2025 11:49:24.517] [luckperms-command-executor/INFO] [Console/]: > /lp export <file>
-[07jul2025 11:49:24.517] [luckperms-command-executor/INFO] [Console/]: > /lp reloadconfig
-[07jul2025 11:49:24.517] [luckperms-command-executor/INFO] [Console/]: > /lp bulkupdate
-[07jul2025 11:49:24.517] [luckperms-command-executor/INFO] [Console/]: > /lp translations
-[07jul2025 11:49:24.518] [luckperms-command-executor/INFO] [Console/]: > /lp creategroup <group>
-[07jul2025 11:49:24.518] [luckperms-command-executor/INFO] [Console/]: > /lp deletegroup <group>
-[07jul2025 11:49:24.518] [luckperms-command-executor/INFO] [Console/]: > /lp listgroups
-[07jul2025 11:49:24.518] [luckperms-command-executor/INFO] [Console/]: > /lp createtrack <track>
-[07jul2025 11:49:24.518] [luckperms-command-executor/INFO] [Console/]: > /lp deletetrack <track>
-[07jul2025 11:49:24.518] [luckperms-command-executor/INFO] [Console/]: > /lp listtracks
-[07jul2025 11:49:30.695] [Server thread/INFO] [Console/]: Unknown command. Type "/help" for help.
-[07jul2025 11:49:40.093] [Server thread/INFO] [Console/]:                   §xR§xe§xl§xo§xa§xd§xi§xn§xg§x §xA§xn§xn§xo§xu§xn§xc§xe§xr§xP§xl§xu§xs§x §xc§xo§xn§xf§xi§xg§x.§x.§x.
-[07jul2025 11:49:40.138] [Server thread/INFO] [Console/]:                                     Done.
-[07jul2025 11:49:43.296] [User Authenticator #2/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Papu is e76def4f-855b-353d-a34c-36af013968c7
-[07jul2025 11:49:47.032] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Papu[/127.0.0.1:61040] logged in with entity id 310 at (235.30000001192093, 225.0, -359.63129212078104)
-[07jul2025 11:50:31.191] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Papu lost connection: You took too long to login.
-[07jul2025 11:50:31.237] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
-[07jul2025 11:51:21.794] [Server thread/INFO] [Console/]:                   §xR§xe§xl§xo§xa§xd§xi§xn§xg§x §xA§xn§xn§xo§xu§xn§xc§xe§xr§xP§xl§xu§xs§x §xc§xo§xn§xf§xi§xg§x.§x.§x.
-[07jul2025 11:51:21.830] [Server thread/INFO] [Console/]:                                     Done.
-[07jul2025 11:51:23.348] [User Authenticator #3/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Papu is e76def4f-855b-353d-a34c-36af013968c7
-[07jul2025 11:51:27.068] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Papu[/127.0.0.1:61062] logged in with entity id 455 at (235.30000001192093, 225.0, -359.63129212078104)
-[07jul2025 11:52:11.192] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Papu lost connection: You took too long to login.
-[07jul2025 11:52:11.222] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
-[07jul2025 11:52:47.711] [Server thread/INFO] [Essentials/]: CONSOLE issued server command: /tell Papu Tu rango es: {luckperms_prefix}
-[07jul2025 11:52:47.729] [Server thread/INFO] [Console/]: Error: Jugador no encontrado.
-[07jul2025 11:52:57.199] [Server thread/INFO] [Console/]: ¡El Evento de Multiplicador de Dinero ha terminado! ¡Todos los mobs ahora soltarán su cantidad normal!
-[07jul2025 11:53:01.295] [User Authenticator #4/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Papu is e76def4f-855b-353d-a34c-36af013968c7
-[07jul2025 11:53:03.293] [Server thread/INFO] [Essentials/]: CONSOLE issued server command: /tell Papu Tu rango es: {luckperms_prefix}
-[07jul2025 11:53:03.294] [Server thread/INFO] [Console/]: Error: Jugador no encontrado.
-[07jul2025 11:53:04.954] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Papu[/127.0.0.1:61141] logged in with entity id 614 at (235.30000001192093, 225.0, -359.63129212078104)
-[07jul2025 11:53:06.751] [Server thread/INFO] [Essentials/]: CONSOLE issued server command: /tell Papu Tu rango es: {luckperms_prefix}
-[07jul2025 11:53:06.765] [Server thread/INFO] [Console/]: [yo -> Papu] Tu rango es: {luckperms_prefix}
-[07jul2025 11:53:16.521] [Craft Scheduler Thread - 4/INFO] [nLogin/]: The user Papu has successfully logged in.
-[07jul2025 11:53:28.047] [Server thread/INFO] [Essentials/]: CONSOLE issued server command: /tell Papu Tu rango es: {luckperms_suffix}
-[07jul2025 11:53:28.049] [Server thread/INFO] [Console/]: [yo -> Papu] Tu rango es: {luckperms_suffix}
-[07jul2025 11:53:36.350] [Server thread/INFO] [Essentials/]: CONSOLE issued server command: /tell Papu Tu rango es: {prefix}
-[07jul2025 11:53:36.354] [Server thread/INFO] [Console/]: [yo -> Papu] Tu rango es: {prefix}
-[07jul2025 11:53:45.650] [Server thread/INFO] [Essentials/]: CONSOLE issued server command: /tell Papu Tu rango es: %vault_rank%
-[07jul2025 11:53:45.652] [Server thread/INFO] [Console/]: [yo -> Papu] Tu rango es: %vault_rank%
-[07jul2025 11:53:52.699] [Server thread/INFO] [Essentials/]: CONSOLE issued server command: /tell Papu Tu rango es: %vault_prefix%
-[07jul2025 11:53:52.700] [Server thread/INFO] [Console/]: [yo -> Papu] Tu rango es: %vault_prefix%
-[07jul2025 11:53:59.155] [Server thread/INFO] [Essentials/]: CONSOLE issued server command: /tell Papu Tu rango es: %vault_suffix%
-[07jul2025 11:53:59.158] [Server thread/INFO] [Console/]: [yo -> Papu] Tu rango es: %vault_suffix%
-[07jul2025 11:54:09.305] [Server thread/INFO] [Essentials/]: CONSOLE issued server command: /tell Papu Tu rango es: %tabprefix%
-[07jul2025 11:54:09.308] [Server thread/INFO] [Console/]: [yo -> Papu] Tu rango es: %tabprefix%
-[07jul2025 11:54:15.799] [Server thread/INFO] [Essentials/]: CONSOLE issued server command: /tell Papu Tu rango es: %tabsuffix%
-[07jul2025 11:54:15.800] [Server thread/INFO] [Console/]: [yo -> Papu] Tu rango es: %tabsuffix%
-[07jul2025 11:54:50.164] [placeholderapi-io-#1/INFO] [Console/]: Successfully downloaded expansion Vault [1.8.3] to file: Expansion-vault.jar
-Make sure to type /papi reload to enable your new expansion!
-[07jul2025 11:54:50.165] [placeholderapi-io-#1/INFO] [PlaceholderAPI/]: Fetching available expansion information...
-[07jul2025 11:54:53.518] [Server thread/INFO] [PlaceholderAPI/]: Placeholder expansion registration initializing...
-[07jul2025 11:54:53.519] [Server thread/INFO] [PlaceholderAPI/]: Fetching available expansion information...
-[07jul2025 11:54:53.644] [Server thread/INFO] [PlaceholderAPI/]: Successfully registered external expansion: essentials [1.5.2]
-[07jul2025 11:54:53.644] [Server thread/INFO] [PlaceholderAPI/]: Successfully registered external expansion: player [2.0.8]
-[07jul2025 11:54:53.645] [Server thread/INFO] [PlaceholderAPI/]: Successfully registered external expansion: playerlist [3.0.8]
-[07jul2025 11:54:53.648] [Server thread/WARN] [PlaceholderAPI/]: Cannot load expansion playerstats due to a missing plugin: PlayerStats
-[07jul2025 11:54:53.649] [Server thread/WARN] [PlaceholderAPI/]: Cannot load expansion playertime due to a missing plugin: PlayerTime
-[07jul2025 11:54:53.650] [Server thread/INFO] [PlaceholderAPI/]: Successfully registered external expansion: vault [1.8.3]
-[07jul2025 11:54:53.650] [Server thread/INFO] [Console/]: 4 placeholder hook(s) registered!
-[07jul2025 11:55:00.254] [Server thread/INFO] [Essentials/]: CONSOLE issued server command: /tell Papu Tu rango es: %vault_suffix%
-[07jul2025 11:55:00.256] [Server thread/INFO] [Console/]: [yo -> Papu] Tu rango es: %vault_suffix%
-[07jul2025 11:55:01.454] [Server thread/INFO] [Essentials/]: CONSOLE issued server command: /tell Papu Tu rango es: %vault_suffix%
-[07jul2025 11:55:01.458] [Server thread/INFO] [Console/]: [yo -> Papu] Tu rango es: %vault_suffix%
-[07jul2025 11:56:55.952] [Server thread/INFO] [Console/]:                   §xR§xe§xl§xo§xa§xd§xi§xn§xg§x §xA§xn§xn§xo§xu§xn§xc§xe§xr§xP§xl§xu§xs§x §xc§xo§xn§xf§xi§xg§x.§x.§x.
-[07jul2025 11:56:55.989] [Server thread/INFO] [Console/]:                                     Done.
-[07jul2025 11:56:58.452] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Papu lost connection: Disconnected
-[07jul2025 11:57:03.299] [User Authenticator #5/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Papu is e76def4f-855b-353d-a34c-36af013968c7
-[07jul2025 11:57:07.069] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Papu[/127.0.0.1:61228] logged in with entity id 972 at (235.30000001192093, 225.0, -359.63129212078104)
-[07jul2025 11:57:44.703] [luckperms-command-executor/INFO] [Console/]: [LP] Papu had their existing parent groups cleared, and now only inherits vip in context global.
-[07jul2025 11:57:48.952] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Papu lost connection: Disconnected
-[07jul2025 11:57:54.352] [User Authenticator #6/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Papu is e76def4f-855b-353d-a34c-36af013968c7
-[07jul2025 11:57:58.018] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Papu[/127.0.0.1:61238] logged in with entity id 1125 at (235.30000001192093, 225.0, -359.63129212078104)
-[07jul2025 11:58:16.062] [Craft Scheduler Thread - 4/INFO] [nLogin/]: The user Papu has successfully logged in.
-[07jul2025 12:01:57.706] [Server thread/INFO] [Console/]:                   §xR§xe§xl§xo§xa§xd§xi§xn§xg§x §xA§xn§xn§xo§xu§xn§xc§xe§xr§xP§xl§xu§xs§x §xc§xo§xn§xf§xi§xg§x.§x.§x.
-[07jul2025 12:01:57.764] [Server thread/INFO] [Console/]:                                     Done.
-[07jul2025 12:02:00.053] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Papu lost connection: Disconnected
-[07jul2025 12:02:05.352] [User Authenticator #7/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Papu is e76def4f-855b-353d-a34c-36af013968c7
-[07jul2025 12:02:09.083] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Papu[/127.0.0.1:61294] logged in with entity id 1707 at (235.30000001192093, 225.0, -359.63129212078104)
-[07jul2025 12:02:19.855] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Papu lost connection: Disconnected
-[07jul2025 12:03:58.360] [User Authenticator #8/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Papu is e76def4f-855b-353d-a34c-36af013968c7
-[07jul2025 12:04:02.060] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Papu[/127.0.0.1:61340] logged in with entity id 1838 at (235.30000001192093, 225.0, -359.63129212078104)
-[07jul2025 12:04:21.468] [Craft Scheduler Thread - 13/INFO] [nLogin/]: The user Papu has successfully logged in.
-[07jul2025 12:07:31.376] [User Authenticator #9/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Erick is c68da542-8501-3dfb-90e9-7110a3054c36
-[07jul2025 12:07:34.348] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Erick[/127.0.0.1:61561] logged in with entity id 2308 at (38.15482845684675, 115.0, -116.38602624881449)
-[07jul2025 12:07:46.669] [Craft Scheduler Thread - 15/INFO] [nLogin/]: The user Erick has successfully logged in.
-[07jul2025 12:07:50.669] [Server thread/INFO] [Console/]:                   §xR§xe§xl§xo§xa§xd§xi§xn§xg§x §xA§xn§xn§xo§xu§xn§xc§xe§xr§xP§xl§xu§xs§x §xc§xo§xn§xf§xi§xg§x.§x.§x.
-[07jul2025 12:07:50.758] [Server thread/INFO] [Console/]:                                     Done.
-[07jul2025 12:07:54.303] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Papu lost connection: Disconnected
-[07jul2025 12:08:00.418] [User Authenticator #10/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Papu is e76def4f-855b-353d-a34c-36af013968c7
-[07jul2025 12:08:04.319] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Papu[/127.0.0.1:61577] logged in with entity id 2636 at (235.30000001192093, 225.0, -359.63129212078104)
-[07jul2025 12:08:12.324] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2431ms or 48 ticks behind
-[07jul2025 12:08:50.843] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Papu lost connection: You took too long to login.
-[07jul2025 12:08:50.897] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
-[07jul2025 12:09:35.386] [User Authenticator #11/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Papu is e76def4f-855b-353d-a34c-36af013968c7
-[07jul2025 12:09:39.184] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Papu[/127.0.0.1:61632] logged in with entity id 3110 at (235.30000001192093, 225.0, -359.63129212078104)
-[07jul2025 12:10:23.342] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Papu lost connection: You took too long to login.
-[07jul2025 12:10:23.388] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
-[07jul2025 12:10:25.679] [Server thread/INFO] [Console/]:                   §xR§xe§xl§xo§xa§xd§xi§xn§xg§x §xA§xn§xn§xo§xu§xn§xc§xe§xr§xP§xl§xu§xs§x §xc§xo§xn§xf§xi§xg§x.§x.§x.
-[07jul2025 12:10:25.844] [Server thread/INFO] [Console/]:                                     Done.
-[07jul2025 12:10:29.362] [User Authenticator #12/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Papu is e76def4f-855b-353d-a34c-36af013968c7
-[07jul2025 12:10:33.184] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Papu[/127.0.0.1:61646] logged in with entity id 3661 at (235.30000001192093, 225.0, -359.63129212078104)
-[07jul2025 12:10:59.809] [Server thread/INFO] [Essentials/]: CONSOLE issued server command: /gamemode crative Erick
-[07jul2025 12:10:59.852] [Server thread/INFO] [Console/]: Comando de ayuda: /gamemode
-[07jul2025 12:10:59.853] [Server thread/INFO] [Console/]: Descripción: Cambia el modo de juego de un jugador.
-[07jul2025 12:10:59.853] [Server thread/INFO] [Console/]: Uso(s);
-[07jul2025 12:10:59.854] [Server thread/INFO] [Console/]: /gamemode <survival|creative|adventure|spectator> [player] - Establece el modo de juego de ti mismo o de otro jugador si se especifica
-[07jul2025 12:11:03.701] [Server thread/INFO] [Essentials/]: CONSOLE issued server command: /gamemode creative Erick
-[07jul2025 12:11:03.705] [Server thread/INFO] [Console/]: El modo de juego de Erick ha sido cambiado a creativo.
-[07jul2025 12:11:17.342] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Papu lost connection: You took too long to login.
-[07jul2025 12:11:17.408] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
-[07jul2025 12:13:07.637] [Server thread/INFO] [Console/]: ¦¦VIP¦¦
-[07jul2025 12:14:03.261] [Server thread/INFO] [Console/]:                   §xR§xe§xl§xo§xa§xd§xi§xn§xg§x §xA§xn§xn§xo§xu§xn§xc§xe§xr§xP§xl§xu§xs§x §xc§xo§xn§xf§xi§xg§x.§x.§x.
-[07jul2025 12:14:03.326] [Server thread/INFO] [Console/]:                                     Done.
-[07jul2025 12:14:11.424] [User Authenticator #13/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Papu is e76def4f-855b-353d-a34c-36af013968c7
-[07jul2025 12:14:15.343] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Papu[/127.0.0.1:61773] logged in with entity id 4186 at (235.30000001192093, 225.0, -359.63129212078104)
-[07jul2025 12:14:59.592] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Papu lost connection: You took too long to login.
-[07jul2025 12:14:59.697] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
-[07jul2025 12:17:18.863] [Server thread/INFO] [Console/]:                   §xR§xe§xl§xo§xa§xd§xi§xn§xg§x §xA§xn§xn§xo§xu§xn§xc§xe§xr§xP§xl§xu§xs§x §xc§xo§xn§xf§xi§xg§x.§x.§x.
-[07jul2025 12:17:18.914] [Server thread/INFO] [Console/]:                                     Done.
-[07jul2025 12:17:21.425] [User Authenticator #14/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Papu is e76def4f-855b-353d-a34c-36af013968c7
-[07jul2025 12:17:25.200] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Papu[/127.0.0.1:61867] logged in with entity id 4562 at (235.30000001192093, 225.0, -359.63129212078104)
-[07jul2025 13:07:38.024] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2978647ms or 59572 ticks behind
-[07jul2025 13:07:38.283] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Erick lost connection: Timed out
-[07jul2025 13:07:38.671] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Papu lost connection: Timed out
-[07jul2025 13:08:42.038] [User Authenticator #15/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Erick is c68da542-8501-3dfb-90e9-7110a3054c36
-[07jul2025 13:08:44.949] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Erick[/127.0.0.1:61959] logged in with entity id 4698 at (133.29482958591356, 153.0, -221.93320234012043)
-[07jul2025 13:08:55.266] [Craft Scheduler Thread - 2/INFO] [nLogin/]: The user Erick has successfully logged in.
-[07jul2025 13:09:46.450] [Server thread/INFO] [Console/]:                   §xR§xe§xl§xo§xa§xd§xi§xn§xg§x §xA§xn§xn§xo§xu§xn§xc§xe§xr§xP§xl§xu§xs§x §xc§xo§xn§xf§xi§xg§x.§x.§x.
-[07jul2025 13:09:46.526] [Server thread/INFO] [Console/]:                                     Done.
-[07jul2025 13:09:51.038] [User Authenticator #16/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Papu is e76def4f-855b-353d-a34c-36af013968c7
-[07jul2025 13:09:54.903] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Papu[/127.0.0.1:61999] logged in with entity id 4983 at (235.30000001192093, 225.0, -359.63129212078104)
-[07jul2025 13:09:57.843] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2117ms or 42 ticks behind
-[07jul2025 13:10:41.276] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Papu lost connection: You took too long to login.
-[07jul2025 13:10:41.373] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
-[07jul2025 13:12:41.638] [Craft Scheduler Thread - 4/INFO] [nLogin/]: Connection re-established with remote server
-[07jul2025 13:12:41.638] [Craft Scheduler Thread - 10/INFO] [nAntiBot/]: Connection re-established with remote server
-[07jul2025 13:12:48.168] [User Authenticator #17/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Papu is e76def4f-855b-353d-a34c-36af013968c7
-[07jul2025 13:12:51.954] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Papu[/127.0.0.1:62081] logged in with entity id 5584 at (235.30000001192093, 225.0, -359.63129212078104)
-[07jul2025 13:13:36.026] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Papu lost connection: You took too long to login.
-[07jul2025 13:13:36.072] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
-[07jul2025 13:13:56.003] [Server thread/INFO] [Console/]:                   §xR§xe§xl§xo§xa§xd§xi§xn§xg§x §xA§xn§xn§xo§xu§xn§xc§xe§xr§xP§xl§xu§xs§x §xc§xo§xn§xf§xi§xg§x.§x.§x.
-[07jul2025 13:13:56.071] [Server thread/INFO] [Console/]:                                     Done.
-[07jul2025 13:13:59.045] [User Authenticator #18/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Papu is e76def4f-855b-353d-a34c-36af013968c7
-[07jul2025 13:14:03.082] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Papu[/127.0.0.1:62109] logged in with entity id 5810 at (235.30000001192093, 225.0, -359.63129212078104)
-[07jul2025 13:14:10.495] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Erick has made the advancement [Simple Farming]
-[07jul2025 13:14:47.276] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Papu lost connection: You took too long to login.
-[07jul2025 13:14:47.332] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
-[07jul2025 13:14:54.043] [User Authenticator #19/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Papu is e76def4f-855b-353d-a34c-36af013968c7
-[07jul2025 13:14:57.898] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Papu[/127.0.0.1:62129] logged in with entity id 5997 at (235.30000001192093, 225.0, -359.63129212078104)
-[07jul2025 13:15:11.736] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Erick lost connection: Disconnected
-[07jul2025 13:15:15.980] [User Authenticator #20/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Erick is c68da542-8501-3dfb-90e9-7110a3054c36
-[07jul2025 13:15:18.800] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Erick[/127.0.0.1:62146] logged in with entity id 6035 at (233.23262380490766, 225.0, -359.5300616506877)
-[07jul2025 13:15:42.027] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Papu lost connection: You took too long to login.
-[07jul2025 13:15:42.060] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
-[07jul2025 13:16:20.527] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Erick lost connection: You took too long to login.
-[07jul2025 13:16:20.558] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
-[07jul2025 13:16:38.854] [Server thread/INFO] [Console/]:                   §xR§xe§xl§xo§xa§xd§xi§xn§xg§x §xA§xn§xn§xo§xu§xn§xc§xe§xr§xP§xl§xu§xs§x §xc§xo§xn§xf§xi§xg§x.§x.§x.
-[07jul2025 13:16:38.943] [Server thread/INFO] [Console/]:                                     Done.
-[07jul2025 13:16:43.109] [User Authenticator #21/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Papu is e76def4f-855b-353d-a34c-36af013968c7
-[07jul2025 13:16:46.886] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Papu[/127.0.0.1:62179] logged in with entity id 6149 at (235.30000001192093, 225.0, -359.63129212078104)
-[07jul2025 13:16:51.052] [User Authenticator #22/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Erick is c68da542-8501-3dfb-90e9-7110a3054c36
-[07jul2025 13:16:54.347] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Erick[/127.0.0.1:62184] logged in with entity id 6288 at (233.23262380490766, 225.0, -359.5300616506877)
-[07jul2025 13:17:21.675] [Craft Scheduler Thread - 14/INFO] [nLogin/]: The user Papu has successfully logged in.
-[07jul2025 13:17:38.526] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Erick lost connection: You took too long to login.
-[07jul2025 13:17:38.578] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
-[07jul2025 13:18:45.046] [Server thread/INFO] [Console/]:                   §xR§xe§xl§xo§xa§xd§xi§xn§xg§x §xA§xn§xn§xo§xu§xn§xc§xe§xr§xP§xl§xu§xs§x §xc§xo§xn§xf§xi§xg§x.§x.§x.
-[07jul2025 13:18:45.094] [Server thread/INFO] [Console/]:                                     Done.
-[07jul2025 13:18:50.036] [User Authenticator #23/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Erick is c68da542-8501-3dfb-90e9-7110a3054c36
-[07jul2025 13:18:52.904] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Erick[/127.0.0.1:62254] logged in with entity id 6486 at (233.23262380490766, 225.0, -359.5300616506877)
-[07jul2025 13:19:37.026] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Erick lost connection: You took too long to login.
-[07jul2025 13:19:37.054] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
-[07jul2025 13:20:25.888] [Server thread/INFO] [Console/]:                   §xR§xe§xl§xo§xa§xd§xi§xn§xg§x §xA§xn§xn§xo§xu§xn§xc§xe§xr§xP§xl§xu§xs§x §xc§xo§xn§xf§xi§xg§x.§x.§x.
-[07jul2025 13:20:25.935] [Server thread/INFO] [Console/]:                                     Done.
-[07jul2025 13:20:29.036] [User Authenticator #24/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Erick is c68da542-8501-3dfb-90e9-7110a3054c36
-[07jul2025 13:20:31.689] [Server thread/INFO] [Essentials/]: NULL issued server command: /tp @e[type=infectious:lootdrop,distance=..2] ~ ~100 ~
-[07jul2025 13:20:31.942] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Erick[/127.0.0.1:62291] logged in with entity id 6683 at (233.23262380490766, 225.0, -359.5300616506877)
-[07jul2025 13:21:13.340] [Server thread/INFO] [Console/]:                   §xR§xe§xl§xo§xa§xd§xi§xn§xg§x §xA§xn§xn§xo§xu§xn§xc§xe§xr§xP§xl§xu§xs§x §xc§xo§xn§xf§xi§xg§x.§x.§x.
-[07jul2025 13:21:13.430] [Server thread/INFO] [Console/]:                                     Done.
-[07jul2025 13:21:15.937] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Erick lost connection: Disconnected
-[07jul2025 13:21:20.032] [User Authenticator #25/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Erick is c68da542-8501-3dfb-90e9-7110a3054c36
-[07jul2025 13:21:22.856] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Erick[/127.0.0.1:62317] logged in with entity id 6738 at (233.23262380490766, 225.0, -359.5300616506877)
-[07jul2025 13:21:46.190] [Server thread/INFO] [Console/]:                   §xR§xe§xl§xo§xa§xd§xi§xn§xg§x §xA§xn§xn§xo§xu§xn§xc§xe§xr§xP§xl§xu§xs§x §xc§xo§xn§xf§xi§xg§x.§x.§x.
-[07jul2025 13:21:46.236] [Server thread/INFO] [Console/]:                                     Done.
-[07jul2025 13:21:54.505] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Erick lost connection: Disconnected
-[07jul2025 13:21:59.034] [User Authenticator #26/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Erick is c68da542-8501-3dfb-90e9-7110a3054c36
-[07jul2025 13:22:01.848] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Erick[/127.0.0.1:62335] logged in with entity id 6804 at (233.23262380490766, 225.0, -359.5300616506877)
-[07jul2025 13:22:41.057] [Server thread/INFO] [Console/]:                   §xR§xe§xl§xo§xa§xd§xi§xn§xg§x §xA§xn§xn§xo§xu§xn§xc§xe§xr§xP§xl§xu§xs§x §xc§xo§xn§xf§xi§xg§x.§x.§x.
-[07jul2025 13:22:41.137] [Server thread/INFO] [Console/]:                                     Done.
-[07jul2025 13:22:42.788] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Erick lost connection: Disconnected
-[07jul2025 13:22:47.084] [User Authenticator #27/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Erick is c68da542-8501-3dfb-90e9-7110a3054c36
-[07jul2025 13:22:49.844] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Erick[/127.0.0.1:62378] logged in with entity id 6835 at (233.23262380490766, 225.0, -359.5300616506877)
+[07jul2025 19:30:37.596] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, arclightserver, --fml.forgeVersion, 47.3.22, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui, run]
+[07jul2025 19:30:37.598] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.7 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[07jul2025 19:30:38.182] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is arclightserver
+[07jul2025 19:30:38.234] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/Erick%20Quiroz/Documents/MineCraft/Servidor-MineCraft-1.20.1/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2399!/ Service=ModLauncher Env=SERVER
+[07jul2025 19:30:38.884] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Erick Quiroz\Documents\MineCraft\Servidor-MineCraft-1.20.1\libraries\net\minecraftforge\fmlcore\1.20.1-47.3.22\fmlcore-1.20.1-47.3.22.jar is missing mods.toml file
+[07jul2025 19:30:38.889] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Erick Quiroz\Documents\MineCraft\Servidor-MineCraft-1.20.1\libraries\net\minecraftforge\javafmllanguage\1.20.1-47.3.22\javafmllanguage-1.20.1-47.3.22.jar is missing mods.toml file
+[07jul2025 19:30:38.893] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Erick Quiroz\Documents\MineCraft\Servidor-MineCraft-1.20.1\libraries\net\minecraftforge\lowcodelanguage\1.20.1-47.3.22\lowcodelanguage-1.20.1-47.3.22.jar is missing mods.toml file
+[07jul2025 19:30:38.897] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Erick Quiroz\Documents\MineCraft\Servidor-MineCraft-1.20.1\libraries\net\minecraftforge\mclanguage\1.20.1-47.3.22\mclanguage-1.20.1-47.3.22.jar is missing mods.toml file
+[07jul2025 19:30:39.119] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 7 dependencies adding them to mods collection
+[07jul2025 19:30:40.727] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[07jul2025 19:30:40.729] [main/ERROR] [mixin/]: Mixin config entity_model_features.mixins.json does not specify "minVersion" property
+[07jul2025 19:30:40.839] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [io.izzel.arclight.common.mod.ArclightConnector]
+[07jul2025 19:30:40.881] [main/INFO] [Arclight/]: 核心 Mixin 配置已加载
+[07jul2025 19:30:40.883] [main/INFO] [Arclight/]: 服务端优化 Mixin 配置已加载
+[07jul2025 19:30:40.894] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'arclightserver' with arguments [nogui, run]
+[07jul2025 19:30:40.911] [main/WARN] [mixin/]: Reference map 'graveyard-FORGE-forge-refmap.json' for graveyard-forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[07jul2025 19:30:40.917] [main/WARN] [mixin/]: Reference map 'mes-forge-refmap.json' for mes-forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[07jul2025 19:30:40.924] [main/WARN] [mixin/]: Reference map 'mixins.call_of_yucutan.refmap.json' for mixins.call_of_yucutan.json could not be read. If this is a development environment you can ignore this message
+[07jul2025 19:30:40.925] [main/WARN] [mixin/]: Reference map 'coroutil.refmap.json' for coroutil.mixins.json could not be read. If this is a development environment you can ignore this message
+[07jul2025 19:30:40.927] [main/WARN] [mixin/]: Reference map 'mvs-forge-refmap.json' for mvs-forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[07jul2025 19:30:40.935] [main/WARN] [mixin/]: Reference map 'mns-forge-refmap.json' for mns-forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[07jul2025 19:30:50.558] [main/WARN] [mixin/]: @Inject(@At("INVOKE_ASSIGN")) Shift.BY=2 on refurbished_furniture.common.mixins.json:LevelChunkMixin::handler$zcb000$refurbishedFurniture$AfterRemoveBlockEntity exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[07jul2025 19:30:52.525] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialize mod Library Ferret
+[07jul2025 19:30:52.590] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialized mod Library Ferret
+[07jul2025 19:30:52.686] [modloading-worker-0/INFO] [coroutil/]: forge loader environment detected
+[07jul2025 19:30:52.721] [modloading-worker-0/INFO] [dev.enemeez.simplefarming.common.SimpleFarming/]: Simple Farming setup complete!
+[07jul2025 19:30:52.739] [modloading-worker-0/INFO] [Arclight/]: Arclight Mod 已加载
+[07jul2025 19:30:52.895] [modloading-worker-0/INFO] [Arclight/]: Arclight 事件系统已注册
+[07jul2025 19:30:52.961] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.22, for MC 1.20.1 with MCP 20230612.114412
+[07jul2025 19:30:52.961] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.22 Initialized
+[07jul2025 19:30:53.118] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[07jul2025 19:30:53.368] [modloading-worker-0/INFO] [graveyard/]: Registered JSON trade offer adapter.
+[07jul2025 19:30:53.909] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.test.KotlinForForge/]: Kotlin For Forge Enabled!
+[07jul2025 19:30:53.912] [modloading-worker-0/INFO] [STDOUT/]: Service loaders found: [io.ejekta.kambrik.bridge.KambrikSharedApiForge@22aff1b6]
+[07jul2025 19:30:55.548] [modloading-worker-0/INFO] [com.github.nyuppo.MoreMobVariants/]: Giving mobs a fresh coat of paint...
+[07jul2025 19:30:55.570] [main/INFO] [journeymap/]: Initializing Packet Registries
+[07jul2025 19:30:55.608] [main/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[07jul2025 19:30:55.609] [main/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
+[07jul2025 19:30:55.609] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
+[07jul2025 19:30:55.609] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
+[07jul2025 19:30:55.609] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
+[07jul2025 19:30:55.609] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
+[07jul2025 19:30:55.609] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
+[07jul2025 19:30:55.786] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key refurbished_furniture:lock_yaw for refurbished_furniture:seat
+[07jul2025 19:30:55.902] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Starting version check at https://updates.blamejared.com/get?n=clumps&gv=1.20.1
+[07jul2025 19:30:57.381] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Found status: BETA Current: 12.0.0.4 Target: 12.0.0.4
+[07jul2025 19:30:57.381] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
+[07jul2025 19:30:58.518] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[07jul2025 19:30:58.773] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: UP_TO_DATE Current: 5.10.3 Target: null
+[07jul2025 19:30:58.773] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[07jul2025 19:30:59.239] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.22 Target: 47.4.0
+[07jul2025 19:31:00.549] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Erick%20Quiroz/Documents/MineCraft/Servidor-MineCraft-1.20.1/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23231!/assets/.mcassetsroot' uses unexpected schema
+[07jul2025 19:31:00.549] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Erick%20Quiroz/Documents/MineCraft/Servidor-MineCraft-1.20.1/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23231!/data/.mcassetsroot' uses unexpected schema
+[07jul2025 19:31:02.449] [main/INFO] [bountiful/]: Adding serverside commands..
+[07jul2025 19:31:03.242] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 20 recipes
+[07jul2025 19:31:03.346] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2417 advancements
+[07jul2025 19:31:03.349] [main/INFO] [com.github.nyuppo.MoreMobVariants/]: Reloading config...
+[07jul2025 19:31:03.488] [main/INFO] [bountiful/]: Trying to load unloaded files from: config\bountiful\bounty_pools
+[07jul2025 19:31:03.491] [main/INFO] [bountiful/]: Trying to load unloaded files from: config\bountiful\bounty_decrees
+[07jul2025 19:31:05.696] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[07jul2025 19:31:05.696] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[07jul2025 19:31:05.696] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[07jul2025 19:31:05.696] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[07jul2025 19:31:05.797] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[07jul2025 19:31:05.821] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
+[07jul2025 19:31:06.066] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[07jul2025 19:31:06.066] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[07jul2025 19:31:06.066] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[07jul2025 19:31:06.066] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[07jul2025 19:31:06.427] [Server thread/INFO] [Minecraft/]: This server is running Arclight version arclight-1.20.1-1.0.6-4e94eb76 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT)
+[07jul2025 19:31:07.497] [Server thread/INFO] [Arclight/]: 正在向 Bukkit 注册 ...
+[07jul2025 19:31:07.642] [Server thread/INFO] [Arclight/]: 注册了 2025 个材料，其中 1390 个方块 635 个物品
+[07jul2025 19:31:07.644] [Server thread/INFO] [Arclight/]: 注册了 9 个新的药水效果
+[07jul2025 19:31:07.656] [Server thread/INFO] [Arclight/]: 注册了 42 个新的附魔
+[07jul2025 19:31:07.819] [Server thread/INFO] [Arclight/]: 注册了 189 个新的生物类型
+[07jul2025 19:31:07.819] [Server thread/INFO] [Arclight/]: 注册了 3 个新的村民职业
+[07jul2025 19:31:07.821] [Server thread/INFO] [Arclight/]: 注册了 70 个新的生物群系
+[07jul2025 19:31:07.846] [Server thread/INFO] [Minecraft/]: Debug logging is enabled
+[07jul2025 19:31:07.846] [Server thread/INFO] [STDOUT/]: Server Ping Player Sample Count: 12
+[07jul2025 19:31:07.846] [Server thread/INFO] [Minecraft/]: Using 4 threads for Netty based IO
+[07jul2025 19:31:08.085] [Server thread/INFO] [Arclight/]: 正在加载混淆数据 ...
+[07jul2025 19:31:08.648] [Server thread/INFO] [Arclight/]: 正在加载 Plugin Patcher ...
+[07jul2025 19:31:11.339] [Server thread/INFO] [Minecraft/]: [AdvancedServerList] Loading 6 libraries... please wait
+[07jul2025 19:31:11.570] [Server thread/INFO] [Minecraft/]: [AdvancedServerList] Loaded library C:\Users\Erick Quiroz\Documents\MineCraft\Servidor-MineCraft-1.20.1\libraries\org\spongepowered\configurate-yaml\4.1.2\configurate-yaml-4.1.2.jar
+[07jul2025 19:31:11.570] [Server thread/INFO] [Minecraft/]: [AdvancedServerList] Loaded library C:\Users\Erick Quiroz\Documents\MineCraft\Servidor-MineCraft-1.20.1\libraries\org\spongepowered\configurate-core\4.1.2\configurate-core-4.1.2.jar
+[07jul2025 19:31:11.570] [Server thread/INFO] [Minecraft/]: [AdvancedServerList] Loaded library C:\Users\Erick Quiroz\Documents\MineCraft\Servidor-MineCraft-1.20.1\libraries\io\leangen\geantyref\geantyref\1.3.11\geantyref-1.3.11.jar
+[07jul2025 19:31:11.570] [Server thread/INFO] [Minecraft/]: [AdvancedServerList] Loaded library C:\Users\Erick Quiroz\Documents\MineCraft\Servidor-MineCraft-1.20.1\libraries\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar
+[07jul2025 19:31:11.570] [Server thread/INFO] [Minecraft/]: [AdvancedServerList] Loaded library C:\Users\Erick Quiroz\Documents\MineCraft\Servidor-MineCraft-1.20.1\libraries\com\google\errorprone\error_prone_annotations\2.6.0\error_prone_annotations-2.6.0.jar
+[07jul2025 19:31:11.570] [Server thread/INFO] [Minecraft/]: [AdvancedServerList] Loaded library C:\Users\Erick Quiroz\Documents\MineCraft\Servidor-MineCraft-1.20.1\libraries\org\yaml\snakeyaml\1.28\snakeyaml-1.28.jar
+[07jul2025 19:31:11.570] [Server thread/INFO] [Minecraft/]: [AdvancedServerList] Loaded library C:\Users\Erick Quiroz\Documents\MineCraft\Servidor-MineCraft-1.20.1\libraries\net\kyori\adventure-api\4.12.0\adventure-api-4.12.0.jar
+[07jul2025 19:31:11.570] [Server thread/INFO] [Minecraft/]: [AdvancedServerList] Loaded library C:\Users\Erick Quiroz\Documents\MineCraft\Servidor-MineCraft-1.20.1\libraries\net\kyori\adventure-key\4.12.0\adventure-key-4.12.0.jar
+[07jul2025 19:31:11.570] [Server thread/INFO] [Minecraft/]: [AdvancedServerList] Loaded library C:\Users\Erick Quiroz\Documents\MineCraft\Servidor-MineCraft-1.20.1\libraries\net\kyori\examination-api\1.3.0\examination-api-1.3.0.jar
+[07jul2025 19:31:11.570] [Server thread/INFO] [Minecraft/]: [AdvancedServerList] Loaded library C:\Users\Erick Quiroz\Documents\MineCraft\Servidor-MineCraft-1.20.1\libraries\net\kyori\examination-string\1.3.0\examination-string-1.3.0.jar
+[07jul2025 19:31:11.570] [Server thread/INFO] [Minecraft/]: [AdvancedServerList] Loaded library C:\Users\Erick Quiroz\Documents\MineCraft\Servidor-MineCraft-1.20.1\libraries\org\jetbrains\annotations\23.0.0\annotations-23.0.0.jar
+[07jul2025 19:31:11.571] [Server thread/INFO] [Minecraft/]: [AdvancedServerList] Loaded library C:\Users\Erick Quiroz\Documents\MineCraft\Servidor-MineCraft-1.20.1\libraries\net\kyori\adventure-text-minimessage\4.12.0\adventure-text-minimessage-4.12.0.jar
+[07jul2025 19:31:11.571] [Server thread/INFO] [Minecraft/]: [AdvancedServerList] Loaded library C:\Users\Erick Quiroz\Documents\MineCraft\Servidor-MineCraft-1.20.1\libraries\net\kyori\adventure-text-serializer-legacy\4.12.0\adventure-text-serializer-legacy-4.12.0.jar
+[07jul2025 19:31:11.571] [Server thread/INFO] [Minecraft/]: [AdvancedServerList] Loaded library C:\Users\Erick Quiroz\Documents\MineCraft\Servidor-MineCraft-1.20.1\libraries\net\kyori\adventure-platform-bukkit\4.2.0\adventure-platform-bukkit-4.2.0.jar
+[07jul2025 19:31:11.571] [Server thread/INFO] [Minecraft/]: [AdvancedServerList] Loaded library C:\Users\Erick Quiroz\Documents\MineCraft\Servidor-MineCraft-1.20.1\libraries\net\kyori\adventure-platform-api\4.2.0\adventure-platform-api-4.2.0.jar
+[07jul2025 19:31:11.571] [Server thread/INFO] [Minecraft/]: [AdvancedServerList] Loaded library C:\Users\Erick Quiroz\Documents\MineCraft\Servidor-MineCraft-1.20.1\libraries\net\kyori\adventure-text-serializer-bungeecord\4.2.0\adventure-text-serializer-bungeecord-4.2.0.jar
+[07jul2025 19:31:11.571] [Server thread/INFO] [Minecraft/]: [AdvancedServerList] Loaded library C:\Users\Erick Quiroz\Documents\MineCraft\Servidor-MineCraft-1.20.1\libraries\net\kyori\adventure-nbt\4.12.0\adventure-nbt-4.12.0.jar
+[07jul2025 19:31:11.571] [Server thread/INFO] [Minecraft/]: [AdvancedServerList] Loaded library C:\Users\Erick Quiroz\Documents\MineCraft\Servidor-MineCraft-1.20.1\libraries\net\kyori\adventure-text-serializer-gson\4.12.0\adventure-text-serializer-gson-4.12.0.jar
+[07jul2025 19:31:11.571] [Server thread/INFO] [Minecraft/]: [AdvancedServerList] Loaded library C:\Users\Erick Quiroz\Documents\MineCraft\Servidor-MineCraft-1.20.1\libraries\net\kyori\adventure-text-serializer-gson-legacy-impl\4.12.0\adventure-text-serializer-gson-legacy-impl-4.12.0.jar
+[07jul2025 19:31:11.571] [Server thread/INFO] [Minecraft/]: [AdvancedServerList] Loaded library C:\Users\Erick Quiroz\Documents\MineCraft\Servidor-MineCraft-1.20.1\libraries\net\kyori\adventure-platform-facet\4.2.0\adventure-platform-facet-4.2.0.jar
+[07jul2025 19:31:11.571] [Server thread/INFO] [Minecraft/]: [AdvancedServerList] Loaded library C:\Users\Erick Quiroz\Documents\MineCraft\Servidor-MineCraft-1.20.1\libraries\net\kyori\adventure-platform-viaversion\4.2.0\adventure-platform-viaversion-4.2.0.jar
+[07jul2025 19:31:11.571] [Server thread/INFO] [Minecraft/]: [AdvancedServerList] Loaded library C:\Users\Erick Quiroz\Documents\MineCraft\Servidor-MineCraft-1.20.1\libraries\com\squareup\okhttp3\okhttp\4.10.0\okhttp-4.10.0.jar
+[07jul2025 19:31:11.571] [Server thread/INFO] [Minecraft/]: [AdvancedServerList] Loaded library C:\Users\Erick Quiroz\Documents\MineCraft\Servidor-MineCraft-1.20.1\libraries\com\squareup\okio\okio-jvm\3.0.0\okio-jvm-3.0.0.jar
+[07jul2025 19:31:11.572] [Server thread/INFO] [Minecraft/]: [AdvancedServerList] Loaded library C:\Users\Erick Quiroz\Documents\MineCraft\Servidor-MineCraft-1.20.1\libraries\org\jetbrains\kotlin\kotlin-stdlib-jdk8\1.5.31\kotlin-stdlib-jdk8-1.5.31.jar
+[07jul2025 19:31:11.572] [Server thread/INFO] [Minecraft/]: [AdvancedServerList] Loaded library C:\Users\Erick Quiroz\Documents\MineCraft\Servidor-MineCraft-1.20.1\libraries\org\jetbrains\kotlin\kotlin-stdlib-jdk7\1.5.31\kotlin-stdlib-jdk7-1.5.31.jar
+[07jul2025 19:31:11.572] [Server thread/INFO] [Minecraft/]: [AdvancedServerList] Loaded library C:\Users\Erick Quiroz\Documents\MineCraft\Servidor-MineCraft-1.20.1\libraries\org\jetbrains\kotlin\kotlin-stdlib-common\1.5.31\kotlin-stdlib-common-1.5.31.jar
+[07jul2025 19:31:11.572] [Server thread/INFO] [Minecraft/]: [AdvancedServerList] Loaded library C:\Users\Erick Quiroz\Documents\MineCraft\Servidor-MineCraft-1.20.1\libraries\org\jetbrains\kotlin\kotlin-stdlib\1.6.20\kotlin-stdlib-1.6.20.jar
+[07jul2025 19:31:13.544] [Server thread/INFO] [LuckPerms/]: Loading LuckPerms v5.5.9
+[07jul2025 19:31:13.842] [Server thread/INFO] [LuckPerms/]: Loading configuration...
+[07jul2025 19:31:14.026] [Server thread/INFO] [nAntiBot/]: Loading nAntiBot v6.1.32
+[07jul2025 19:31:14.950] [Server thread/INFO] [PlaceholderAPI/]: Loading PlaceholderAPI v2.11.6
+[07jul2025 19:31:14.952] [Server thread/INFO] [CMILib/]: Loading CMILib v1.5.5.1
+[07jul2025 19:31:14.952] [Server thread/INFO] [Vault/]: Loading Vault v1.7.3-b131
+[07jul2025 19:31:14.959] [Server thread/INFO] [Minecraft/]: [CoreLogging] Loading Multiverse-Core v5.1.0
+[07jul2025 19:31:14.964] [Server thread/INFO] [ProtocolLib/]: Loading ProtocolLib v5.3.0
+[07jul2025 19:31:15.287] [Server thread/INFO] [AdvancedServerList/]: Loading AdvancedServerList v3.5.1
+[07jul2025 19:31:15.287] [Server thread/INFO] [zMenu/]: Loading zMenu v1.0.3.4
+[07jul2025 19:31:15.287] [Server thread/INFO] [nLogin/]: Loading nLogin v10.4.22
+[07jul2025 19:31:16.071] [Server thread/INFO] [Essentials/]: Loading Essentials v2.21.1
+[07jul2025 19:31:16.081] [Server thread/INFO] [Multiverse-Inventories/]: Loading Multiverse-Inventories v5.1.0
+[07jul2025 19:31:16.084] [Server thread/INFO] [sleep-most/]: Loading sleep-most v5.6.0
+[07jul2025 19:31:16.085] [Server thread/INFO] [AnnouncerPlus/]: Loading AnnouncerPlus v1.4.2
+[07jul2025 19:31:16.085] [Server thread/INFO] [EssentialsChat/]: Loading EssentialsChat v2.21.2-dev+21-8d44d1a
+[07jul2025 19:31:16.085] [Server thread/INFO] [MoneyFromMobs/]: Loading MoneyFromMobs v4.71
+[07jul2025 19:31:16.085] [Server thread/INFO] [TAB/]: Loading TAB v5.2.4
+[07jul2025 19:31:16.085] [Server thread/INFO] [DiscordSRV/]: Loading DiscordSRV v1.29.0
+[07jul2025 19:31:16.088] [Server thread/INFO] [LuckPerms/]: Enabling LuckPerms v5.5.9
+[07jul2025 19:31:16.950] [Server thread/INFO] [Console/]:         __    
+[07jul2025 19:31:16.950] [Server thread/INFO] [Console/]:   |    |__)   LuckPerms v5.5.9
+[07jul2025 19:31:16.950] [Server thread/INFO] [Console/]:   |___ |      Running on Bukkit - Arclight
+[07jul2025 19:31:16.950] [Server thread/INFO] [Console/]: 
+[07jul2025 19:31:17.210] [Server thread/INFO] [LuckPerms/]: Loading storage provider... [YAML]
+[07jul2025 19:31:17.564] [Server thread/INFO] [LuckPerms/]: Loading internal permission managers...
+[07jul2025 19:31:17.790] [Server thread/INFO] [LuckPerms/]: Performing initial data load...
+[07jul2025 19:31:17.958] [luckperms-worker-0/WARN] [LuckPerms/]: Loaded class javax.annotation.Nonnull from DiscordSRV v1.29.0 which is not a depend or softdepend of this plugin.
+[07jul2025 19:31:18.147] [Server thread/INFO] [LuckPerms/]: Successfully enabled. (took 2059ms)
+[07jul2025 19:31:18.149] [Server thread/INFO] [nAntiBot/]: Enabling nAntiBot v6.1.32
+[07jul2025 19:31:18.796] [Server thread/INFO] [nAntiBot/]: Successful plugin core start (took 0.63s)
+[07jul2025 19:31:18.807] [Server thread/INFO] [Console/]:           _         _   _   ___       _   
+[07jul2025 19:31:18.807] [Server thread/INFO] [Console/]:   _ __   /_\  _ __ | |_(_) / __\ ___ | |_ 
+[07jul2025 19:31:18.807] [Server thread/INFO] [Console/]:  | '_ \ //_\\| '_ \| __| |/__\/// _ \| __|
+[07jul2025 19:31:18.807] [Server thread/INFO] [Console/]:  | | | /  _  \ | | | |_| / \/  \ (_) | |_ 
+[07jul2025 19:31:18.807] [Server thread/INFO] [Console/]:  |_| |_\_/ \_/_| |_|\__|_\_____/\___/ \__|
+[07jul2025 19:31:18.807] [Server thread/INFO] [Console/]:                                          
+[07jul2025 19:31:18.807] [Server thread/INFO] [Console/]:  By: www.nickuc.com - V 6.1.32
+[07jul2025 19:31:18.807] [Server thread/INFO] [Console/]: 
+[07jul2025 19:31:20.917] [Server thread/INFO] [Vault/]: Enabling Vault v1.7.3-b131
+[07jul2025 19:31:20.941] [Server thread/WARN] [Vault/]: Loaded class com.earth2me.essentials.api.Economy from Essentials v2.21.1 which is not a depend or softdepend of this plugin.
+[07jul2025 19:31:20.944] [Server thread/INFO] [Vault/]: [Economy] Essentials Economy found: Waiting
+[07jul2025 19:31:20.983] [Server thread/INFO] [Vault/]: [Permission] SuperPermissions loaded as backup permission system.
+[07jul2025 19:31:21.012] [Server thread/INFO] [Vault/]: Enabled Version 1.7.3-b131
+[07jul2025 19:31:21.026] [Server thread/INFO] [LuckPerms/]: Registered Vault permission & chat hook.
+[07jul2025 19:31:21.026] [Server thread/INFO] [ProtocolLib/]: Enabling ProtocolLib v5.3.0
+[07jul2025 19:31:21.062] [Server thread/INFO] [nLogin/]: Enabling nLogin v10.4.22
+[07jul2025 19:31:21.503] [Server thread/INFO] [nLogin/]: Successful plugin core start (took 0.43s)
+[07jul2025 19:31:22.254] [Server thread/INFO] [Console/]:           __             _       
+[07jul2025 19:31:22.262] [Server thread/INFO] [Console/]:   _ __   / /  ___   __ _(_)_ __  
+[07jul2025 19:31:22.262] [Server thread/INFO] [Console/]:  | '_ \ / /  / _ \ / _` | | '_ \ 
+[07jul2025 19:31:22.263] [Server thread/INFO] [Console/]:  | | | / /__| (_) | (_| | | | | |
+[07jul2025 19:31:22.263] [Server thread/INFO] [Console/]:  |_| |_\____/\___/ \__, |_|_| |_|
+[07jul2025 19:31:22.264] [Server thread/INFO] [Console/]:                   |___/            
+[07jul2025 19:31:22.265] [Server thread/INFO] [Console/]:  By: www.nickuc.com - V 10.4.23 DEVELOPMENT
+[07jul2025 19:31:22.266] [Server thread/INFO] [Console/]:  
+[07jul2025 19:31:27.928] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[07jul2025 19:31:28.063] [Server thread/INFO] [Framework/]: Loading server configs...
+[07jul2025 19:31:28.089] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[07jul2025 19:31:28.774] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[07jul2025 19:31:28.775] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[07jul2025 19:31:28.833] [Server thread/INFO] [Arclight/]: 注册了 1 个新的世界类型
+[07jul2025 19:31:29.423] [Server thread/INFO] [Minecraft/]: -------- World Settings For [world] --------
+[07jul2025 19:31:29.424] [Server thread/INFO] [Minecraft/]: Experience Merge Radius: 3.0
+[07jul2025 19:31:29.425] [Server thread/INFO] [Minecraft/]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[07jul2025 19:31:29.425] [Server thread/INFO] [Minecraft/]: Max TNT Explosions: 100
+[07jul2025 19:31:29.425] [Server thread/INFO] [Minecraft/]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[07jul2025 19:31:29.425] [Server thread/INFO] [Minecraft/]: Item Despawn Rate: 6000
+[07jul2025 19:31:29.425] [Server thread/INFO] [Minecraft/]: View Distance: 10
+[07jul2025 19:31:29.426] [Server thread/INFO] [Minecraft/]: Item Merge Radius: 2.5
+[07jul2025 19:31:29.426] [Server thread/INFO] [Minecraft/]: Nerfing mobs spawned from spawners: false
+[07jul2025 19:31:29.426] [Server thread/INFO] [Minecraft/]: Simulation Distance: 10
+[07jul2025 19:31:29.426] [Server thread/INFO] [Minecraft/]: Allow Zombie Pigmen to spawn from portal blocks: true
+[07jul2025 19:31:29.426] [Server thread/INFO] [Minecraft/]: Zombie Aggressive Towards Villager: true
+[07jul2025 19:31:29.426] [Server thread/INFO] [Minecraft/]: Mob Spawn Range: 6
+[07jul2025 19:31:29.427] [Server thread/INFO] [Minecraft/]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[07jul2025 19:31:29.427] [Server thread/INFO] [Minecraft/]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[07jul2025 19:31:29.427] [Server thread/INFO] [Minecraft/]: Cactus Growth Modifier: 100%
+[07jul2025 19:31:29.427] [Server thread/INFO] [Minecraft/]: Cane Growth Modifier: 100%
+[07jul2025 19:31:29.427] [Server thread/INFO] [Minecraft/]: Melon Growth Modifier: 100%
+[07jul2025 19:31:29.427] [Server thread/INFO] [Minecraft/]: Mushroom Growth Modifier: 100%
+[07jul2025 19:31:29.427] [Server thread/INFO] [Minecraft/]: Pumpkin Growth Modifier: 100%
+[07jul2025 19:31:29.427] [Server thread/INFO] [Minecraft/]: Sapling Growth Modifier: 100%
+[07jul2025 19:31:29.427] [Server thread/INFO] [Minecraft/]: Beetroot Growth Modifier: 100%
+[07jul2025 19:31:29.427] [Server thread/INFO] [Minecraft/]: Carrot Growth Modifier: 100%
+[07jul2025 19:31:29.427] [Server thread/INFO] [Minecraft/]: Potato Growth Modifier: 100%
+[07jul2025 19:31:29.427] [Server thread/INFO] [Minecraft/]: Wheat Growth Modifier: 100%
+[07jul2025 19:31:29.427] [Server thread/INFO] [Minecraft/]: NetherWart Growth Modifier: 100%
+[07jul2025 19:31:29.427] [Server thread/INFO] [Minecraft/]: Vine Growth Modifier: 100%
+[07jul2025 19:31:29.427] [Server thread/INFO] [Minecraft/]: Cocoa Growth Modifier: 100%
+[07jul2025 19:31:29.427] [Server thread/INFO] [Minecraft/]: Bamboo Growth Modifier: 100%
+[07jul2025 19:31:29.427] [Server thread/INFO] [Minecraft/]: SweetBerry Growth Modifier: 100%
+[07jul2025 19:31:29.427] [Server thread/INFO] [Minecraft/]: Kelp Growth Modifier: 100%
+[07jul2025 19:31:29.427] [Server thread/INFO] [Minecraft/]: TwistingVines Growth Modifier: 100%
+[07jul2025 19:31:29.427] [Server thread/INFO] [Minecraft/]: WeepingVines Growth Modifier: 100%
+[07jul2025 19:31:29.427] [Server thread/INFO] [Minecraft/]: CaveVines Growth Modifier: 100%
+[07jul2025 19:31:29.428] [Server thread/INFO] [Minecraft/]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[07jul2025 19:31:29.428] [Server thread/INFO] [Minecraft/]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[07jul2025 19:31:32.452] [Server thread/INFO] [Minecraft/]: -------- World Settings For [world/DIM1] --------
+[07jul2025 19:31:32.452] [Server thread/INFO] [Minecraft/]: Experience Merge Radius: 3.0
+[07jul2025 19:31:32.453] [Server thread/INFO] [Minecraft/]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[07jul2025 19:31:32.453] [Server thread/INFO] [Minecraft/]: Max TNT Explosions: 100
+[07jul2025 19:31:32.453] [Server thread/INFO] [Minecraft/]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[07jul2025 19:31:32.453] [Server thread/INFO] [Minecraft/]: Item Despawn Rate: 6000
+[07jul2025 19:31:32.453] [Server thread/INFO] [Minecraft/]: View Distance: 10
+[07jul2025 19:31:32.453] [Server thread/INFO] [Minecraft/]: Item Merge Radius: 2.5
+[07jul2025 19:31:32.453] [Server thread/INFO] [Minecraft/]: Nerfing mobs spawned from spawners: false
+[07jul2025 19:31:32.453] [Server thread/INFO] [Minecraft/]: Simulation Distance: 10
+[07jul2025 19:31:32.453] [Server thread/INFO] [Minecraft/]: Allow Zombie Pigmen to spawn from portal blocks: true
+[07jul2025 19:31:32.453] [Server thread/INFO] [Minecraft/]: Zombie Aggressive Towards Villager: true
+[07jul2025 19:31:32.453] [Server thread/INFO] [Minecraft/]: Mob Spawn Range: 6
+[07jul2025 19:31:32.453] [Server thread/INFO] [Minecraft/]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[07jul2025 19:31:32.453] [Server thread/INFO] [Minecraft/]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[07jul2025 19:31:32.453] [Server thread/INFO] [Minecraft/]: Cactus Growth Modifier: 100%
+[07jul2025 19:31:32.453] [Server thread/INFO] [Minecraft/]: Cane Growth Modifier: 100%
+[07jul2025 19:31:32.453] [Server thread/INFO] [Minecraft/]: Melon Growth Modifier: 100%
+[07jul2025 19:31:32.453] [Server thread/INFO] [Minecraft/]: Mushroom Growth Modifier: 100%
+[07jul2025 19:31:32.453] [Server thread/INFO] [Minecraft/]: Pumpkin Growth Modifier: 100%
+[07jul2025 19:31:32.453] [Server thread/INFO] [Minecraft/]: Sapling Growth Modifier: 100%
+[07jul2025 19:31:32.453] [Server thread/INFO] [Minecraft/]: Beetroot Growth Modifier: 100%
+[07jul2025 19:31:32.453] [Server thread/INFO] [Minecraft/]: Carrot Growth Modifier: 100%
+[07jul2025 19:31:32.453] [Server thread/INFO] [Minecraft/]: Potato Growth Modifier: 100%
+[07jul2025 19:31:32.453] [Server thread/INFO] [Minecraft/]: Wheat Growth Modifier: 100%
+[07jul2025 19:31:32.453] [Server thread/INFO] [Minecraft/]: NetherWart Growth Modifier: 100%
+[07jul2025 19:31:32.453] [Server thread/INFO] [Minecraft/]: Vine Growth Modifier: 100%
+[07jul2025 19:31:32.453] [Server thread/INFO] [Minecraft/]: Cocoa Growth Modifier: 100%
+[07jul2025 19:31:32.453] [Server thread/INFO] [Minecraft/]: Bamboo Growth Modifier: 100%
+[07jul2025 19:31:32.453] [Server thread/INFO] [Minecraft/]: SweetBerry Growth Modifier: 100%
+[07jul2025 19:31:32.453] [Server thread/INFO] [Minecraft/]: Kelp Growth Modifier: 100%
+[07jul2025 19:31:32.453] [Server thread/INFO] [Minecraft/]: TwistingVines Growth Modifier: 100%
+[07jul2025 19:31:32.453] [Server thread/INFO] [Minecraft/]: WeepingVines Growth Modifier: 100%
+[07jul2025 19:31:32.454] [Server thread/INFO] [Minecraft/]: CaveVines Growth Modifier: 100%
+[07jul2025 19:31:32.454] [Server thread/INFO] [Minecraft/]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[07jul2025 19:31:32.454] [Server thread/INFO] [Minecraft/]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[07jul2025 19:31:32.518] [Server thread/INFO] [Minecraft/]: -------- World Settings For [world/graveyard/past] --------
+[07jul2025 19:31:32.518] [Server thread/INFO] [Minecraft/]: Experience Merge Radius: 3.0
+[07jul2025 19:31:32.518] [Server thread/INFO] [Minecraft/]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[07jul2025 19:31:32.518] [Server thread/INFO] [Minecraft/]: Max TNT Explosions: 100
+[07jul2025 19:31:32.518] [Server thread/INFO] [Minecraft/]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[07jul2025 19:31:32.518] [Server thread/INFO] [Minecraft/]: Item Despawn Rate: 6000
+[07jul2025 19:31:32.518] [Server thread/INFO] [Minecraft/]: View Distance: 10
+[07jul2025 19:31:32.518] [Server thread/INFO] [Minecraft/]: Item Merge Radius: 2.5
+[07jul2025 19:31:32.518] [Server thread/INFO] [Minecraft/]: Nerfing mobs spawned from spawners: false
+[07jul2025 19:31:32.518] [Server thread/INFO] [Minecraft/]: Simulation Distance: 10
+[07jul2025 19:31:32.519] [Server thread/INFO] [Minecraft/]: Allow Zombie Pigmen to spawn from portal blocks: true
+[07jul2025 19:31:32.519] [Server thread/INFO] [Minecraft/]: Zombie Aggressive Towards Villager: true
+[07jul2025 19:31:32.519] [Server thread/INFO] [Minecraft/]: Mob Spawn Range: 6
+[07jul2025 19:31:32.519] [Server thread/INFO] [Minecraft/]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[07jul2025 19:31:32.519] [Server thread/INFO] [Minecraft/]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[07jul2025 19:31:32.519] [Server thread/INFO] [Minecraft/]: Cactus Growth Modifier: 100%
+[07jul2025 19:31:32.519] [Server thread/INFO] [Minecraft/]: Cane Growth Modifier: 100%
+[07jul2025 19:31:32.519] [Server thread/INFO] [Minecraft/]: Melon Growth Modifier: 100%
+[07jul2025 19:31:32.519] [Server thread/INFO] [Minecraft/]: Mushroom Growth Modifier: 100%
+[07jul2025 19:31:32.519] [Server thread/INFO] [Minecraft/]: Pumpkin Growth Modifier: 100%
+[07jul2025 19:31:32.519] [Server thread/INFO] [Minecraft/]: Sapling Growth Modifier: 100%
+[07jul2025 19:31:32.519] [Server thread/INFO] [Minecraft/]: Beetroot Growth Modifier: 100%
+[07jul2025 19:31:32.519] [Server thread/INFO] [Minecraft/]: Carrot Growth Modifier: 100%
+[07jul2025 19:31:32.519] [Server thread/INFO] [Minecraft/]: Potato Growth Modifier: 100%
+[07jul2025 19:31:32.519] [Server thread/INFO] [Minecraft/]: Wheat Growth Modifier: 100%
+[07jul2025 19:31:32.519] [Server thread/INFO] [Minecraft/]: NetherWart Growth Modifier: 100%
+[07jul2025 19:31:32.519] [Server thread/INFO] [Minecraft/]: Vine Growth Modifier: 100%
+[07jul2025 19:31:32.519] [Server thread/INFO] [Minecraft/]: Cocoa Growth Modifier: 100%
+[07jul2025 19:31:32.519] [Server thread/INFO] [Minecraft/]: Bamboo Growth Modifier: 100%
+[07jul2025 19:31:32.519] [Server thread/INFO] [Minecraft/]: SweetBerry Growth Modifier: 100%
+[07jul2025 19:31:32.519] [Server thread/INFO] [Minecraft/]: Kelp Growth Modifier: 100%
+[07jul2025 19:31:32.519] [Server thread/INFO] [Minecraft/]: TwistingVines Growth Modifier: 100%
+[07jul2025 19:31:32.519] [Server thread/INFO] [Minecraft/]: WeepingVines Growth Modifier: 100%
+[07jul2025 19:31:32.519] [Server thread/INFO] [Minecraft/]: CaveVines Growth Modifier: 100%
+[07jul2025 19:31:32.519] [Server thread/INFO] [Minecraft/]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[07jul2025 19:31:32.519] [Server thread/INFO] [Minecraft/]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[07jul2025 19:31:33.711] [Server thread/INFO] [Minecraft/]: -------- World Settings For [world/DIM-1] --------
+[07jul2025 19:31:33.711] [Server thread/INFO] [Minecraft/]: Experience Merge Radius: 3.0
+[07jul2025 19:31:33.711] [Server thread/INFO] [Minecraft/]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[07jul2025 19:31:33.711] [Server thread/INFO] [Minecraft/]: Max TNT Explosions: 100
+[07jul2025 19:31:33.711] [Server thread/INFO] [Minecraft/]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[07jul2025 19:31:33.711] [Server thread/INFO] [Minecraft/]: Item Despawn Rate: 6000
+[07jul2025 19:31:33.711] [Server thread/INFO] [Minecraft/]: View Distance: 10
+[07jul2025 19:31:33.711] [Server thread/INFO] [Minecraft/]: Item Merge Radius: 2.5
+[07jul2025 19:31:33.711] [Server thread/INFO] [Minecraft/]: Nerfing mobs spawned from spawners: false
+[07jul2025 19:31:33.711] [Server thread/INFO] [Minecraft/]: Simulation Distance: 10
+[07jul2025 19:31:33.711] [Server thread/INFO] [Minecraft/]: Allow Zombie Pigmen to spawn from portal blocks: true
+[07jul2025 19:31:33.711] [Server thread/INFO] [Minecraft/]: Zombie Aggressive Towards Villager: true
+[07jul2025 19:31:33.712] [Server thread/INFO] [Minecraft/]: Mob Spawn Range: 6
+[07jul2025 19:31:33.712] [Server thread/INFO] [Minecraft/]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[07jul2025 19:31:33.712] [Server thread/INFO] [Minecraft/]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[07jul2025 19:31:33.712] [Server thread/INFO] [Minecraft/]: Cactus Growth Modifier: 100%
+[07jul2025 19:31:33.712] [Server thread/INFO] [Minecraft/]: Cane Growth Modifier: 100%
+[07jul2025 19:31:33.712] [Server thread/INFO] [Minecraft/]: Melon Growth Modifier: 100%
+[07jul2025 19:31:33.712] [Server thread/INFO] [Minecraft/]: Mushroom Growth Modifier: 100%
+[07jul2025 19:31:33.712] [Server thread/INFO] [Minecraft/]: Pumpkin Growth Modifier: 100%
+[07jul2025 19:31:33.712] [Server thread/INFO] [Minecraft/]: Sapling Growth Modifier: 100%
+[07jul2025 19:31:33.712] [Server thread/INFO] [Minecraft/]: Beetroot Growth Modifier: 100%
+[07jul2025 19:31:33.712] [Server thread/INFO] [Minecraft/]: Carrot Growth Modifier: 100%
+[07jul2025 19:31:33.712] [Server thread/INFO] [Minecraft/]: Potato Growth Modifier: 100%
+[07jul2025 19:31:33.712] [Server thread/INFO] [Minecraft/]: Wheat Growth Modifier: 100%
+[07jul2025 19:31:33.712] [Server thread/INFO] [Minecraft/]: NetherWart Growth Modifier: 100%
+[07jul2025 19:31:33.712] [Server thread/INFO] [Minecraft/]: Vine Growth Modifier: 100%
+[07jul2025 19:31:33.712] [Server thread/INFO] [Minecraft/]: Cocoa Growth Modifier: 100%
+[07jul2025 19:31:33.712] [Server thread/INFO] [Minecraft/]: Bamboo Growth Modifier: 100%
+[07jul2025 19:31:33.712] [Server thread/INFO] [Minecraft/]: SweetBerry Growth Modifier: 100%
+[07jul2025 19:31:33.712] [Server thread/INFO] [Minecraft/]: Kelp Growth Modifier: 100%
+[07jul2025 19:31:33.712] [Server thread/INFO] [Minecraft/]: TwistingVines Growth Modifier: 100%
+[07jul2025 19:31:33.712] [Server thread/INFO] [Minecraft/]: WeepingVines Growth Modifier: 100%
+[07jul2025 19:31:33.712] [Server thread/INFO] [Minecraft/]: CaveVines Growth Modifier: 100%
+[07jul2025 19:31:33.712] [Server thread/INFO] [Minecraft/]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[07jul2025 19:31:33.712] [Server thread/INFO] [Minecraft/]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[07jul2025 19:31:33.721] [Server thread/INFO] [PlaceholderAPI/]: Enabling PlaceholderAPI v2.11.6
+[07jul2025 19:31:33.974] [Server thread/INFO] [PlaceholderAPI/]: Fetching available expansion information...
+[07jul2025 19:31:33.977] [Server thread/INFO] [CMILib/]: Enabling CMILib v1.5.5.1
+[07jul2025 19:31:35.674] [Server thread/INFO] [Console/]: Server version: v1_20_R1 - 1.20.1 - arclight  arclight-1.20.1-1.0.6-4e94eb76 (MC: 1.20.1)
+[07jul2025 19:31:37.947] [Server thread/INFO] [PlaceholderAPI/]: Successfully registered internal expansion: cmil [1.5.5.1]
+[07jul2025 19:31:37.949] [Server thread/INFO] [Console/]: PlaceholderAPI hooked.
+[07jul2025 19:31:38.150] [Server thread/INFO] [Console/]: Updated (EN) language file. Took 116ms
+[07jul2025 19:31:38.151] [Server thread/INFO] [Minecraft/]: [Multiverse-Core] Enabling Multiverse-Core v5.1.0
+[07jul2025 19:31:39.393] [Server thread/ERROR] [Minecraft/]: [Multiverse-Core] Failed to import world world/graveyard/past: Failure{reason=WORLD_FOLDER_INVALID}
+[07jul2025 19:31:39.832] [Server thread/INFO] [Minecraft/]: -------- World Settings For [creativo] --------
+[07jul2025 19:31:39.832] [Server thread/INFO] [Minecraft/]: Experience Merge Radius: 3.0
+[07jul2025 19:31:39.832] [Server thread/INFO] [Minecraft/]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[07jul2025 19:31:39.832] [Server thread/INFO] [Minecraft/]: Max TNT Explosions: 100
+[07jul2025 19:31:39.832] [Server thread/INFO] [Minecraft/]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[07jul2025 19:31:39.832] [Server thread/INFO] [Minecraft/]: Item Despawn Rate: 6000
+[07jul2025 19:31:39.833] [Server thread/INFO] [Minecraft/]: View Distance: 10
+[07jul2025 19:31:39.833] [Server thread/INFO] [Minecraft/]: Item Merge Radius: 2.5
+[07jul2025 19:31:39.833] [Server thread/INFO] [Minecraft/]: Nerfing mobs spawned from spawners: false
+[07jul2025 19:31:39.833] [Server thread/INFO] [Minecraft/]: Simulation Distance: 10
+[07jul2025 19:31:39.833] [Server thread/INFO] [Minecraft/]: Allow Zombie Pigmen to spawn from portal blocks: true
+[07jul2025 19:31:39.833] [Server thread/INFO] [Minecraft/]: Zombie Aggressive Towards Villager: true
+[07jul2025 19:31:39.833] [Server thread/INFO] [Minecraft/]: Mob Spawn Range: 6
+[07jul2025 19:31:39.833] [Server thread/INFO] [Minecraft/]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[07jul2025 19:31:39.833] [Server thread/INFO] [Minecraft/]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[07jul2025 19:31:39.833] [Server thread/INFO] [Minecraft/]: Cactus Growth Modifier: 100%
+[07jul2025 19:31:39.833] [Server thread/INFO] [Minecraft/]: Cane Growth Modifier: 100%
+[07jul2025 19:31:39.834] [Server thread/INFO] [Minecraft/]: Melon Growth Modifier: 100%
+[07jul2025 19:31:39.834] [Server thread/INFO] [Minecraft/]: Mushroom Growth Modifier: 100%
+[07jul2025 19:31:39.834] [Server thread/INFO] [Minecraft/]: Pumpkin Growth Modifier: 100%
+[07jul2025 19:31:39.834] [Server thread/INFO] [Minecraft/]: Sapling Growth Modifier: 100%
+[07jul2025 19:31:39.834] [Server thread/INFO] [Minecraft/]: Beetroot Growth Modifier: 100%
+[07jul2025 19:31:39.834] [Server thread/INFO] [Minecraft/]: Carrot Growth Modifier: 100%
+[07jul2025 19:31:39.834] [Server thread/INFO] [Minecraft/]: Potato Growth Modifier: 100%
+[07jul2025 19:31:39.834] [Server thread/INFO] [Minecraft/]: Wheat Growth Modifier: 100%
+[07jul2025 19:31:39.834] [Server thread/INFO] [Minecraft/]: NetherWart Growth Modifier: 100%
+[07jul2025 19:31:39.834] [Server thread/INFO] [Minecraft/]: Vine Growth Modifier: 100%
+[07jul2025 19:31:39.834] [Server thread/INFO] [Minecraft/]: Cocoa Growth Modifier: 100%
+[07jul2025 19:31:39.834] [Server thread/INFO] [Minecraft/]: Bamboo Growth Modifier: 100%
+[07jul2025 19:31:39.834] [Server thread/INFO] [Minecraft/]: SweetBerry Growth Modifier: 100%
+[07jul2025 19:31:39.834] [Server thread/INFO] [Minecraft/]: Kelp Growth Modifier: 100%
+[07jul2025 19:31:39.834] [Server thread/INFO] [Minecraft/]: TwistingVines Growth Modifier: 100%
+[07jul2025 19:31:39.834] [Server thread/INFO] [Minecraft/]: WeepingVines Growth Modifier: 100%
+[07jul2025 19:31:39.834] [Server thread/INFO] [Minecraft/]: CaveVines Growth Modifier: 100%
+[07jul2025 19:31:39.834] [Server thread/INFO] [Minecraft/]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[07jul2025 19:31:39.834] [Server thread/INFO] [Minecraft/]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[07jul2025 19:31:39.838] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:creativo
+[07jul2025 19:31:57.387] [Worker-Main-10/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07jul2025 19:31:57.391] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07jul2025 19:31:57.392] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07jul2025 19:31:57.392] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07jul2025 19:31:57.392] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07jul2025 19:31:57.394] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07jul2025 19:31:57.395] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07jul2025 19:31:57.395] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07jul2025 19:31:57.396] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07jul2025 19:31:57.396] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07jul2025 19:31:57.396] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07jul2025 19:31:57.396] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07jul2025 19:31:57.397] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07jul2025 19:31:57.397] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07jul2025 19:31:57.397] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07jul2025 19:31:57.397] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07jul2025 19:31:57.398] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07jul2025 19:31:57.398] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07jul2025 19:31:57.398] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07jul2025 19:31:57.399] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07jul2025 19:31:57.399] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07jul2025 19:31:57.400] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07jul2025 19:31:57.400] [Worker-Main-10/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07jul2025 19:31:57.400] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07jul2025 19:31:57.400] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07jul2025 19:31:57.400] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07jul2025 19:31:57.401] [Worker-Main-10/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07jul2025 19:31:57.401] [Worker-Main-9/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07jul2025 19:31:57.401] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07jul2025 19:31:57.402] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07jul2025 19:31:57.402] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07jul2025 19:31:57.402] [Worker-Main-10/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07jul2025 19:31:57.403] [Worker-Main-10/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07jul2025 19:31:57.403] [Worker-Main-10/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07jul2025 19:31:57.403] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07jul2025 19:31:57.404] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[07jul2025 19:31:57.839] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 8%
+[07jul2025 19:31:58.468] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 16%
+[07jul2025 19:31:58.840] [Worker-Main-9/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 66%
+[07jul2025 19:31:59.340] [Worker-Main-10/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 86%
+[07jul2025 19:31:59.471] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 19633 ms
+[07jul2025 19:32:00.188] [Server thread/INFO] [PlaceholderAPI/]: Successfully registered internal expansion: multiverse-core [5.1.0]
+[07jul2025 19:32:00.191] [Server thread/INFO] [Minecraft/]: [Multiverse-Core] API service loaded!
+[07jul2025 19:32:00.204] [Server thread/INFO] [Minecraft/]: [Multiverse-Core] [32mVersion 5.1.0 (API v5.1) Enabled - By dumptruckman, Rigby, fernferret, lithium3141, main--, benwoo1110 and Zax71[39m
+[07jul2025 19:32:00.205] [Server thread/INFO] [Minecraft/]: [Multiverse-Core] [32mLoving Multiverse-Core? Please consider supporting the project with a small donation: https://github.com/sponsors/Multiverse[39m
+[07jul2025 19:32:00.209] [Server thread/INFO] [AdvancedServerList/]: Enabling AdvancedServerList v3.5.1
+[07jul2025 19:32:00.316] [Server thread/INFO] [AdvancedServerList/]:            _____ _
+[07jul2025 19:32:00.317] [Server thread/INFO] [AdvancedServerList/]:     /\    / ____| |
+[07jul2025 19:32:00.317] [Server thread/INFO] [AdvancedServerList/]:    /  \  | (___ | |
+[07jul2025 19:32:00.317] [Server thread/INFO] [AdvancedServerList/]:   / /\ \  \___ \| |
+[07jul2025 19:32:00.317] [Server thread/INFO] [AdvancedServerList/]:  / ____ \ ____) | |____
+[07jul2025 19:32:00.317] [Server thread/INFO] [AdvancedServerList/]: /_/    \_\_____/|______|
+[07jul2025 19:32:00.317] [Server thread/INFO] [AdvancedServerList/]: 
+[07jul2025 19:32:00.318] [Server thread/INFO] [AdvancedServerList/]: Starting AdvancedServerList v3.5.1...
+[07jul2025 19:32:00.318] [Server thread/INFO] [AdvancedServerList/]: Platform: Arclight arclight-1.20.1-1.0.6-4e94eb76 (MC: 1.20.1)
+[07jul2025 19:32:00.318] [Server thread/INFO] [AdvancedServerList/]: Loading config.yml...
+[07jul2025 19:32:00.530] [Server thread/INFO] [AdvancedServerList/]: Successfully loaded config.yml!
+[07jul2025 19:32:00.531] [Server thread/INFO] [AdvancedServerList/]: Loading profiles...
+[07jul2025 19:32:00.560] [Server thread/INFO] [AdvancedServerList/]: Loaded default.yml
+[07jul2025 19:32:00.560] [Server thread/INFO] [AdvancedServerList/]: Successfully loaded 1 profiles!
+[07jul2025 19:32:00.560] [Server thread/INFO] [AdvancedServerList/]: Loading Commands...
+[07jul2025 19:32:00.814] [Server thread/INFO] [AdvancedServerList/]: Commands loaded!
+[07jul2025 19:32:00.814] [Server thread/INFO] [AdvancedServerList/]: Loading events...
+[07jul2025 19:32:00.815] [Server thread/INFO] [AdvancedServerList/]: Events loaded!
+[07jul2025 19:32:00.815] [Server thread/INFO] [AdvancedServerList/]: Loading playercache.json...
+[07jul2025 19:32:00.816] [Server thread/INFO] [AdvancedServerList/]: Loaded 1 players into cache!
+[07jul2025 19:32:00.816] [Server thread/INFO] [AdvancedServerList/]: Loading bStats metrics. Disable it in the global config under /plugins/bstats/
+[07jul2025 19:32:00.822] [Server thread/INFO] [AdvancedServerList/]: Metrics loaded!
+[07jul2025 19:32:00.822] [Server thread/INFO] [AdvancedServerList/]: AdvancedServerList is ready!
+[07jul2025 19:32:00.959] [Server thread/INFO] [zMenu/]: Enabling zMenu v1.0.3.4
+[07jul2025 19:32:00.960] [AdvancedServerList-UpdateThread/INFO] [AdvancedServerList/]: Checking for a new update...
+[07jul2025 19:32:00.965] [Server thread/INFO] [Console/]: [zMenu v1.0.3.4] === ENABLE START ===
+[07jul2025 19:32:00.966] [Server thread/INFO] [Console/]: [zMenu v1.0.3.4] Plugin Version V1.0.3.4
+[07jul2025 19:32:00.977] [Server thread/INFO] [PlaceholderAPI/]: Successfully registered internal expansion: zmenu [1.0.3.4]
+[07jul2025 19:32:01.211] [Server thread/INFO] [Console/]: [zMenu v1.0.3.4] plugins\zMenu\patterns\pattern_example.yml loaded successfully !
+[07jul2025 19:32:01.233] [Server thread/INFO] [Console/]: [zMenu v1.0.3.4] plugins\zMenu\inventories\advanced_inventory.yml loaded successfully !
+[07jul2025 19:32:01.438] [Server thread/INFO] [Console/]: [zMenu v1.0.3.4] plugins\zMenu\inventories\basic_inventory.yml loaded successfully !
+[07jul2025 19:32:01.444] [Server thread/INFO] [Console/]: [zMenu v1.0.3.4] plugins\zMenu\inventories\example_punish.yml loaded successfully !
+[07jul2025 19:32:01.452] [Server thread/INFO] [Console/]: [zMenu v1.0.3.4] plugins\zMenu\inventories\menu.yml loaded successfully !
+[07jul2025 19:32:01.457] [Server thread/INFO] [Console/]: [zMenu v1.0.3.4] plugins\zMenu\inventories\pro_inventory.yml loaded successfully !
+[07jul2025 19:32:01.462] [Server thread/INFO] [Console/]: [zMenu v1.0.3.4] plugins\zMenu\inventories\vip.yml loaded successfully !
+[07jul2025 19:32:01.470] [Server thread/INFO] [Console/]: [zMenu v1.0.3.4] plugins\zMenu\website\inventories.yml loaded successfully !
+[07jul2025 19:32:01.479] [Server thread/INFO] [Console/]: [zMenu v1.0.3.4] Command /menu successfully register.
+[07jul2025 19:32:01.479] [Server thread/INFO] [Console/]: [zMenu v1.0.3.4] Command /vip successfully register.
+[07jul2025 19:32:01.479] [Server thread/INFO] [Console/]: [zMenu v1.0.3.4] Command /basic_command successfully register.
+[07jul2025 19:32:01.479] [Server thread/INFO] [Console/]: [zMenu v1.0.3.4] Command /advanced_command successfully register.
+[07jul2025 19:32:01.479] [Server thread/INFO] [Console/]: [zMenu v1.0.3.4] Command /pro_command successfully register.
+[07jul2025 19:32:01.479] [Server thread/INFO] [Console/]: [zMenu v1.0.3.4] Command /openbook successfully register.
+[07jul2025 19:32:01.485] [Server thread/INFO] [Console/]: [zMenu v1.0.3.4] Command /punish successfully register.
+[07jul2025 19:32:01.510] [Server thread/INFO] [Console/]: [zMenu v1.0.3.4] 
+[07jul2025 19:32:01.510] [Server thread/INFO] [Console/]: [zMenu v1.0.3.4] You can support zMenu by upgrading your account here: https://minecraft-inventory-builder.com/account-upgrade
+[07jul2025 19:32:01.510] [Server thread/INFO] [Console/]: [zMenu v1.0.3.4] zMenu’s site includes an inventory editor (under development), a marketplace (already available) is a forum (under development)
+[07jul2025 19:32:01.510] [Server thread/INFO] [Console/]: [zMenu v1.0.3.4] 
+[07jul2025 19:32:01.514] [Server thread/INFO] [Console/]: [zMenu v1.0.3.4] Use ClassicMeta
+[07jul2025 19:32:01.515] [Server thread/INFO] [Console/]: [zMenu v1.0.3.4] Loading 8 commands
+[07jul2025 19:32:01.515] [Server thread/INFO] [Console/]: [zMenu v1.0.3.4] === ENABLE DONE (550ms) ===
+[07jul2025 19:32:01.517] [Server thread/INFO] [Essentials/]: Enabling Essentials v2.21.1
+[07jul2025 19:32:01.624] [ForkJoinPool.commonPool-worker-4/INFO] [AdvancedServerList/]: No new update found. You're running the latest version!
+[07jul2025 19:32:01.963] [Server thread/ERROR] [Essentials/]: Estás ejecutando un servidor que no es compatible con los plugins de Bukkit. ¡No se deben utilizar con mods de Forge/Fabric! Para Forge: es recomendable usar ForgeEssentials o SpongeForge + Nucleus.
+[07jul2025 19:32:01.981] [Server thread/INFO] [Essentials/]: Estado de clase determinante: net.minecraftforge.common.MinecraftForge
+[07jul2025 19:32:01.981] [Server thread/WARN] [Essentials/]: La version no coincide! Por favor actualiza EssentialsChat a la misma version.
+[07jul2025 19:32:02.065] [Server thread/INFO] [Essentials/]: Attempting to convert old kits in config.yml to new kits.yml
+[07jul2025 19:32:02.065] [Server thread/INFO] [Essentials/]: No kits found to migrate.
+[07jul2025 19:32:02.129] [Server thread/INFO] [Essentials/]: Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[07jul2025 19:32:02.131] [Server thread/INFO] [Essentials/]: Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[07jul2025 19:32:02.131] [Server thread/INFO] [Essentials/]: Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[07jul2025 19:32:02.140] [Server thread/INFO] [Essentials/]: Selected Bukkit Material Tag Provider as the provider for MaterialTagProvider
+[07jul2025 19:32:02.140] [Server thread/INFO] [Essentials/]: Selected 1.9-1.20.4 Potion Meta Provider as the provider for PotionMetaProvider
+[07jul2025 19:32:02.140] [Server thread/INFO] [Essentials/]: No provider found for TickCountProvider, but it is nullable
+[07jul2025 19:32:02.141] [Server thread/INFO] [Essentials/]: No provider found for SerializationProvider, but it is nullable
+[07jul2025 19:32:02.141] [Server thread/INFO] [Essentials/]: Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[07jul2025 19:32:02.141] [Server thread/INFO] [Essentials/]: Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[07jul2025 19:32:02.142] [Server thread/INFO] [Essentials/]: Selected Reflection Known Commands Provider as the provider for KnownCommandsProvider
+[07jul2025 19:32:02.142] [Server thread/INFO] [Essentials/]: Selected Reflection Server State Provider as the provider for ServerStateProvider
+[07jul2025 19:32:02.143] [Server thread/INFO] [Essentials/]: Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[07jul2025 19:32:02.144] [Server thread/INFO] [Essentials/]: Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[07jul2025 19:32:02.146] [Server thread/INFO] [Essentials/]: Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[07jul2025 19:32:02.147] [Server thread/INFO] [Essentials/]: Selected Reflection Sync Commands Provider as the provider for SyncCommandsProvider
+[07jul2025 19:32:02.148] [Server thread/INFO] [Essentials/]: No provider found for BiomeKeyProvider, but it is nullable
+[07jul2025 19:32:02.148] [Server thread/INFO] [Essentials/]: Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[07jul2025 19:32:02.149] [Server thread/INFO] [Essentials/]: Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[07jul2025 19:32:02.149] [Server thread/INFO] [Essentials/]: Selected Legacy Damage Event Provider as the provider for DamageEventProvider
+[07jul2025 19:32:02.152] [Server thread/INFO] [Essentials/]: Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[07jul2025 19:32:02.155] [Server thread/INFO] [Essentials/]: No provider found for ContainerProvider, but it is nullable
+[07jul2025 19:32:02.155] [Server thread/INFO] [Essentials/]: Selected Legacy InventoryView Abstract Class ABI Provider as the provider for InventoryViewProvider
+[07jul2025 19:32:02.339] [Server thread/INFO] [Essentials/]: Loaded 43517 items from items.json.
+[07jul2025 19:32:02.341] [Server thread/INFO] [Essentials/]: Using locale es_BO
+[07jul2025 19:32:02.412] [Server thread/INFO] [Essentials/]: ServerListPingEvent: Spigot iterator API
+[07jul2025 19:32:02.627] [Server thread/INFO] [Essentials/]: Starting Metrics. Opt-out using the global bStats config.
+[07jul2025 19:32:02.629] [Server thread/INFO] [Vault/]: [Economy] Essentials Economy hooked.
+[07jul2025 19:32:02.643] [Server thread/INFO] [Essentials/]: Using Vault based permissions (LuckPerms)
+[07jul2025 19:32:02.643] [Server thread/INFO] [Multiverse-Inventories/]: Enabling Multiverse-Inventories v5.1.0
+[07jul2025 19:32:02.680] [Server thread/WARN] [Minecraft/]: [Multiverse-Core] Loaded class org.mvplugins.multiverse.inventories.config.InventoriesConfig from Multiverse-Inventories v5.1.0 which is not a depend or softdepend of this plugin.
+[07jul2025 19:32:02.740] [Server thread/INFO] [Minecraft/]: [Multiverse-Inventories] The following worlds for group 'world' are not loaded: worlds, world_nether, world_the_end
+[07jul2025 19:32:03.064] [Server thread/INFO] [PlaceholderAPI/]: Successfully registered internal expansion: multiverse-inventories [5.1.0]
+[07jul2025 19:32:03.071] [Server thread/INFO] [Minecraft/]: [Multiverse-Inventories] Loading player names map...
+[07jul2025 19:32:03.139] [Server thread/INFO] [Minecraft/]: [Multiverse-Inventories] Version 5.1.0 (API v5.1) Enabled - By dumptruckman and benwoo1110
+[07jul2025 19:32:03.142] [Server thread/INFO] [sleep-most/]: Enabling sleep-most v5.6.0
+[07jul2025 19:32:03.247] [Server thread/INFO] [Minecraft/]: [sleep-most] Hooked to PlaceholderAPI
+[07jul2025 19:32:03.248] [Server thread/INFO] [Minecraft/]: [sleep-most] Hooked to Essentials
+[07jul2025 19:32:03.249] [Server thread/INFO] [PlaceholderAPI/]: Successfully registered internal expansion: sleepmost [5.6.0]
+[07jul2025 19:32:03.253] [Server thread/INFO] [AnnouncerPlus/]: Enabling AnnouncerPlus v1.4.2
+[07jul2025 19:32:03.438] [Server thread/WARN] [AnnouncerPlus/]: ====================================================
+[07jul2025 19:32:03.438] [Server thread/WARN] [AnnouncerPlus/]:  AnnouncerPlus works better if you use Paper 
+[07jul2025 19:32:03.438] [Server thread/WARN] [AnnouncerPlus/]:  as your server software. 
+[07jul2025 19:32:03.438] [Server thread/WARN] [AnnouncerPlus/]:   
+[07jul2025 19:32:03.438] [Server thread/WARN] [AnnouncerPlus/]:  Paper offers significant performance improvements,
+[07jul2025 19:32:03.438] [Server thread/WARN] [AnnouncerPlus/]:  bug fixes, security enhancements and optional
+[07jul2025 19:32:03.438] [Server thread/WARN] [AnnouncerPlus/]:  features for server owners to enhance their server.
+[07jul2025 19:32:03.438] [Server thread/WARN] [AnnouncerPlus/]:   
+[07jul2025 19:32:03.438] [Server thread/WARN] [AnnouncerPlus/]:  Paper includes Timings v2, which is significantly
+[07jul2025 19:32:03.438] [Server thread/WARN] [AnnouncerPlus/]:  better at diagnosing lag problems over v1.
+[07jul2025 19:32:03.438] [Server thread/WARN] [AnnouncerPlus/]:   
+[07jul2025 19:32:03.439] [Server thread/WARN] [AnnouncerPlus/]:  All of your plugins should still work, and the
+[07jul2025 19:32:03.439] [Server thread/WARN] [AnnouncerPlus/]:  Paper community will gladly help you fix any issues.
+[07jul2025 19:32:03.439] [Server thread/WARN] [AnnouncerPlus/]:   
+[07jul2025 19:32:03.439] [Server thread/WARN] [AnnouncerPlus/]:  Join the Paper Community @ https://papermc.io
+[07jul2025 19:32:03.439] [Server thread/WARN] [AnnouncerPlus/]: ====================================================
+[07jul2025 19:32:03.628] [Server thread/INFO] [AnnouncerPlus/]: Toast/Advancement style messages require Paper in order to function on this version, consider using Paper if you want to take advantage of this feature!
+[07jul2025 19:32:04.478] [Server thread/INFO] [EssentialsChat/]: Enabling EssentialsChat v2.21.2-dev+21-8d44d1a
+[07jul2025 19:32:04.480] [Server thread/WARN] [EssentialsChat/]: La version no coincide! Por favor actualiza todos los jars de Essentials a la misma version.
+[07jul2025 19:32:04.491] [Server thread/INFO] [EssentialsChat/]: Starting Metrics. Opt-out using the global bStats config.
+[07jul2025 19:32:04.492] [Server thread/INFO] [MoneyFromMobs/]: Enabling MoneyFromMobs v4.71
+[07jul2025 19:32:04.958] [Server thread/INFO] [MoneyFromMobs/]: Update Available for MoneyFromMobs: https://www.spigotmc.org/resources/money-from-mobs-1-9-1-16-4.79137/
+[07jul2025 19:32:04.960] [Server thread/INFO] [TAB/]: Enabling TAB v5.2.4
+[07jul2025 19:32:05.227] [Server thread/INFO] [PlaceholderAPI/]: Successfully registered internal expansion: tab [5.2.4]
+[07jul2025 19:32:05.302] [Server thread/INFO] [Console/]: [TAB] §xEnabled in 245ms
+[07jul2025 19:32:05.312] [Server thread/INFO] [DiscordSRV/]: Enabling DiscordSRV v1.29.0
+[07jul2025 19:32:05.347] [Server thread/INFO] [Minecraft/]: Server permissions file permissions.yml is empty, ignoring it
+[07jul2025 19:32:05.412] [Server thread/INFO] [PlaceholderAPI/]: Placeholder expansion registration initializing...
+[07jul2025 19:32:05.452] [ForkJoinPool.commonPool-worker-1/WARN] [PlaceholderAPI/]: Loaded class net.ess3.api.IEssentials from Essentials v2.21.1 which is not a depend or softdepend of this plugin.
+[07jul2025 19:32:05.452] [Server thread/INFO] [PlaceholderAPI/]: Successfully registered internal expansion: asl [3.5.1]
+[07jul2025 19:32:05.453] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[07jul2025 19:32:05.574] [DiscordSRV - Initialization/ERROR] [DiscordSRV/]: No bot token has been set in the config; a bot token is required to connect to Discord.
+[07jul2025 19:32:07.219] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 100%
+[07jul2025 19:32:07.221] [Worker-Main-11/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 100%
+[07jul2025 19:32:07.222] [Worker-Main-10/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 100%
+[07jul2025 19:32:07.223] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 100%
+[07jul2025 19:32:07.225] [Server thread/INFO] [Minecraft/]: <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<==============
+[07jul2025 19:32:07.226] [Server thread/INFO] [Minecraft/]: <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<==============
+[07jul2025 19:32:07.226] [Server thread/INFO] [Minecraft/]: <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<==============
+[07jul2025 19:32:07.226] [Server thread/INFO] [Minecraft/]: <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<==============
+[07jul2025 19:32:07.226] [Server thread/INFO] [Minecraft/]: <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<==============
+[07jul2025 19:32:07.226] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 1773 ms
+[07jul2025 19:32:07.227] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (39.302s)! For help, type "help"
+[07jul2025 19:32:07.298] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[07jul2025 19:32:07.299] [Server thread/INFO] [Arclight/]: Forwarding forge permission[forge:default_handler] to bukkit
+[07jul2025 19:32:07.345] [pool-26-thread-1/INFO] [DiscordSRV/]: DiscordSRV is up-to-date. (9d4734818ab27069d76f264a4cda74a699806770)
+[07jul2025 19:32:07.359] [Server thread/INFO] [bountiful/]: Registering Bounty Board Jigsaw Piece for Village Type: plains
+[07jul2025 19:32:07.360] [Server thread/INFO] [bountiful/]: Registering Bounty Board Jigsaw Piece for Village Type: savanna
+[07jul2025 19:32:07.360] [Server thread/INFO] [bountiful/]: Registering Bounty Board Jigsaw Piece for Village Type: snowy
+[07jul2025 19:32:07.360] [Server thread/INFO] [bountiful/]: Registering Bounty Board Jigsaw Piece for Village Type: taiga
+[07jul2025 19:32:07.360] [Server thread/INFO] [bountiful/]: Registering Bounty Board Jigsaw Piece for Village Type: desert
+[07jul2025 19:32:07.398] [Craft Scheduler Thread - 2/INFO] [nAntiBot/]: Connecting to the remote server antibot.nickuc.com...
+[07jul2025 19:32:07.504] [Server thread/INFO] [Essentials/]: Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[07jul2025 19:32:07.536] [Server thread/INFO] [Console/]: ¡Un Evento de Multiplicador de Dinero ha comenzado! Los mobs soltarán 100% más dinero durante 5 minutos
+[07jul2025 19:32:07.539] [Craft Scheduler Thread - 6/INFO] [Essentials/]: Obteniendo información de versión...
+[07jul2025 19:32:07.550] [Server thread/INFO] [PlaceholderAPI/]: Successfully registered external expansion: essentials [1.5.2]
+[07jul2025 19:32:07.551] [Server thread/INFO] [PlaceholderAPI/]: Successfully registered external expansion: player [2.0.8]
+[07jul2025 19:32:07.562] [Server thread/INFO] [PlaceholderAPI/]: Successfully registered external expansion: playerlist [3.0.8]
+[07jul2025 19:32:07.569] [Server thread/WARN] [PlaceholderAPI/]: Cannot load expansion playerstats due to a missing plugin: PlayerStats
+[07jul2025 19:32:07.569] [Server thread/WARN] [PlaceholderAPI/]: Cannot load expansion playertime due to a missing plugin: PlayerTime
+[07jul2025 19:32:07.570] [Server thread/WARN] [PlaceholderAPI/]: Loaded class net.milkbowl.vault.economy.Economy from Vault v1.7.3-b131 which is not a depend or softdepend of this plugin.
+[07jul2025 19:32:07.572] [Server thread/INFO] [PlaceholderAPI/]: Successfully registered external expansion: vault [1.8.3]
+[07jul2025 19:32:07.576] [Server thread/INFO] [Console/]: 4 placeholder hook(s) registered!
+[07jul2025 19:32:07.577] [Server thread/INFO] [DiscordSRV/]: Disabling DiscordSRV v1.29.0
+[07jul2025 19:32:07.927] [Server thread/INFO] [Minecraft/]: [Multiverse-Inventories] First run!
+[07jul2025 19:32:07.931] [Server thread/INFO] [Console/]: Checking for conflicts in groups...
+[07jul2025 19:32:07.931] [Server thread/INFO] [Console/]: No group conflicts found!
+[07jul2025 19:32:07.931] [Craft Scheduler Thread - 2/INFO] [Vault/]: Checking for Updates ... 
+[07jul2025 19:32:08.080] [Craft Scheduler Thread - 2/INFO] [Vault/]: No new version available
+[07jul2025 19:32:08.733] [Craft Scheduler Thread - 5/INFO] [Console/]: [zMenu v1.0.3.4] New update available. Your version: 1.0.3.4, latest version: 1.1.0.1
+[07jul2025 19:32:08.733] [Craft Scheduler Thread - 5/INFO] [Console/]: [zMenu v1.0.3.4] Download plugin here: https://groupez.dev/resources/253
+[07jul2025 19:32:11.768] [pool-9-thread-6/INFO] [nAntiBot/]: [Captcha] Captchas generated successfully. (RAM usage ≃ 8 MB [static only], total = 500, protocol count = 46, threads = 12, took 51.60s)
+[07jul2025 19:37:07.592] [Server thread/INFO] [Console/]: ¡El Evento de Multiplicador de Dinero ha terminado! ¡Todos los mobs ahora soltarán su cantidad normal!
+[07jul2025 19:37:28.516] [luckperms-command-executor/INFO] [Console/]: [LP] A user for Erick could not be found.
+[07jul2025 19:37:41.420] [luckperms-command-executor/INFO] [Console/]: [LP] A user for Papu could not be found.
+[07jul2025 19:37:52.240] [User Authenticator #1/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Papu is e76def4f-855b-353d-a34c-36af013968c7
+[07jul2025 19:37:54.474] [luckperms-command-executor/INFO] [Console/]: [LP] Papu now inherits permissions from supervip for a duration of 15 seconds in context global.
+[07jul2025 19:37:55.517] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Papu[/127.0.0.1:53512] logged in with entity id 137 at (250.0055416114407, 220.0625, -347.6421035308412)
+[07jul2025 19:38:25.228] [luckperms-command-executor/INFO] [Console/]: [LP] Papu now inherits permissions from default for a duration of 15 seconds in context global.
+[07jul2025 19:38:39.402] [Craft Scheduler Thread - 12/INFO] [nLogin/]: The user Papu has successfully logged in.
+[07jul2025 19:38:53.733] [luckperms-command-executor/INFO] [Console/]: [LP] Papu had their existing parent groups cleared, and now only inherits default in context global.
+[07jul2025 19:40:34.226] [luckperms-command-executor/INFO] [Console/]: [LP] Papu now inherits permissions from supervip for a duration of 15 seconds in context global.
