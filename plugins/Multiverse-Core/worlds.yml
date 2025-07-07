@@ -1,6 +1,6 @@
 creativo:
   adjust-spawn: true
-  alias: ""
+  alias: ''
   allow-advancement-grant: true
   allow-flight: false
   allow-weather: true
@@ -8,22 +8,22 @@ creativo:
   auto-heal: true
   auto-load: true
   bed-respawn: true
-  biome: ""
+  biome: ''
   difficulty: normal
   entry-fee:
     enabled: false
     amount: 0.0
-    currency: "@vault-economy"
+    currency: '@vault-economy'
   environment: normal
   gamemode: creative
-  generator: ""
+  generator: ''
   hidden: false
   hunger: true
   keep-spawn-in-memory: true
   player-limit: -1
   portal-form: all
   pvp: true
-  respawn-world: ""
+  respawn-world: ''
   scale: 1.0
   seed: 2233766339114529586
   spawn-location:
@@ -34,6 +34,16 @@ creativo:
     pitch: 0.0
     yaw: 0.0
   spawning:
+    water_ambient:
+      spawn: false
+      tick-rate: -1
+      spawn-limit: -1
+      exceptions: []
+    monster:
+      spawn: false
+      tick-rate: -1
+      spawn-limit: -1
+      exceptions: []
     water_animal:
       spawn: false
       tick-rate: -1
@@ -54,17 +64,7 @@ creativo:
       tick-rate: -1
       spawn-limit: -1
       exceptions: []
-    monster:
-      spawn: false
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
     water_underground_creature:
-      spawn: false
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
-    water_ambient:
       spawn: false
       tick-rate: -1
       spawn-limit: -1
@@ -73,7 +73,7 @@ creativo:
   version: 1.2
 world:
   adjust-spawn: true
-  alias: ""
+  alias: ''
   allow-advancement-grant: true
   allow-flight: false
   allow-weather: true
@@ -81,22 +81,22 @@ world:
   auto-heal: true
   auto-load: true
   bed-respawn: true
-  biome: ""
+  biome: ''
   difficulty: hard
   entry-fee:
     enabled: false
     amount: 0.0
-    currency: "@vault-economy"
+    currency: '@vault-economy'
   environment: normal
   gamemode: survival
-  generator: ""
+  generator: ''
   hidden: false
   hunger: true
   keep-spawn-in-memory: true
   player-limit: -1
   portal-form: all
   pvp: true
-  respawn-world: ""
+  respawn-world: ''
   scale: 1.0
   seed: 2233766339114529586
   spawn-location:
@@ -107,6 +107,16 @@ world:
     pitch: 0.0
     yaw: 0.0
   spawning:
+    water_ambient:
+      spawn: true
+      tick-rate: -1
+      spawn-limit: -1
+      exceptions: []
+    monster:
+      spawn: true
+      tick-rate: -1
+      spawn-limit: -1
+      exceptions: []
     water_animal:
       spawn: true
       tick-rate: -1
@@ -127,17 +137,7 @@ world:
       tick-rate: -1
       spawn-limit: -1
       exceptions: []
-    monster:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
     water_underground_creature:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
-    water_ambient:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
@@ -146,7 +146,7 @@ world:
   version: 1.2
 world/DIM-1:
   adjust-spawn: true
-  alias: ""
+  alias: ''
   allow-advancement-grant: true
   allow-flight: false
   allow-weather: true
@@ -154,22 +154,22 @@ world/DIM-1:
   auto-heal: true
   auto-load: true
   bed-respawn: true
-  biome: ""
+  biome: ''
   difficulty: hard
   entry-fee:
     enabled: false
     amount: 0.0
-    currency: "@vault-economy"
+    currency: '@vault-economy'
   environment: nether
   gamemode: survival
-  generator: ""
+  generator: ''
   hidden: false
   hunger: true
   keep-spawn-in-memory: true
   player-limit: -1
   portal-form: all
   pvp: true
-  respawn-world: ""
+  respawn-world: ''
   scale: 8.0
   seed: 2233766339114529586
   spawn-location:
@@ -184,7 +184,7 @@ world/DIM-1:
   version: 1.2
 world/DIM1:
   adjust-spawn: true
-  alias: ""
+  alias: ''
   allow-advancement-grant: true
   allow-flight: false
   allow-weather: true
@@ -192,22 +192,22 @@ world/DIM1:
   auto-heal: true
   auto-load: true
   bed-respawn: true
-  biome: ""
+  biome: ''
   difficulty: hard
   entry-fee:
     enabled: false
     amount: 0.0
-    currency: "@vault-economy"
+    currency: '@vault-economy'
   environment: the_end
   gamemode: survival
-  generator: ""
+  generator: ''
   hidden: false
   hunger: true
   keep-spawn-in-memory: true
   player-limit: -1
   portal-form: all
   pvp: true
-  respawn-world: ""
+  respawn-world: ''
   scale: 16.0
   seed: 2233766339114529586
   spawn-location:

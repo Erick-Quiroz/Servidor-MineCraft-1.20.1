@@ -7,7 +7,9 @@ permissions:
   - multiverse.core.*
   - multiverse.teleport.self.*
   - zmenu.menu
+  - announcerplus.join.default
+  - announcerplus.quit.default
 parents:
-  -
+  - default
 prefixes:
   - "":

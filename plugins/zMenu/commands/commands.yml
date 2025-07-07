@@ -41,6 +41,12 @@ commands:
     aliases:
       - zmenu
     inventory: menu
+  vip:
+    command: vip
+    permission: "zmenu.vip"
+    aliases:
+      - zmenu.vip
+    inventory: vip
   basic_command:
     command: basic_command
     inventory: basic_inventory

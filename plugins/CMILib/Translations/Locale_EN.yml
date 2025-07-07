@@ -406,6 +406,123 @@ info:
     horse: Horse
     husk: Husk
     illusioner: Illusioner
+    infectious_acid_zombie: Infectious acid zombie
+    infectious_ancient_zombie: Infectious ancient zombie
+    infectious_ancient_zombie_boss: Infectious ancient zombie boss
+    infectious_angry_zombie: Infectious angry zombie
+    infectious_armless_zombie: Infectious armless zombie
+    infectious_atomic_mushroom: Infectious atomic mushroom
+    infectious_balloon_zombie: Infectious balloon zombie
+    infectious_balloon_zombie_no_balloon: Infectious balloon zombie no balloon
+    infectious_barrel_zombie: Infectious barrel zombie
+    infectious_baseball_bat_zombie: Infectious baseball bat zombie
+    infectious_beehive_zombie: Infectious beehive zombie
+    infectious_beekeeper_zombie: Infectious beekeeper zombie
+    infectious_bees: Infectious bees
+    infectious_big_zombie: Infectious big zombie
+    infectious_bike: Infectious bike
+    infectious_blind_zombie: Infectious blind zombie
+    infectious_bodyless_zombie: Infectious bodyless zombie
+    infectious_bouncer_zombie: Infectious bouncer zombie
+    infectious_brain_zombie: Infectious brain zombie
+    infectious_bucket_zombie: Infectious bucket zombie
+    infectious_burned_zombie: Infectious burned zombie
+    infectious_burning_zombie: Infectious burning zombie
+    infectious_chained_zombie: Infectious chained zombie
+    infectious_construction_worker_zombie: Infectious construction worker zombie
+    infectious_crawling_zombie: Infectious crawling zombie
+    infectious_deep_sea_diver_zombie: Infectious deep sea diver zombie
+    infectious_disco_zombie: Infectious disco zombie
+    infectious_doom_zombie: Infectious doom zombie
+    infectious_door_zombie: Infectious door zombie
+    infectious_enchanted_zombie: Infectious enchanted zombie
+    infectious_fat_zombie: Infectious fat zombie
+    infectious_firework_zombie: Infectious firework zombie
+    infectious_football_player_zombie: Infectious football player zombie
+    infectious_franklin_zombie: Infectious franklin zombie
+    infectious_frozen_zombie: Infectious frozen zombie
+    infectious_fungal_zombie: Infectious fungal zombie
+    infectious_giant_zombie: Infectious giant zombie
+    infectious_glitched_zombie: Infectious glitched zombie
+    infectious_golden_zombie: Infectious golden zombie
+    infectious_hazmat_zombie: Infectious hazmat zombie
+    infectious_headless_zombie: Infectious headless zombie
+    infectious_infectious_zombie: Infectious infectious zombie
+    infectious_iron_door_zombie: Infectious iron door zombie
+    infectious_lootdrop: Infectious lootdrop
+    infectious_maggot_zombie: Infectious maggot zombie
+    infectious_mc_donalds_worker_zombie: Infectious mc donalds worker zombie
+    infectious_muddy_zombie: Infectious muddy zombie
+    infectious_mummy: Infectious mummy
+    infectious_muscular_zombie: Infectious muscular zombie
+    infectious_mutant_zombie: Infectious mutant zombie
+    infectious_old_zombie: Infectious old zombie
+    infectious_pool_tube_zombie: Infectious pool tube zombie
+    infectious_projectile_acid: Infectious projectile acid
+    infectious_projectile_bataring_projectile: Infectious projectile bataring projectile
+    infectious_projectile_firework_rocket: Infectious projectile firework rocket
+    infectious_projectile_flame: Infectious projectile flame
+    infectious_projectile_grenade_projectile: Infectious projectile grenade projectile
+    infectious_projectile_maggot_ball: Infectious projectile maggot ball
+    infectious_projectile_mk_556_munition: Infectious projectile mk 556 munition
+    infectious_projectile_zombie_spit: Infectious projectile zombie spit
+    infectious_psycho_zombie: Infectious psycho zombie
+    infectious_pumpkin_zombie: Infectious pumpkin zombie
+    infectious_pylon_zombie: Infectious pylon zombie
+    infectious_robotic_zombie: Infectious robotic zombie
+    infectious_screamer: Infectious screamer
+    infectious_sleepy_zombie: Infectious sleepy zombie
+    infectious_swat_zombie: Infectious swat zombie
+    infectious_tower_zombie: Infectious tower zombie
+    infectious_tower_zombie_1: Infectious tower zombie 1
+    infectious_tower_zombie_2: Infectious tower zombie 2
+    infectious_tower_zombie_3: Infectious tower zombie 3
+    infectious_tower_zombie_4: Infectious tower zombie 4
+    infectious_turret: Infectious turret
+    infectious_withered_zombie: Infectious withered zombie
+    infectious_zombie: Infectious zombie
+    infectious_zombie_agent: Infectious zombie agent
+    infectious_zombie_archer: Infectious zombie archer
+    infectious_zombie_astronaut: Infectious zombie astronaut
+    infectious_zombie_bait: Infectious zombie bait
+    infectious_zombie_batman: Infectious zombie batman
+    infectious_zombie_bomber: Infectious zombie bomber
+    infectious_zombie_boxer: Infectious zombie boxer
+    infectious_zombie_breeder: Infectious zombie breeder
+    infectious_zombie_climber: Infectious zombie climber
+    infectious_zombie_clown: Infectious zombie clown
+    infectious_zombie_cook: Infectious zombie cook
+    infectious_zombie_dancer: Infectious zombie dancer
+    infectious_zombie_diver: Infectious zombie diver
+    infectious_zombie_doctor: Infectious zombie doctor
+    infectious_zombie_farmer: Infectious zombie farmer
+    infectious_zombie_fisherman: Infectious zombie fisherman
+    infectious_zombie_girl: Infectious zombie girl
+    infectious_zombie_head: Infectious zombie head
+    infectious_zombie_hitler: Infectious zombie hitler
+    infectious_zombie_horde: Infectious zombie horde
+    infectious_zombie_horseman: Infectious zombie horseman
+    infectious_zombie_horseman_no_horse: Infectious zombie horseman no horse
+    infectious_zombie_lumberjack: Infectious zombie lumberjack
+    infectious_zombie_miner: Infectious zombie miner
+    infectious_zombie_miner_spawn: Infectious zombie miner spawn
+    infectious_zombie_on_stelts: Infectious zombie on stelts
+    infectious_zombie_painter: Infectious zombie painter
+    infectious_zombie_police: Infectious zombie police
+    infectious_zombie_prisoner: Infectious zombie prisoner
+    infectious_zombie_runner: Infectious zombie runner
+    infectious_zombie_scientist: Infectious zombie scientist
+    infectious_zombie_screamer: Infectious zombie screamer
+    infectious_zombie_soldier: Infectious zombie soldier
+    infectious_zombie_spiter: Infectious zombie spiter
+    infectious_zombie_warrior: Infectious zombie warrior
+    infectious_zombified_bear: Infectious zombified bear
+    infectious_zombified_bird: Infectious zombified bird
+    infectious_zombified_bird_flying: Infectious zombified bird flying
+    infectious_zombified_boar: Infectious zombified boar
+    infectious_zombified_chicken: Infectious zombified chicken
+    infectious_zombified_rex: Infectious zombified rex
+    infectious_zombified_wolf: Infectious zombified wolf
     interaction: Interaction
     iron_golem: Iron golem
     item_display: Item display
