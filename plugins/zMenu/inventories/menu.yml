@@ -20,7 +20,7 @@ items:
         # Requisito de saldo mínimo
         - type: permission
           permission: "is_vip"
-          value: 1000
+          value: 0
           action: SUPERIOR_OR_EQUAL
 
     update: true
@@ -75,8 +75,26 @@ items:
         - "&8➤ &fItems &ey tesoros ocultos"
         - "&r"
         - "&a¡Explora y sobrevive!"
+  Trabajos:
+    slot: 22
+    commands:
+      - "jobs browse"
+    item:
+      material: SMITHING_TABLE
+      name: "&e&l✦ Trabajos ✦"
+      lore:
+        - "&r"
+        - "&a¡Gana dinero y experiencia!"
+        - "&7Elige un trabajo y recibe recompensas"
+        - "&7por cada tarea completada."
+        - "&r"
+        - "&b&lTrabajos disponibles:"
+        - "&8- &fMinero, Leñador, Constructor"
+        - "&8- &fGranjero, Cazador y más"
+        - "&r"
+        - "&6¡Progresa y desbloquea beneficios!"
   vip:
-    slot: 31
+    slot: 30
     consoleCommands:
       - "lp user %player% parent addtemp vip 7d"
     view_requirement:
@@ -91,8 +109,8 @@ items:
     updateMasterButton: true
     refreshOnClick: true
     item:
-      material: TRIDENT
-      name: "&VIP 1semana"
+      material: NETHER_STAR
+      name: "&cVIP 1semana"
       lore:
         - "&7Acceso a beneficios exclusivos"
         - " "
@@ -101,7 +119,7 @@ items:
         - "&5Únete a la comunidad VIP"
     else:
       item:
-        material: TRIDENT
+        material: NETHER_STAR
         name: "&cVIP 1semana"
         lore:
           - "&7No puedes comprar VIP"
@@ -128,7 +146,7 @@ items:
     updateMasterButton: true
     refreshOnClick: true
     item:
-      material: TRIDENT
+      material: NETHER_STAR
       name: "&bVIP"
       lore:
         - "&7Acceso a beneficios exclusivos"
@@ -138,12 +156,12 @@ items:
         - "&5Únete a la comunidad VIP"
     else:
       item:
-        material: TRIDENT
+        material: NETHER_STAR
         name: "&cSUPERVIP 1Mes"
         lore:
-          - "&7No puedes comprar VIP"
+          - "&7No puedes comprar SUPERVIP"
           - " "
-          - "&7Necesitas tener al menos 1000$"
+          - "&7Necesitas tener al menos 5000$"
           - " "
           - "recompensas exclusivas"
           - " "

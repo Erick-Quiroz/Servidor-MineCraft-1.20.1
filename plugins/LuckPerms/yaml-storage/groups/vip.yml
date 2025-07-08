@@ -2,6 +2,16 @@ name: vip
 permissions:
   - is_vip
   - essentials.kits.vip
+  - jobs.max.2
+  - zmenu.menu.vip
+  - announcerplus.join.vip
+  - announcerplus.quit.vip
+  - multiverse.access.creativo
+  - multiverse.portal.access.creativo
+  - multiverse.portal.use.creativo
+  - multiverse.core.creativo
+  - multiverse.teleport.self.creativo
+
 parents:
   - default
 prefixes:

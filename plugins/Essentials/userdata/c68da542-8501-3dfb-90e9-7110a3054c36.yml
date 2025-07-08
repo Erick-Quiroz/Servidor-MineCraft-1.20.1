@@ -16,15 +16,15 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1751916484702
-  login: 1751916470741
-money: '0'
+  logout: 1751986151709
+  login: 1751984338725
+money: '16.6999999999999979'
 last-account-name: Erick
 logoutlocation:
   world: e2ba047e-ad6c-4aae-a8db-a6192c353f08
   world-name: world
-  x: 233.23262380490766
-  y: 225.0
-  z: -359.5300616506877
-  yaw: -95.36451721191406
-  pitch: -3.2997591495513916
+  x: 202.73035871158797
+  y: 154.0
+  z: -233.275241903358
+  yaw: 148.0937042236328
+  pitch: 27.15015983581543
