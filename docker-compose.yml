@@ -12,7 +12,7 @@ services:
       - login-config:/minecraft/plugins/nLogin
       - luckperms:/minecraft/plugins/LuckPerms/yaml-storage/users
       - essentials-userdata:/minecraft/plugins/Essentials/userdata
-      - jobs-data:/minecraft/plugins/Jobs/jobs.sqlite.db 
+      - jobs-data:/minecraft/plugins/Jobs
     environment:
       - TZ=America/Lima # Ajusta tu zona horaria
     restart: unless-stopped
