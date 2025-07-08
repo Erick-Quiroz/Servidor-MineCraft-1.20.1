@@ -11,6 +11,7 @@ services:
       - discordsrv-config:/minecraft/plugins/DiscordSRV
       - login-config:/minecraft/plugins/nLogin
       - luckperms:/minecraft/plugins/LuckPerms/yaml-storage/users
+      - essentials-userdata:/minecraft/plugins/Essentials/userdata
     environment:
       - TZ=America/Lima # Ajusta tu zona horaria
     restart: unless-stopped
@@ -21,3 +22,4 @@ volumes:
   discordsrv-config:
   login-config:
   luckperms:
+  essentials-userdata:
