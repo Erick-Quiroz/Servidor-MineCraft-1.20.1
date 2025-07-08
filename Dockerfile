@@ -1,4 +1,4 @@
-FROM openjdk:21-jdk-slim
+FROM openjdk:21-jdk-slim   
 
 # Instala SSH y herramientas básicas (sin root login)
 RUN apt-get update && \
