@@ -988,6 +988,24 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/spruce_wood": {
+    "criteria": {
+      "has_log": "2025-07-08 00:16:22 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_planks": {
+    "criteria": {
+      "has_logs": "2025-07-08 00:16:22 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/charcoal": {
+    "criteria": {
+      "has_log": "2025-07-08 00:16:22 -0400"
+    },
+    "done": true
+  },
   "refurbished_furniture:recipes/misc/constructing/spruce_table": {
     "criteria": {
       "has_spruce_planks": "2025-07-08 00:17:44 -0400"
@@ -1069,12 +1087,6 @@
   "refurbished_furniture:recipes/misc/constructing/spruce_bath": {
     "criteria": {
       "has_spruce_planks": "2025-07-08 00:17:44 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/spruce_wood": {
-    "criteria": {
-      "has_log": "2025-07-08 00:16:22 -0400"
     },
     "done": true
   },
@@ -1168,12 +1180,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/spruce_planks": {
-    "criteria": {
-      "has_logs": "2025-07-08 00:16:22 -0400"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/misc/constructing/spruce_basin": {
     "criteria": {
       "has_spruce_planks": "2025-07-08 00:17:44 -0400"
@@ -1198,12 +1204,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/charcoal": {
-    "criteria": {
-      "has_log": "2025-07-08 00:16:22 -0400"
-    },
-    "done": true
-  },
   "minecraft:recipes/redstone/spruce_trapdoor": {
     "criteria": {
       "has_planks": "2025-07-08 00:17:44 -0400"
@@ -1213,12 +1213,6 @@
   "minecraft:recipes/redstone/spruce_door": {
     "criteria": {
       "has_planks": "2025-07-08 00:17:44 -0400"
-    },
-    "done": true
-  },
-  "infectious:i_dont_feel_so_good": {
-    "criteria": {
-      "i_dont_feel_so_good": "2025-07-08 00:25:53 -0400"
     },
     "done": true
   },
@@ -1303,6 +1297,12 @@
   "minecraft:story/root": {
     "criteria": {
       "crafting_table": "2025-07-08 00:19:43 -0400"
+    },
+    "done": true
+  },
+  "infectious:i_dont_feel_so_good": {
+    "criteria": {
+      "i_dont_feel_so_good": "2025-07-08 00:25:53 -0400"
     },
     "done": true
   },
