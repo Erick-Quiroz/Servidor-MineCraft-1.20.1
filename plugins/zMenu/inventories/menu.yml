@@ -15,6 +15,8 @@ items:
       - 27
   Creativo:
     slot: 12
+    consoleCommands:
+      - "mv tp %player% creativo"
     view_requirement:
       requirements:
         # Requisito de saldo mínimo
@@ -66,6 +68,27 @@ items:
 
   Mundo:
     slot: 14
+    consoleCommands:
+      - "mv tp %player% world"
+    update: true
+    updateMasterButton: true
+    refreshOnClick: true
+    view_requirement:
+      requirements:
+        - type: permission
+          permission: "is_vip"
+        - type: placeholder
+          placeholder: "%player_world%"
+          value: "creativo"
+          action: EQUALS
+    click_requirement:
+      requirements:
+        - type: permission
+          permission: "is_vip"
+        - type: placeholder
+          placeholder: "%player_world%"
+          value: "creativo"
+          action: EQUALS
     item:
       material: SNOUT_ARMOR_TRIM_SMITHING_TEMPLATE
       name: "&b&l🌍 Mundo"
@@ -75,6 +98,20 @@ items:
         - "&8➤ &fItems &ey tesoros ocultos"
         - "&r"
         - "&a¡Explora y sobrevive!"
+        - "&r"
+        - "&a¡Esto te llevara al spawn!"
+    else:
+      messages:
+        - "&cDebes ser VIP  para usar el comando Mundo"
+      item:
+        material: SNOUT_ARMOR_TRIM_SMITHING_TEMPLATE
+        name: "&b&l🌍 Mundo"
+        lore:
+          - "&7No puedes usar Mundo"
+          - "&r"
+          - "&7Debes ser VIP"
+          - "&r"
+          - "&a¡Esto te llevará al spawn!"
   Trabajos:
     slot: 22
     commands:
@@ -96,13 +133,14 @@ items:
   vip:
     slot: 30
     consoleCommands:
+      - "eco take %player% 20000"
       - "lp user %player% parent addtemp vip 7d"
     view_requirement:
       requirements:
         # Requisito de saldo mínimo
         - type: placeholder
           placeholder: "%vault_eco_balance%"
-          value: 1000
+          value: 20000
           action: SUPERIOR_OR_EQUAL
 
     update: true
@@ -124,14 +162,18 @@ items:
         lore:
           - "&7No puedes comprar VIP"
           - " "
-          - "&7Necesitas tener al menos 1000$"
+          - "&7Necesitas tener al menos 20000$"
           - " "
           - "recompensas exclusivas"
           - " "
+          - "&7Puedes tener 2 trabajos"
+          - "/vip Nuevas opciones"
+          - "/buff"
   super_vip:
     slot: 32
     consoleCommands:
-      - "lp user %player% parent addtemp supervip 7s"
+      - "eco take %player% 100000"
+      - "lp user %player% parent addtemp supervip 1mo"
     view_requirement:
       requirements:
         # Requisito de saldo mínimo
@@ -139,7 +181,7 @@ items:
           permission: "is_vip"
         - type: placeholder
           placeholder: "%vault_eco_balance%"
-          value: 5000
+          value: 100000
           action: SUPERIOR_OR_EQUAL
 
     update: true
@@ -161,7 +203,11 @@ items:
         lore:
           - "&7No puedes comprar SUPERVIP"
           - " "
-          - "&7Necesitas tener al menos 5000$"
+          - "&7Necesitas tener al menos 100000$ y ser VIP"
           - " "
           - "recompensas exclusivas"
           - " "
+          - "&7Puedes tener 5 trabajos"
+          - "/vip Nuevas opciones"
+          - "/buff"
+          - "y mas"

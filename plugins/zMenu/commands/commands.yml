@@ -41,12 +41,18 @@ commands:
     aliases:
       - zmenu
     inventory: menu
-  vip:
+  buff:
+    command: buff
+    permission: "zmenu.vip.buff"
+    aliases:
+      - zmenu.vip.buff
+    inventory: buff
+  menu_vip:
     command: vip
     permission: "zmenu.vip"
     aliases:
       - zmenu.vip
-    inventory: vip
+    inventory: menu_vip
   basic_command:
     command: basic_command
     inventory: basic_inventory

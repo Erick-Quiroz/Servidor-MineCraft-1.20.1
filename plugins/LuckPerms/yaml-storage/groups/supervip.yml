@@ -1,6 +1,6 @@
 name: supervip
 permissions:
-  - 
+  - - jobs.max.5
   - essentials.kits.supervip
 parents:
   - vip

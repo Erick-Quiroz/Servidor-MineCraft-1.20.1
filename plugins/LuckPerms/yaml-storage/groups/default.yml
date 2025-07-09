@@ -1,11 +1,6 @@
 name: default
 permissions:
   - deluxemenus.mv
-  - multiverse.access.*
-  - multiverse.portal.access.*
-  - multiverse.portal.use.*
-  - multiverse.core.*
-  - multiverse.teleport.self.*
   - zmenu.menu
   - announcerplus.join.default
   - announcerplus.quit.default

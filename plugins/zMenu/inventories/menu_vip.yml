@@ -1,0 +1,41 @@
+name: "&8Menu VIP"
+size: 9
+# Menú VIP reducido a 9 slots
+items:
+  Item_Uno:
+    slot: 0
+    item:
+      material: DIAMOND
+      name: "&bBUFF"
+      lore:
+        - "&7OBUFF de todo tipo para ayudarte"
+    commands:
+      - "buff"
+
+  Heal:
+    slot: 8
+    consoleCommands:
+      - "eco take %player% 500"
+      - "heal %player%"
+    view_requirement:
+      requirements:
+        # Requisito de saldo mínimo
+        - type: permission
+          permission: "is_vip"
+        - type: placeholder
+          placeholder: "%vault_eco_balance%"
+          value: 500
+          action: SUPERIOR_OR_EQUAL
+    item:
+      material: APPLE
+      name: "&aCurar"
+      lore:
+        - "&7Recupera tu salud al máximo"
+        - "&eCosto: $500"
+    else:
+      item:
+        material: APPLE
+        name: "&cNo tienes suficiente dinero"
+        lore:
+          - "&7Necesitas al menos $500 para curarte."
+          - "&7Recupera tu salud al máximo"

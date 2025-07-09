@@ -3,7 +3,10 @@ permissions:
   - is_vip
   - essentials.kits.vip
   - jobs.max.2
-  - zmenu.menu.vip
+  - zmenu.vip
+  - zmenu.vip.buff
+  - zmenu.vip.menu_vip
+  - zmenu.vip.items
   - announcerplus.join.vip
   - announcerplus.quit.vip
   - multiverse.access.creativo
