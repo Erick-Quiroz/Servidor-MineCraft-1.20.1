@@ -5,6 +5,7 @@ permissions:
   - announcerplus.join.default
   - announcerplus.quit.default
   - jobs.max.1
+  - mom.default
 parents:
   - default
 prefixes:
