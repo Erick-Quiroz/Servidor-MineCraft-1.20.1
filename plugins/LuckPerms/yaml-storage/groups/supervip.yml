@@ -2,7 +2,7 @@ name: supervip
 permissions:
   - is_supervip
   - jobs.max.5
-  - ultimatehomes.sethome.max.2
+  - ultimatehomes.sethome.max.3
 parents:
   - vip
 prefixes:
