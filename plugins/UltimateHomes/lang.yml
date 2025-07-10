@@ -1,0 +1,56 @@
+prefix: '&b&lSandiland&8:'
+command:
+  noPermission: '&cNo tienes permiso para hacer eso.'
+  reloaded: '&aSandiland recargado con éxito!'
+  sethome:
+    usage: '&fUso inválido! Usa &3/sethome <nombre>'
+    invalidSender: '&cDebes ser un jugador para establecer un hogar.'
+    createdHome: '&fTu hogar ha sido establecido en tu ubicación actual.'
+    createdNamedHome: '&fCreado el hogar &3%arg1&f en tu ubicación actual.'
+    noMoreHomes: '&fNo puedes establecer más hogares. Usa &3/delhome <nombre> para
+      eliminar uno. (Límite: &3%arg1&f)'
+    nameAlreadyExists: '&fYa tienes un hogar con el nombre &3%arg1&f. Intenta con
+      otro nombre.'
+    nonAlphanumeric: '&fEl nombre de tu hogar debe ser alfanumérico; intenta con &3%arg2
+      &fo elige otro.'
+    nonAlphanumericNoSuggestion: '&fEl nombre de tu hogar debe ser alfanumérico; por
+      favor elige uno diferente.'
+    unsafeLocation: '&cNo puedes establecer un hogar aquí porque es inseguro.'
+  home:
+    usage: '&fUso inválido! Usa &3/home <nombre>'
+    invalidSender: '&cDebes ser un jugador para teletransportarte a un hogar.'
+    invalidHome: '&fNo tienes un hogar llamado &3%arg1&f. Escribe &3/homes&f para
+      ver tus hogares.'
+    teleportedHome: '&fTeletransportado a tu hogar. (&bx&3%arg3&f, &by&3%arg4&f, &bz&3%arg5&f,
+      &fin &3%arg2&f)'
+    teleportedHomeNamed: '&fTeletransportado al hogar &3%arg1&f. (&bx&3%arg3&f, &by&3%arg4&f,
+      &bz&3%arg5&f, &fin &3%arg2&f)'
+    teleportedOther: '&fTeletransportado al hogar &3%arg1&f de &3%arg6&f. (&bx&3%arg3&f,
+      &by&3%arg4&f, &bz&3%arg5&f, &fin &3%arg2&f)'
+    invalidHomeOther: '&3%arg2&f no tiene un hogar llamado &3%arg1&f. Escribe &3/homes
+      %arg2&f para ver sus hogares.'
+    unknownPlayer: '&fJugador desconocido &3%arg1&f.'
+    warmup: '&fTeletransportando en &3%arg1 &fsegundos. Mantente quieto...'
+    teleportationCancelled: '&c¡Te moviste! Teletransporte cancelado.'
+    unsafeTeleport: '&cAdvertencia: la ubicación de destino es insegura. Para confirmar
+      el teletransporte, ejecuta el comando nuevamente rápido.'
+  homes:
+    usage: '&fUso inválido! Usa &3/homes <jugador>'
+    invalidSender: '&cDebes ser un jugador para ver hogares.'
+    unknownPlayer: '&fJugador desconocido &3%arg1&f.'
+    homes: '&fHogares &8(&f%arg1&8) &f- %arg2'
+    homesOther: '&fHogares de &3%arg1&f &8(&f%arg2&8)&f: %arg3'
+    homeListSeparator: '&f, '
+    homeListColor: '&3'
+    noHomes: '&fNo tienes hogares establecidos. Crea uno con &3/sethome <nombre>'
+    noHomesOther: '&3%arg1&f no tiene hogares establecidos.'
+  delhome:
+    usage: '&fUso inválido! Usa &3/delhome [jugador] <nombre>'
+    invalidHome: '&fNo tienes un hogar llamado &3%arg1&f. Escribe &3/homes&f para
+      ver tus hogares.'
+    invalidHomeOther: '&3%arg2&f no tiene un hogar llamado &3%arg1&f. Escribe &3/homes
+      %arg2&f para ver sus hogares.'
+    deleted: '&fTu hogar &3%arg1&ffue eliminado.'
+    deletedOther: '&fEl hogar &3%arg1&f de &3%arg2&f fue eliminado.'
+    unknownPlayer: '&fJugador desconocido &3%arg1&f.'
+    invalidSender: '&cDebes ser un jugador para eliminar un hogar.'

@@ -1,0 +1,18 @@
+player:
+  info:
+    lastSeenAs: Papu
+homes:
+  casa:
+    x: -173
+    y: 87
+    z: 251
+    yaw: 142.3479
+    pitch: 14.95004
+    world: world
+  casita:
+    x: -169
+    y: 87
+    z: 262
+    yaw: -59.298615
+    pitch: 24.35019
+    world: world

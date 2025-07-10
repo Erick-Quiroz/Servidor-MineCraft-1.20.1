@@ -1,7 +1,8 @@
 name: supervip
 permissions:
-  - - jobs.max.5
-  - essentials.kits.supervip
+  - is_supervip
+  - jobs.max.5
+  - ultimatehomes.sethome.max.2
 parents:
   - vip
 prefixes:

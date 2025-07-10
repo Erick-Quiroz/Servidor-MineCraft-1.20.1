@@ -14,9 +14,18 @@ permissions:
   - multiverse.portal.use.creativo
   - multiverse.core.creativo
   - multiverse.teleport.self.creativo
+  - ultimatehomes.sethome
+  - ultimatehomes.hogar
+  - ultimatehomes.casas
+  - ultimatehomes.delhome
+  - ultimatehomes.sethome.max.1
 
 parents:
   - default
 prefixes:
   - "§l§4§k¦¦§aVIP§l§4§k¦¦§b":
       priority: 2
+
+ultimatehomes.sethome.unlimited: sin límite de viviendas; establecer viviendas ilimitadas
+ultimatehomes.warmup.bypass: permite a un jugador evitar el calentamiento por teletransportación (si está habilitado)
+ultimatehomes.sethome.max.<número>: cambia la cantidad de casas que un jugador puede establecer. Sin este permiso, el límite predeterminado es 1. Si un jugador tiene varios permisos de límite, se utilizará el más alto.

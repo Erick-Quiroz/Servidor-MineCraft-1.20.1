@@ -5,8 +5,8 @@
 groups:
   world:
     worlds:
-    - worlds
-    - world_nether
-    - world_the_end
+    - world
+    - world/DIM1
+    - world/DIM-1
     shares:
     - all

@@ -13,6 +13,7 @@ services:
       - luckperms:/minecraft/plugins/LuckPerms/yaml-storage/users
       - essentials-userdata:/minecraft/plugins/Essentials/userdata
       - jobs-data:/minecraft/plugins/Jobs
+      - ultimatehomes:/minecraft/plugins/UltimateHomes/playerdata
     environment:
       - TZ=America/Lima # Ajusta tu zona horaria
     restart: unless-stopped
@@ -25,3 +26,4 @@ volumes:
   luckperms:
   essentials-userdata:
   jobs-data:
+  ultimatehomes:

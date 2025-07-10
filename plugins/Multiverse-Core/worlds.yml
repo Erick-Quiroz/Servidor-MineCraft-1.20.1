@@ -34,12 +34,17 @@ creativo:
     pitch: 0.0
     yaw: 0.0
   spawning:
+    water_ambient:
+      spawn: false
+      tick-rate: -1
+      spawn-limit: -1
+      exceptions: []
     monster:
       spawn: false
       tick-rate: -1
       spawn-limit: -1
       exceptions: []
-    animal:
+    water_animal:
       spawn: false
       tick-rate: -1
       spawn-limit: -1
@@ -54,12 +59,7 @@ creativo:
       tick-rate: -1
       spawn-limit: -1
       exceptions: []
-    water_animal:
-      spawn: false
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
-    water_ambient:
+    animal:
       spawn: false
       tick-rate: -1
       spawn-limit: -1
@@ -107,12 +107,17 @@ world:
     pitch: 0.0
     yaw: 0.0
   spawning:
+    water_ambient:
+      spawn: true
+      tick-rate: -1
+      spawn-limit: -1
+      exceptions: []
     monster:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
       exceptions: []
-    animal:
+    water_animal:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
@@ -127,12 +132,7 @@ world:
       tick-rate: -1
       spawn-limit: -1
       exceptions: []
-    water_animal:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
-    water_ambient:
+    animal:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
@@ -179,7 +179,12 @@ world/DIM-1:
     z: -32.5
     pitch: 0.0
     yaw: 0.0
-  spawning: {}
+  spawning:
+    monster:
+      spawn: true
+      tick-rate: -1
+      spawn-limit: -1
+      exceptions: []
   world-blacklist: []
   version: 1.2
 world/DIM1:

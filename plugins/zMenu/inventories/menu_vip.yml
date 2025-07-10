@@ -15,7 +15,7 @@ items:
   Heal:
     slot: 8
     consoleCommands:
-      - "eco take %player% 500"
+      - "eco take %player% 2000"
       - "heal %player%"
     view_requirement:
       requirements:
@@ -31,11 +31,11 @@ items:
       name: "&aCurar"
       lore:
         - "&7Recupera tu salud al máximo"
-        - "&eCosto: $500"
+        - "&eCosto: $2000"
     else:
       item:
         material: APPLE
         name: "&cNo tienes suficiente dinero"
         lore:
-          - "&7Necesitas al menos $500 para curarte."
+          - "&7Necesitas al menos $2000 para curarte."
           - "&7Recupera tu salud al máximo"

@@ -3,21 +3,19 @@
 # Extra money based on a percentage per level of Looting. For example, LootingMultiplier: 10% means a player with Looting 1 will get 10% more money and Looting 3 will get 30% more money
 LootingMultiplier: 10%
 
-# Los jugadores en estos Grupos de Permisos ganarán dinero extra basado en los porcentajes junto al nombre del Grupo de Permisos. Establece el primer Grupo de Permisos en "NONE" si deseas desactivar este Multiplicador, o si no usas un plugin de permisos basado en vault.
+# Players in these Permission Groups will gain extra money based on the percentages next to the Permission Group name. Set the first Permission Group to "NONE" if you want to disable this Multiplier, or if you don't use a vault based permissions plugin.
 PermissionGroupMultipliers:
   - PermissionGroup1 5%
   - PermissionGroup2 10%
-
-# Los jugadores en estos Mundos ganarán dinero extra basado en el porcentaje junto al nombre del Mundo. Establece el primer Mundo en "NONE" si deseas desactivar los Multiplicadores por Mundo.
+ 
+# Players in these Worlds will gain extra money based on the percentage next to the World name. Set the first World to "NONE" if you want to disable World Multipliers
 WorldMultipliers:
   - world1 5%
   - world2 10%
 
-# Los jugadores en estos Grupos de Permisos soltarán MENOS dinero al morir, basado en el porcentaje junto al nombre del Grupo de Permisos. Establece el primer Grupo de Permisos en "NONE" si deseas desactivar este Multiplicador, o si no usas un plugin de permisos basado en vault.
+# Players in these Permission Groups will drop LESS money on death based on the percentage next to the Permission Group name. Set the first Permission Group to "NONE" if you want to disable this Multiplier, or if you don't use a vault based permissions plugin.
 PlayerDeathMultipliers:
   - mom.default 15%
-  # - mom.vip 10%
-  # - mom.super.vip 5%
 
 # Extra money based on the level of the mob when using the plugin LorinthsRpgMobs. For example, LorinthsRpgMobsMultiplier: 1% means level 2 mobs will drop 1% more money and level 3 mobs will drop 2% more money and so on
 LorinthsRpgMobsMultiplier: 1%
@@ -47,5 +45,7 @@ RepeatingMultiplierEvent:
   # The initial delay for the multiplier event to start when starting your server or using /mfmreload in minutes
   InitialDelay: 0
   # Messages sent when the multiplier event starts/stops
-  EventStartMessage: "&a¡Un Evento de Multiplicador de Dinero ha comenzado! Los mobs soltarán &f100% &amás dinero durante 5 minutos"
-  EventEndMessage: "&c¡El Evento de Multiplicador de Dinero ha terminado! ¡Todos los mobs ahora soltarán su cantidad normal!"
+  EventStartMessage: '&a¡Un Evento de Multiplicador de Dinero ha comenzado! Los mobs soltarán &f100% &amás dinero durante 5 minutos'
+  EventEndMessage: '&c¡El Evento de Multiplicador de Dinero ha terminado! ¡Todos los mobs ahora soltarán su cantidad normal!'
+
+

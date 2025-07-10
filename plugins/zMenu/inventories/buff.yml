@@ -11,13 +11,13 @@ items:
           permission: "is_vip"
         - type: placeholder
           placeholder: "%vault_eco_balance%"
-          value: 100
+          value: 1000
           action: SUPERIOR_OR_EQUAL
     update: true
     updateMasterButton: true
     refreshOnClick: true
     consoleCommands:
-      - "eco take %player% 100"
+      - "eco take %player% 1000"
       - "effect give %player% speed 45 0"
     item:
       material: SUGAR
@@ -25,14 +25,14 @@ items:
       lore:
         - "&7+40% velocidad de movimiento"
         - "&7Duración: &a45s"
-        - "&7Precio: &e100$"
+        - "&7Precio: &e1000$"
     else:
       item:
         material: SUGAR
         name: "&9Velocidad &lI"
         lore:
           - "&cSaldo insuficiente"
-          - "&7Necesitas: 100$"
+          - "&7Necesitas: 1000$"
       messages: ["&cNo tienes suficiente dinero"]
   Buff_Velocidad_II:
     slot: 1
@@ -42,13 +42,13 @@ items:
           permission: "is_vip"
         - type: placeholder
           placeholder: "%vault_eco_balance%"
-          value: 200
+          value: 2000
           action: SUPERIOR_OR_EQUAL
     update: true
     updateMasterButton: true
     refreshOnClick: true
     consoleCommands:
-      - "eco take %player% 200"
+      - "eco take %player% 2000"
       - "effect give %player% speed 60 1"
     item:
       material: SUGAR
@@ -56,14 +56,14 @@ items:
       lore:
         - "&7+80% velocidad de movimiento"
         - "&7Duración: &a60s"
-        - "&7Precio: &e200$"
+        - "&7Precio: &e2000$"
     else:
       item:
         material: SUGAR
         name: "&9Velocidad &lII"
         lore:
           - "&cSaldo insuficiente"
-          - "&7Necesitas: 200$"
+          - "&7Necesitas: 2000$"
       messages: ["&cNo tienes suficiente dinero"]
   Buff_Velocidad_III:
     slot: 2
@@ -73,13 +73,13 @@ items:
           permission: "is_vip"
         - type: placeholder
           placeholder: "%vault_eco_balance%"
-          value: 300
+          value: 3000
           action: SUPERIOR_OR_EQUAL
     update: true
     updateMasterButton: true
     refreshOnClick: true
     consoleCommands:
-      - "eco take %player% 300"
+      - "eco take %player% 3000"
       - "effect give %player% speed 75 2"
     item:
       material: SUGAR
@@ -87,14 +87,14 @@ items:
       lore:
         - "&7+120% velocidad de movimiento"
         - "&7Duración: &a75s"
-        - "&7Precio: &e300$"
+        - "&7Precio: &e3000$"
     else:
       item:
         material: SUGAR
         name: "&9Velocidad &lIII"
         lore:
           - "&cSaldo insuficiente"
-          - "&7Necesitas: 300$"
+          - "&7Necesitas: 3000$"
       messages: ["&cNo tienes suficiente dinero"]
 
   # Fuerza I-III
@@ -106,13 +106,13 @@ items:
           permission: "is_vip"
         - type: placeholder
           placeholder: "%vault_eco_balance%"
-          value: 150
+          value: 1500
           action: SUPERIOR_OR_EQUAL
     update: true
     updateMasterButton: true
     refreshOnClick: true
     consoleCommands:
-      - "eco take %player% 150"
+      - "eco take %player% 1500"
       - "effect give %player% strength 45 0"
     item:
       material: BLAZE_POWDER
@@ -120,14 +120,14 @@ items:
       lore:
         - "&7+20% daño de ataque"
         - "&7Duración: &a45s"
-        - "&7Precio: &e150$"
+        - "&7Precio: &e1500$"
     else:
       item:
         material: BLAZE_POWDER
         name: "&cFuerza &lI"
         lore:
           - "&cSaldo insuficiente"
-          - "&7Necesitas: 150$"
+          - "&7Necesitas: 1500$"
       messages: ["&cNo tienes suficiente dinero"]
   Buff_Fuerza_II:
     slot: 4
@@ -137,13 +137,13 @@ items:
           permission: "is_vip"
         - type: placeholder
           placeholder: "%vault_eco_balance%"
-          value: 300
+          value: 3000
           action: SUPERIOR_OR_EQUAL
     update: true
     updateMasterButton: true
     refreshOnClick: true
     consoleCommands:
-      - "eco take %player% 300"
+      - "eco take %player% 3000"
       - "effect give %player% strength 60 1"
     item:
       material: BLAZE_POWDER
@@ -151,14 +151,14 @@ items:
       lore:
         - "&7+40% daño de ataque"
         - "&7Duración: &a60s"
-        - "&7Precio: &e300$"
+        - "&7Precio: &e3000$"
     else:
       item:
         material: BLAZE_POWDER
         name: "&cFuerza &lII"
         lore:
           - "&cSaldo insuficiente"
-          - "&7Necesitas: 300$"
+          - "&7Necesitas: 3000$"
       messages: ["&cNo tienes suficiente dinero"]
   Buff_Fuerza_III:
     slot: 5
@@ -168,13 +168,13 @@ items:
           permission: "is_vip"
         - type: placeholder
           placeholder: "%vault_eco_balance%"
-          value: 450
+          value: 4500
           action: SUPERIOR_OR_EQUAL
     update: true
     updateMasterButton: true
     refreshOnClick: true
     consoleCommands:
-      - "eco take %player% 450"
+      - "eco take %player% 4500"
       - "effect give %player% strength 75 2"
     item:
       material: BLAZE_POWDER
@@ -182,14 +182,14 @@ items:
       lore:
         - "&7+60% daño de ataque"
         - "&7Duración: &a75s"
-        - "&7Precio: &e450$"
+        - "&7Precio: &e4500$"
     else:
       item:
         material: BLAZE_POWDER
         name: "&cFuerza &lIII"
         lore:
           - "&cSaldo insuficiente"
-          - "&7Necesitas: 450$"
+          - "&7Necesitas: 4500$"
       messages: ["&cNo tienes suficiente dinero"]
 
   # Salto I-III
@@ -201,13 +201,13 @@ items:
           permission: "is_vip"
         - type: placeholder
           placeholder: "%vault_eco_balance%"
-          value: 120
+          value: 1200
           action: SUPERIOR_OR_EQUAL
     update: true
     updateMasterButton: true
     refreshOnClick: true
     consoleCommands:
-      - "eco take %player% 120"
+      - "eco take %player% 1200"
       - "effect give %player% jump_boost 45 0"
     item:
       material: RABBIT_FOOT
@@ -215,14 +215,14 @@ items:
       lore:
         - "&7+50% altura de salto"
         - "&7Duración: &a45s"
-        - "&7Precio: &e120$"
+        - "&7Precio: &e1200$"
     else:
       item:
         material: RABBIT_FOOT
         name: "&eSalto &lI"
         lore:
           - "&cSaldo insuficiente"
-          - "&7Necesitas: 120$"
+          - "&7Necesitas: 1200$"
       messages: ["&cNo tienes suficiente dinero"]
   Buff_Salto_II:
     slot: 7
@@ -232,13 +232,13 @@ items:
           permission: "is_vip"
         - type: placeholder
           placeholder: "%vault_eco_balance%"
-          value: 240
+          value: 2400
           action: SUPERIOR_OR_EQUAL
     update: true
     updateMasterButton: true
     refreshOnClick: true
     consoleCommands:
-      - "eco take %player% 240"
+      - "eco take %player% 2400"
       - "effect give %player% jump_boost 60 1"
     item:
       material: RABBIT_FOOT
@@ -246,14 +246,14 @@ items:
       lore:
         - "&7+100% altura de salto"
         - "&7Duración: &a60s"
-        - "&7Precio: &e240$"
+        - "&7Precio: &e2400$"
     else:
       item:
         material: RABBIT_FOOT
         name: "&eSalto &lII"
         lore:
           - "&cSaldo insuficiente"
-          - "&7Necesitas: 240$"
+          - "&7Necesitas: 2400$"
       messages: ["&cNo tienes suficiente dinero"]
   Buff_Salto_III:
     slot: 8
@@ -263,13 +263,13 @@ items:
           permission: "is_vip"
         - type: placeholder
           placeholder: "%vault_eco_balance%"
-          value: 360
+          value: 3600
           action: SUPERIOR_OR_EQUAL
     update: true
     updateMasterButton: true
     refreshOnClick: true
     consoleCommands:
-      - "eco take %player% 360"
+      - "eco take %player% 3600"
       - "effect give %player% jump_boost 75 2"
     item:
       material: RABBIT_FOOT
@@ -277,14 +277,14 @@ items:
       lore:
         - "&7+150% altura de salto"
         - "&7Duración: &a75s"
-        - "&7Precio: &e360$"
+        - "&7Precio: &e3600$"
     else:
       item:
         material: RABBIT_FOOT
         name: "&eSalto &lIII"
         lore:
           - "&cSaldo insuficiente"
-          - "&7Necesitas: 360$"
+          - "&7Necesitas: 3600$"
       messages: ["&cNo tienes suficiente dinero"]
 
   # Regeneración I-III
@@ -296,13 +296,13 @@ items:
           permission: "is_vip"
         - type: placeholder
           placeholder: "%vault_eco_balance%"
-          value: 180
+          value: 1800
           action: SUPERIOR_OR_EQUAL
     update: true
     updateMasterButton: true
     refreshOnClick: true
     consoleCommands:
-      - "eco take %player% 180"
+      - "eco take %player% 1800"
       - "effect give %player% regeneration 45 0"
     item:
       material: GHAST_TEAR
@@ -310,14 +310,14 @@ items:
       lore:
         - "&7+1❤ cada 2s"
         - "&7Duración: &a45s"
-        - "&7Precio: &e180$"
+        - "&7Precio: &e1800$"
     else:
       item:
         material: GHAST_TEAR
         name: "&aRegeneración &lI"
         lore:
           - "&cSaldo insuficiente"
-          - "&7Necesitas: 180$"
+          - "&7Necesitas: 1800$"
       messages: ["&cNo tienes suficiente dinero"]
   Buff_Regeneracion_II:
     slot: 10
@@ -327,13 +327,13 @@ items:
           permission: "is_vip"
         - type: placeholder
           placeholder: "%vault_eco_balance%"
-          value: 360
+          value: 3600
           action: SUPERIOR_OR_EQUAL
     update: true
     updateMasterButton: true
     refreshOnClick: true
     consoleCommands:
-      - "eco take %player% 360"
+      - "eco take %player% 3600"
       - "effect give %player% regeneration 60 1"
     item:
       material: GHAST_TEAR
@@ -341,14 +341,14 @@ items:
       lore:
         - "&7+2❤ cada 2s"
         - "&7Duración: &a60s"
-        - "&7Precio: &e360$"
+        - "&7Precio: &e3600$"
     else:
       item:
         material: GHAST_TEAR
         name: "&aRegeneración &lII"
         lore:
           - "&cSaldo insuficiente"
-          - "&7Necesitas: 360$"
+          - "&7Necesitas: 3600$"
       messages: ["&cNo tienes suficiente dinero"]
   Buff_Regeneracion_III:
     slot: 11
@@ -358,13 +358,13 @@ items:
           permission: "is_vip"
         - type: placeholder
           placeholder: "%vault_eco_balance%"
-          value: 540
+          value: 5400
           action: SUPERIOR_OR_EQUAL
     update: true
     updateMasterButton: true
     refreshOnClick: true
     consoleCommands:
-      - "eco take %player% 540"
+      - "eco take %player% 5400"
       - "effect give %player% regeneration 75 2"
     item:
       material: GHAST_TEAR
@@ -372,14 +372,14 @@ items:
       lore:
         - "&7+3❤ cada 2s"
         - "&7Duración: &a75s"
-        - "&7Precio: &e540$"
+        - "&7Precio: &e5400$"
     else:
       item:
         material: GHAST_TEAR
         name: "&aRegeneración &lIII"
         lore:
           - "&cSaldo insuficiente"
-          - "&7Necesitas: 540$"
+          - "&7Necesitas: 5400$"
       messages: ["&cNo tienes suficiente dinero"]
 
   # Resistencia I-III
@@ -391,13 +391,13 @@ items:
           permission: "is_vip"
         - type: placeholder
           placeholder: "%vault_eco_balance%"
-          value: 200
+          value: 2000
           action: SUPERIOR_OR_EQUAL
     update: true
     updateMasterButton: true
     refreshOnClick: true
     consoleCommands:
-      - "eco take %player% 200"
+      - "eco take %player% 2000"
       - "effect give %player% resistance 45 0"
     item:
       material: IRON_BLOCK
@@ -405,14 +405,14 @@ items:
       lore:
         - "&7+10% reducción de daño"
         - "&7Duración: &a45s"
-        - "&7Precio: &e200$"
+        - "&7Precio: &e2000$"
     else:
       item:
         material: IRON_BLOCK
         name: "&fResistencia &lI"
         lore:
           - "&cSaldo insuficiente"
-          - "&7Necesitas: 200$"
+          - "&7Necesitas: 2000$"
       messages: ["&cNo tienes suficiente dinero"]
   Buff_Resistencia_II:
     slot: 13
@@ -422,13 +422,13 @@ items:
           permission: "is_vip"
         - type: placeholder
           placeholder: "%vault_eco_balance%"
-          value: 400
+          value: 4000
           action: SUPERIOR_OR_EQUAL
     update: true
     updateMasterButton: true
     refreshOnClick: true
     consoleCommands:
-      - "eco take %player% 400"
+      - "eco take %player% 4000"
       - "effect give %player% resistance 60 1"
     item:
       material: IRON_BLOCK
@@ -436,14 +436,14 @@ items:
       lore:
         - "&7+20% reducción de daño"
         - "&7Duración: &a60s"
-        - "&7Precio: &e400$"
+        - "&7Precio: &e4000$"
     else:
       item:
         material: IRON_BLOCK
         name: "&fResistencia &lII"
         lore:
           - "&cSaldo insuficiente"
-          - "&7Necesitas: 400$"
+          - "&7Necesitas: 4000$"
       messages: ["&cNo tienes suficiente dinero"]
   Buff_Resistencia_III:
     slot: 14
@@ -453,13 +453,13 @@ items:
           permission: "is_vip"
         - type: placeholder
           placeholder: "%vault_eco_balance%"
-          value: 600
+          value: 6000
           action: SUPERIOR_OR_EQUAL
     update: true
     updateMasterButton: true
     refreshOnClick: true
     consoleCommands:
-      - "eco take %player% 600"
+      - "eco take %player% 6000"
       - "effect give %player% resistance 75 2"
     item:
       material: IRON_BLOCK
@@ -467,14 +467,14 @@ items:
       lore:
         - "&7+30% reducción de daño"
         - "&7Duración: &a75s"
-        - "&7Precio: &e600$"
+        - "&7Precio: &e6000$"
     else:
       item:
         material: IRON_BLOCK
         name: "&fResistencia &lIII"
         lore:
           - "&cSaldo insuficiente"
-          - "&7Necesitas: 600$"
+          - "&7Necesitas: 6000$"
       messages: ["&cNo tienes suficiente dinero"]
 
   # Inmunidad al fuego I-III
@@ -486,13 +486,13 @@ items:
           permission: "is_vip"
         - type: placeholder
           placeholder: "%vault_eco_balance%"
-          value: 250
+          value: 2500
           action: SUPERIOR_OR_EQUAL
     update: true
     updateMasterButton: true
     refreshOnClick: true
     consoleCommands:
-      - "eco take %player% 250"
+      - "eco take %player% 2500"
       - "effect give %player% fire_resistance 45 0"
     item:
       material: MAGMA_CREAM
@@ -500,14 +500,14 @@ items:
       lore:
         - "&7+100% resistencia al fuego"
         - "&7Duración: &a45s"
-        - "&7Precio: &e250$"
+        - "&7Precio: &e2500$"
     else:
       item:
         material: MAGMA_CREAM
         name: "&fInmunidad al Fuego &lI"
         lore:
           - "&cSaldo insuficiente"
-          - "&7Necesitas: 250$"
+          - "&7Necesitas: 2500$"
       messages: ["&cNo tienes suficiente dinero"]
   Buff_Inmunidad_Fuego_II:
     slot: 16
@@ -517,13 +517,13 @@ items:
           permission: "is_vip"
         - type: placeholder
           placeholder: "%vault_eco_balance%"
-          value: 500
+          value: 5000
           action: SUPERIOR_OR_EQUAL
     update: true
     updateMasterButton: true
     refreshOnClick: true
     consoleCommands:
-      - "eco take %player% 500"
+      - "eco take %player% 5000"
       - "effect give %player% fire_resistance 60 1"
     item:
       material: MAGMA_CREAM
@@ -531,14 +531,14 @@ items:
       lore:
         - "&7+200% resistencia al fuego"
         - "&7Duración: &a60s"
-        - "&7Precio: &e500$"
+        - "&7Precio: &e5000$"
     else:
       item:
         material: MAGMA_CREAM
         name: "&fInmunidad al Fuego &lII"
         lore:
           - "&cSaldo insuficiente"
-          - "&7Necesitas: 500$"
+          - "&7Necesitas: 5000$"
       messages: ["&cNo tienes suficiente dinero"]
   Buff_Inmunidad_Fuego_III:
     slot: 17
@@ -548,13 +548,13 @@ items:
           permission: "is_vip"
         - type: placeholder
           placeholder: "%vault_eco_balance%"
-          value: 750
+          value: 7500
           action: SUPERIOR_OR_EQUAL
     update: true
     updateMasterButton: true
     refreshOnClick: true
     consoleCommands:
-      - "eco take %player% 750"
+      - "eco take %player% 7500"
       - "effect give %player% fire_resistance 75 2"
     item:
       material: MAGMA_CREAM
@@ -562,14 +562,14 @@ items:
       lore:
         - "&7+300% resistencia al fuego"
         - "&7Duración: &a75s"
-        - "&7Precio: &e750$"
+        - "&7Precio: &e7500$"
     else:
       item:
         material: MAGMA_CREAM
         name: "&fInmunidad al Fuego &lIII"
         lore:
           - "&cSaldo insuficiente"
-          - "&7Necesitas: 750$"
+          - "&7Necesitas: 7500$"
       messages: ["&cNo tienes suficiente dinero"]
 
   # Inmunidad al daño I-III
@@ -581,13 +581,13 @@ items:
           permission: "is_vip"
         - type: placeholder
           placeholder: "%vault_eco_balance%"
-          value: 300
+          value: 3000
           action: SUPERIOR_OR_EQUAL
     update: true
     updateMasterButton: true
     refreshOnClick: true
     consoleCommands:
-      - "eco take %player% 300"
+      - "eco take %player% 3000"
       - "effect give %player% damage_resistance 45 0"
     item:
       material: ENCHANTED_GOLDEN_APPLE
@@ -595,14 +595,14 @@ items:
       lore:
         - "&7+10❤ de escudo"
         - "&7Duración: &a45s"
-        - "&7Precio: &e300$"
+        - "&7Precio: &e3000$"
     else:
       item:
         material: ENCHANTED_GOLDEN_APPLE
         name: "&fInmunidad al Daño &lI"
         lore:
           - "&cSaldo insuficiente"
-          - "&7Necesitas: 300$"
+          - "&7Necesitas: 3000$"
       messages: ["&cNo tienes suficiente dinero"]
   Buff_Inmunidad_Dano_II:
     slot: 19
@@ -612,13 +612,13 @@ items:
           permission: "is_vip"
         - type: placeholder
           placeholder: "%vault_eco_balance%"
-          value: 600
+          value: 6000
           action: SUPERIOR_OR_EQUAL
     update: true
     updateMasterButton: true
     refreshOnClick: true
     consoleCommands:
-      - "eco take %player% 600"
+      - "eco take %player% 6000"
       - "effect give %player% damage_resistance 60 1"
     item:
       material: ENCHANTED_GOLDEN_APPLE
@@ -626,14 +626,14 @@ items:
       lore:
         - "&7+20❤ de escudo"
         - "&7Duración: &a60s"
-        - "&7Precio: &e600$"
+        - "&7Precio: &e6000$"
     else:
       item:
         material: ENCHANTED_GOLDEN_APPLE
         name: "&fInmunidad al Daño &lII"
         lore:
           - "&cSaldo insuficiente"
-          - "&7Necesitas: 600$"
+          - "&7Necesitas: 6000$"
       messages: ["&cNo tienes suficiente dinero"]
   Buff_Inmunidad_Dano_III:
     slot: 20
@@ -643,13 +643,13 @@ items:
           permission: "is_vip"
         - type: placeholder
           placeholder: "%vault_eco_balance%"
-          value: 900
+          value: 9000
           action: SUPERIOR_OR_EQUAL
     update: true
     updateMasterButton: true
     refreshOnClick: true
     consoleCommands:
-      - "eco take %player% 900"
+      - "eco take %player% 9000"
       - "effect give %player% damage_resistance 75 2"
     item:
       material: ENCHANTED_GOLDEN_APPLE
@@ -657,14 +657,14 @@ items:
       lore:
         - "&7+30❤ de escudo"
         - "&7Duración: &a75s"
-        - "&7Precio: &e900$"
+        - "&7Precio: &e9000$"
     else:
       item:
         material: ENCHANTED_GOLDEN_APPLE
         name: "&fInmunidad al Daño &lIII"
         lore:
           - "&cSaldo insuficiente"
-          - "&7Necesitas: 900$"
+          - "&7Necesitas: 9000$"
       messages: ["&cNo tienes suficiente dinero"]
 
   # Velocidad de ataque I-III
@@ -676,13 +676,13 @@ items:
           permission: "is_vip"
         - type: placeholder
           placeholder: "%vault_eco_balance%"
-          value: 200
+          value: 2000
           action: SUPERIOR_OR_EQUAL
     update: true
     updateMasterButton: true
     refreshOnClick: true
     consoleCommands:
-      - "eco take %player% 200"
+      - "eco take %player% 2000"
       - "effect give %player% haste 45 0"
     item:
       material: CLOCK
@@ -690,14 +690,14 @@ items:
       lore:
         - "&7+20% velocidad de ataque"
         - "&7Duración: &a45s"
-        - "&7Precio: &e200$"
+        - "&7Precio: &e2000$"
     else:
       item:
         material: CLOCK
         name: "&fVelocidad de Ataque &lI"
         lore:
           - "&cSaldo insuficiente"
-          - "&7Necesitas: 200$"
+          - "&7Necesitas: 2000$"
       messages: ["&cNo tienes suficiente dinero"]
   Buff_Velocidad_Ataque_II:
     slot: 22
@@ -707,13 +707,13 @@ items:
           permission: "is_vip"
         - type: placeholder
           placeholder: "%vault_eco_balance%"
-          value: 400
+          value: 4000
           action: SUPERIOR_OR_EQUAL
     update: true
     updateMasterButton: true
     refreshOnClick: true
     consoleCommands:
-      - "eco take %player% 400"
+      - "eco take %player% 4000"
       - "effect give %player% haste 60 1"
     item:
       material: CLOCK
@@ -721,14 +721,14 @@ items:
       lore:
         - "&7+40% velocidad de ataque"
         - "&7Duración: &a60s"
-        - "&7Precio: &e400$"
+        - "&7Precio: &e4000$"
     else:
       item:
         material: CLOCK
         name: "&fVelocidad de Ataque &lII"
         lore:
           - "&cSaldo insuficiente"
-          - "&7Necesitas: 400$"
+          - "&7Necesitas: 4000$"
       messages: ["&cNo tienes suficiente dinero"]
   Buff_Velocidad_Ataque_III:
     slot: 23
@@ -738,13 +738,13 @@ items:
           permission: "is_vip"
         - type: placeholder
           placeholder: "%vault_eco_balance%"
-          value: 600
+          value: 6000
           action: SUPERIOR_OR_EQUAL
     update: true
     updateMasterButton: true
     refreshOnClick: true
     consoleCommands:
-      - "eco take %player% 600"
+      - "eco take %player% 6000"
       - "effect give %player% haste 75 2"
     item:
       material: CLOCK
@@ -752,14 +752,14 @@ items:
       lore:
         - "&7+60% velocidad de ataque"
         - "&7Duración: &a75s"
-        - "&7Precio: &e600$"
+        - "&7Precio: &e6000$"
     else:
       item:
         material: CLOCK
         name: "&fVelocidad de Ataque &lIII"
         lore:
           - "&cSaldo insuficiente"
-          - "&7Necesitas: 600$"
+          - "&7Necesitas: 6000$"
       messages: ["&cNo tienes suficiente dinero"]
 
   # Doble salto I-III
@@ -771,13 +771,13 @@ items:
           permission: "is_vip"
         - type: placeholder
           placeholder: "%vault_eco_balance%"
-          value: 300
+          value: 3000
           action: SUPERIOR_OR_EQUAL
     update: true
     updateMasterButton: true
     refreshOnClick: true
     consoleCommands:
-      - "eco take %player% 300"
+      - "eco take %player% 3000"
       - "effect give %player% jump 45 0"
     item:
       material: LEAPING_POTION
@@ -785,14 +785,14 @@ items:
       lore:
         - "&7Te permite realizar un doble salto"
         - "&7Duración: &a45s"
-        - "&7Precio: &e300$"
+        - "&7Precio: &e3000$"
     else:
       item:
         material: LEAPING_POTION
         name: "&fDoble Salto &lI"
         lore:
           - "&cSaldo insuficiente"
-          - "&7Necesitas: 300$"
+          - "&7Necesitas: 3000$"
       messages: ["&cNo tienes suficiente dinero"]
   Buff_Doble_Salto_II:
     slot: 25
@@ -802,13 +802,13 @@ items:
           permission: "is_vip"
         - type: placeholder
           placeholder: "%vault_eco_balance%"
-          value: 600
+          value: 6000
           action: SUPERIOR_OR_EQUAL
     update: true
     updateMasterButton: true
     refreshOnClick: true
     consoleCommands:
-      - "eco take %player% 600"
+      - "eco take %player% 6000"
       - "effect give %player% jump 60 1"
     item:
       material: LEAPING_POTION
@@ -816,14 +816,14 @@ items:
       lore:
         - "&7Te permite realizar un doble salto"
         - "&7Duración: &a60s"
-        - "&7Precio: &e600$"
+        - "&7Precio: &e6000$"
     else:
       item:
         material: LEAPING_POTION
         name: "&fDoble Salto &lII"
         lore:
           - "&cSaldo insuficiente"
-          - "&7Necesitas: 600$"
+          - "&7Necesitas: 6000$"
       messages: ["&cNo tienes suficiente dinero"]
   Buff_Doble_Salto_III:
     slot: 26
@@ -833,13 +833,13 @@ items:
           permission: "is_vip"
         - type: placeholder
           placeholder: "%vault_eco_balance%"
-          value: 900
+          value: 9000
           action: SUPERIOR_OR_EQUAL
     update: true
     updateMasterButton: true
     refreshOnClick: true
     consoleCommands:
-      - "eco take %player% 900"
+      - "eco take %player% 9000"
       - "effect give %player% jump 75 2"
     item:
       material: LEAPING_POTION
@@ -847,14 +847,14 @@ items:
       lore:
         - "&7Te permite realizar un doble salto"
         - "&7Duración: &a75s"
-        - "&7Precio: &e900$"
+        - "&7Precio: &e9000$"
     else:
       item:
         material: LEAPING_POTION
         name: "&fDoble Salto &lIII"
         lore:
           - "&cSaldo insuficiente"
-          - "&7Necesitas: 900$"
+          - "&7Necesitas: 9000$"
       messages: ["&cNo tienes suficiente dinero"]
 
   # Caída reducida I-III
@@ -866,13 +866,13 @@ items:
           permission: "is_vip"
         - type: placeholder
           placeholder: "%vault_eco_balance%"
-          value: 150
+          value: 1500
           action: SUPERIOR_OR_EQUAL
     update: true
     updateMasterButton: true
     refreshOnClick: true
     consoleCommands:
-      - "eco take %player% 150"
+      - "eco take %player% 1500"
       - "effect give %player% slow_falling 45 0"
     item:
       material: FEATHER
@@ -880,14 +880,14 @@ items:
       lore:
         - "&7Elimina el daño por caída"
         - "&7Duración: &a45s"
-        - "&7Precio: &e150$"
+        - "&7Precio: &e1500$"
     else:
       item:
         material: FEATHER
         name: "&fCaída Reducida &lI"
         lore:
           - "&cSaldo insuficiente"
-          - "&7Necesitas: 150$"
+          - "&7Necesitas: 1500$"
       messages: ["&cNo tienes suficiente dinero"]
   Buff_Caida_Reducida_II:
     slot: 28
@@ -897,13 +897,13 @@ items:
           permission: "is_vip"
         - type: placeholder
           placeholder: "%vault_eco_balance%"
-          value: 300
+          value: 3000
           action: SUPERIOR_OR_EQUAL
     update: true
     updateMasterButton: true
     refreshOnClick: true
     consoleCommands:
-      - "eco take %player% 300"
+      - "eco take %player% 3000"
       - "effect give %player% slow_falling 60 1"
     item:
       material: FEATHER
@@ -911,14 +911,14 @@ items:
       lore:
         - "&7Elimina el daño por caída"
         - "&7Duración: &a60s"
-        - "&7Precio: &e300$"
+        - "&7Precio: &e3000$"
     else:
       item:
         material: FEATHER
         name: "&fCaída Reducida &lII"
         lore:
           - "&cSaldo insuficiente"
-          - "&7Necesitas: 300$"
+          - "&7Necesitas: 3000$"
       messages: ["&cNo tienes suficiente dinero"]
   Buff_Caida_Reducida_III:
     slot: 29
@@ -928,13 +928,13 @@ items:
           permission: "is_vip"
         - type: placeholder
           placeholder: "%vault_eco_balance%"
-          value: 450
+          value: 4500
           action: SUPERIOR_OR_EQUAL
     update: true
     updateMasterButton: true
     refreshOnClick: true
     consoleCommands:
-      - "eco take %player% 450"
+      - "eco take %player% 4500"
       - "effect give %player% slow_falling 75 2"
     item:
       material: FEATHER
@@ -942,14 +942,14 @@ items:
       lore:
         - "&7Elimina el daño por caída"
         - "&7Duración: &a75s"
-        - "&7Precio: &e450$"
+        - "&7Precio: &e4500$"
     else:
       item:
         material: FEATHER
         name: "&fCaída Reducida &lIII"
         lore:
           - "&cSaldo insuficiente"
-          - "&7Necesitas: 450$"
+          - "&7Necesitas: 4500$"
       messages: ["&cNo tienes suficiente dinero"]
 
   # Velocidad de natación I-III
@@ -961,13 +961,13 @@ items:
           permission: "is_vip"
         - type: placeholder
           placeholder: "%vault_eco_balance%"
-          value: 100
+          value: 1000
           action: SUPERIOR_OR_EQUAL
     update: true
     updateMasterButton: true
     refreshOnClick: true
     consoleCommands:
-      - "eco take %player% 100"
+      - "eco take %player% 1000"
       - "effect give %player% dolphin_sense 45 0"
     item:
       material: PRISMARINE_CRYSTALS
@@ -975,14 +975,14 @@ items:
       lore:
         - "&7+30% velocidad de natación"
         - "&7Duración: &a45s"
-        - "&7Precio: &e100$"
+        - "&7Precio: &e1000$"
     else:
       item:
         material: PRISMARINE_CRYSTALS
         name: "&fVelocidad de Natación &lI"
         lore:
           - "&cSaldo insuficiente"
-          - "&7Necesitas: 100$"
+          - "&7Necesitas: 1000$"
       messages: ["&cNo tienes suficiente dinero"]
   Buff_Velocidad_Natacion_II:
     slot: 31
@@ -992,13 +992,13 @@ items:
           permission: "is_vip"
         - type: placeholder
           placeholder: "%vault_eco_balance%"
-          value: 200
+          value: 2000
           action: SUPERIOR_OR_EQUAL
     update: true
     updateMasterButton: true
     refreshOnClick: true
     consoleCommands:
-      - "eco take %player% 200"
+      - "eco take %player% 2000"
       - "effect give %player% dolphin_sense 60 1"
     item:
       material: PRISMARINE_CRYSTALS
@@ -1006,14 +1006,14 @@ items:
       lore:
         - "&7+60% velocidad de natación"
         - "&7Duración: &a60s"
-        - "&7Precio: &e200$"
+        - "&7Precio: &e2000$"
     else:
       item:
         material: PRISMARINE_CRYSTALS
         name: "&fVelocidad de Natación &lII"
         lore:
           - "&cSaldo insuficiente"
-          - "&7Necesitas: 200$"
+          - "&7Necesitas: 2000$"
       messages: ["&cNo tienes suficiente dinero"]
   Buff_Velocidad_Natacion_III:
     slot: 32
@@ -1023,13 +1023,13 @@ items:
           permission: "is_vip"
         - type: placeholder
           placeholder: "%vault_eco_balance%"
-          value: 300
+          value: 3000
           action: SUPERIOR_OR_EQUAL
     update: true
     updateMasterButton: true
     refreshOnClick: true
     consoleCommands:
-      - "eco take %player% 300"
+      - "eco take %player% 3000"
       - "effect give %player% dolphin_sense 75 2"
     item:
       material: PRISMARINE_CRYSTALS
@@ -1037,14 +1037,14 @@ items:
       lore:
         - "&7+100% velocidad de natación"
         - "&7Duración: &a75s"
-        - "&7Precio: &e300$"
+        - "&7Precio: &e3000$"
     else:
       item:
         material: PRISMARINE_CRYSTALS
         name: "&fVelocidad de Natación &lIII"
         lore:
           - "&cSaldo insuficiente"
-          - "&7Necesitas: 300$"
+          - "&7Necesitas: 3000$"
       messages: ["&cNo tienes suficiente dinero"]
 
   # Invisibilidad I-III
@@ -1056,13 +1056,13 @@ items:
           permission: "is_vip"
         - type: placeholder
           placeholder: "%vault_eco_balance%"
-          value: 250
+          value: 2500
           action: SUPERIOR_OR_EQUAL
     update: true
     updateMasterButton: true
     refreshOnClick: true
     consoleCommands:
-      - "eco take %player% 250"
+      - "eco take %player% 2500"
       - "effect give %player% invisibility 45 0"
     item:
       material: GLOWSTONE_DUST
@@ -1070,14 +1070,14 @@ items:
       lore:
         - "&7+100% invisibilidad"
         - "&7Duración: &a45s"
-        - "&7Precio: &e250$"
+        - "&7Precio: &e2500$"
     else:
       item:
         material: GLOWSTONE_DUST
         name: "&fInvisibilidad &lI"
         lore:
           - "&cSaldo insuficiente"
-          - "&7Necesitas: 250$"
+          - "&7Necesitas: 2500$"
       messages: ["&cNo tienes suficiente dinero"]
   Buff_Invisibilidad_II:
     slot: 34
@@ -1087,13 +1087,13 @@ items:
           permission: "is_vip"
         - type: placeholder
           placeholder: "%vault_eco_balance%"
-          value: 500
+          value: 5000
           action: SUPERIOR_OR_EQUAL
     update: true
     updateMasterButton: true
     refreshOnClick: true
     consoleCommands:
-      - "eco take %player% 500"
+      - "eco take %player% 5000"
       - "effect give %player% invisibility 60 1"
     item:
       material: GLOWSTONE_DUST
@@ -1101,14 +1101,14 @@ items:
       lore:
         - "&7+200% invisibilidad"
         - "&7Duración: &a60s"
-        - "&7Precio: &e500$"
+        - "&7Precio: &e5000$"
     else:
       item:
         material: GLOWSTONE_DUST
         name: "&fInvisibilidad &lII"
         lore:
           - "&cSaldo insuficiente"
-          - "&7Necesitas: 500$"
+          - "&7Necesitas: 5000$"
       messages: ["&cNo tienes suficiente dinero"]
   Buff_Invisibilidad_III:
     slot: 35
@@ -1118,13 +1118,13 @@ items:
           permission: "is_vip"
         - type: placeholder
           placeholder: "%vault_eco_balance%"
-          value: 750
+          value: 7500
           action: SUPERIOR_OR_EQUAL
     update: true
     updateMasterButton: true
     refreshOnClick: true
     consoleCommands:
-      - "eco take %player% 750"
+      - "eco take %player% 7500"
       - "effect give %player% invisibility 75 2"
     item:
       material: GLOWSTONE_DUST
@@ -1132,14 +1132,14 @@ items:
       lore:
         - "&7+300% invisibilidad"
         - "&7Duración: &a75s"
-        - "&7Precio: &e750$"
+        - "&7Precio: &e7500$"
     else:
       item:
         material: GLOWSTONE_DUST
         name: "&fInvisibilidad &lIII"
         lore:
           - "&cSaldo insuficiente"
-          - "&7Necesitas: 750$"
+          - "&7Necesitas: 7500$"
       messages: ["&cNo tienes suficiente dinero"]
 
   # Salto con poción I-III
@@ -1151,13 +1151,13 @@ items:
           permission: "is_vip"
         - type: placeholder
           placeholder: "%vault_eco_balance%"
-          value: 150
+          value: 1500
           action: SUPERIOR_OR_EQUAL
     update: true
     updateMasterButton: true
     refreshOnClick: true
     consoleCommands:
-      - "eco take %player% 150"
+      - "eco take %player% 1500"
       - "effect give %player% jump_boost 45 0"
     item:
       material: POTION
@@ -1165,14 +1165,14 @@ items:
       lore:
         - "&7+50% altura de salto"
         - "&7Duración: &a45s"
-        - "&7Precio: &e150$"
+        - "&7Precio: &e1500$"
     else:
       item:
         material: POTION
         name: "&fSalto con Poción &lI"
         lore:
           - "&cSaldo insuficiente"
-          - "&7Necesitas: 150$"
+          - "&7Necesitas: 1500$"
       messages: ["&cNo tienes suficiente dinero"]
   Buff_Salto_Pocion_II:
     slot: 37
@@ -1182,13 +1182,13 @@ items:
           permission: "is_vip"
         - type: placeholder
           placeholder: "%vault_eco_balance%"
-          value: 300
+          value: 3000
           action: SUPERIOR_OR_EQUAL
     update: true
     updateMasterButton: true
     refreshOnClick: true
     consoleCommands:
-      - "eco take %player% 300"
+      - "eco take %player% 3000"
       - "effect give %player% jump_boost 60 1"
     item:
       material: POTION
@@ -1196,14 +1196,14 @@ items:
       lore:
         - "&7+100% altura de salto"
         - "&7Duración: &a60s"
-        - "&7Precio: &e300$"
+        - "&7Precio: &e3000$"
     else:
       item:
         material: POTION
         name: "&fSalto con Poción &lII"
         lore:
           - "&cSaldo insuficiente"
-          - "&7Necesitas: 300$"
+          - "&7Necesitas: 3000$"
       messages: ["&cNo tienes suficiente dinero"]
   Buff_Salto_Pocion_III:
     slot: 38
@@ -1213,13 +1213,13 @@ items:
           permission: "is_vip"
         - type: placeholder
           placeholder: "%vault_eco_balance%"
-          value: 450
+          value: 4500
           action: SUPERIOR_OR_EQUAL
     update: true
     updateMasterButton: true
     refreshOnClick: true
     consoleCommands:
-      - "eco take %player% 450"
+      - "eco take %player% 4500"
       - "effect give %player% jump_boost 75 2"
     item:
       material: POTION
@@ -1227,14 +1227,14 @@ items:
       lore:
         - "&7+150% altura de salto"
         - "&7Duración: &a75s"
-        - "&7Precio: &e450$"
+        - "&7Precio: &e4500$"
     else:
       item:
         material: POTION
         name: "&fSalto con Poción &lIII"
         lore:
           - "&cSaldo insuficiente"
-          - "&7Necesitas: 450$"
+          - "&7Necesitas: 4500$"
       messages: ["&cNo tienes suficiente dinero"]
 
   # Velocidad de movimiento en agua I-III
@@ -1246,13 +1246,13 @@ items:
           permission: "is_vip"
         - type: placeholder
           placeholder: "%vault_eco_balance%"
-          value: 200
+          value: 2000
           action: SUPERIOR_OR_EQUAL
     update: true
     updateMasterButton: true
     refreshOnClick: true
     consoleCommands:
-      - "eco take %player% 200"
+      - "eco take %player% 2000"
       - "effect give %player% water_breathing 45 0"
     item:
       material: PRISMARINE_SHARD
@@ -1260,14 +1260,14 @@ items:
       lore:
         - "&7+30% velocidad en agua"
         - "&7Duración: &a45s"
-        - "&7Precio: &e200$"
+        - "&7Precio: &e2000$"
     else:
       item:
         material: PRISMARINE_SHARD
         name: "&fVelocidad en Agua &lI"
         lore:
           - "&cSaldo insuficiente"
-          - "&7Necesitas: 200$"
+          - "&7Necesitas: 2000$"
       messages: ["&cNo tienes suficiente dinero"]
   Buff_Velocidad_Agua_II:
     slot: 40
@@ -1277,13 +1277,13 @@ items:
           permission: "is_vip"
         - type: placeholder
           placeholder: "%vault_eco_balance%"
-          value: 400
+          value: 4000
           action: SUPERIOR_OR_EQUAL
     update: true
     updateMasterButton: true
     refreshOnClick: true
     consoleCommands:
-      - "eco take %player% 400"
+      - "eco take %player% 4000"
       - "effect give %player% water_breathing 60 1"
     item:
       material: PRISMARINE_SHARD
@@ -1291,14 +1291,14 @@ items:
       lore:
         - "&7+60% velocidad en agua"
         - "&7Duración: &a60s"
-        - "&7Precio: &e400$"
+        - "&7Precio: &e4000$"
     else:
       item:
         material: PRISMARINE_SHARD
         name: "&fVelocidad en Agua &lII"
         lore:
           - "&cSaldo insuficiente"
-          - "&7Necesitas: 400$"
+          - "&7Necesitas: 4000$"
       messages: ["&cNo tienes suficiente dinero"]
   Buff_Velocidad_Agua_III:
     slot: 41
@@ -1308,13 +1308,13 @@ items:
           permission: "is_vip"
         - type: placeholder
           placeholder: "%vault_eco_balance%"
-          value: 600
+          value: 6000
           action: SUPERIOR_OR_EQUAL
     update: true
     updateMasterButton: true
     refreshOnClick: true
     consoleCommands:
-      - "eco take %player% 600"
+      - "eco take %player% 6000"
       - "effect give %player% water_breathing 75 2"
     item:
       material: PRISMARINE_SHARD
@@ -1322,14 +1322,14 @@ items:
       lore:
         - "&7+100% velocidad en agua"
         - "&7Duración: &a75s"
-        - "&7Precio: &e600$"
+        - "&7Precio: &e6000$"
     else:
       item:
         material: PRISMARINE_SHARD
         name: "&fVelocidad en Agua &lIII"
         lore:
           - "&cSaldo insuficiente"
-          - "&7Necesitas: 600$"
+          - "&7Necesitas: 6000$"
       messages: ["&cNo tienes suficiente dinero"]
 
   # Resistencia al daño por proyectiles I-III
@@ -1341,13 +1341,13 @@ items:
           permission: "is_vip"
         - type: placeholder
           placeholder: "%vault_eco_balance%"
-          value: 250
+          value: 2500
           action: SUPERIOR_OR_EQUAL
     update: true
     updateMasterButton: true
     refreshOnClick: true
     consoleCommands:
-      - "eco take %player% 250"
+      - "eco take %player% 2500"
       - "effect give %player% projectile_protection 45 0"
     item:
       material: ENCHANTED_BOOK
@@ -1355,14 +1355,14 @@ items:
       lore:
         - "&7+10% reducción de daño por proyectiles"
         - "&7Duración: &a45s"
-        - "&7Precio: &e250$"
+        - "&7Precio: &e2500$"
     else:
       item:
         material: ENCHANTED_BOOK
         name: "&fResistencia a Proyectiles &lI"
         lore:
           - "&cSaldo insuficiente"
-          - "&7Necesitas: 250$"
+          - "&7Necesitas: 2500$"
       messages: ["&cNo tienes suficiente dinero"]
   Buff_Resistencia_Proyectiles_II:
     slot: 43
@@ -1372,13 +1372,13 @@ items:
           permission: "is_vip"
         - type: placeholder
           placeholder: "%vault_eco_balance%"
-          value: 500
+          value: 5000
           action: SUPERIOR_OR_EQUAL
     update: true
     updateMasterButton: true
     refreshOnClick: true
     consoleCommands:
-      - "eco take %player% 500"
+      - "eco take %player% 5000"
       - "effect give %player% projectile_protection 60 1"
     item:
       material: ENCHANTED_BOOK
@@ -1386,14 +1386,14 @@ items:
       lore:
         - "&7+20% reducción de daño por proyectiles"
         - "&7Duración: &a60s"
-        - "&7Precio: &e500$"
+        - "&7Precio: &e5000$"
     else:
       item:
         material: ENCHANTED_BOOK
         name: "&fResistencia a Proyectiles &lII"
         lore:
           - "&cSaldo insuficiente"
-          - "&7Necesitas: 500$"
+          - "&7Necesitas: 5000$"
       messages: ["&cNo tienes suficiente dinero"]
   Buff_Resistencia_Proyectiles_III:
     slot: 44
@@ -1403,13 +1403,13 @@ items:
           permission: "is_vip"
         - type: placeholder
           placeholder: "%vault_eco_balance%"
-          value: 750
+          value: 7500
           action: SUPERIOR_OR_EQUAL
     update: true
     updateMasterButton: true
     refreshOnClick: true
     consoleCommands:
-      - "eco take %player% 750"
+      - "eco take %player% 7500"
       - "effect give %player% projectile_protection 75 2"
     item:
       material: ENCHANTED_BOOK
@@ -1417,12 +1417,12 @@ items:
       lore:
         - "&7+30% reducción de daño por proyectiles"
         - "&7Duración: &a75s"
-        - "&7Precio: &e750$"
+        - "&7Precio: &e7500$"
     else:
       item:
         material: ENCHANTED_BOOK
         name: "&fResistencia a Proyectiles &lIII"
         lore:
           - "&cSaldo insuficiente"
-          - "&7Necesitas: 750$"
+          - "&7Necesitas: 7500$"
       messages: ["&cNo tienes suficiente dinero"]
