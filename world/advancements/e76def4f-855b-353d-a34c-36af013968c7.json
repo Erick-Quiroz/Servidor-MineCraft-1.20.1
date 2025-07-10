@@ -2432,5 +2432,11 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/bone_meal_from_bone_block": {
+    "criteria": {
+      "has_bone_block": "2025-07-10 12:50:11 -0400"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
