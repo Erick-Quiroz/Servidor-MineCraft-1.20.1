@@ -8,13 +8,13 @@ itemSteal: false
 disbleWorldsEnable: true
 enableWorldsEnable: false
 disableWorlds:
-  - world1
-  - world2
-  - world3
+- world1
+- world2
+- world3
 enableWorlds:
-  - world
-  - world/DIM1
-  - world/DIM-1
+- world
+- world/DIM1
+- world/DIM-1
 
 delays:
   deathDelay: 90
@@ -24,34 +24,34 @@ info:
   title: false
   chat: false(not implemented)
 title:
-  title: "&fEstado : <STATUS> <BAR>"
-  subTitle: "&fMuerte en: &a<DEATHTIME> &f<INVULNERABILITY>"
+  title: '&fEstado : <STATUS> <BAR>'
+  subTitle: '&fMuerte en: &a<DEATHTIME> &f<INVULNERABILITY>'
 scoreboard:
-  title: "&4&l[&e&lRevive&f&lMe&4&l]"
-  status: "&fReviviendo: "
-  waiting: "&cEsperando"
-  reliving: "&aReanimando"
-  deathIn: "&fMuerte en &a<TIME>"
-  invulnerableFor: "&fInvulnerable por &a<TIME>"
-  vulnerable: "&cVulnerable"
+  title: '&4&l[&e&lRevive&f&lMe&4&l]'
+  status: '&fReviviendo: '
+  waiting: '&cEsperando'
+  reliving: '&aReanimando'
+  deathIn: '&fMuerte en &a<TIME>'
+  invulnerableFor: '&fInvulnerable por &a<TIME>'
+  vulnerable: '&cVulnerable'
 playersConfig:
   speed: 0.04
 messages:
   reliving:
-    player: "&aEstás reviviendo a &2<VICTIM>."
-    victim: "&a<PLAYER> te está reviviendo."
+    player: '&aEstás reviviendo a &2<VICTIM>.'
+    victim: '&a<PLAYER> te está reviviendo.'
   revivedSuccessfully:
-    player: "&aHas revivido con éxito a &2<VICTIM>."
-    victim: "&aHas sido revivido por &2<PLAYER>."
+    player: '&aHas revivido con éxito a &2<VICTIM>.'
+    victim: '&aHas sido revivido por &2<PLAYER>.'
   cancelReliving:
-    player: "&cHas dejado de revivir a &4<VICTIM>."
-    victim: "&c<PLAYER> ha dejado de revivirte."
+    player: '&cHas dejado de revivir a &4<VICTIM>.'
+    victim: '&c<PLAYER> ha dejado de revivirte.'
   shotDown:
-    player: "&aHas derribado a &2<VICTIM>."
-    victim: "&c<PLAYER> te ha derribado."
-  reload: "&aLa configuración se recargó con éxito."
-  blockedCommand: "&cNo puedes usar este comando en tu estado actual."
-  noPermission: "&cNo tienes permiso para esto."
+    player: '&aHas derribado a &2<VICTIM>.'
+    victim: '&c<PLAYER> te ha derribado.'
+  reload: '&aLa configuración se recargó con éxito.'
+  blockedCommand: '&cNo puedes usar este comando en tu estado actual.'
+  noPermission: '&cNo tienes permiso para esto.'
 permissions:
   revivePlayerEnablePermission: false
   reviveVictimEnablePermission: false
@@ -62,37 +62,37 @@ sounds:
   noPermission: ENTITY_VILLAGER_NO
   revivedSuccessfully: ENTITY_MAGMA_CUBE_JUMP
 commands-blacklist:
-  - sethome
-  - createhome
-  - tpahere
-  - tpaccept
-  - tpyes
-  - tpa
-  - call
-  - tpask
-  - ehome
-  - ehomes
-  - esethome
-  - ecreatehome
-  - etpahere
-  - etpaccept
-  - etpyes
-  - etpa
-  - ecall
-  - etpask
-  - essentials:sethome
-  - essentials:createhome
-  - essentials:tpahere
-  - essentials:tpaccept
-  - essentials:tpyes
-  - essentials:tpa
-  - essentials:call
-  - essentials:tpask
-  - wtp
-  - uspawn
-  - utp
-  - mtp
-  - ftp
+- sethome
+- createhome
+- tpahere
+- tpaccept
+- tpyes
+- tpa
+- call
+- tpask
+- ehome
+- ehomes
+- esethome
+- ecreatehome
+- etpahere
+- etpaccept
+- etpyes
+- etpa
+- ecall
+- etpask
+- essentials:sethome
+- essentials:createhome
+- essentials:tpahere
+- essentials:tpaccept
+- essentials:tpyes
+- essentials:tpa
+- essentials:call
+- essentials:tpask
+- wtp
+- uspawn
+- utp
+- mtp
+- ftp
 relivedHealth: 0.5
 CitizensCompatibility:
   enable: false

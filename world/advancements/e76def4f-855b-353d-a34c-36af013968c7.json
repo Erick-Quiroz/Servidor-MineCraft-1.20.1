@@ -54,6 +54,7 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "cooked_mutton": "2025-07-10 16:31:31 -0400",
       "porkchop": "2025-07-05 17:00:04 -0400",
       "golden_carrot": "2025-07-05 16:48:58 -0400"
     },
@@ -2435,6 +2436,198 @@
   "minecraft:recipes/misc/bone_meal_from_bone_block": {
     "criteria": {
       "has_bone_block": "2025-07-10 12:50:11 -0400"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_crying_obsidian": {
+    "criteria": {
+      "crying_obsidian": "2025-07-10 16:37:59 -0400"
+    },
+    "done": true
+  },
+  "infectious:the_city_needs_me": {
+    "criteria": {
+      "the_city_needs_me": "2025-07-10 16:33:43 -0400"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/oak_kitchen_sink": {
+    "criteria": {
+      "has_copper_ingot": "2025-07-10 16:39:23 -0400"
+    },
+    "done": true
+  },
+  "infectious:because_i_got_high": {
+    "criteria": {
+      "because_i_got_high": "2025-07-10 16:40:24 -0400"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/tnt_from_bop_sand": {
+    "criteria": {
+      "has_gunpowder": "2025-07-10 16:41:12 -0400"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/warped_kitchen_sink": {
+    "criteria": {
+      "has_copper_ingot": "2025-07-10 16:39:23 -0400"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/television_remote": {
+    "criteria": {
+      "has_copper_ingot": "2025-07-10 16:39:23 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/spyglass": {
+    "criteria": {
+      "has_amethyst_shard": "2025-07-10 16:42:28 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/lightning_rod": {
+    "criteria": {
+      "has_copper_ingot": "2025-07-10 16:39:23 -0400"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/dark_oak_kitchen_sink": {
+    "criteria": {
+      "has_copper_ingot": "2025-07-10 16:39:23 -0400"
+    },
+    "done": true
+  },
+  "infectious:roasting_the_dead": {
+    "criteria": {
+      "roasting_the_dead": "2025-07-10 16:33:37 -0400"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/mangrove_kitchen_sink": {
+    "criteria": {
+      "has_copper_ingot": "2025-07-10 16:39:23 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/coal_block": {
+    "criteria": {
+      "has_coal": "2025-07-10 16:42:28 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/copper_block": {
+    "criteria": {
+      "has_copper_ingot": "2025-07-10 16:39:23 -0400"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/crimson_kitchen_sink": {
+    "criteria": {
+      "has_copper_ingot": "2025-07-10 16:39:23 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/calibrated_sculk_sensor": {
+    "criteria": {
+      "has_amethyst_shard": "2025-07-10 16:42:28 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tinted_glass": {
+    "criteria": {
+      "has_amethyst_shard": "2025-07-10 16:42:28 -0400"
+    },
+    "done": true
+  },
+  "infectious:step_into_trouble": {
+    "criteria": {
+      "step_into_trouble": "2025-07-10 16:43:22 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/brush": {
+    "criteria": {
+      "has_copper_ingot": "2025-07-10 16:39:23 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/respawn_anchor": {
+    "criteria": {
+      "has_obsidian": "2025-07-10 16:37:59 -0400"
+    },
+    "done": true
+  },
+  "infectious:braaaaaains": {
+    "criteria": {
+      "braaaaaains": "2025-07-10 16:34:21 -0400"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/acacia_kitchen_sink": {
+    "criteria": {
+      "has_copper_ingot": "2025-07-10 16:39:23 -0400"
+    },
+    "done": true
+  },
+  "infectious:big_brother": {
+    "criteria": {
+      "big_brother": "2025-07-10 16:34:27 -0400"
+    },
+    "done": true
+  },
+  "infectious:i_need_more_bullets": {
+    "criteria": {
+      "i_need_more_bullets": "2025-07-10 16:33:35 -0400"
+    },
+    "done": true
+  },
+  "infectious:kaboom": {
+    "criteria": {
+      "kaboom": "2025-07-10 16:34:05 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/amethyst_block": {
+    "criteria": {
+      "has_amethyst_shard": "2025-07-10 16:42:28 -0400"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/cherry_kitchen_sink": {
+    "criteria": {
+      "has_copper_ingot": "2025-07-10 16:39:23 -0400"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/jungle_kitchen_sink": {
+    "criteria": {
+      "has_copper_ingot": "2025-07-10 16:39:23 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/firework_rocket_simple": {
+    "criteria": {
+      "has_gunpowder": "2025-07-10 16:41:12 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tnt": {
+    "criteria": {
+      "has_gunpowder": "2025-07-10 16:41:12 -0400"
+    },
+    "done": true
+  },
+  "infectious:who_ordered_this": {
+    "criteria": {
+      "who_ordered_this": "2025-07-10 16:34:12 -0400"
+    },
+    "done": true
+  },
+  "infectious:the_best_medicine": {
+    "criteria": {
+      "the_best_medicine": "2025-07-10 16:40:19 -0400"
     },
     "done": true
   },
